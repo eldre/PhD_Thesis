@@ -2,7 +2,7 @@
 title: "Évaluation locale des activités anthropiques sur les écosystèmes benthiques côtiers : caractérisation des liens entre communautés et exposition aux activités et évaluation d'indicateurs de santé environnementale"
 subtitle: "Local evaluation of anthopogenic activities on benthic coastal ecosystems: caracterization of the relationships between communities and exposition to activities and evaluation of environmental status indicators"
 bibliography: references.bib
-csl: citations.csl
+cls: citations.cls
 link-citations: false
 output:
   word_document:
@@ -52,24 +52,57 @@ output:
 
 ---
 
+
 \newpage
+
+
+
+
+
+
+
+
+
 
 # INTRODUCTION GÉNÉRALE
 
+Victor Shelford écrivait en 1913 : "Ecology is the science of communities. A study of the relations of a single species to the environment conceived without reference to communities and, in the end, unrelated to the natural phenomena of its habitat and community associations is not properly included in the field of ecology". Cette citation représente l'essence des travaux écologiques, du moment où cette science a été formalisée en XXX à aujourd'hui, maintenant au croisement de nombreuses disciplines entremêlées.
 
-## Notion d'écosystème et caractéristiques
 
-Un écosystème est généralement décrit comme un système possédant deux composantes principales : une composante biotique qui correspond aux espèces présentes dans le système, et une composante abiotique liée aux paramètres physiques, chimiques et géologiques dont les valeurs définissent l'habitat [@Morin2011]. L'ensemble des relations entre compartiments biotiques et abiotiques est aussi à inclure dans cette définition, telles que les interactions entre individus d'une même espèce ou d'espèces différentes (intra- ou inter-spécifiques), les associations entre éléments chimiques, ainsi que les liens entre écosystèmes adjacents [REF]. La persistence d'une espèce dans un habitat est liée à sa tolérance aux conditions de ce milieu, au sein d'un intervalle optimal d'adaptation – la niche écologique – au-delà duquel ces conditions seront considérées comme létales [@Hutchinson1957; @Whittaker1973]. Chaque espèce réalisera des compromis (*trade-offs*) dans son environnement en lien avec son métabolisme et son comportement afin de maintenir sa population [REF], ce qui induira des répercussions sur l'habitat de façon réciproque notamment sur la disponibilité en ressources [REF]. L'étude de la structure et de l'évolution des écosystèmes est donc dépendante d'un ensemble incluant à la fois la biodiversité, l'habitat et leur variations respectives.
+## De la notion d'écosystème
 
-La biodiversité correspond à la diversité biologique, et celle-ci est définie à plusieurs niveaux d'organisation, qu'elle soit génétique (nombre des gènes), spécifique (nombre de taxons), fonctionnelle (nombre de fonctions) ou écosystémique (nombre d'écosystèmes) [@Wilswon1992; @Gaston2004; @Hooper2005; @Stachowicz2007]. Ces définitions peuvent être interprétées selon différentes échelles spatiales et temporelles, ainsi qu'en considérant les liens écologiques entre chaque niveau d'organisation [REF]. Cette complexité
+Un écosystème est décrit comme un système constitué de deux composantes interconnectées : une composante abiotique liée aux paramètres physiques, chimiques et géologiques du milieu, et une composante biotique qui correspond aux espèces présentes dans le système [@Morin2011]. Chaque composante est représentée par une ou plusieurs entités spécifiques, à savoir les habitats pour la première (*i.e.* un ensemble de conditions environnementales particulières) et les communautés pour la seconde (*i.e.* un ensemble d'espèces vivant dans un habitat spécifique) [@Root1967; @Morin2011, REF]. Les relations entre chaque compartiment sont incluses dans cette définition, telles que les interactions entre individus d'une même espèce ou d'espèces différentes (intra- ou inter-spécifiques) ou les associations entre éléments chimiques [REF].
 
-Plusieurs études ont mis en évidence les liens entre la diversité spécifique et la structure de l'écosystème, aussi bien en milieu terrestre [par exemple @Hooper2005] qu'aquatique [par exemple @Giller2004; @OConner2005]. Ainsi, la biodiversité est couramment évaluée en échantillonnant les espèces présentes dans un écosystème, afin de rendre compte de la richesse, de l'équitabilité et de l'hétérogénéité du compartiment biotique [@Magurran2004; @Hooper2005]. Ces différents indices décrivent des ensembles d'espèces qui partagent des habitats, des caractéristiques ou des modes de vie similaires [@Root1967; REF], formant ainsi des communautés (au sens écologique du terme selon [REF]). Une multitude de classifications existe, notamment en fonction des modes de nutrition, du métabolisme énergétique, de la position dans le réseau trophique [@Simberloff1991; @Gitay1997; @Costello2015; REF].
+**Figure conceptuelle écosystème ?**
 
-En milieu marin, les communautés sont souvent divisées en deux ensembles selon que les espèces vivent dans le domaine pélagique (la colonne d'eau) ou benthique (le fond océanique) [REF livre océano]. Pour les communautés benthiques, qui constituent le principal objet d'étude de cette thèse de doctorat, les espèces sont fixées ou elles possèdent une capacité de mouvement réduite dans ou sur le sédiment (endofaune ou épifaune). Ces modes de vie leur confèrent des rôles écologiques intéressants, notamment en tant qu'ingénieures ou sentinelles [REF]. Une espèce *ingénieure* modifie directement ou indirectement les caractéristiques d'un écosystème par son mode de vie (en créant des structures biogéniques) ou son comportement (par exemple en oxygénant le sédiment profond par la bioturbation), ce qui permettra à d'autres espèces de profiter d'habitats particuliers [REF]. Une espèce est qualifiée de *sentinelle* lorsque sa présence, son absence et/ou son abondance permettent de rendre compte de l'état de son écosystème [REF]. Ceci est particulièrement utile dans le but d'étudier les perturbations d'un écosystème car les espèces benthiques ont des capacités d'évitement limitées ce qui les oblige à développer des stratégies d'adaptation à ces conditions ou à disparaitre localement [@Pearson1978; REF].
+La persistence d'une espèce dans un habitat est liée aux conditions du milieu, ce qui constitue la théorie de la niche écologique. Il existe plusieurs définitions de la niche d'une espèce, notamment en fonction de ses relations avec les autres espèces selon le principe d'exclusion compétitive [@Grinnell1914; @Hardin1960], de sa position dans la communauté [@Elton1927], de ses tolérances face aux paramètres environnementaux [@Hutchinson1957] ou de son utilisation des ressources disponibles [@MacArthur1967]. Chaque espèce effectue des compromis (*trade-offs*) en lien avec son métabolisme et son comportement afin de maintenir sa population [@Morin2011; REF], ce qui provoque récirdes modifications de l'habitat, par exemple en diminuant la disponibilité en ressources ou en modifiant l'intégrité physique du milieu [REF]. L'étude de la structure et de l'évolution des écosystèmes est donc dépendante, à la fois, de l'étude de la biodiversité, de l'habitat et de leur variations respectives.
+
+Le terme "biodiversité" est employé pour désigner la diversité biologique d'un écosystème, et celle-ci peut-être définie selon plusieurs perspectives, qu'elle soit spécifique (nombre de taxons différents), génétique (nombre des gènes différents), fonctionnelle (nombre de fonctions différentes) ou écosystémique (nombre d'habitats différents) [@UN1992; @Wilswon1992; @Gaston2004; @Hooper2005; @Stachowicz2007]. Le caractère multiple de cette définition rend son interprétation particulièrement complexe, et la diversité spécifique est généralement employée comme un indicateur unique de la biodiversité [REF]. En effet, les liens entre la diversité spécifique et la structure d'un écosystème ont été mis en évidence aussi bien en milieu terrestre [par exemple @Hooper2005] qu'aquatique [par exemple @Giller2004; @OConner2005].
+
+Avec plus de 70 % de la surface du globe recouverte par les océans, les écosystèmes marins considèrent une vaste gamme d'habitats. Leurs limites peuvent être définies selon différents critères, qu'ils soient par exemple pélagiques (dans la colonne d'eau), benthiques (en lien avec les fonds marins), intertidaux (dans la zone de balancement des marrées), côtiers, hauturiers ou abyssaux [REF livre océano].
+
+
+
+
+
+
+Par essence, la description des habitats et des communautés (et donc *a fortiori* des écosystèmes) est dépendante des échelles spatiale et temporelle considérées, et il est particulièrement important de définir avec exactitude les objets étudiés afin d'obtenir des descriptions
+
+Le compartiment biotique est ainsi un continuum regroupant tous les individus présents dans l'écosystème comme par exemple les virus, bactéries, les animaux ou les vegétaux.
+
+Il existe de nombreuses façons de définir une communauté dans un écosystème, en utilisant des critères comme la taille de l'organisme, sa localisation dans l'écosystème ou son mode de déplacement.
+
+Les communautés benthiques, qui constituent le principal objet d'étude de cette thèse de doctorat, regroupent des espèces souvent fixées sur le sédiment ou avec une capacité de mouvement réduite (endofaune ou épifaune). Ces modes de vie leur confèrent des rôles écologiques intéressants, notamment en tant qu'ingénieures ou sentinelles [REF]. Une espèce *ingénieure* modifie directement ou indirectement les caractéristiques d'un écosystème par son mode de vie (en créant des structures biogéniques) ou son comportement (par exemple en oxygénant le sédiment profond par la bioturbation), ce qui permettra à d'autres espèces de profiter d'habitats particuliers [REF]. Une espèce est qualifiée de *sentinelle* lorsque sa présence, son absence et/ou son abondance permettent de rendre compte de l'état de l'écosystème dans lequel elle vit [REF]. En effet, de nombreuses espèces benthiques ont des capacités d'évitement limitées, ce qui les oblige à développer des stratégies d'adaptation à ces conditions ou à disparaitre localement [@Pearson1978; REF]. La considération et l'étude de ces espèces permettra ainsi de mettre en évidence des relations entre le compartiment biotique et de possibles perturbations, notamment d'origine anthropique.
+
+Ceci est particulièrement utile dans le but d'étudier les perturbations d'un écosystème car les espèces benthiques ont des capacités d'évitement limitées ce qui les oblige à développer des stratégies d'adaptation à ces conditions ou à disparaitre localement [@Pearson1978; REF].
+
+indices : la richesse et de l'hétérogénéité du compartiment biotique [@Magurran2004; @Hooper2005], ce qui une étape nécessaire pour comprendre sa structure et ses liens avec le compartiment abiotique.
+
+Guildes Une multitude de classifications existe, notamment en fonction des modes de nutrition, du métabolisme énergétique, de la position dans le réseau trophique [@Simberloff1991; @Gitay1997; @Costello2015; REF].
 
 ## Étude de l'influence humaine
 
-En 2019, la population humaine mondiale était de XX milliards d'individus, et il est estimé qu'elle atteindra XX milliards en 2100 [REF]. Alors qu’une proportion importante de cette population se trouve à moins de 100 km des côtes (XX % en 2019), la croissance de l'influence humaine sur les milieux marins est évidente [@Ban2008; REF]. De nombreux exemples existent, avec des conséquences concrètes sur les écosystèmes : les extinctions locales de populations [par exemple la disparition de la morue Arctique dans le Saint-Laurent due à la pêche intensive de ses stocks, REF], l'introduction d'espèces exotiques [apparition de *Caulerpa taxifolia* dans les écosystèmes méditerrannéens, @Gravez2001; REF], l'ajout de molécules artificielles et de toxines [REF], ou encore la destruction d'habitats [@Michelli2016, impacts de la prospection et de l'exploitation des ressources fossiles, REF]. Les écosystèmes peuvent être influencés par plusieurs activités simultannément [@Halpern2008], avec la possibilité de produire des phénomènes émergents qu'il est important de considérer dans les évaluations environnementales [REF].
+En 2019, la population humaine mondiale atteignait XX milliards d'individus, et il est estimé qu'elle passera à XX milliards en 2100 [REF]. Alors qu’une proportion importante de cette population se trouve à moins de 100 km des côtes (XX % en 2019), la croissance de l'influence humaine sur les milieux marins est évidente [@Ban2008; REF]. De nombreux exemples existent, avec des conséquences concrètes sur les écosystèmes : les extinctions locales de populations [par exemple la disparition de la morue Arctique dans le Saint-Laurent due à la pêche intensive de ses stocks, REF], l'introduction d'espèces exotiques [apparition de *Caulerpa taxifolia* dans les écosystèmes méditerrannéens, @Gravez2001; REF], l'ajout de molécules artificielles et de toxines [REF], ou encore la destruction d'habitats [@Michelli2016, impacts de la prospection et de l'exploitation des ressources fossiles, REF]. Les écosystèmes peuvent être influencés par plusieurs activités simultannément [@Halpern2008], avec la possibilité de produire des phénomènes émergents qu'il est important de considérer dans les évaluations environnementales [REF].
 
 La détermination du statut de l'environnement est une approche apparue en parallèle de l'activité humaine (provenant par exemple des industries, villes, activités de loisir, tourisme ...), avec la volonté de définir un "bon état écologique". Cet état a été définit dans l'Article 3 de la *Marine Strategy Framework Directive* par l'Union Européenne comme "le statut environnemental des eaux marines qui permet de soutenir des océans dynamiques, diversifiés écologiquement, propres, en santé et productifs".
 

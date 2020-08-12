@@ -2,7 +2,7 @@
 title: "Évaluation locale des activités anthropiques sur les écosystèmes benthiques côtiers : caractérisation des liens entre communautés et exposition aux activités et évaluation d'indicateurs de santé environnementale"
 subtitle: "Local evaluation of anthopogenic activities on benthic coastal ecosystems: caracterization of the relationships between communities and exposition to activities and evaluation of environmental status indicators"
 bibliography: references.bib
-csl: citations.csl
+cls: citations.cls
 link-citations: false
 output:
   word_document:
@@ -17,6 +17,8 @@ output:
 - [ ] limites de l'échantillonnage
 - [ ] discussion sur le vocabulaire
 - [ ] perspectives futures
+  - [ ] à propos de BSI
+  - [ ] impacts cumulés
 
 
 

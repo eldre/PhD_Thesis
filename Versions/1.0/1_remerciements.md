@@ -2,7 +2,7 @@
 title: "Évaluation locale des activités anthropiques sur les écosystèmes benthiques côtiers : caractérisation des liens entre communautés et exposition aux activités et évaluation d'indicateurs de santé environnementale"
 subtitle: "Local evaluation of anthopogenic activities on benthic coastal ecosystems: caracterization of the relationships between communities and exposition to activities and evaluation of environmental status indicators"
 bibliography: references.bib
-csl: citations.csl
+cls: citations.cls
 link-citations: false
 output:
   word_document:
@@ -20,12 +20,12 @@ En premier lieu, je souhaite remercier mon équipe de direction, Philippe Archam
 
 
 - labo Archambault, Chris
-- CHONe, QO
-- INREST et Sept-Îles
+- CHONe, QO, INREST et Sept-Îles
+- personnes impliquées pendant les stages : Natalie Ban, Nicolas Desroy, Aurélie Foveau
 - toutes les personnes qui ont aidé sur le terrain : David Poissant, Raphaël Bouchard, PO Dumais
 - David, Charlotte, Laurie, Marie, Valérie
 - mes parents, mon frère
-- Mahyar et le Grenier, le studio de yoga
+- Mahyar, Bob et le Grenier, le studio de yoga
 - Sara
 
 
