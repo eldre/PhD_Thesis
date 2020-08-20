@@ -1,6 +1,6 @@
 ---
 title: "Évaluation locale des activités anthropiques sur les écosystèmes benthiques côtiers : caractérisation des liens entre communautés et exposition aux activités et évaluation d'indicateurs de santé environnementale"
-subtitle: "Local evaluation of anthopogenic activities on benthic coastal ecosystems: caracterization of the relationships between communities and exposition to activities and evaluation of environmental status indicators"
+subtitle: "Local evaluation of anthropogenic activities on benthic coastal ecosystems: caracterization of the relationships between communities and exposition to activities and evaluation of environmental status indicators"
 bibliography: references.bib
 cls: citations.cls
 link-citations: false
@@ -28,9 +28,6 @@ output:
 - [ ] vocabulaire utilisé ici (pas stresseur)
 - [ ] étude sur le terrain vs en laboratoire
 - [ ] zones industrielles portuaires ?
-
-## Rendre compte du statut d'un écosystème
-
 - [ ] nécessité (outil d'intégration pour les décideurs, utilisation par les scientifiques)
 - [ ] exemples et applications (AMBI, directives européennes)
 - [ ] limitations
@@ -40,7 +37,7 @@ output:
 - [ ] description du système (étendue, courants, bathymétrie)
 - [ ] conditions en milieu sub-Arctique (banquise, grandes variations de température)
 - [ ] biodiversité globale
-- [ ] activité humaine
+- [ ] activités humaines
 - [ ] Sept-Îles
 
 ## Objectifs et hypothèses
@@ -66,47 +63,67 @@ output:
 
 # INTRODUCTION GÉNÉRALE
 
-Victor Shelford écrivait en 1913 : "Ecology is the science of communities. A study of the relations of a single species to the environment conceived without reference to communities and, in the end, unrelated to the natural phenomena of its habitat and community associations is not properly included in the field of ecology". Cette citation représente l'essence des travaux écologiques, du moment où cette science a été formalisée en XXX à aujourd'hui, maintenant au croisement de nombreuses disciplines entremêlées.
+Victor Shelford écrivait en 1913 : "*Ecology is the science of communities. A study of the relations of a single species to the environment conceived without reference to communities and, in the end, unrelated to the natural phenomena of its habitat and community associations is not properly included in the field of ecology*". Cette citation représente l'essence des travaux écologiques, de l'instant où cette science a été formalisée au XXX siècle jusqu'à aujourd'hui où elle se place au croisement de nombreuses disciplines entremêlées.
 
 
 ## De la notion d'écosystème
 
 Un écosystème est décrit comme un système constitué de deux composantes interconnectées : une composante abiotique liée aux paramètres physiques, chimiques et géologiques du milieu, et une composante biotique qui correspond aux espèces présentes dans le système [@Morin2011]. Chaque composante est représentée par une ou plusieurs entités spécifiques, à savoir les habitats pour la première (*i.e.* un ensemble de conditions environnementales particulières) et les communautés pour la seconde (*i.e.* un ensemble d'espèces vivant dans un habitat spécifique) [@Root1967; @Morin2011, REF]. Les relations entre chaque compartiment sont incluses dans cette définition, telles que les interactions entre individus d'une même espèce ou d'espèces différentes (intra- ou inter-spécifiques) ou les associations entre éléments chimiques [REF].
 
-**Figure conceptuelle écosystème ?**
-
-La persistence d'une espèce dans un habitat est liée aux conditions du milieu, ce qui constitue la théorie de la niche écologique. Il existe plusieurs définitions de la niche d'une espèce, notamment en fonction de ses relations avec les autres espèces selon le principe d'exclusion compétitive [@Grinnell1914; @Hardin1960], de sa position dans la communauté [@Elton1927], de ses tolérances face aux paramètres environnementaux [@Hutchinson1957] ou de son utilisation des ressources disponibles [@MacArthur1967]. Chaque espèce effectue des compromis (*trade-offs*) en lien avec son métabolisme et son comportement afin de maintenir sa population [@Morin2011; REF], ce qui provoque récirdes modifications de l'habitat, par exemple en diminuant la disponibilité en ressources ou en modifiant l'intégrité physique du milieu [REF]. L'étude de la structure et de l'évolution des écosystèmes est donc dépendante, à la fois, de l'étude de la biodiversité, de l'habitat et de leur variations respectives.
+La persistence d'une espèce dans un habitat est liée aux conditions du milieu, ce qui constitue la théorie de la niche écologique. Il existe plusieurs définitions de la niche d'une espèce, notamment en fonction de ses relations avec les autres espèces selon le principe d'exclusion compétitive [@Grinnell1914; @Hardin1960], de sa position dans la communauté [@Elton1927], de ses tolérances face aux paramètres environnementaux [@Hutchinson1957] ou de son utilisation des ressources disponibles [@MacArthur1967]. Chaque espèce effectue des compromis (*trade-offs*) en lien avec son métabolisme et son comportement afin de maintenir sa population [@Morin2011; REF], ce qui provoque, de façon réciproque, des modifications de l'habitat, par exemple en diminuant la disponibilité en ressources ou en modifiant l'intégrité physique du milieu [REF]. L'étude de la structure et de l'évolution des écosystèmes est donc dépendante, à la fois, de l'étude de la biodiversité, de l'habitat et de leur variations respectives.
 
 Le terme "biodiversité" est employé pour désigner la diversité biologique d'un écosystème, et celle-ci peut-être définie selon plusieurs perspectives, qu'elle soit spécifique (nombre de taxons différents), génétique (nombre des gènes différents), fonctionnelle (nombre de fonctions différentes) ou écosystémique (nombre d'habitats différents) [@UN1992; @Wilswon1992; @Gaston2004; @Hooper2005; @Stachowicz2007]. Le caractère multiple de cette définition rend son interprétation particulièrement complexe, et la diversité spécifique est généralement employée comme un indicateur unique de la biodiversité [REF]. En effet, les liens entre la diversité spécifique et la structure d'un écosystème ont été mis en évidence aussi bien en milieu terrestre [par exemple @Hooper2005] qu'aquatique [par exemple @Giller2004; @OConner2005].
 
-Avec plus de 70 % de la surface du globe recouverte par les océans, les écosystèmes marins considèrent une vaste gamme d'habitats. Leurs limites peuvent être définies selon différents critères, qu'ils soient par exemple pélagiques (dans la colonne d'eau), benthiques (en lien avec les fonds marins), intertidaux (dans la zone de balancement des marrées), côtiers, hauturiers ou abyssaux [REF livre océano].
+## Les communautés benthiques côtières
+
+Avec plus de 70 % de la surface de la planète Terre recouverte par les océans, les écosystèmes marins considèrent une vaste gamme d'habitats. Leurs limites peuvent être définies selon différents critères, qu'ils soient, entre autres, pélagiques (dans la colonne d'eau), benthiques (en lien avec les fonds marins), intertidaux (dans la zone de balancement des marées), subtidaux (non-influencés par les marées), côtiers, hauturiers ou abyssaux [REF livre océano]. De nombreuses études ont pu mettre en évidence des patrons de biodiversité entre ces différents écosystèmes [@Gray1997, @Gaston2000, REF], et les environnements côtiers sont parmi les plus riches et diversifiés [REF].
+
+La communauté benthique, qui constitue le principal objet d'étude de cette thèse de doctorat, regroupe les espèces en relation avec le fond marin. Celles-ci peuvent être sessiles (fixé sur un substrat) ou se déplaçant dans, sur ou au dessus du sédiment (respectivement l'endobenthos, l'épibenthos et les espèces démersales) (**Fig XXX**). La diversité de ces modes de vie est reliée à une importante diversité de stratégies évolutives mises en œuvre par ces espèces pour prospérer dans leur habitat, que ce soit des méthodes de nutrition (filtration de l'eau, ingestion du sédiment, le recyclage de matières détritiques, ...), des structures biogéniques (terriers, récifs, ...) ou des comportements et interactions biotiques (symbiose, parasitisme, ...) [REF]. Enfin, les espèces benthiques sont incluses dans des réseaux trophiques complexes, permettant ainsi les transferts d’énergie à travers l’écosystème et avec des milieux adjacents (*c.f.* le couplage pélago-benthique) [REF].
+
+**Figure compartiments benthiques et tailles d'organismes**
+
+Une grande diversité d'organismes est présente dans les communautés benthiques, incluant des assemblages complexes de virus, bactéries, faune et flore. En pratique, les communautés sont souvent séparées en différents sous-ensembles partageant des caractéristiques communes, afin de répondre à des questions écologiques spécifiques [REF]. Plusieurs études ont mis en évidence des relations allométriques au sein des métazoaires (*i.e.* des liens entre la taille des animaux et leur physiologie et adaptation à l'habitat) [Sheldon1972; Schwinghamer1981; Warwick1984; REF], et plusieurs catégories d'organismes ont ainsi été définies : la microfaune (organismes plus petits que 0.1 mm), la meiofaune (entre 0.1 et 0.5/1 mm), la macrofaune (entre 0.5/1 et 100 mm) et la mégafaune (plus de 100 mm) [REF] (**Fig XXX**). La limite séparant la méiofaune et la macrofaune (0.5 ou 1 mm) fait encore aujourd'hui l'objet de débats entre chercheurs [REF] ; il s'agit d'une considération importante car le choix de cette limite aura un impact direct sur la résolution taxonomique des communautés étudiées [McKindsey; REF].
+
+Au sein de la macrofaune – et *a fortiori* des communautés benthiques en général, chaque espèce possède un rôle dans la structure l'écosystème en lien avec son utilisation de l'habitat [REF]. Certains rôles sont particulièrement intéressants à étudier pour comprendre la la structure, la stabilité et l'évolution des écosystèmes. Par exemple, les espèces *ingénieures* modifient directement ou indirectement les caractéristiques d'un écosystème par leur mode de vie (par exemple en créant des structures biogéniques) ou leur comportement (par exemple en oxygénant le sédiment profond avec une activité de de bioturbation), ce qui permettra à d'autres espèces de profiter d'habitats particuliers [REF]. Les interactions biotiques comme les relations trophiques peuvent aussi être citées, où certaines espèces ont la possibilité de modifier l'équilibre de l'écosystème de part le contrôle qu'elles exercent sur le reste de la communauté (voir les effets *bottom-up* ou *top-down*) [REF].
+
+## Perturbation et effets sur les communautés
+
+De nombreuses études écologiques cherchent à comprendre comment réagissent les différentes composantes de l'écosystème face à une perturbation avant, pendant et après son incidence, notamment dans des buts de conservation ou de restauration. Plusieurs visions peuvent être choisies pour répondre à cet objectif, souvent reliées à des disciplines scientifiques particulières, ce qui rend complexe la définition et l'utilisation des termes utilisés [@Judd2015]. J'ai choisi d'utiliser les définitions suivantes dans l'ensemble de cette thèse de Doctorat, illustrés dans la **Figure XXX**.
+
+Une *perturbation*, dans le sens de "*disturbance*" en anglais, est une force ou un processus (abiotique ou biotique) qui impacte un écosystème en provoquant un(des) changement(s) de ses caractéristiques par rapport à leur état de référence [Odum1979; Rykiel1985]. La notion de perturbation est intrinsèquement liée à celle de *stress* (ou *pression*), qui est défini comme la résultante d'une perturbation (sa cause) affectant des processus physiologiques ou fonctionnels dans l'écosystème [@Judd2015; REF]. L'origine d'une perturbation peut être naturelle, selon des évènements stochastiques (ex: tempêtes, ...) ou cycliques (saisons, ...), ou bien anthropique, reliée à différentes activités humaines [REF]. Ces différents facteurs sont nommés *source de stress*, *stresseur* ou *déterminant* [@Judd2015; REF].
+
+**Figure conceptuelle perturbation**
+
+Lorsqu'un écosystème subit une perturbation, celle-ci se traduit donc par une modification instantanée ou durable des composantes abiotique ou biotique [Rykiel1985; REF]. Au sein des communautés, le maintien de la population d'une espèce est alors conditionné par les réponses qu'elle adoptera pour s'acclimater à ces nouvelles conditions [@Borja2000; REF]. Ces réponses sont notamment reliées aux notions de résistance (capacité à supporter les effets d'une perturbation) et/ou de résilience (temps nécessaire pour atteindre à nouveau l'état avant la perturbation) face aux stress [REF]. De nombreuses espèces de macrofaune benthique possèdent des capacités d'évitement limitées, ce qui peut aboutir à la dégradation de l'état des populations et à une mortalité accrue en fonction de l'intensité du stress [REF]. Ceci est notamment le cas pour les espèces sessiles (par exemple les moules ou les anémones), les espèces vivant dans le sédiment (comme les amphipodes ou les mollusques fouisseurs) ou les organismes filtreurs (tels que des polychètes tubicoles ou les éponges) qui sont particulièrement sensibles aux perturbations chimiques affectant la colonne d'eau [REF]. La présence (ou l'absence) de certaines espèces, qualifiées de *sentinelles* ou *indicatrices*, aura donc la possibilité de détecter un certain état de perturbation de l'écosystème [REF].
+
+Une perturbation peut ainsi modifier la structure générale de la communauté, par exemple en favorisant des espèces adaptées au caractère instable associé à ces évènements [@Pearson1978; REF]. De telles espèces sont dites opportunistes, définies par une croissance rapide de leur population et une forte densité d'individus de petite taille (appelée *stratégie de type r*, privilégiant un fort taux de reproduction), en opposition aux espèces longévives et moins abondantes retrouvées dans des environnements plus stables (*stratégie de type K*, privilégiant le maintien de la population à sa capacité maximale) [@MacArthur1967; Pianka1970; REF]. En complément de l'étude des dynamiques de populations, la mise en évidence d'une perturbation des communautés peut aussi s'effectuer grâce à l'utilisation de métriques intégratives considérant les réponses de chaque espèce, par exemple la diversité de Shannon, l'équitabilité de Piélou ou la biomasse/densité totale d'individus () [@Pearson1978; @Magurran2004; @Hooper2005; REF].
+
+## Liens avec l'influence humaine
+
+En 2019, la population humaine mondiale a totalisé 7.7 milliards d'individus, et les projections démographiques estiment qu'elle atteindra 9.7 milliards en 2050 [UN2019; REF]. Avec une proportion importante de cette population qui entretient des liens étroits avec l'océan (XX % à moins de 100 km des côtes en 2019), la croissance de l'influence humaine sur les milieux marins est évidente [@Ban2008; REF]. De nombreux exemples ont été documentés à travers le monde, mettant ainsi en lumière des conséquences sur les écosystèmes comme l'extinction locale de populations [par exemple la disparition de la morue Arctique dans le Saint-Laurent due à la pêche intensive de ses stocks, REF], l'introduction d'espèces exotiques [apparition de *Caulerpa taxifolia* dans les écosystèmes méditerrannéens, @Gravez2001; REF], l'ajout de molécules artificielles et de toxines [REF] ou encore la destruction d'habitats [@Michelli2016, impacts de la prospection et de l'exploitation des ressources fossiles, REF].
+
+De nombreuses études écologiques ont pour but de caractériser les effets d'activités humaines sur les écosystèmes, afin de comprendre comment l'homme influence les écosystèmes qu'il exploite. Jusqu'à récemment, ce type d'études ne considérait qu'une activité humaine (par exemple le draguage ou l'exploitation minière), un processus (tels que le réseau trophique ou les réponses physiologiques à un contaminant) ou un certain type d'écosystème (comme les récifs coralliens ou les forêts de macroalgues) [REF]. Aujourd'hui, le déploiement de nouvelles technologies, incluant une puissance de calcul et une couverture satellitaire accrues, permettent de considérer l'empreinte humaine d'une façon plus holistique [REF]. L'étude des impacts cumulés permet de répondre à des questions écologiques plus complexes, notamment en considérant l'écosystème comme un réseau d'interactions complexes entre le
+
+
+La détermination du statut d'un écosystème est une approche apparue à la suite de multiples décisions prises par des organismes internationaux dans le but de
+
+en parallèle de l'activité humaine (provenant par exemple des industries, villes, activités de loisir, tourisme ...), avec la volonté de définir un "bon état écologique". Cet état a été définit dans l'Article 3 de la *Marine Strategy Framework Directive* par l'Union Européenne comme "le statut environnemental des eaux marines qui permet de soutenir des océans dynamiques, diversifiés écologiquement, propres, en santé et productifs".
+
+Les écosystèmes peuvent être influencés par plusieurs activités simultanément [@Halpern2008], avec la possibilité de produire des phénomènes émergents qu'il est important de considérer dans les évaluations environnementales [REF].
 
 
 
 
 
+Les effets perçus dans les écosystèmes perturbés incluent une mortalité accrue des espèces, une perte d'habitats, l'ajout de facteurs structurants sur le long terme [REF].
 
 Par essence, la description des habitats et des communautés (et donc *a fortiori* des écosystèmes) est dépendante des échelles spatiale et temporelle considérées, et il est particulièrement important de définir avec exactitude les objets étudiés afin d'obtenir des descriptions
 
-Le compartiment biotique est ainsi un continuum regroupant tous les individus présents dans l'écosystème comme par exemple les virus, bactéries, les animaux ou les vegétaux.
-
-Il existe de nombreuses façons de définir une communauté dans un écosystème, en utilisant des critères comme la taille de l'organisme, sa localisation dans l'écosystème ou son mode de déplacement.
-
-Les communautés benthiques, qui constituent le principal objet d'étude de cette thèse de doctorat, regroupent des espèces souvent fixées sur le sédiment ou avec une capacité de mouvement réduite (endofaune ou épifaune). Ces modes de vie leur confèrent des rôles écologiques intéressants, notamment en tant qu'ingénieures ou sentinelles [REF]. Une espèce *ingénieure* modifie directement ou indirectement les caractéristiques d'un écosystème par son mode de vie (en créant des structures biogéniques) ou son comportement (par exemple en oxygénant le sédiment profond par la bioturbation), ce qui permettra à d'autres espèces de profiter d'habitats particuliers [REF]. Une espèce est qualifiée de *sentinelle* lorsque sa présence, son absence et/ou son abondance permettent de rendre compte de l'état de l'écosystème dans lequel elle vit [REF]. En effet, de nombreuses espèces benthiques ont des capacités d'évitement limitées, ce qui les oblige à développer des stratégies d'adaptation à ces conditions ou à disparaitre localement [@Pearson1978; REF]. La considération et l'étude de ces espèces permettra ainsi de mettre en évidence des relations entre le compartiment biotique et de possibles perturbations, notamment d'origine anthropique.
-
-Ceci est particulièrement utile dans le but d'étudier les perturbations d'un écosystème car les espèces benthiques ont des capacités d'évitement limitées ce qui les oblige à développer des stratégies d'adaptation à ces conditions ou à disparaitre localement [@Pearson1978; REF].
-
-indices : la richesse et de l'hétérogénéité du compartiment biotique [@Magurran2004; @Hooper2005], ce qui une étape nécessaire pour comprendre sa structure et ses liens avec le compartiment abiotique.
+Le compartiment biotique est ainsi un continuum regroupant tous les individus présents dans l'écosystème comme par exemple les virus, bactéries, les animaux ou les végétaux.
 
 Guildes Une multitude de classifications existe, notamment en fonction des modes de nutrition, du métabolisme énergétique, de la position dans le réseau trophique [@Simberloff1991; @Gitay1997; @Costello2015; REF].
 
-## Étude de l'influence humaine
-
-En 2019, la population humaine mondiale atteignait XX milliards d'individus, et il est estimé qu'elle passera à XX milliards en 2100 [REF]. Alors qu’une proportion importante de cette population se trouve à moins de 100 km des côtes (XX % en 2019), la croissance de l'influence humaine sur les milieux marins est évidente [@Ban2008; REF]. De nombreux exemples existent, avec des conséquences concrètes sur les écosystèmes : les extinctions locales de populations [par exemple la disparition de la morue Arctique dans le Saint-Laurent due à la pêche intensive de ses stocks, REF], l'introduction d'espèces exotiques [apparition de *Caulerpa taxifolia* dans les écosystèmes méditerrannéens, @Gravez2001; REF], l'ajout de molécules artificielles et de toxines [REF], ou encore la destruction d'habitats [@Michelli2016, impacts de la prospection et de l'exploitation des ressources fossiles, REF]. Les écosystèmes peuvent être influencés par plusieurs activités simultannément [@Halpern2008], avec la possibilité de produire des phénomènes émergents qu'il est important de considérer dans les évaluations environnementales [REF].
-
 La détermination du statut de l'environnement est une approche apparue en parallèle de l'activité humaine (provenant par exemple des industries, villes, activités de loisir, tourisme ...), avec la volonté de définir un "bon état écologique". Cet état a été définit dans l'Article 3 de la *Marine Strategy Framework Directive* par l'Union Européenne comme "le statut environnemental des eaux marines qui permet de soutenir des océans dynamiques, diversifiés écologiquement, propres, en santé et productifs".
-
-Le statut de l'environnement est
 
 “The environmental status of marine waters where these provide ecologically diverse and dynamic oceans and seas which are clean, healthy and productive”
 
