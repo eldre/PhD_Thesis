@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Évaluation locale des activités anthropiques sur les écosystèmes benthiques côtiers : caractérisation des liens entre communautés et exposition aux activités et évaluation d'indicateurs de santé environnementale"
 subtitle: "Local evaluation of anthropogenic activities on benthic coastal ecosystems: caracterization of the relationships between communities and exposition to activities and evaluation of environmental status indicators"
@@ -10,8 +11,9 @@ output:
     reference_docx: "styles.docx"
     pandoc_args: "--lua-filter=pagebreak.lua"
 ---
+-->
 
-# INTRODUCTION GÉNÉRALE
+# Contexte général de la thèse
 
 - [ ] écologie
 - [ ] développement anthropique et lien avec l'actualité (Aichi targets, UN decade of the ocean, ...)

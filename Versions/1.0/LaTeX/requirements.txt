@@ -1,0 +1,22 @@
+pandoc
+pandoc-fignos
+pandoc-tablenos
+pandoc-eqnos
+
+% babel
+% babel-french
+% babel-english
+% carlisle % scalefnt
+% txfonts
+% mathtools % empheq
+% ucs % utf8x
+% cite % chapterbib
+% cleveref
+% was % upgreek
+% sttools % floatpag
+% csquotes
+% psnfss % pifont
+% collection-fontsrecommended
+% soul
+% ulem
+% epstopdf
