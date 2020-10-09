@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Évaluation locale des activités anthropiques sur les écosystèmes benthiques côtiers : caractérisation des liens entre communautés et exposition aux activités et évaluation d'indicateurs de santé environnementale"
 subtitle: "Local evaluation of anthopogenic activities on benthic coastal ecosystems: caracterization of the relationships between communities and exposition to activities and evaluation of environmental status indicators"
@@ -10,12 +11,15 @@ output:
     reference_docx: "styles.docx"
     pandoc_args: "--lua-filter=pagebreak.lua"
 ---
+-->
 
-# REMERCIEMENTS
+# Remerciements
 
-Le doctorat est un long chemin, un marathon, une aventure, qui mène à des découvertes aussi bien scientifiques que personnelles. Le travail que je présente dans cette thèse est le fruit de cinq années de recherche au sein de multiples sphères professionnelles, et je n'aurais pu le réaliser sans le soutien infini et les discussions éclairées que m'ont prodiguées beaucoup de personnes exceptionnelles, que je souhaite remercier dans cette section.
+Le doctorat est un long chemin, une aventure, qui mène aux découvertes aussi bien scientifiques que personnelles. 
 
-En premier lieu, je souhaite remercier mon équipe de direction, Philippe Archambault et Chris McKindsey. Vous m'avez offert l'opportunité de terminer mes études au Canada, au sein d'un cadre productif et passionant.
+Le travail que je présente dans cette thèse est le fruit de cinq années de recherche, et je n'aurais pu le réaliser sans le soutien infini et les discussions éclairées que m'ont prodiguées beaucoup de personnes exceptionnelles, que je souhaite remercier dans cette section.
+
+En premier lieu, je souhaite remercier mon équipe de direction, Philippe et Chris. Vous m'avez offert l'opportunité de terminer mes études au Canada, au sein d'un cadre productif et passionant.
 
 
 
