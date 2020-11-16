@@ -41,13 +41,7 @@ ANN4 = annexe4/annexe4.tex
 AN4M = annexe4/annexe4.md
 
 ##-- Références
-REF = mybiblio.bib
-
-##---------------------------------------------
-##-- To delete - CHECKLIST
-CHK = checklist.tex
-CHM = checklist.md
-##---------------------------------------------
+REF = references.bib
 
 ##-- Les filtres que j'utilise et que je recommande (notamment pour la bibliographie)
 ##

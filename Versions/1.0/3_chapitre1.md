@@ -1,7 +1,4 @@
-<!--
----
-title: "Évaluation locale des activités anthropiques sur les écosystèmes benthiques côtiers : caractérisation des liens entre communautés et exposition aux activités et évaluation d'indicateurs de santé environnementale"
-subtitle: "Local evaluation of anthropogenic activities on benthic coastal ecosystems: caracterization of the relationships between communities and exposition to activities and evaluation of environmental status indicators"
+<!-- ---
 bibliography: references.bib
 cls: citations.cls
 link-citations: false
@@ -10,8 +7,7 @@ output:
     toc: false
     reference_docx: "styles.docx"
     pandoc_args: "--lua-filter=pagebreak.lua"
----
--->
+--- -->
 
 # Title
 
@@ -54,7 +50,7 @@ Baie des Sept Îles is characterized by sandy beaches and tidal marshes, with a 
 <!-- Figure 1 -->
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{./Figures/C1_Fig1.png}
+\includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C1/Fig1.png}
 \caption{Maps of the study area. (a) Location of the considered sectors. (b) Stations sampled in the Pentecôte River sector. (c) Stations sampled in the coast of Port-Cartier sector. (d) Stations sampled in Baie des Sept Îles sector. (e) Stations sampled in the Manitou River sector.}
 \label{Fig1}
 \end{figure}
@@ -115,7 +111,7 @@ The highest values of taxa richness and total density were found in the Baie des
 <!-- Figure 2 -->
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{./Figures/C1_Fig2.png}
+\includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C1/Fig2.png}
 \caption{Rarefaction curves for taxa assemblages of the 0.5 mm and the 1 mm size classes.}
 \label{Fig2}
 \end{figure}
@@ -123,7 +119,7 @@ The highest values of taxa richness and total density were found in the Baie des
 <!-- Figure 3 -->
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{./Figures/C1_Fig3.png}
+\includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C1/Fig3.png}
 \caption{Scatterplot of the taxonomic distinctness ($\Delta{+}$) as a number of taxa sampled at a station. The dashed grey line corresponds to the expected value of $\Delta{+}$ and the dashed grey curves are the upper and lower limits of the standard deviation interval calculated with the value of $\Delta{+}$ at each station. Point colour represent similarity groups defined by Hierarchical Agglomerative Clustering. (a) Scatterplot for the 0.5 mm size class. (b) Scatterplot for the 1 mm size class.}
 \label{Fig3}
 \end{figure}
@@ -272,7 +268,7 @@ For cluster C, stations were widely distributed in Baie des Sept Îles (except f
 <!-- Figure 4 -->
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{./Figures/C1_Fig4.png}
+\includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C1/Fig4.png}
 \caption{Hierarchical Agglomerative Clustering of taxa assemblages. The dendrogram presents relationships between stations, displayed on the map with one colour for each group. (a) Clusters for the 0.5 mm size class. (b) Clusters for the 1 mm size class.}
 \label{Fig4}
 \end{figure}
@@ -284,7 +280,7 @@ These results strongly suggest that cluster A regroups stations with a higher pe
 <!-- Figure 5 -->
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{./Figures/C1_Fig5.png}
+\includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C1/Fig5.png}
 \caption{Constrained ordination with a distance-based Redundancy Analysis for taxa assemblages obtained for the 0.5 mm and 1 mm size classes. Only predictors selected by the distance-based linear modelling (DistLM) are displayed. Point colour represents similarity groups defined by the Hierarchical Agglomerative Clustering. OM = organic matter, As = arsenic, Cd = cadmium, Cr = chromium, Cu = copper, Fe = iron, Mn = manganese, Hg = mercury, Pb = lead, Zn = zinc. (a) Ordination for the 0.5 mm size class with organic matter and grain-size classes as predictors (Model 1). (b) Ordination for the 0.5 mm size class with heavy metal concentrations as predictors (Model 2). (c) Ordination for the 1 mm size class with organic matter and grain-size classes as predictors (Model 1). (d) Ordination for the 1 mm size class with heavy metal concentrations as predictors (Model 2).}
 \label{Fig5}
 \end{figure}
@@ -621,7 +617,7 @@ The authors would like to acknowledge and thank all the people that helped durin
 <!-- Figure S1 -->
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{./Figures/C1_FigS1.png}
+\includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C1/FigS1.png}
 \caption{Values of habitat parameters at each station. (a) Map for station depth. (b) Map for organic matter content. (c) Map for gravel content. (d) Map for sand content. (e) Map for silt content. (f) Map for clay content.}
 \label{FigS1}
 \end{figure}
@@ -629,7 +625,7 @@ The authors would like to acknowledge and thank all the people that helped durin
 <!-- Figure S2 -->
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{./Figures/C1_FigS2.png}
+\includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C1/FigS2.png}
 \caption{Values of heavy metal concentrations at each station. (a) Map for arsenic concentration. (b) Map for cadmium concentration. (c) Map for chromium concentration. (d) Map for copper concentration. (e) Map for iron concentration. (f) Map for manganese concentration. (g) Map for mercury concentration. (h) Map for lead concentration. (j) Map for zinc concentration.}
 \label{FigS2}
 \end{figure}
@@ -637,7 +633,7 @@ The authors would like to acknowledge and thank all the people that helped durin
 <!-- Figure S3 -->
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{./Figures/C1_FigS3.png}
+\includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C1/FigS3.png}
 \caption{Values of community characteristics at each station. (a) Map for taxa richness for the 0.5 mm size class. (b) Map for taxa richness for the 1 mm size class. (c) Map for total density for the 0.5 mm size class. (d) Map for total density for the 1 mm size class. (e) Map for Shannon diversity for the 0.5 mm size class. (f) Map for Shannon diversity for the 1 mm size class. (g) Map for Pielou evenness for the 0.5 mm size class. (h) Map for Pielou evenness for the 1 mm size class. (i) Map for taxonomical distinctness for the 0.5 mm size class. (j) Map for taxonomical distinctness for the 1 mm size class.}
 \label{FigS3}
 \end{figure}
