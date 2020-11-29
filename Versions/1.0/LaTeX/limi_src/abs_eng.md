@@ -1,4 +1,0 @@
-Biogeography is the study of the mechanisms and processes that control the
-geographical distribution of plants and animals. 
-
-> Keywords: Biogeography, biotic interactions, ecological networks, abiotic constrains, co-occurrence, theory of island biogeography, metabolic theory of ecology.

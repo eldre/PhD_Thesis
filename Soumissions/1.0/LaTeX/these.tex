@@ -1,0 +1,330 @@
+% ----------------------------------------------------------------------%
+% Coquille pour thèses et mémoires.                                     %
+% UQAR, 29 mai 2009.                                                    %
+% Modifié par F. Cyr - aout 2013                                        %
+%		 AC. Tassel - janvier 2014                                          %
+%		 C. Rigaud - 2014-2015                                              %
+% ----------------------------------------------------------------------%
+
+% ----------------------------------------------------------------------%
+% Kevin Cazelles: J'ai utilisé ce template car c'est ce que j'ai utilisé
+%  pour ma thèse
+% ----------------------------------------------------------------------%
+
+
+
+% ----------------------------------------------------------------------%
+% 1- Préambule.                                                         %
+% ----------------------------------------------------------------------%
+
+% Pour le dépôt initial (recto), utiliser oneside.
+% Pour le dépôt final  (recto-verso), remplacer oneside par twoside.
+
+\documentclass[12pt,oneside,letterpaper]{stylethese}
+% \documentclass[12pt,twoside,letterpaper]{stylethese}
+
+\raggedbottom % Évite les espaces trop gands entre chaque section.
+
+% \usepackage{multirow}
+\usepackage{natbib}
+\usepackage{amssymb,amsmath}
+\usepackage{enumerate} % For fancy enumerate item labels.
+% \usepackage{utopia}
+\usepackage{txfonts,empheq}
+%\usepackage{chancery}
+%\usepackage{ccaption}		 %pour utiliser \legend (pour l'explication de la figure,texte plus long)
+%\usepackage{pgfplots}      	 % dessiner des graphes direct dans LaTeX
+%\pgfplotsset{compat=1.3}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+
+\usepackage[utf8x]{inputenc}
+\usepackage{ucs}
+
+
+\usepackage{chapterbib} % <----- for bibliography per chapter
+%\usepackage[duplicate]{chapterbib}
+%\usepackage{url}
+
+% Ajout Cyril :
+\usepackage[linktocpage=true,linkcolor=cyan,citecolor=cyan,colorlinks=true,urlcolor=blue,pagebackref]{hyperref}
+\usepackage[english,french]{cleveref}
+\usepackage{upgreek}
+\usepackage{textcomp}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{ltxtable}
+\usepackage{pdflscape}
+\usepackage{booktabs}
+\usepackage{afterpage}
+\usepackage{floatpag}
+\usepackage[babel=true]{csquotes}
+\usepackage{pifont}
+\usepackage{soulutf8}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{ulem}
+
+
+%%------------------ Ajout Kevin Cazelles
+%%------------------ Ce qu'on a besoin pour inclure du code
+%%------------------ => c'est ce qu'utilise pandoc pour faire mettre en page les
+%%------------------ des code chunk (pour l'obtenir, voir template ou faire
+%%------------------ un exemple minimal avec du code en md puis le convertir en
+%%------------------ Latex avec l'option standalone (option -s))
+\usepackage{lmodern}
+% \usepackage{ifxetex,ifluatex}
+% \usepackage{fixltx2e} % provides \textsubscript
+% \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+%   \usepackage[T1]{fontenc}
+%   \usepackage[utf8]{inputenc}
+% \else % if luatex or xelatex
+%   \ifxetex
+%     \usepackage{mathspec}
+%   \else
+%     \usepackage{fontspec}
+%   \fi
+%   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+% \fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+% \usepackage[unicode=true]{hyperref}
+% \hypersetup{pdfborder={0 0 0}, breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{#1}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% ----------------------------------------------------
+%% Ajouts D. Beauchesne
+% Landscape page
+\usepackage{lscape}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
+
+% Package for mathematical indicator function
+% Chapter 2 - Drivers
+ \usepackage{bbm}
+
+% Package for boxes
+% Chapter 2 - Drivers
+\usepackage{listings}
+\usepackage[svgnames]{xcolor}
+\usepackage{float}
+
+% Setting up parameters for code snippet presented in Box 1
+\lstset{language=R,
+    basicstyle=\small\ttfamily,
+    stringstyle=\color{DarkGreen},
+    otherkeywords={fetchDrivers, install_github, getData, kde2d},
+    morekeywords={TRUE,FALSE},
+    deletekeywords={data,frame,length,as,character},
+  keywordstyle=\color{blue},
+  commentstyle=\color{DarkGreen},
+}
+% ----------------------------------------------------
+
+
+\captionsetup{singlelinecheck=false}
+% \captionsetup{singlelinecheck=false}
+
+% Taille des légendes des 'Long Tables'
+\setlength{\LTcapwidth}{\linewidth}
+% \setlength{\LTcapwidth}{1.5\linewidth}
+
+
+
+
+
+%Marge inférieure avec note de bas de page
+\setlength{\footnotesep}{1cm}
+
+%Régler le problème des Et/And entre deux auteurs (voir le fichier "tutoriel bst")
+\newcommand*{\andname}{and}
+      \addto \captionsenglish {\renewcommand*{\andname}{and}}
+      \addto \captionsfrench  {\renewcommand*{\andname}{et}}
+
+%Intitulé des figures en français
+\addto\captionsfrench{\renewcommand{\figurename}{Figure}}
+
+%Intitulé des tableaux en français
+\addto\captionsfrench{\renewcommand{\tablename}{Tableau}}
+
+% Interligne 1 et 1/2.
+\setstretch{1.5}
+
+% Pour créer un index (optionnel).
+\makeindex
+
+% Info sur la thèse (Titre, auteur, etc.)
+\Titre{DESCRIPTION DE L'INFLUENCE HUMAINE SUR LES ÉCOSYSTÈMES BENTHIQUES D'UNE ZONE INDUSTRIELLE PORTUAIRE CANADIENNE}
+\SousTitre{Application d'indicateurs de statut écologique et prédiction de la structure des communautés}
+% Mettre en majuscule!!
+\Auteur{Elliot Dreujou}
+\Faculte{Programme de doctorat en océanographie}
+\Diplome{Philosophiae Doctor}
+\Date{Décembre}{2020}
+
+
+
+\These
+
+
+\Articles
+
+
+
+\begin{document}
+\pdfstringdefDisableCommands{%
+\let\MakeUppercase\relax}
+
+% !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%
+% -- To delete - CHECKLIST
+\input{checklist.tex}
+% !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%
+
+% ----------------------------------------------------------------------%
+% 2- Liminaires de la thèse.                                            %
+% ----------------------------------------------------------------------%
+
+\include{liminaires}
+
+
+
+% ----------------------------------------------------------------------%
+% 3- Corps de la thèse.                                                %
+% ----------------------------------------------------------------------%
+
+\debutcorps
+\cleardoublepage
+% Utiliser      chapitres.tex pour une thèse (ou mémoire) traditionnelle.
+% Remplacer par articles.tex  pour une thèse (ou mémoire) par articles.
+
+
+\introduction
+\selectlanguage{french}
+
+% \chapter{INTRODUCTION GÉNÉRALE}
+\input{./introduction/introduction.tex}
+\cleardoublepage
+
+
+\selectlanguage{english}
+
+\input{./chapitre1/chapitre1.tex}
+\input{./chapitre2/chapitre2.tex}
+\input{./chapitre3/chapitre3.tex}
+
+\cleardoublepage
+
+
+\conclusion
+\selectlanguage{french}
+\input{./conclusion/conclusion.tex}
+\cleardoublepage
+
+
+
+
+% ----------------------------------------------------------------------%
+% 4 - Appendices de la thèse.                                           %
+% ----------------------------------------------------------------------%
+
+
+\input{./annexe1/annexe1.tex}
+\input{./annexe2/annexe2.tex}
+\input{./annexe3/annexe3.tex}
+\input{./annexe4/annexe4.tex}
+
+
+
+
+% ----------------------------------------------------------------------%
+% 5 - Bibliographie.                                                    %
+% ----------------------------------------------------------------------%
+
+\selectlanguage{english}
+
+\begin{singlespace}
+  \makeatletter
+  \phantomsection\addcontentsline{toc}{chapter}{\MakeUppercase{\@references}}
+  \makeatother
+  \bibliographystyle{apalike}
+  \bibliography{references.bib} % Ici mettre le nom de la biblio, ici mylib.bib
+\end{singlespace}
+
+% \begin{singlespace}
+%   \makeatletter
+%   \phantomsection\addcontentsline{toc}{chapter}{\MakeUppercase{\@references}}
+%   \makeatother
+%   \selectlanguage{english}
+%   % \bibliographystyle{elsevier-harvard.csl} % Ici éditer le style
+%   \bibliography{/Users/KevCaz/Documents/library.bib} % Ici mettre le nom de la biblio, ici mylib.bib
+% \end{singlespace}
+
+
+
+% ----------------------------------------------------------------------%
+% Fin du document.                                                     %
+% ----------------------------------------------------------------------%
+
+\end{document}
