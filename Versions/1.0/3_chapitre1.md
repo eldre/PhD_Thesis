@@ -311,7 +311,7 @@ Our results provide valuable guidelines for the environmental monitoring of bent
 
 The authors would like to acknowledge and thank all the people that helped during the field campaigns, lab work and data analysis: Julie Carrière, Claudy Dechêsne, Serge Gallienne, Dany Lévesque, Laure de Montety, Philippe-Olivier Dumais, Raphaël Bouchard, Jean-Luc Shaw, David Beauchesne, David Poissant and Sara Marullo. This study is a contribution to the research program of Québec-Océan, which also provided scientific and financial support.
 
-# Supporting information
+# Supplementary material
 
 <!-- Table S1 -->
 \begin{table}[H]
