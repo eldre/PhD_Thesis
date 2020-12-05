@@ -9,11 +9,9 @@ output:
     pandoc_args: "--lua-filter=pagebreak.lua"
 --- -->
 
-# INTRODUCTION GÉNÉRALE
-
 L'augmentation sans-précédent de l'empreinte anthropique sur les écosystèmes depuis l'ère industrielle a motivé la volonté de comprendre la place qu'occupe l'humanité dans le milieu qu'elle habite, en particulier à propos des océans, longtemps considérés comme immarcescibles. La totalité des écosystèmes marins, qu'ils soient côtiers, pélagiques ou profonds, subit au moins une influence d'origine anthropique [@Halpern2019], et l'intensité et la diversité de ces pressions est en constante augmentation [@Smith2011; @Boonstra2015]. Fortes de ce constat, plusieurs organisations internationales, comme la *Convention on Biological Diversity* sous l'égide des Nations Unies, ont mis en place des objectifs concrets de protection des écosystèmes, dans le but de guider les initiatives de conservation et de développement durable [@UN1992; -@UN2020]. Ces initiatives représentent des opportunités uniques d'augmenter les interactions entre scientifiques, industriels, politiques et citoyens afin d'accroître et diffuser nos connaissances sur les écosystèmes marins.
 
-## Écosystème : communautés et habitats
+# Écosystème : communautés et habitats {-}
 
 Un écosystème est un ensemble constitué de deux composantes interconnectées. La première est la composante abiotique, liée aux paramètres physiques, chimiques et géologiques du milieu, qui est représentée par les habitats (ensemble de conditions environnementales particulières) [@Allaby2010; @Morin2011]. La seconde est la composante biotique, correspondant aux espèces présentes dans ce milieu, regroupées en communautés (ensemble d'espèces vivant dans un habitat particulier) [@Allaby2010; @Morin2011]. Cette définition inclut également les relations au sein de chaque composante, par exemple les interactions entre individus d'une même espèce (intraspécifiques) ou d'espèces différentes (interspécifiques).
 
@@ -21,7 +19,7 @@ Le terme "biodiversité" est employé pour désigner la diversité biologique d'
 
 La persistance d'une espèce dans un écosystème est intrinsèquement reliée à son habitat, où elle effectuera des compromis (*trade-offs*) en fonction de son métabolisme et de son comportement afin de maintenir sa population [@Morin2011]. Ceci constitue la théorie de la niche écologique, qui peut être définie selon plusieurs concepts [@Grinnell1917; @Elton1927; @Hutchinson1957; @Hardin1960; @MacArthur1967]. En retour, les espèces induisent des modifications de l'habitat, par exemple en diminuant la disponibilité en ressources ou en modifiant l'intégrité physique du milieu [@Schmitz2008; @Stachowicz2007; @Morin2011]. L'étude de la structure et de l'évolution des écosystèmes est donc dépendante, à la fois, de l'étude de la biodiversité, de l'habitat et de leurs équilibres respectifs.
 
-## Perturbation de l'écosystème et effets sur les communautés
+# Perturbation de l'écosystème et effets sur les communautés {-}
 
 De nombreuses études écologiques cherchent à comprendre comment réagissent les différentes composantes de l'écosystème face à une perturbation avant, pendant et après son occurence, notamment dans des buts de conservation ou de restauration. Plusieurs méthodes peuvent être choisies pour répondre à cet objectif, souvent reliées à des disciplines scientifiques particulières, ce qui rend complexe la définition et l'utilisation des termes utilisés [@Borja2012; @Judd2015]. Tout au long de cette thèse de doctorat, les définitions suivantes, illustrées par la Figure \ref{Fig1}, ont été choisies.
 
@@ -39,7 +37,7 @@ Lorsqu'un écosystème subit une perturbation, celle-ci peut donc se traduire pa
 
 Au sein des communautés, le maintien de la population d'une espèce est alors conditionné aux réponses qu'elle adoptera pour s'acclimater à ces nouvelles conditions [@Allaby2010; @Morin2011]. Par exemple, une perturbation peut favoriser des espèces adaptées au caractère instable associé à ces évènements [@Pearson1978; @Grall1997]. De telles espèces sont dites opportunistes, présentant une croissance rapide de leur population et une forte densité d'individus de petite taille (appelée stratégie de type r, privilégiant un fort taux de reproduction), en opposition aux espèces longévives et moins abondantes retrouvées dans des environnements plus stables (stratégie de type K, privilégiant le maintien de la population à sa capacité maximale) [@MacArthur1967; @Pianka1970].
 
-## Les communautés benthiques
+# Les communautés benthiques {-}
 
 Avec plus de 70 % de la surface de la planète recouverte par des océans, les écosystèmes marins regroupent une vaste gamme d'environnements. Leurs limites peuvent être définies selon de nombreux critères et en fonction des échelles spatio-temporelles considérées [@Webb2019]. Parmi les critères les plus couramment utilisés se trouvent les écosystèmes pélagiques (dans la colonne d'eau), benthiques (en lien avec les fonds marins), intertidaux (dans la zone de balancement des marées), subtidaux (non-influencés par les marées), côtiers (influencés par les apports d'origine terrestre et sur le talus continental) ou hauturiers (au large des côtes) [@Webb2019]. Il existe différents patrons de biodiversité entre ces écosystèmes [par ex. @Gray1997; @Gaston2000], et les environnements côtiers subtidaux figurent parmi les plus riches et diversifiés.
 
@@ -59,7 +57,7 @@ Au sein de la macrofaune – et *a fortiori* au sein des communautés benthiques
 
 Beaucoup de ces espèces possèdent des capacités d'évitement limitées, ce qui peut conduire une dégradation de l'état des populations et à une mortalité accrue lorsque l'écosystème est perturbé [@Grall1997]. Ceci est notamment le cas pour les espèces sessiles (par ex. les moules ou les anémones), les espèces vivant dans le sédiment (comme les amphipodes ou les mollusques fouisseurs) ou les organismes filtreurs (tels que des polychètes tubicoles ou les éponges) qui sont particulièrement sensibles aux perturbations chimiques affectant la colonne d'eau. La présence (ou l'absence) de ces espèces, ainsi qualifiées de "sentinelles" ou "indicatrices", aura la possibilité de détecter un certain état de l'écosystème [@Pearson1978; @Hooper2005; @Dauvin2010].
 
-## Influence anthropique
+# Influence anthropique {-}
 
 À l'échelle mondiale, la population humaine mondiale a atteint 7.7 milliards d'individus en 2019, et les projections démographiques indiquent qu'elle s'élèvera à 9.7 milliards en 2050 [@UN2019]. Avec une proportion importante de cette population qui entretient des liens étroits avec l'océan - environ 40 % vit à moins de 100 km des côtes -, la croissance de l'influence humaine sur les milieux marins est évidente [@Ban2008; @Smith2011, @SEDAC2020]. De nombreux exemples ont été documentés à travers le monde, mettant ainsi en lumière des conséquences sur les écosystèmes comme l'extinction locale de populations [par ex. la disparition de la morue Arctique due à la pêche intensive de ses stocks, @DFO2007], l'introduction d'espèces exotiques [par ex. l'introduction de l'ascidie *Botrylus schlosseri* à cause du trafic maritime, @Ma2017] ou encore la destruction d'habitats [par ex. due à l'exploitation de ressources fossiles, @Archambault2016].
 
@@ -77,7 +75,7 @@ Différentes voies d'amélioration ont été proposées, comme l'intégration de
 
 L'évaluation du statut de l'écosystème peut être réalisée à différentes échelles spatiales selon les systèmes écologiques, les objectifs de conservation ainsi que les unités de gestion considérées. Bien que les études régionales et mondiales permettent d'obtenir des informations pertinentes sur les tendances à large échelle et de mobiliser un ensemble de nations pour atteindre des objectifs communs, il est important de considérer des études à plus petite échelle (par ex. à l'échelle d'un estuaire, d'une baie, d'une côte) car les processus écologiques ne sont pas identiques et d'autres types de réponses peuvent être analysées [@Comin2004; @Crowe2015; @Solan2016]. De plus, la mobilisation des parties publiques, industrielles et scientifiques pour des projets de protection environnementale peut être sensiblement accrue.
 
-## Application dans le Golfe du Saint-Laurent
+# Application dans le Golfe du Saint-Laurent {-}
 
 En 2019, 13,8 % des côtes du Canada étaient régulées par une forme de gestion publique et 8,9 % (511 906 km^2^) étaient officiellement protégées [@ECCC2020]. Ce total pourrait augmenter à 30 % d'ici 2030, suite à la décision de rejoindre la *Global Ocean Alliance* [@GC2020]. Le long de la côte Est du Canada, le complexe de l'Estuaire et du Golfe du Saint-Laurent est l'une des régions qui concentre le plus d'activités humaines [@Belley2010; @Daigle2017; @Schloss2017]. Le transport de marchandises depuis l'Atlantique vers les Grands Lacs est un axe commercial majeur, à partir duquel sont connectées de nombreuses chaînes d'approvisionnement au Canada et aux États-Unis [@GQ2017].
 
@@ -95,19 +93,23 @@ Selon @Beauchesne2020, plusieurs régions concentrent un nombre élevé d'activi
 
 Peu d'études écologiques ont cherché à caractériser ces écosystèmes ainsi que leur environnement abiotique, ce qui pose un défi conséquent dans le cadre de la stratégie de protection des écosystèmes dans le système du Saint-Laurent. La zone industrielle portuaire de Sept-Îles représente donc un cadre d'étude particulièrement intéressant afin de comprendre comment les activités humaines influencent des écosystèmes côtiers canadiens à l'échelle locale.
 
-## Objectifs et hypothèses de la thèse
+# Objectifs et structure de la thèse {-}
 
-L'objectif principal de cette thèse de doctorat est ainsi de décrire les relations entre communautés benthiques et activités humaines à l'échelle d'une zone industrielle-portuaire. Ce projet de recherche s'inscrit dans les problématiques spécifiques du *Canadian Healthy Oceans Network* II (thème "*Coastal stressors*") et du regroupement Québec-Océan (axe "Intégrité des milieux marins côtiers et enjeux socioéconomiques régionaux").
+## Objectifs spécifiques {-}
 
-Pour répondre à cet objectif, la thèse est divisée en trois chapitres, illustrés par le schéma conceptuel de la Figure \ref{Fig4}. En premier lieu, j'ai effectué la première description synthétique de la structure des écosystèmes benthiques côtiers dans la région de Sept-Îles, permettant de disposer de données de base sur les communautés macrobenthiques et leurs habitats (chapitre 1). En se basant sur ces résultats, j'ai ensuite cherché à déterminer quel était le statut environnemental de la zone industrielle-portuaire de Sept-Îles en testant plusieurs indicateurs écologiques (chapitre 2). Enfin, partant du fait que beaucoup de ces indicateurs possèdent des limitations dans leur interprétation, j'ai développé un modèle local pour caractériser l'exposition des communautés benthiques aux activités humaines et j'ai testé l'efficacité de ce modèle à prédire la structure des communautés benthiques (chapitre 3).
+L'objectif principal de cette thèse de doctorat est ainsi de décrire les relations entre communautés benthiques et activités humaines à l'échelle d'une zone industrielle-portuaire. Pour répondre à cet objectif, la thèse est divisée en trois chapitres, illustrés par le schéma conceptuel de la Figure \ref{Fig4}.
+
+En premier lieu, j'ai réalisé la première description synthétique de la structure des écosystèmes benthiques côtiers dans la région de Sept-Îles, permettant de disposer de données importantes sur les communautés macrobenthiques et leurs habitats (chapitre 1). En se basant sur ces résultats, j'ai ensuite cherché à déterminer quel était le statut environnemental de la zone industrielle-portuaire de Sept-Îles en testant plusieurs indicateurs écologiques (chapitre 2). Enfin, partant du fait que beaucoup de ces indicateurs possèdent des limitations dans leur interprétation, j'ai développé un modèle local pour caractériser l'exposition des communautés benthiques aux activités humaines et j'ai testé l'efficacité de ce modèle à prédire la structure des communautés benthiques (chapitre 3).
 
 <!-- Figure 4 -->
 \begin{figure}
 \centering
 \includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/Intro/Fig4.png}
-\caption{Diagramme intégratif représentant les liens entre les différents chapitres de la thèse de doctorat. Les flèches grises correspondent aux liens entre composantes considérées des écosystèmes de la région d'étude (encadrés gris) et les Chapitres (encadrés pourpres). Les flèches pourpres correspondent aux débouchés de chaque chapitre.}
+\caption{Diagramme intégratif représentant les liens entre les différents chapitres de la thèse de doctorat. Les flèches grises correspondent aux liens entre composantes considérées des écosystèmes de la région d'étude (encadrés gris) et les chapitres (encadrés pourpres). Les flèches pourpres correspondent aux débouchés de chaque chapitre.}
 \label{Fig4}
 \end{figure}
+
+## Structure des chapitres {-}
 
 \noindent \textit{Chapitre 1 : Évaluation de la biodiversité et de l'habitat des communautés benthiques côtiers en zone industrielle-portuaire subarctique} \linebreak[2]
 
@@ -118,7 +120,7 @@ La région considérée pour cette thèse de doctorat possède peu de données �
 - Étudier la similarité des assemblages benthiques dans la zone considérée
 - Évaluer comment la taille considérée pour étudier le compartiment benthique influence la description de l'écosystème
 
-Deux campagnes de terrain ont permis de récolter les données écologiques nécessaires à répondre à ces objectifs, en particulier grâce à l'identification des espèces macrobenthiques et la mesure de variables abiotiques. Plusieurs groupes de stations d'échantillonnage ont été formés en fonction de la similarité de leurs assemblages d'espèces, et leur relation avec l'habitat a été évalué afin de comprendre quelles étaient les variables structurantes.
+Deux campagnes de terrain ont permis de récolter les données écologiques nécessaires à répondre à ces objectifs, en particulier grâce à l'identification des espèces macrobenthiques et la mesure de variables abiotiques. Plusieurs groupes de stations d'échantillonnage ont été formés en fonction de la similarité de leurs assemblages d'espèces, et leur relation avec l'habitat a été évalué afin de comprendre quelles étaient les variables structurantes. \linebreak[4]
 
 \noindent \textit{Chapitre 2 : Identifier le statut écologique de communautés benthiques côtières - étude de cas dans une zone industrielle portuaire canadienne} \linebreak[2]
 
@@ -127,7 +129,7 @@ En se basant sur les travaux réalisés pour le chapitre 1, il est possible de s
 - Comparer l'efficacité de plusieurs indicateurs écologiques pour déterminer le statut des écosystèmes
 - Valider les résultats obtenus en mettant en relation le statut écologique obtenu avec les paramètres de l'habitat, afin de sélectionner des applications appropriées
 
-Les indicateurs ont été sélectionnés au moyen d'une revue de littérature puis classés selon leur méthodologie. Ils ont ensuite été appliqués sur les données collectées lors du chapitre 1, après recherche d'informations complémentaires sur les espèces benthiques échantillonnées, notamment leur diversité et leurs réponses aux perturbations. Enfin, les corrélations entre indicateurs et paramètres de l'habitat ont été testées pour comprendre la pertinence de chaque indicateur.
+Les indicateurs ont été sélectionnés au moyen d'une revue de littérature puis classés selon leur méthodologie. Ils ont ensuite été appliqués sur les données collectées lors du chapitre 1, après recherche d'informations complémentaires sur les espèces benthiques échantillonnées, notamment leur diversité et leurs réponses aux perturbations. Enfin, les corrélations entre indicateurs et paramètres de l'habitat ont été testées pour comprendre la pertinence de chaque indicateur. \linebreak[4]
 
 \noindent \textit{Chapitre 3 : Exposition des écosystèmes benthiques côtiers aux activités humaines - modèle local d'évaluation et prédiction de la structure des communautés} \linebreak[2]
 

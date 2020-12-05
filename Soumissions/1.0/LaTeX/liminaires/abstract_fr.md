@@ -9,4 +9,4 @@ Le dernier chapitre a considéré les activités humaines influençant l'écosys
 Cette thèse de doctorat contribue à l'amélioration des connaissances sur les écosystèmes côtiers subarctiques, notamment en présentant la première étude de biodiversité benthique dans la région de Sept-Îles. Des méthodes d'évaluation du statut écologique et de l'exposition anthropique ont été développées à l'échelle locale (< 100 km), qui constituent des outils particulièrement intéressants pour les gestionnaires afin de définir des objectifs de gestion et de soutenir des initiatives de conservation.
 
 
-> Mots clés: écologie marine, écosystèmes côtiers subarctiques, invertébrés benthiques, biodiversité, prédiction des communautés, activités humaines, exposition anthropique, évaluation du statut écologique.
+> Mots clefs : écologie marine, écosystèmes côtiers subarctiques, invertébrés benthiques, biodiversité, prédiction des communautés, activités humaines, exposition anthropique, évaluation du statut écologique.

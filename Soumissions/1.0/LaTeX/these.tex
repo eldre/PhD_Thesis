@@ -4,12 +4,10 @@
 % Modifié par F. Cyr - aout 2013                                        %
 %		 AC. Tassel - janvier 2014                                          %
 %		 C. Rigaud - 2014-2015                                              %
+%		 K. Cazelles                                                        %
+%		 D. Beauchesne                                                      %
 % ----------------------------------------------------------------------%
 
-% ----------------------------------------------------------------------%
-% Kevin Cazelles: J'ai utilisé ce template car c'est ce que j'ai utilisé
-%  pour ma thèse
-% ----------------------------------------------------------------------%
 
 
 
@@ -20,12 +18,13 @@
 % Pour le dépôt initial (recto), utiliser oneside.
 % Pour le dépôt final  (recto-verso), remplacer oneside par twoside.
 
-\documentclass[12pt,oneside,letterpaper]{stylethese}
-% \documentclass[12pt,twoside,letterpaper]{stylethese}
+% \documentclass[12pt,oneside,letterpaper]{stylethese}
+\documentclass[12pt,twoside,letterpaper]{stylethese}
+% \documentclass[twoside,openright]{stylethese}
 
 \raggedbottom % Évite les espaces trop gands entre chaque section.
 
-% \usepackage{multirow}
+\usepackage{multirow}
 \usepackage{natbib}
 \usepackage{amssymb,amsmath}
 \usepackage{enumerate} % For fancy enumerate item labels.
@@ -46,8 +45,9 @@
 %\usepackage[duplicate]{chapterbib}
 %\usepackage{url}
 
-% Ajout Cyril :
-\usepackage[linktocpage=true,linkcolor=cyan,citecolor=cyan,colorlinks=true,urlcolor=blue,pagebackref]{hyperref}
+% ----------------------------------------------------
+% Ajouts C. Rigaud :
+\usepackage[linktocpage=true,linkcolor=black,citecolor=black,colorlinks=true,urlcolor=blue,pagebackref]{hyperref}
 \usepackage[english,french]{cleveref}
 \usepackage{upgreek}
 \usepackage{textcomp}
@@ -63,15 +63,11 @@
 \usepackage{soulutf8}
 \usepackage{caption}
 \usepackage{color}
-\usepackage{ulem}
+% \usepackage{ulem}
+% ----------------------------------------------------
 
-
-%%------------------ Ajout Kevin Cazelles
-%%------------------ Ce qu'on a besoin pour inclure du code
-%%------------------ => c'est ce qu'utilise pandoc pour faire mettre en page les
-%%------------------ des code chunk (pour l'obtenir, voir template ou faire
-%%------------------ un exemple minimal avec du code en md puis le convertir en
-%%------------------ Latex avec l'option standalone (option -s))
+% ----------------------------------------------------
+% Ajouts K. Cazelles :
 \usepackage{lmodern}
 % \usepackage{ifxetex,ifluatex}
 % \usepackage{fixltx2e} % provides \textsubscript
@@ -137,13 +133,13 @@
 \IfFileExists{parskip.sty}{%
 \usepackage{parskip}
 }{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
+% \setlength{\parindent}{0pt}
+\setlength{\parskip}{14pt plus 2pt minus 1pt}
 }
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{0}
+\setcounter{secnumdepth}{3}
 % Redefines (sub)paragraphs to behave more like sections
 \ifx\paragraph\undefined\else
 \let\oldparagraph\paragraph
@@ -153,25 +149,20 @@
 \let\oldsubparagraph\subparagraph
 \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
 \fi
+% ----------------------------------------------------
 
 % ----------------------------------------------------
-%% Ajouts D. Beauchesne
+% Ajouts D. Beauchesne
 % Landscape page
 \usepackage{lscape}
 \newcommand{\blandscape}{\begin{landscape}}
 \newcommand{\elandscape}{\end{landscape}}
-
-% Package for mathematical indicator function
-% Chapter 2 - Drivers
- \usepackage{bbm}
-
-% Package for boxes
-% Chapter 2 - Drivers
+\usepackage{bbm}
 \usepackage{listings}
 \usepackage[svgnames]{xcolor}
 \usepackage{float}
 
-% Setting up parameters for code snippet presented in Box 1
+% Setting up parameters for code snippet presented in Boxes
 \lstset{language=R,
     basicstyle=\small\ttfamily,
     stringstyle=\color{DarkGreen},
@@ -190,9 +181,6 @@
 % Taille des légendes des 'Long Tables'
 \setlength{\LTcapwidth}{\linewidth}
 % \setlength{\LTcapwidth}{1.5\linewidth}
-
-
-
 
 
 %Marge inférieure avec note de bas de page
@@ -217,13 +205,12 @@
 
 % Info sur la thèse (Titre, auteur, etc.)
 \Titre{DESCRIPTION DE L'INFLUENCE HUMAINE SUR LES ÉCOSYSTÈMES BENTHIQUES D'UNE ZONE INDUSTRIALO-PORTUAIRE SUBARCTIQUE}
-\SousTitre{Application d'indicateurs de statut écologique et prédiction de la structure des communautés}
+\SousTitre{APPLICATION D'INDICATEURS DE STATUT ÉCOLOGIQUE ET PRÉDICTION DE LA STRUCTURE DES COMMUNAUTÉS}
 % Mettre en majuscule!!
 \Auteur{Elliot Dreujou}
 \Faculte{Programme de doctorat en océanographie}
 \Diplome{Philosophiae Doctor}
 \Date{Décembre}{2020}
-
 
 
 \These
@@ -232,15 +219,11 @@
 \Articles
 
 
-
 \begin{document}
 \pdfstringdefDisableCommands{%
 \let\MakeUppercase\relax}
 
-% !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%
-% -- To delete - CHECKLIST
-% \input{checklist.tex}
-% !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%
+
 
 % ----------------------------------------------------------------------%
 % 2- Liminaires de la thèse.                                            %
@@ -265,6 +248,7 @@
 
 % \chapter{INTRODUCTION GÉNÉRALE}
 \input{./introduction/introduction.tex}
+
 \cleardoublepage
 
 
@@ -279,9 +263,10 @@
 
 \conclusion
 \selectlanguage{french}
-\input{./conclusion/conclusion.tex}
-\cleardoublepage
 
+\input{./conclusion/conclusion.tex}
+
+\cleardoublepage
 
 
 
@@ -294,7 +279,6 @@
 % \input{./annexe2/annexe2.tex}
 % \input{./annexe3/annexe3.tex}
 % \input{./annexe4/annexe4.tex}
-
 
 
 

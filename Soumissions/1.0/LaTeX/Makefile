@@ -44,7 +44,6 @@ CCMD = conclusion/conclusion.md
 REF = references.bib
 
 ##-- Les filtres que j'utilise et que je recommande (notamment pour la bibliographie)
-##
 pd_mj = $(shell pandoc --version |  grep -o "[0-9]" | head -1)
 ifeq ($(pd_mj), 2)
 	pdfend=--pdf-engine
