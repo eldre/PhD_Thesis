@@ -38,7 +38,7 @@
 \usepackage{multicol}
 \usepackage[T1]{fontenc}
 
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{ucs}
 
 
@@ -49,6 +49,7 @@
 % ----------------------------------------------------
 % Ajouts C. Rigaud :
 \usepackage[linktocpage=true,linkcolor=black,citecolor=black,colorlinks=true,urlcolor=blue,pagebackref]{hyperref}
+% \usepackage[english,french]{babel}
 \usepackage[english,french]{cleveref}
 \usepackage{upgreek}
 \usepackage{textcomp}
@@ -64,7 +65,7 @@
 \usepackage{soulutf8}
 \usepackage{caption}
 \usepackage{color}
-% \usepackage{ulem}
+%% \usepackage{ulem}
 % ----------------------------------------------------
 
 % ----------------------------------------------------
@@ -162,25 +163,13 @@
 \usepackage{listings}
 % \usepackage[svgnames]{xcolor}
 \usepackage{float}
-
-% Setting up parameters for code snippet presented in Boxes
-\lstset{language=R,
-    basicstyle=\small\ttfamily,
-    stringstyle=\color{DarkGreen},
-    otherkeywords={fetchDrivers, install_github, getData, kde2d},
-    morekeywords={TRUE,FALSE},
-    deletekeywords={data,frame,length,as,character},
-  keywordstyle=\color{blue},
-  commentstyle=\color{DarkGreen},
-}
 % ----------------------------------------------------
 
 % ----------------------------------------------------
 % Ajouts E. Dreujou :
 \usepackage[table,xcdraw]{xcolor}
-\DeclareUnicodeCharacter{8213}{–}
+\usepackage[all,defaultlines=5]{nowidow}
 % ----------------------------------------------------
-
 
 
 \captionsetup{singlelinecheck=false}
@@ -255,7 +244,7 @@
 \selectlanguage{french}
 
 % \chapter{INTRODUCTION GÉNÉRALE}
-\input{./introduction/introduction.tex}
+% \input{./introduction/introduction.tex}
 
 \cleardoublepage
 
@@ -263,7 +252,7 @@
 \selectlanguage{english}
 
 % \input{./chapitre1/chapitre1.tex}
-% \input{./chapitre2/chapitre2.tex}
+\input{./chapitre2/chapitre2.tex}
 % \input{./chapitre3/chapitre3.tex}
 
 \cleardoublepage

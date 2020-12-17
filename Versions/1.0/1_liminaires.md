@@ -14,10 +14,16 @@ Dépôt final le 31 mars 2021.
 
 # Dédicaces
 
-TODO
+\guillemotleft \textit{Oui, la mer est tout. Je l'aime ! Elle couvre les sept dixièmes du globe terrestre. Son souffle est pur et sain. C'est l'immense désert où l'homme n'est jamais seul, car il sent frémir la vie à ses côtés.} \\
+\textit{Ah ! monsieur, vivez, vivez au sein des mers. Là seulement est l'indépendance ! Là, je ne reconnais pas de maîtres ; là, je suis libre !} \guillemotright \\
+Vingt mille lieues sous les mers, \\
+\textbf{Jules Verne}
 
-"C'est dans l'action que l'on reconnait les champions"
-Inconnu, sur une enseigne rencontrée tous les jours à Sept-Îles
+\vspace{15mm}
+
+\guillemotleft \textit{ C'est dans l'action que l'on reconnait les champions.} \guillemotright \\
+Slogan d'une enseigne rencontrée tous les jours à Sept-Îles, \\
+\textbf{Inconnu}
 
 
 # Remerciements
@@ -32,7 +38,7 @@ Merci à mes collègues et amis, sans qui cette aventure aurait été bien moins
 
 Un gigantesque merci à Inge, Sarah, Déborah, Rémi, Jean-Luc, Gwenaëlle, Marie, Jory, Clémence et Piero pour les moments que nous avons partagé, vous avez rendu mon aventure au Canada toujours plus incroyable ! Merci aux gars et filles de Rimouski, dans la grande et belle Maison Jaune au bord du Saint-Laurent. Camille, Francis, Antoine, Léo, Éric et Hélène, vous m'avez fait vivre des soirées innoubliables (TUMMIES !!!) et je garderai un doux souvenir de ces journées de cuisine, Mario Kart, Rocket League et surtout du *chilling* au bord du fleuve. J'aimerais aussi remercier les créateurs et leurs équipes qui m'ont fait rire, réfléchir, explorer, découvrir - et garder une certaine santé mentale - grâce à leurs productions : Frédéric Molas, Sébastien Rassiat, Mahyar Shakeri, Bob Lennon, Karim Debbache, Patrick Baud, Gull et son technicien, Léo Grasset, Vivianne Lalande, Bruce Benamran et les frères Breut.
 
-Je voudrais profondemment remercier ma famille. Annick et Jean-Marie, mon papa et ma maman, vous m'avez toujours épaulé à chaque étape de ma vie que ce soit en France ou au Canada. Vous m'avez permis d'être celui que je suis aujourd'hui, et je n'aurai jamais assez de mots pour vous dire à quel point je vous aime. Arthur, tu es mon p'tit frérôt, mon sale type préféré, mon partenaire de jeu, de dessin, de zones, de construction, de tornades et de dances ridicules. Je ne serai pas aussi heureux et épanouit aujourd'hui sans avoir grandi à tes côtés. Sara. Mon amour, ma truffe, ma Schouffe adorée. "Marullette". Je n'aurais jamais réussi à tenir le coup sans toi. De Paris à Montréal, en passant par Rimouski et Québec, tu as toujours été ma complice. Tu m'as supporté dans mes pires moments, tu m'as rendu fier et fort, et tu m'as enrichi de ton intelligence, ton humour (*ech!*), tes carabistouilles et de ton amour. Je suis le plus heureux des hommes, depuis le jour où nous avons partagé ce **fantastique** risotto, et mes journées ne pourraient être plus belles qu'à tes côtés. Je t'aime ma Sara.
+Je voudrais profondemment remercier ma famille. Annick et Jean-Marie, mon papa et ma maman, vous m'avez toujours épaulé à chaque étape de ma vie que ce soit en France ou au Canada. Vous m'avez permis d'être celui que je suis aujourd'hui, et je n'aurai jamais assez de mots pour vous dire à quel point je vous aime. Arthur, tu es mon p'tit frérôt, mon sale type préféré, mon partenaire de jeu, de dessin, de zones, de construction, de tornades et de dances ridicules. Je ne serai pas aussi heureux et épanouit aujourd'hui sans avoir grandi à tes côtés. Sara. Mon amour, ma truffe, ma Chouffe adorée. "Marullette". Je n'aurais jamais réussi à tenir le coup sans toi. De Paris à Montréal, en passant par Rimouski et Québec, tu as toujours été ma complice. Tu m'as supporté dans mes pires moments, tu m'as rendu fier et fort, et tu m'as enrichi de ton intelligence, ton humour (*ech!*), tes carabistouilles et de ton amour. Je suis le plus heureux des hommes, depuis le jour où nous avons partagé ce **fantastique** risotto, et mes journées ne pourraient être plus belles qu'à tes côtés. Je t'aime ma Sara.
 
 Enfin, je souhaite adresser mes derniers mots et rendre hommage à mon oncle Alex, qui nous a quitté bien trop tôt. Tu me manques.
 
@@ -45,9 +51,9 @@ Ce projet de recherche a été rendu possible grâce aux financements du *Canadi
 
 Cette thèse est divisée en quatre sections principales : une introduction présentant les différents concepts et principes utilisés tout au long de la thèse, le corps principal contenant trois chapitres expliquant les analyses effectuées et interprétant les résultats obtenus, une conclusion générale intégrant les différentes conclusions et présentant différentes perspectives, ainsi qu'une section d'annexes. Cette dernière comprend un article de perspective, réalisé lors du programme de mentorat de la 4^ème^ *World Conference on Marine Biodiversity* traitant de la contribution des évaluations environnementales holistiques pour atteindre les *Aichi Biodiversity Targets*.
 
-\
+\clearpage
 
-__Liste des publications effectuées durant le doctorat__ :
+\underline{Liste des publications effectuées durant le doctorat} :
 
 **Dreujou E**, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P (submitted). Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area. *Frontiers in Marine Science*.
 
@@ -61,9 +67,9 @@ Carrier-Belleau C, Beauchesne D, **Dreujou E**, Isabel L (2019). Le Saint-Lauren
 
 St-Louis R, Montero-Serrano JC, Archambault P, **Dreujou E**, Faille G, Carrière J (2018). Qualité des sédiments. In : Carrière J (éd), *Observatoire environnemental de la Baie de Sept-Îles*. INREST, Sept-Îles (QC), Canada. 213-374.
 
-\
+\clearpage
 
-__Liste des communications scientifiques présentées lors de conférences nationales et internationales__ :
+\underline{Liste des communications scientifiques présentées lors de conférences} :
 
 **Dreujou E**, Carrier-Belleau C, Ferrario F, Archambault P (2020). From benthic communities to mulitple drivers: an integrated multi-approach study of the Baie des Sept Îles. Réunion scientifique de Québec-Océan, Québec (Canada), 9-10 mars. (Prix de la meilleure affiche scientifique)
 
@@ -73,7 +79,7 @@ __Liste des communications scientifiques présentées lors de conférences natio
 
 **Dreujou E**, Archambault P, McKindsey CW, Desroy N, Foveau A (2018). Linking anthropogenic activities and benthic communities in industrial and harbor areas: what is the state of the ecosystems? Réunion scientifique du Canadian Healthy Oceans Network, Ottawa (Canada), 29 novembre - 3 décembre. (Prix de la meilleure affiche scientifique)
 
-**Dreujou E**, Archambault P, McKindsey CW, Desroy N, Foveau A (2018). Relier les activités humaines et les communautés benthiques en zone industrielle-portuaire : quel est l’état des écosystèmes ? Réunion scientifique de Québec-Océan, Rivière-du-Loup (Canada), 5-6 novembre.
+**Dreujou E**, Archambault P, McKindsey CW, Desroy N, Foveau A (2018). Relier les activités humaines et les communautés benthiques en zone industrielle-portuaire : quel est l'état des écosystèmes ? Réunion scientifique de Québec-Océan, Rivière-du-Loup (Canada), 5-6 novembre.
 
 **Dreujou E**, Archambault P, McKindsey CW (2018). Benthic communities and human activities: a peaceful cohabitation? World Conference on Marine Biodiversity, Montréal (Canada), 13-16 mai.
 
@@ -81,7 +87,7 @@ __Liste des communications scientifiques présentées lors de conférences natio
 
 **Dreujou E**, Archambault P, McKindsey CW (2017). Individual and cumulative impacts of anthropogenic stressors on coastal ecosystems: the case of Sept-Îles, QC. Réunion scientifique du CHONe II, Gatineau (Canada), 1-5 mai.
 
-**Dreujou E**, Archambault P, McKindsey CW (2017). Caractérisation des écosystèmes intertidaux autour de Sept-Îles. Colloque du Département de biologie de l’Université Laval, Québec (Canada), 28-29 mars.
+**Dreujou E**, Archambault P, McKindsey CW (2017). Caractérisation des écosystèmes intertidaux autour de Sept-Îles. Colloque du Département de biologie de l'Université Laval, Québec (Canada), 28-29 mars.
 
 **Dreujou E**, Archambault P, McKindsey CW (2016). Étude des impacts individuels et cumulés de stresseurs anthropiques sur les écosystèmes de la région de Sept-Îles. Réunion scientifique de Québec-Océan, Québec (Canada), 8-9 novembre.
 
@@ -133,7 +139,7 @@ L'article associé à ce chapitre, "\textit{Biodiversity and habitat assessment 
 Dreujou E, McKindsey CW, Grant C, Tréau de Coeli L, St-Louis R, Archambault P (2020). Biodiversity and Habitat Assessment of Coastal Benthic Communities in a Sub-Arctic Industrial Harbor Area. \textit{Water} 12(9):2424. DOI:10.3390/w12092424.
 \end{singlespace}
 
-\textit{Les sections suivantes correspondent à celles de l’article publié.}
+\textit{Les sections suivantes correspondent à celles de l'article publié.}
 
 
 # Chapitre 2 (head.tex)
@@ -150,7 +156,7 @@ L'article associé à ce chapitre, "\textit{Determining the ecological status of
 Dreujou E, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P (submitted). Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area. \textit{Frontiers in Marine Science}.
 \end{singlespace}
 
-\textit{Les sections suivantes sont celles de l’article soumis, en révision.}
+\textit{Les sections suivantes sont celles de l'article soumis, en révision.}
 
 
 # Chapitre 3 (head.tex)
@@ -167,4 +173,4 @@ L'article associé à ce chapitre, "\textit{Describing exposure from multiple hu
 Dreujou E, Daigle RM, Beauchesne D, Carrière J, Archambault P (in prep). Describing exposure from multiple human activities on coastal benthic ecosystems at the local scale.
 \end{singlespace}
 
-\textit{Les sections suivantes sont celles de l’article en préparation.}
+\textit{Les sections suivantes sont celles de l'article en préparation.}

@@ -4,9 +4,9 @@ Ce projet de recherche a été rendu possible grâce aux financements du *Canadi
 
 Cette thèse est divisée en quatre sections principales : une introduction présentant les différents concepts et principes utilisés tout au long de la thèse, le corps principal contenant trois chapitres expliquant les analyses effectuées et interprétant les résultats obtenus, une conclusion générale intégrant les différentes conclusions et présentant différentes perspectives, ainsi qu'une section d'annexes. Cette dernière comprend un article de perspective, réalisé lors du programme de mentorat de la 4^ème^ *World Conference on Marine Biodiversity* traitant de la contribution des évaluations environnementales holistiques pour atteindre les *Aichi Biodiversity Targets*.
 
-\
+\clearpage
 
-__Liste des publications effectuées durant le doctorat__ :
+\underline{Liste des publications effectuées durant le doctorat} :
 
 **Dreujou E**, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P (submitted). Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area. *Frontiers in Marine Science*.
 
@@ -20,9 +20,9 @@ Carrier-Belleau C, Beauchesne D, **Dreujou E**, Isabel L (2019). Le Saint-Lauren
 
 St-Louis R, Montero-Serrano JC, Archambault P, **Dreujou E**, Faille G, Carrière J (2018). Qualité des sédiments. In : Carrière J (éd), *Observatoire environnemental de la Baie de Sept-Îles*. INREST, Sept-Îles (QC), Canada. 213-374.
 
-\
+\clearpage
 
-__Liste des communications scientifiques présentées lors de conférences nationales et internationales__ :
+\underline{Liste des communications scientifiques présentées lors de conférences} :
 
 **Dreujou E**, Carrier-Belleau C, Ferrario F, Archambault P (2020). From benthic communities to mulitple drivers: an integrated multi-approach study of the Baie des Sept Îles. Réunion scientifique de Québec-Océan, Québec (Canada), 9-10 mars. (Prix de la meilleure affiche scientifique)
 
@@ -32,7 +32,7 @@ __Liste des communications scientifiques présentées lors de conférences natio
 
 **Dreujou E**, Archambault P, McKindsey CW, Desroy N, Foveau A (2018). Linking anthropogenic activities and benthic communities in industrial and harbor areas: what is the state of the ecosystems? Réunion scientifique du Canadian Healthy Oceans Network, Ottawa (Canada), 29 novembre - 3 décembre. (Prix de la meilleure affiche scientifique)
 
-**Dreujou E**, Archambault P, McKindsey CW, Desroy N, Foveau A (2018). Relier les activités humaines et les communautés benthiques en zone industrielle-portuaire : quel est l’état des écosystèmes ? Réunion scientifique de Québec-Océan, Rivière-du-Loup (Canada), 5-6 novembre.
+**Dreujou E**, Archambault P, McKindsey CW, Desroy N, Foveau A (2018). Relier les activités humaines et les communautés benthiques en zone industrielle-portuaire : quel est l'état des écosystèmes ? Réunion scientifique de Québec-Océan, Rivière-du-Loup (Canada), 5-6 novembre.
 
 **Dreujou E**, Archambault P, McKindsey CW (2018). Benthic communities and human activities: a peaceful cohabitation? World Conference on Marine Biodiversity, Montréal (Canada), 13-16 mai.
 
@@ -40,6 +40,6 @@ __Liste des communications scientifiques présentées lors de conférences natio
 
 **Dreujou E**, Archambault P, McKindsey CW (2017). Individual and cumulative impacts of anthropogenic stressors on coastal ecosystems: the case of Sept-Îles, QC. Réunion scientifique du CHONe II, Gatineau (Canada), 1-5 mai.
 
-**Dreujou E**, Archambault P, McKindsey CW (2017). Caractérisation des écosystèmes intertidaux autour de Sept-Îles. Colloque du Département de biologie de l’Université Laval, Québec (Canada), 28-29 mars.
+**Dreujou E**, Archambault P, McKindsey CW (2017). Caractérisation des écosystèmes intertidaux autour de Sept-Îles. Colloque du Département de biologie de l'Université Laval, Québec (Canada), 28-29 mars.
 
 **Dreujou E**, Archambault P, McKindsey CW (2016). Étude des impacts individuels et cumulés de stresseurs anthropiques sur les écosystèmes de la région de Sept-Îles. Réunion scientifique de Québec-Océan, Québec (Canada), 8-9 novembre.

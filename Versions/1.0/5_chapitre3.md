@@ -32,7 +32,7 @@ Anthropogenic influence is a worldspread phenomenon affecting marine ecosystems,
 
 In order to guide protection and conservation initiatives, management of coastal ecosystems requires efficient monitoring of ecosystem components, including human activities. Considering the widespread anthropogenic influence on marine ecosystems [@Halpern2019], environmental assessments need to consider emerging trends, such as cumulative impacts, where multiple activities co-occur so that descriptions of current and future patterns in the ecosystem are accurate [@Crain2008; @Brown2014; @Cote2016].
 
-Non-additive effects, such as antagonistic effects (*i.e.* perceived effect lower than the sum of individual effects) or synergistic effects (*i.e.* greater effect than the sum of individual effects), have been documented in a variety of ecosystems using *in situ* observations or experimental setups [@Seguin2014; @Piggott2015; @Galic2018; @Hodgson2019a; @CarrierBelleau_InPrep]. However, these effects are complex to study as each interaction between effects induced by activities is unique, resulting in a multitude of potential interactions between activities that are typically time- and location-specific [@Crain2008; @Darling2008]. Describing all interactions between human activities increases exponentially with the number of activities considered [@Cote2016]: as an example, considering 10 human activities yields 45 two-way interactions and around 1,000 three-way and more interactions.
+Non-additive effects, such as antagonistic effects (*i.e.* perceived effect lower than the sum of individual effects) or synergistic effects (*i.e.* greater effect than the sum of individual effects), have been documented in a variety of ecosystems using *in situ* observations or experimental setups [@Seguin2014; @Piggott2015; @Galic2018; @Hodgson2019a; @CarrierBelleau2020]. However, these effects are complex to study as each interaction between effects induced by activities is unique, resulting in a multitude of potential interactions between activities that are typically time- and location-specific [@Crain2008; @Darling2008]. Describing all interactions between human activities increases exponentially with the number of activities considered [@Cote2016]: as an example, considering 10 human activities yields 45 two-way interactions and around 1,000 three-way and more interactions.
 
 Assessing, managing and monitoring the effects multiple human activities in coastal ecosystems require integrative and holistic methods, such as ecosystem-based management or marine spatial planning [@Margules2000; @Link2002; @Pikitch2004; @Levin2009; @Santos2019]. Environmental indicators are necessary to guide decision by evaluating an ecological status [@Pinto2009, @Teixeira2016]. These frameworks consider ecosystems as networks and complex objects by including several ecological components (*e.g.* biological communities, habitats, human activities) along with various stakeholders (from scientists to decision-makers and industries). Their implementation relies on ecological groundwork and dedicated tools, so that ecosystems are properly assessed according to local conditions and specific objectives [@Borja2012].
 
@@ -40,7 +40,7 @@ As an example, Halpern et al. (2008) developed an impact score from multiple str
 
 In this study, we evaluated the influence of human activities on coastal ecosystems locally (< 100 km). We focused on macrobenthic invertebrates, one of the most diverse biological communities whose links with human activities have been described in a variety of ecosystems [@Pearson1978; @Grall1997; @Teixeira2016]. Many of these species are characterized by a sedentary lifestyle and a relatively long life span which tends to reflect medium-term conditions, resulting in adaptation or local extinction when perturbated [*e.g.* @Dauer1993; @Borja2000; @Wei2020]. Because characterization of vulnerability requires extensive data on physiological responses of species and how *influence* translates to *impact*, here we focus on the exposure of benthic communities to human activities (such as variable $S_{j,x}$ in the score by @Halpern2019) to provide an operational tool to study human activities (individual and cumulative exposures) in a local context.
 
-The industrial harbour area of Sept-Îles (Québec, Canada) was used as a study case. Located in the Gulf of St. Lawrence, one of the management areas designated by Fisheries and Oceans Canada and a major economic region for Québec [@DFO2009; @Beauchesne2016; @Daigle2017; @Schloss2017], Sept-Îles is the fourth largest Canadian port in terms of total exchanged goods and the second largest in Québec as of 2019 [@StatisticsCanada2011; @Binkley2020; @PortSI2020; @Ferrario_InPrep]. Available ecological data on ecosystems in this region are limited, which justified the realization of many ecological projects to characterize benthic ecosystems and their relation to coastal human activities [@CHONE2016; @Carriere2018; @Dreujou2020b; @Dreujou_InPrep].
+The industrial harbour area of Sept-Îles (Québec, Canada) was used as a study case. Located in the Gulf of St. Lawrence, one of the management areas designated by Fisheries and Oceans Canada and a major economic region for Québec [@DFO2009; @Beauchesne2016; @Daigle2017; @Schloss2017], Sept-Îles is the fourth largest Canadian port in terms of total exchanged goods and the second largest in Québec as of 2019 [@StatisticsCanada2011; @Binkley2020; @PortSI2020; @Ferrario2020]. Available ecological data on ecosystems in this region are limited, which justified the realization of many ecological projects to characterize benthic ecosystems and their relation to coastal human activities [@CHONE2016; @Carriere2018; @Dreujou2020b; @Dreujou2020c].
 
 The specific objectives of this study are to (i) model the exposure of benthic ecosystems to human activities locally and (ii) assess community structure as a function of individual and cumulative anthropogenic exposure. We expect that the structure of communities within high cumulative exposure areas ('anthropogenic hotspots') will present evidence of perturbation (such as lower diversity and presence of opportunistic species) compared to the rest of the study area.
 
@@ -49,13 +49,13 @@ The specific objectives of this study are to (i) model the exposure of benthic e
 
 ## Study area
 
-Studied ecosystems are located on the northern shore of the Gulf of St. Lawrence, within the industrial harbour area of Sept-Îles (Figure \ref{Fig1}). This region includes the Baie des Sept Îles and the archipelago at its entrance, covering around 200 km^2^ (Figure \ref{Fig1}). Bathymetry is shallow within the bay, with a maximum depth of 50 m at its entrance, then becoming deeper in the archipelago (as deep as 200 m) [@Dutil2012]. The general sediment profile is sandy-silty. Benthic communities are diverse with a high density of annelids, arthropods and molluscs [@Dreujou2020b].
+Studied ecosystems are located on the northern shore of the Gulf of St. Lawrence, within the industrial harbour area of Sept-Îles (Figure \ref{C3_Fig1}). This region includes the Baie des Sept Îles and the archipelago at its entrance, covering around 200 km^2^ (Figure \ref{C3_Fig1}). Bathymetry is shallow within the bay, with a maximum depth of 50 m at its entrance, then becoming deeper in the archipelago (as deep as 200 m) [@Dutil2012]. The general sediment profile is sandy-silty. Benthic communities are diverse with a high density of annelids, arthropods and molluscs [@Dreujou2020b].
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C3/C3_Fig1.png}
 \caption{Map of the study area with the location of the sampled stations.}
-\label{Fig1}
+\label{C3_Fig1}
 \end{figure}
 
 The main industrial sectors in the area are aluminium production in plants at the Pointe-Noire sector and the south-eastern part of the city of Sept-Îles, international shipping of iron ore through bulk carriers (reaching 29.3 MT in 2019) and coastal fisheries targeting fishes (*Clupea harengus*, *Gadus morhua*), arthropods (*Chionoecetes opilio*, *Cancer irroratus*, *Pandalus borealis*) and molluscs (*Buccinum* sp, *Mactromeris polynyma*) [@DFO2019; @PortSI2020].
@@ -64,7 +64,7 @@ This region has sub-Arctic environmental conditions, with sea ice formation in N
 
 ## Exposure to human activities
 
-Human activities occurring in the area were identified by a compilation of data from local organisations (Port de Sept-Îles, Ville de Sept-Îles and Institut Nordique de Recherche en Environnement et en Santé au Travail) and by referring to databases such as @Halpern2019 and @Beauchesne2020a. This initial review resulted in the consideration of seven human activities: aquaculture, city influence, industry influence, sediment dredging, commercial shipping, sewers and fisheries (Table \ref{Tab1}). Spatial layers were produced with R v4.0 and packages 'raster' and 'sf' [@Pebesma2018; @Hijmans2020; @RTeam2020].
+Human activities occurring in the area were identified by a compilation of data from local organisations (Port de Sept-Îles, Ville de Sept-Îles and Institut Nordique de Recherche en Environnement et en Santé au Travail) and by referring to databases such as @Halpern2019 and @Beauchesne2020a. This initial review resulted in the consideration of seven human activities: aquaculture, city influence, industry influence, sediment dredging, commercial shipping, sewers and fisheries (Table \ref{C3_Tab1}). Spatial layers were produced with R v4.0 and packages 'raster' and 'sf' [@Pebesma2018; @Hijmans2020; @RTeam2020].
 
 \begin{table}[H]
 \centering
@@ -89,7 +89,7 @@ Sediment dredging & Collection sites & 0.1 & 0.2 & 0.7 \\
 Sewers & Rainwater drains & 0.05 & 0.15 & 0.8 \\
  & Wastewater drains & 0.05 & 0.15 & 0.8 \\ \hline
 \end{tabular}
-\label{Tab1}
+\label{C3_Tab1}
 \end{table}
 
 In order to analyze how human activities inflence benthic ecosystems, we computed an index of exposure $E$ for each activity. Because a complete circulation model is not available and to reduce complexity of coastal ecosystems, we considered a static environment (without spatial or temporal dynamics) so that the index will consider a 'snapshot' of the ecosystems. The index $E$ has been computed differently for land/sea-based activities and for fisheries, then standardized between 0 (low exposure) and 1 (high) scale to allow comparisons. A cumulative exposure index was obtained by summing the seven indices.
@@ -98,7 +98,7 @@ In order to analyze how human activities inflence benthic ecosystems, we compute
 
 Indices of exposure for land/sea-based activities were obtained using a model of particle diffusion. We considered theoretical particles as the resultant of an activity, such as contaminants or sediment, introduced by a point source in the considered area. The length of the journey $D$ from the source to a location reflects how ecosystems are exposed to human activities: if this distance is small, particle density will be great indicating a high exposure to the activity, and vice versa.
 
-Because each human activity is not related to the same environmental components, exposure is a combination of diffusion patterns from different particle types, according to size and sinking rate (to reduce complexity, density was considered equivalent for particles within a same class). Three theoretical particle archetypes have been considered, based on biological and abiotic components (Table \ref{Tab2}).
+Because each human activity is not related to the same environmental components, exposure is a combination of diffusion patterns from different particle types, according to size and sinking rate (to reduce complexity, density was considered equivalent for particles within a same class). Three theoretical particle archetypes have been considered, based on biological and abiotic components (Table \ref{C3_Tab2}).
 
 \begin{table}[H]
 \centering
@@ -110,16 +110,16 @@ Slow sinking & \textless 4 $\mu$m & clay, dissolved organic matter, small bacter
 Medium sinking & 4 $\mu$m - 2 mm & sand, silt, small particulate organic matter, large bacteria, small dead organisms (phytoplankton, zooplankton) \\
 Fast sinking & \textgreater 2 mm & gravel, large particulate organic matter, large dead organisms (large zooplankton, larger organisms) \\ \hline
 \end{tabular}
-\label{Tab2}
+\label{C3_Tab2}
 \end{table}
 
-We identified 11 sources of human activity in our study area, from punctual sources, *e.g.* sewers drains, to diffused sources, *e.g.* runoff from city (Table \ref{Tab1}, Figure \ref{Tab2}), that will act as sources of particles in the diffusion model. Each source has been modelled as a combination of the three particle types, using proportion ratios $p$ (sum of these three ratios equals one) (Table \ref{Tab1}). These percentages were obtained by expert opinion and a literature review.
+We identified 11 sources of human activity in our study area, from punctual sources, *e.g.* sewers drains, to diffused sources, *e.g.* runoff from city (Table \ref{C3_Tab1}, Figure \ref{C3_Tab2}), that will act as sources of particles in the diffusion model. Each source has been modelled as a combination of the three particle types, using proportion ratios $p$ (sum of these three ratios equals one) (Table \ref{C3_Tab1}). These percentages were obtained by expert opinion and a literature review.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C3/C3_Fig2.png}
 \caption{Map of the considered sources of land/sea based human activities in the study area. (A) Aquaculture exposure, (B) City exposure, (C) Dredging exposure, (D) Industry exposure, (E) Sewers exposure, (F) Shipping exposure.}
-\label{Fig2}
+\label{C3_Fig2}
 \end{figure}
 
 Diffusion for each particle type was simulated using package 'gdistance' [@vanEtten2017]. We created a 100 x 100 m grid raster of the study area, where we established a connectivity matrix in a chess queen configuration (each cell to its eight direct neighbors using horizontal, vertical and diagonal directions). The cost of moving from one cell to another was computed considering three constraints: (i) particles only diffuse in the marine environment, (ii) particles sink according to gravity and (iii) particles cannot move when they have sedimented. To implement these constraints, we used coasts as boundaries (cost to select land cells is infinite), bathymetry (movement of particles is mainly downward), and a distance threshold (cost to select cells after a certain distance is infinite). The latter is specific for each particle type and was initialized using methods by @Chamley1989, @Bach2012 and by expert opinion. A least-cost pathfinding algorithm computed the distance $D$ from the source(s) of human activity to a specific cell [@Dijkstra1959; @vanEtten2017].
@@ -144,7 +144,7 @@ where i is a cell and k is a gear type.
 
 ## Habitat and biological samples
 
-Ecological samples were collected in July 2017. A total of 108 stations were selected using a semi-randomization algorithm, in the bay and the archipelago. Stations were constrained between 0 m and 80 m deep with an increased sampling effort in areas where sources of human activities where present (Figure \ref{Fig1}). Station depth was obtained from the navigation sonar, then corrected with respect to tide height at time of sampling. A Ponar grab (0.05 m^2^) was deployed at each station from a boat with two independent casts.
+Ecological samples were collected in July 2017. A total of 108 stations were selected using a semi-randomization algorithm, in the bay and the archipelago. Stations were constrained between 0 m and 80 m deep with an increased sampling effort in areas where sources of human activities where present (Figure \ref{C3_Fig1}). Station depth was obtained from the navigation sonar, then corrected with respect to tide height at time of sampling. A Ponar grab (0.05 m^2^) was deployed at each station from a boat with two independent casts.
 
 The first cast collected sediment in which two samples were acquired for the analyses of organic matter content and sediment grain-size. These samples were stored at -20 °C until processing in the laboratory. The percentage of total organic matter (*i.e.* sum of organic carbon and organic nitrogen) in the sediment was obtained by using the Loss-on-Ignition method [@Davies1974]. Grain-size analysis was done on a sieving column for the fraction with particles larger than 2 mm and with a Laser Diffraction Particle Size Analyser for the smaller fractions. Results from both techniques were combined to yield a unified distribution range from 0.04 $\mu$m to 26.5 mm. From this, percentages of gravel, sand, silt and clay were calculated as defined by @Wentworth1922 and @Folk1980.
 
@@ -163,27 +163,27 @@ The structure of benthic communities has been modelled using Hierarchical Modell
 
 ## Calculation of the indices of exposure
 
-Overall, exposure values were low, with means varying between 0.07 (city) and 0.28 (shipping) (Figure \ref{Fig3}). Only stations close to sources of activity presented higher values, with a limited area of influence for each human activity. This result is consistent with how indices were calculated, as they considered either distance from the source or occurrence of fishing events as proxy of exposure. Shipping was the activity with the highest number of stations where exposure reached a value above 0.9, which may be explained by the large extent of its source and high contents of slow- and medium-sinking particles (Figures \ref{Fig2}, \ref{Fig3}). Dredging, city and industry presented a similar behaviour, where exposure dropped relatively quickly away from sources (Figure \ref{Fig2}). In a similar manner, the exposure for dredging and sewers showed a large area of low exposure (between 0.1 and 0.2) while highest exposure were very close to sources (Figure \ref{Fig2}). Fisheries exposure was quite different from other activities, with highly localized exposure (Figure \ref{Fig2}).
+Overall, exposure values were low, with means varying between 0.07 (city) and 0.28 (shipping) (Figure \ref{C3_Fig3}). Only stations close to sources of activity presented higher values, with a limited area of influence for each human activity. This result is consistent with how indices were calculated, as they considered either distance from the source or occurrence of fishing events as proxy of exposure. Shipping was the activity with the highest number of stations where exposure reached a value above 0.9, which may be explained by the large extent of its source and high contents of slow- and medium-sinking particles (Figures \ref{C3_Fig2}, \ref{C3_Fig3}). Dredging, city and industry presented a similar behaviour, where exposure dropped relatively quickly away from sources (Figure \ref{C3_Fig2}). In a similar manner, the exposure for dredging and sewers showed a large area of low exposure (between 0.1 and 0.2) while highest exposure were very close to sources (Figure \ref{C3_Fig2}). Fisheries exposure was quite different from other activities, with highly localized exposure (Figure \ref{C3_Fig2}).
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C3/C3_Fig3.png}
 \caption{Indices of exposure calculated in the study area. Histograms represent the number of stations along the value of the index, and colours correspond to exposure classes (light blue = low exposure, dark blue = high exposure). (A) Aquaculture exposure, (B) City exposure, (C) Dredging exposure, (D) Industry exposure, (E) Sewers exposure, (F) Shipping exposure, (G) Fisheries exposure.}
-\label{Fig3}
+\label{C3_Fig3}
 \end{figure}
 
-The cumulative exposure index at each station varied between 0.238 and 2.01 (maximum of 7), reaching an average of 0.93 (standard error of 0.038) at the bay-scale (Figure \ref{Fig4}). Unsurprisingly, the highest values were detected close to activity sources, especially in front of the city of Sept-Îles and the Pointe-Noire sector with values as high as 1.6 (Figure \ref{Fig4}).
+The cumulative exposure index at each station varied between 0.238 and 2.01 (maximum of 7), reaching an average of 0.93 (standard error of 0.038) at the bay-scale (Figure \ref{C3_Fig4}). Unsurprisingly, the highest values were detected close to activity sources, especially in front of the city of Sept-Îles and the Pointe-Noire sector with values as high as 1.6 (Figure \ref{C3_Fig4}).
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C3/C3_Fig4.png}
 \caption{Indices of cumulative exposure calculated in the study area. Histograms represent the number of stations along the value of the index, and colours correspond to cumulative exposure (light blue = low exposure, dark blue = high exposure).}
-\label{Fig4}
+\label{C3_Fig4}
 \end{figure}
 
 ## Relationships with benthic communities
 
-Predictive power of the multiple regressions was the highest for Shannon index (adjusted R^2^ = 0.3) followed by taxa richness (0.17) and Pielou eveness (0.15), while total density and total biomass reached very low values (both 0.01) (Table \ref{Tab3}). Marginal tests for depth reported significant positive relationships with taxa richness, Shannon index and Pielou evenness (Table \ref{Tab3}). Four human activities presented similar influences on these variables: aquaculture and city with positive coefficients, industry and sewers with negative coefficients (Table \ref{Tab3}). Only sewers presented a significant relationship with total biomass, while the rest of the coefficients seldom exceeded 0.1.
+Predictive power of the multiple regressions was the highest for Shannon index (adjusted R^2^ = 0.3) followed by taxa richness (0.17) and Pielou eveness (0.15), while total density and total biomass reached very low values (both 0.01) (Table \ref{C3_Tab3}). Marginal tests for depth reported significant positive relationships with taxa richness, Shannon index and Pielou evenness (Table \ref{C3_Tab3}). Four human activities presented similar influences on these variables: aquaculture and city with positive coefficients, industry and sewers with negative coefficients (Table \ref{C3_Tab3}). Only sewers presented a significant relationship with total biomass, while the rest of the coefficients seldom exceeded 0.1.
 
 \begin{table}[H]
 \centering
@@ -202,19 +202,19 @@ Predictive power of the multiple regressions was the highest for Shannon index (
 \textit{J} & 0.01 (0.09) & 0.43 (0.11) & 0.01 (0.11) & 0.09 (0.1) & 0.17 (0.11) & - 0.18 (0.1) & - 0.17 (0.14) & - 0.03 (0.15) & - 0.08 (0.1) & 0.15 \\
 \textit{p} & 1 & \textbf{\textless 0.0001} & 0.9426 & 0.345 & 0.1338 & 0.0833 & 0.2172 & 0.8613 & 0.4583 &  \\ \hline
 \end{tabular}
-\label{Tab3}
+\label{C3_Tab3}
 \end{table}
 
-DistLM regression on the taxa assemblage had a R^2^ of 0.16, and the result of the ancillary constrained ordination is shown on Figure \ref{Fig5}. Two groups of exposure indices with similar influence were obtained: sewers/shipping to one side, and aquaculture/fisheries to the other; city, dredging and industry had lower influence. Interestingly, depth was not correlated to indices, but it was highly correlated to the benthic community structure, as expected. No specific structure may be described based on the similarity between stations, except for a group of stations with a high cumulative exposure which seems have different communities than the rest of the stations (Figure \ref{Fig5}). These stations presented high abundances (density or biomass) of the annelid Errantia *Micronephtys neotena*, the cumacean *Eudorellopsis integra* and the bivalve *Macoma calcarea*.
+DistLM regression on the taxa assemblage had a R^2^ of 0.16, and the result of the ancillary constrained ordination is shown on Figure \ref{C3_Fig5}. Two groups of exposure indices with similar influence were obtained: sewers/shipping to one side, and aquaculture/fisheries to the other; city, dredging and industry had lower influence. Interestingly, depth was not correlated to indices, but it was highly correlated to the benthic community structure, as expected. No specific structure may be described based on the similarity between stations, except for a group of stations with a high cumulative exposure which seems have different communities than the rest of the stations (Figure \ref{C3_Fig5}). These stations presented high abundances (density or biomass) of the annelid Errantia *Micronephtys neotena*, the cumacean *Eudorellopsis integra* and the bivalve *Macoma calcarea*.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C3/C3_Fig5.png}
 \caption{Constrained ordination with a distance-based Redundancy Analysis on the taxa assemblage. Axes percentages are the proportion of variance explained by the regression model. Colours correspond to the cumulative exposure (light blue = low exposure, dark blue = high exposure).}
-\label{Fig5}
+\label{C3_Fig5}
 \end{figure}
 
-The probability of taxa presence was calculated using predictive models with HMSC (Tables \ref{Tab4}, \ref{TabS1}). Models for 52 taxa (39.4 % of the total sampled taxa) had a pseudo-R^2^ higher or equal to 0.15, the highest being for Nematoda (0.45). Predictor coefficients presented variability between taxa, but some overall trends may be described. A majority of positive coefficients were observed for silt (for 76 % of the taxa), copper (86 %) and sewers (83 %) presented a majority of positive coefficients, while a majority of negative coefficients were obtained for organic matter (76 %), gravel (61 %), clay (87 %), arsenic (91 %), cadmium (87 %), mercury (82 %), aquaculture (67 %), city (80 %), dredging (82 %), industry (93 %), shipping (64 %) and fisheries (67 %). The validation process showed a relatively low number of models correctly predicting taxa presence, the highest being for *M. calcarea*, *M. neotena* and *E. integra*.
+The probability of taxa presence was calculated using predictive models with HMSC (Tables \ref{C3_Tab4}, \ref{C3_TabS1}). Models for 52 taxa (39.4 % of the total sampled taxa) had a pseudo-R^2^ higher or equal to 0.15, the highest being for Nematoda (0.45). Predictor coefficients presented variability between taxa, but some overall trends may be described. A majority of positive coefficients were observed for silt (for 76 % of the taxa), copper (86 %) and sewers (83 %) presented a majority of positive coefficients, while a majority of negative coefficients were obtained for organic matter (76 %), gravel (61 %), clay (87 %), arsenic (91 %), cadmium (87 %), mercury (82 %), aquaculture (67 %), city (80 %), dredging (82 %), industry (93 %), shipping (64 %) and fisheries (67 %). The validation process showed a relatively low number of models correctly predicting taxa presence, the highest being for *M. calcarea*, *M. neotena* and *E. integra*.
 
 \begin{landscape}
 \begin{table}[H]
@@ -235,7 +235,7 @@ Nematoda & 0.45 & -0.5 &  & 0 & - 0.3 & - 0.22 & - 0.64 & 0.49 & 0.13 & - 0.04 &
 \textit{Echinarachnius parma} & 0.32 & - 1.79 &  & 0.24 & - 0.04 & 0.16 & - 0.07 & 0.07 & - 0.08 & 0.01 &  & - 0.22 & - 0.46 & - 0.17 & - 0.04 & - 0.33 & - 0.68 & - 0.43 & 0.24 & - 0.42 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 2} \\
 \textit{Nephtys incisa} & 0.3 & - 0.92 &  & 0.23 & - 0.11 & 0.02 & - 0.52 & 0.1 & 0.23 & - 0.07 &  & 0.64 & 0.12 & - 0.02 & - 0.05 & 0.07 & 0.07 & - 0.35 & 0.11 & 0.29 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 1 ; 5} \\ \hline
 \end{tabular}
-\label{Tab4}
+\label{C3_Tab4}
 \end{table}
 \end{landscape}
 
@@ -245,7 +245,7 @@ We proposed an exposure index to study influence from human activities on coasta
 
 When applied to ecosystems in the industrial harbour area of Sept-Îles, we detected some relationships between the exposure indices for seven human activities (aquaculture, city influence, industry influence, sediment dredging, commercial shipping, sewers and fisheries). Few stations have been detected free of cumulative exposure, which reinforces the importance of studying influence of multiple human activities in an integrative way [@Cote2016; @Dreujou2020a]. In a management perspective, these areas can be considered anthropogenic 'hotspots', which is particularly interesting to guide environmental protection and sustainable development. Activities considered in this study have been chosen based on local conditions, and it would be interesting to add other activities (such as tourism or recreational boating) along with environmental drivers (such as freshwater or terrigenous inputs), allowing an increased generalization of this index.
 
-Regressions between community characteristics and exposure indices resulted in models with moderate predictive power and relatively low coefficients. The significant effect of depth on communities is coherent with patterns of biodiversity in marine ecosystems [@Gray2009; @Levinton2013; @Piacenza2015]. The lack of strong relationships for these models (especially for total density and total biomass) indicates that biodiversity of benthic communities is not particularly influenced by the proposed exposure indices, which may be linked to low exposure resulting in low structuring impacts for benthic communities. This result is coherent with previous conclusions by @Dreujou_InPrep, where ecological status calculated by indicators was quite high. Another hypothesis is that community characteristics may not be the best descriptors to properly account for perturbation, in particular because of their univariate nature [@Drouin2011].
+Regressions between community characteristics and exposure indices resulted in models with moderate predictive power and relatively low coefficients. The significant effect of depth on communities is coherent with patterns of biodiversity in marine ecosystems [@Gray2009; @Levinton2013; @Piacenza2015]. The lack of strong relationships for these models (especially for total density and total biomass) indicates that biodiversity of benthic communities is not particularly influenced by the proposed exposure indices, which may be linked to low exposure resulting in low structuring impacts for benthic communities. This result is coherent with previous conclusions by @Dreujou2020c, where ecological status calculated by indicators was quite high. Another hypothesis is that community characteristics may not be the best descriptors to properly account for perturbation, in particular because of their univariate nature [@Drouin2011].
 
 We thus evaluated how the taxa assemblage respond to exposure using multivariate regression. Overall, exposure indices do not present a particularly strong influence on the composition of communities, except concerning a group of stations with a high cumulative exposure score where communities were similar. Dominant taxa at these stations are tolerant to perturbation, according to the list from @Borja2000, and they have been found within perturbated areas in this region by @Dreujou2020b. This may be characteristic of a moderately perturbated profile, where some sensitive taxa are absent compared to a dominance of perturbation tolerant taxa without opportunists [@Pearson1978; @Grall1997; @Borja2000]. All these results, and the fact that cumulative exposure is relatively low, are coherent with the general good portrait described by @Carriere2018 and @Dreujou2020b. Most importantly, hotspots of cumulative exposure are located in the same areas where communities presented a perturbed profile, detected by @Dreujou2020b (*i.e.* cluster A), which reinforces the strength of the index to detect anthropogenic infuence.
 
@@ -271,7 +271,7 @@ The authors would like to acknowledge and thank all the people that helped durin
 \begin{landscape}
 \begin{table}[H]
 \centering
-\caption{Table S1. Predictor coefficients, Tjur's pseudo-$R^{2}$ and validation results obtained by \textit{Hierarchical Modelling of Species Communities}. Taxa with a $R^{2}$ higher than 0.15 are displayed here. Validation results show the number of stations where taxa is observed and predicted (in green) and where taxa are observed but not predicted (red). OM = organic matter, As = arsenic, Cd = cadmium, Cu = copper, Hg = mercury, Aq = aquaculture, Ci = city, Dr = dredging, Fi = fisheries, In = industry, Se = sewers, Sh = shipping.}
+\caption{C3_Table S1. Predictor coefficients, Tjur's pseudo-$R^{2}$ and validation results obtained by \textit{Hierarchical Modelling of Species Communities}. Taxa with a $R^{2}$ higher than 0.15 are displayed here. Validation results show the number of stations where taxa is observed and predicted (in green) and where taxa are observed but not predicted (red). OM = organic matter, As = arsenic, Cd = cadmium, Cu = copper, Hg = mercury, Aq = aquaculture, Ci = city, Dr = dredging, Fi = fisheries, In = industry, Se = sewers, Sh = shipping.}
 \begin{tabular}{lllllllllllllllllllllll}
 \hline
  & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{7}{c}{\textbf{Exposure indices}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{9}{c}{\textbf{Abiotic parameters}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{}} \\ \cline{5-11} \cline{13-21}
@@ -329,7 +329,7 @@ Amphipoda & 0.15 & - 0.46 &  & 0 & 0.15 & 0.2 & - 0.58 & 0.21 & - 0.07 & 0.04 & 
 \textit{Caprella septentrionalis} & 0.15 & - 2.62 &  & - 0.24 & 0.07 & - 0.23 & - 0.2 & 0.14 & - 0.26 & - 0.18 &  & - 0.6 & - 0.24 & 0.08 & 0.15 & - 0.19 & - 0.71 & - 0.19 & 0.25 & - 0.24 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 2} \\
 \textit{Serripes groenlandicus} & 0.15 & - 2.59 &  & - 0.14 & - 0.19 & - 0.13 & - 0.22 & 0.05 & 0.11 & - 0.12 &  & 0 & 0.01 & 0.27 & 0.19 & - 0.13 & - 0.47 & - 0.08 & 0.38 & 0.06 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\ \hline
 \end{tabular}
-\label{TabS1}
+\label{C3_TabS1}
 \end{table}
 \end{landscape}
 
