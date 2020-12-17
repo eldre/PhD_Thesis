@@ -1,6 +1,4 @@
-# Liminaires
-
-## Informations sur la thèse
+# Informations sur la thèse
 
 DESCRIPTION DE L'INFLUENCE HUMAINE SUR LES ÉCOSYSTÈMES BENTHIQUES D'UNE ZONE INDUSTRIALO-PORTUAIRE SUBARCTIQUE
 Application d'indicateurs de statut écologique et prédiction de la structure des communautés
@@ -11,10 +9,10 @@ Christopher William McKindsey, codirecteur de recherche, Ministère des Pêches 
 Fanny Noisette, examinatrice interne, Université du Québec à Rimouski
 Jacques Grall, examinateur externe, Institut Universitaire Européen de la Mer
 
-Dépôt initial le 21 décembre 2020
-Dépôt final le le 31 mars 2021
+Dépôt initial le 18 décembre 2020.
+Dépôt final le 31 mars 2021.
 
-## Dédicaces
+# Dédicaces
 
 TODO
 
@@ -22,7 +20,7 @@ TODO
 Inconnu, sur une enseigne rencontrée tous les jours à Sept-Îles
 
 
-## Remerciements
+# Remerciements
 
 Si je suis ici, au Canada, à écrire une thèse de doctorat, c'est grâce au soutien de mes proches qui m'ont toujours poussé à réaliser mes projets et à me dépasser. Je n'aurais jamais pu accomplir ce travail, fruit de cinq années de recherche, sans votre présence, vos conseils, vos réflexions, et je souhaite vous en remercier.
 
@@ -39,7 +37,7 @@ Je voudrais profondemment remercier ma famille. Annick et Jean-Marie, mon papa e
 Enfin, je souhaite adresser mes derniers mots et rendre hommage à mon oncle Alex, qui nous a quitté bien trop tôt. Tu me manques.
 
 
-## Avant-propos
+# Avant-propos
 
 Ce projet de recherche s'inscrit dans les thématiques spécifiques du *Canadian Healthy Oceans Network* II (thème "*Coastal stressors*"), du regroupement Québec-Océan (axe "Intégrité des milieux marins côtiers et enjeux socioéconomiques régionaux") et du Laboratoire d'Écologie Benthique (liens entre communautés benthiques et influence anthropique).
 
@@ -51,11 +49,11 @@ __Liste des publications effectuées durant le doctorat__ :
 
 **Dreujou E**, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P (submitted). Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area. *Frontiers in Marine Science*.
 
-**Dreujou E**, McKindsey CW, Grant C, Tréau de Coeli L, St-Louis R, Archambault P (2020). Biodiversity and Habitat Assessment of Coastal Benthic Communities in a Sub-Arctic Industrial Harbor Area. *Water* 12(9):2424. DOI:10.3390/w12092424.
+**Dreujou E**, McKindsey CW, Grant C, Tréau de Coeli L, St-Louis R, Archambault P (2020). Biodiversity and Habitat Assessment of Coastal Benthic Communities in a Sub-Arctic Industrial Harbor Area. *Water* 12(9):2424. DOI:10.3390/w12092424. (Choix de l'éditeur)
 
 **Dreujou E**, Carrier-Belleau C, Goldsmit J, Fiorentino D, Ben-Hamadou R, Muelbert JH, Godbold JA, Daigle RM, Beauchesne D (2020). Holistic Environmental Approaches and Aichi Biodiversity Targets: accomplishments and perspectives for marine ecosystems. *PeerJ* 8:e817. DOI:10.7717/peerj.8171.
 
-Carrier-Belleau C, Beauchesne D, **Dreujou E**, Isabel L (2019). Le Saint-Laurent : comment évaluer l’emprei*nte humaine dans un système complexe ? *L'interdisciplinaire : Journal scientifique étudiant de l'institut EDS* 17.
+Carrier-Belleau C, Beauchesne D, **Dreujou E**, Isabel L (2019). Le Saint-Laurent : comment évaluer l'empreinte humaine dans un système complexe ? *L'interdisciplinaire : Journal scientifique étudiant de l'institut EDS* 17.
 
 **Dreujou E**, Paquette L, Grant C, Archambault P, Carrière J (2018). Caractérisation de la faune benthique. In : Carrière J (éd), *Observatoire environnemental de la Baie de Sept-Îles*. INREST, Sept-Îles (QC), Canada. 377-451.
 
@@ -84,7 +82,7 @@ __Liste des communications scientifiques présentées lors de conférences natio
 **Dreujou E**, Archambault P, McKindsey CW (2016). Étude des impacts individuels et cumulés de stresseurs anthropiques sur les écosystèmes de la région de Sept-Îles. Réunion scientifique de Québec-Océan, Québec (Canada), 8-9 novembre.
 
 
-## Résumé
+# Résumé
 
 L'ensemble des environnements côtiers et océaniques de la planète est influencé par les activités humaines, dont les impacts peuvent modifier la structure et l'intégrité des écosystèmes de façon durable. Afin de protéger adéquatement le milieu naturel et de soutenir un développement anthropique durable, notamment dans des régions concentrant de multiples activités humaines, il est nécessaire de comprendre comment les écosystèmes marins sont influencés. Les communautés benthiques sont un compartiment particulièrement intéressant pour étudier ces problématiques, car de nombreuses espèces possèdent des capacités d'évitement limitées de par leur mode de vie majoritairement sessile ainsi qu'une espérance de vie élevée. Alors que travaux évaluant l'impact anthropique ont été effectués sur une large gamme d'écosystèmes à travers le monde, peu ont considéré spécifiquement des écosystèmes subarctiques, dont l'utilisation par l'homme est prévue d'augmenter en lien avec le changement climatique. C'est dans ce contexte que s'inscrit ma thèse, où l'objectif principal est de comprendre comment les écosystèmes benthiques d'une zone industrialo-portuaire subarctique sont influencés par les activités humaines. La zone d'étude considérée se trouve dans la région de Sept-Îles (Québec, Canada), plateforme économique importante pour le Québec, située dans le Golfe du Saint-Laurent. Pour répondre à ces problématiques, cette thèse est divisée en trois chapitres.
 
@@ -92,14 +90,15 @@ Le premier chapitre a pour but de caractériser la structure des écosystèmes c
 
 Le deuxième chapitre s'intéresse au statut écologique des écosystèmes en se basant sur la composition des communautés benthiques. Seize indicateurs du statut écologique ont été sélectionnés au moyen d'une revue de littérature, divisés en trois catégories selon leur méthodologie : mesures d'abondance, diversité des communautés et espèces indicatrices. Ces indicateurs ont été appliqués en utilisant les listes d'espèces obtenues lors du chapitre précédent, et la majorité ont détecté des communautés diversifiées sans signe évident de perturbation. De plus, plusieurs corrélations significatives ont été détectées entre les indicateurs et les paramètres de l'habitat, notamment avec les concentrations en métaux lourds. Chaque catégorie d'indicateur apporte des informations importantes sur l'état de l'écosystème tout en présentant des limitations, en particulier à propos des références utilisées pour définir le statut écologique.
 
-Le dernier chapitre a considéré les activités humaines influençant l'écosystème, afin de calculer une empreinte anthropique locale sur les communautés selon des gradients d'exposition. Un modèle de diffusion pour chaque activité considérée (aquaculture, dragage, influence industrielle, influence municipale, pêcheries, rejets d'égouts, transport maritime) a été développé grâce à la distance depuis leur(s) source(s) et des facteurs physiques. Plusieurs liens ont été découverts entre les indices d'expositions obtenus et la distribution des invertébrés benthiques, au moyen de modèles prédictifs \textit{Hierarchical Modelling of Species Communities}. L'indice d'exposition cumulée a mis en évidence des zones de superposition d'activité humaine. Le profil des communautés présentes dans ces régions n'est pas particulièrement perturbé, ce qui corrobore les résultats des chapitres précédents sur le statut des écosystèmes considérés.
+Le dernier chapitre a considéré les activités humaines influençant l'écosystème, afin de calculer une empreinte anthropique locale sur les communautés selon des gradients d'exposition. Un modèle de diffusion pour chaque activité considérée (aquaculture, dragage, influence industrielle, influence municipale, pêcheries, rejets d'égouts, transport maritime) a été développé grâce à la distance depuis leur(s) source(s) et des facteurs physiques. Plusieurs liens ont été découverts entre les indices d'expositions obtenus et la distribution des invertébrés benthiques, au moyen de modèles prédictifs *Hierarchical Modelling of Species Communities*. L'indice d'exposition cumulée a mis en évidence des zones de superposition d'activité humaine. Le profil des communautés présentes dans ces régions n'est pas particulièrement perturbé, ce qui corrobore les résultats des chapitres précédents sur le statut des écosystèmes considérés.
 
 Cette thèse de doctorat contribue à l'amélioration des connaissances sur les écosystèmes côtiers subarctiques, notamment en présentant la première étude de biodiversité benthique dans la région de Sept-Îles. Des méthodes d'évaluation du statut écologique et de l'exposition anthropique ont été développées à l'échelle locale (< 100 km), qui constituent des outils particulièrement intéressants pour les gestionnaires afin de définir des objectifs de gestion et de soutenir des initiatives de conservation.
+
 
 > Mots clefs : écologie marine, écosystèmes côtiers subarctiques, invertébrés benthiques, biodiversité, prédiction des communautés, activités humaines, exposition anthropique, évaluation du statut écologique.
 
 
-## Abstract
+# Abstract
 
 Coastal and ocean environments are influenced by human activities worldwide, the impacts of which can significantly modify the structure and integrity of ecosystems. In order to adequately protect the natural environment and support sustainable anthropogenic development, particularly in regions where multiple human activities cooccur, it is necessary to understand how marine ecosystems are influenced. Benthic communities are a particularly interesting compartment for studying these issues, because many species have a limited mobility due to their predominantly sessile lifestyle as well as a long life span. While studies assessing anthropogenic impact have been carried out on a wide range of ecosystems around the world, few have specifically considered sub-Arctic ecosystems, where human activity is expected to increase in connection with climate change. In this context, my thesis' main objective is to understand how the benthic ecosystems of a sub-Arctic industrial harbour area are influenced by human activities. The study area considered is located in the Sept-Îles region (Quebec, Canada), an important economic hub for Quebec, located in the Gulf of St. Lawrence. To address these issues, this thesis is divided into three chapters.
 
@@ -107,14 +106,15 @@ The first chapter aims to characterize the structure of the considered coastal e
 
 The second chapter looks at the ecological status of ecosystems based on the composition of benthic communities. Sixteen indicators of ecological status were selected through a literature review, divided into three categories according to their methodology: measures of abundance, community diversity and indicator species. These indicators were applied using the species lists obtained in the previous chapter, and the majority detected diverse communities with no obvious sign of disturbance. In addition, several significant correlations were detected between indicators and habitat parameters, especially with heavy metal concentrations. Each category of indicator provides important information on the state of the ecosystem while presenting limitations, in particular about reference conditions used to define ecological status.
 
-The last chapter considered human activities influencing the ecosystem, in order to calculate a local anthropogenic footprint on communities according to exposure gradients. A particle diffusion model for each activity considered (aquaculture, dredging, industrial influence, city influence, fisheries, sewage discharges, shipping) was developed using the distance from their sources and physical factors. Several links were discovered between the exposure indices obtained and the distribution of benthic invertebrates, using predictive models \textit{Hierarchical Modeling of Species Communities}. The cumulative exposure index revealed areas of superposition of human activity. The profile of the communities present in these zones is not particularly disturbed, which corroborates the results of the previous chapters on the status of the ecosystems considered.
+The last chapter considered human activities influencing the ecosystem, in order to calculate a local anthropogenic footprint on communities according to exposure gradients. A particle diffusion model for each activity considered (aquaculture, dredging, industrial influence, city influence, fisheries, sewage discharges, shipping) was developed using the distance from their sources and physical factors. Several links were discovered between the exposure indices obtained and the distribution of benthic invertebrates, using predictive models *Hierarchical Modeling of Species Communities*. The cumulative exposure index revealed areas of superposition of human activity. The profile of the communities present in these zones is not particularly disturbed, which corroborates the results of the previous chapters on the status of the ecosystems considered.
 
-This PhD thesis contributes to improving ecological knowledge in sub-Arctic coastal ecosystems, in particular by presenting the first benthic biodiversity census in the Sept-Îles region. Methods for assessing ecological status and anthropogenic exposure have been developed at the local scale (<100 km), which constitute particularly interesting tools for managers in order to define management targets and support conservation initiatives.
+This PhD thesis contributes to improving ecological knowledge in sub-Arctic coastal ecosystems, in particular by presenting the first benthic biodiversity census in the Sept-Îles region. Methods for assessing ecological status and anthropogenic exposure have been developed at the local scale (< 100 km), which constitute particularly interesting tools for managers in order to define management targets and support conservation initiatives.
+
 
 > Keywords: marine ecology, sub-Arctic coastal ecosystems, benthic invertebrates, biodiversity, community prediction, human activities, anthropogenic exposure, ecological status assessment.
 
 
-## Chapitre 1 (head.tex)
+# Chapitre 1 (head.tex)
 
 \chapter{Évaluation de la biodiversité et de l'habitat des communautés benthiques côtiers en zone industrielle-portuaire subarctique}
 \label{chap1}
@@ -122,7 +122,7 @@ This PhD thesis contributes to improving ecological knowledge in sub-Arctic coas
 \section{Résumé}
 Les écosystèmes côtiers sont confrontés à des pressions anthropiques croissantes dans le monde entier et leur gestion nécessite une évaluation et une compréhension solides des impacts cumulatifs des activités humaines. Cette étude évalue la variation spatiale des communautés macrofauniques benthiques, des sédiments et des métaux lourds dans les écosystèmes côtiers subarctiques autour de Sept-Îles (Québec, Canada) - une zone portuaire importante dans le Golfe du Saint-Laurent. Les propriétés physiques des sédiments variaient dans la zone étudiée, avec un profil général sablo-vaseux, sauf à des endroits spécifiques de la Baie des Sept Îles où des concentrations plus élevées de matière organique et de métaux lourds ont été détectées. Les assemblages macrofauniques ont été évalués pour deux classes de taille de taxons (organismes > 0,5 mm et > 1 mm) et reliés aux paramètres de l'habitat à l'aide de modèles de régression. Des communautés d'organismes plus petits ont montré des signes de perturbation pour un assemblage proche des activités industrielles de la Baie des Sept Îles, avec un nombre accru d'espèces tolérantes et opportunistes, contrairement aux régions voisines dont la composition était similaire à celle d'autres écosystèmes dans le Golfe du Saint-Laurent. Cette étude améliore la compréhension des communautés benthiques subarctiques et contribue aux programmes de surveillance des écosystèmes en zone industrielle-portuaire. \linebreak[4]
 
-L'article associé à ce chapitre, \textit{"Biodiversity and habitat assessment of coastal benthic communities in a sub-Arctic industrial harbour area"}, a été rédigé en collaboration avec Christopher W. McKindsey, Cindy Grant, Lisa Tréau de Coeli, Richard St-Louis et Philippe Archambault. Il a été publié dans le journal \textit{Water}, dans la section spéciale \textit{Quantifying the Effects of Global Change on the Distribution and Quality of Aquatic Resources}, le 28 août 2020. J'ai établi les objectifs de ce chapitre avec Christopher W. McKindsey et Philippe Archambault, et j'ai effectué la collecte de données sur le terrain en 2016 et en 2017 avec le soutien de plusieurs stagiaires sous ma direction. J'ai compilé les bases de données et effectué les analyses statistiques, tout en intégrant les données et résultats de la campagne 2014 effectuée par Cindy Grant et Lisa Tréau de Coeli. J'ai dirigé la rédaction de l'article, où l'ensemble des co-auteurs a contribué à l'interprétation des résultats en fonction de leur expertise et à la révision générale. Les données liées à cet article sont accessibles dans le dépôt en ligne hébergé par le site Scholars Portal Dataverse avec l'identifiant unique [10.5683/SP2/5LJYXO](https://doi.org/10.5683/SP2/5LJYXO). Les résultats obtenus durant ces travaux ont été présentés lors de la Reunion Scientifique Annuelle de Québec-Océan à Rivière-du-Loup en novembre 2017, la \textit{World Conference on Marine biodiversity} à Montréal en mai 2018 et le Colloque International sur la Recherche Scientifique Industrielle-Portuaire à Sept-Îles en mai 2019.
+L'article associé à ce chapitre, "\textit{Biodiversity and habitat assessment of coastal benthic communities in a sub-Arctic industrial harbour area}", a été rédigé en collaboration avec Christopher W. McKindsey, Cindy Grant, Lisa Tréau de Coeli, Richard St-Louis et Philippe Archambault. Il a été publié dans le journal \textit{Water}, dans la section spéciale \textit{Quantifying the Effects of Global Change on the Distribution and Quality of Aquatic Resources}, le 28 août 2020. J'ai établi les objectifs de ce chapitre avec Christopher W. McKindsey et Philippe Archambault, et j'ai effectué la collecte de données sur le terrain en 2016 et en 2017 avec le soutien de plusieurs stagiaires sous ma direction. J'ai compilé les bases de données et effectué les analyses statistiques, tout en intégrant les données et résultats de la campagne 2014 effectuée par Cindy Grant et Lisa Tréau de Coeli. J'ai dirigé la rédaction de l'article, où l'ensemble des co-auteurs a contribué à l'interprétation des résultats en fonction de leur expertise et à la révision générale. Les données liées à cet article sont accessibles dans le dépôt en ligne hébergé par le site Scholars Portal Dataverse avec l'identifiant unique [10.5683/SP2/5LJYXO](https://doi.org/10.5683/SP2/5LJYXO). Les résultats obtenus durant ces travaux ont été présentés lors de la Reunion Scientifique Annuelle de Québec-Océan à Rivière-du-Loup en novembre 2017, la \textit{World Conference on Marine biodiversity} à Montréal en mai 2018 et le Colloque International sur la Recherche Scientifique Industrielle-Portuaire à Sept-Îles en mai 2019.
 \linebreak[4]
 
 \begin{singlespace}
@@ -132,7 +132,7 @@ Dreujou E, McKindsey CW, Grant C, Tréau de Coeli L, St-Louis R, Archambault P (
 \textit{Les sections suivantes correspondent à celles de l’article publié.}
 
 
-## Chapitre 2 (head.tex)
+# Chapitre 2 (head.tex)
 
 \chapter{Déterminer le statut écologique de communautés benthiques côtières : le cas d'une zone industrielle portuaire canadienne}
 \label{chap2}
@@ -140,7 +140,7 @@ Dreujou E, McKindsey CW, Grant C, Tréau de Coeli L, St-Louis R, Archambault P (
 \section{Résumé}
 Compte tenu de l'influence généralisée des activités humaines sur les écosystèmes marins, l'évaluation de l'état écologique fournit des informations précieuses pour les initiatives de conservation et le développement durable. Ainsi, de nombreux indicateurs environnementaux ont été développés dans le monde et il est nécessaire d'évaluer leur performance en calculant l'état écologique dans une variété d'écosystèmes et à de multiples échelles spatio-temporelles. Cette étude a calculé et comparé seize indicateurs de l'état écologique, classés dans trois catégories méthodologiques: mesures d'abondance, paramètres de diversité et espèces caractéristiques. Cette sélection a été appliquée aux écosystèmes benthiques côtiers de Sept-Îles (Québec, Canada), une zone industrielle portuaire majeure dans le golfe du Saint-Laurent, et mise en relation avec les paramètres de l'habitat (matière organique, fractions granulométriques et concentrations de métaux lourds). Presque tous les indicateurs ont mis en évidence un état écologique généralement bon dans la zone d'étude, où les communautés présentaient un profil non-perturbé, avec une diversité élevée de taxons et de fonctions écosystèmiques, sans la dominance des taxons opportunistes. Plusieurs corrélations significatives avec les paramètres de l'habitat ont été détectées, en particulier avec les métaux lourds, et les analyses de rééchantillonnage ont détecté des résultats relativement solides. Cette étude fournit des renseignements précieux sur l'application d'indicateurs dans les écosystèmes côtiers canadiens, ainsi que sur leur utilisation à des fins d'évaluation environnementale. \linebreak[4]
 
-L'article associé à ce chapitre, \textit{"Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area"}, a été rédigé en collaboration avec Nicolas Desroy, Lisa Tréau de Coeli, Julie Carrière, Christopher W. McKindsey et Philippe Archambault. Il a été soumis dans la revue \textit{Frontiers in Marine Science}, dans la section spéciale \textit{Biodiversity and Distribution of Benthic Invertebrates - From Taxonomy to Ecological Patterns and Global Processes}, le 3 décembre 2020. J'ai établi les objectifs de ce chapitre avec Nicolas Desroy, Christopher W. McKindsey et Philippe Archambault. Je me suis basé sur les données obtenues lors de la campagne d'échantillonnage en 2017 effectuée pour le premier chapitre, en collaboration avec Julie Carrière, auxquelles j'ai ajouté des données sur les traits biologiques collectées depuis différentes bases de données en ligne, validées par Lisa Tréau de Coeli. J'ai calculé les indicateurs environnementaux au cours d'un stage à la station biologique de Dinard avec Nicolas Desroy, et j'ai ensuite effectué les analyses statistiques pour évaluer et comparer les résultats des différents indicateurs. J'ai dirigé la rédaction de l'article, où l'ensemble des co-auteurs a contribué à l'interprétation des résultats en fonction de leur expertise et à la révision générale. Les données liées à cet article sont accessibles dans le dépôt en ligne hébergé par le site Scholars Portal Dataverse avec l'identifiant unique [10.5683/SP2/WDDDMI](https://doi.org/10.5683/SP2/WDDDMI). Une partie des résultats de ces analyses a été présentée lors de la Réunion Scientifique de \textit{Canadian Healthy Oceans Network} II à Ottawa en novembre 2018. \linebreak[4]
+L'article associé à ce chapitre, "\textit{Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area}", a été rédigé en collaboration avec Nicolas Desroy, Lisa Tréau de Coeli, Julie Carrière, Christopher W. McKindsey et Philippe Archambault. Il a été soumis dans la revue \textit{Frontiers in Marine Science}, dans la section spéciale \textit{Biodiversity and Distribution of Benthic Invertebrates - From Taxonomy to Ecological Patterns and Global Processes}, le 3 décembre 2020. J'ai établi les objectifs de ce chapitre avec Nicolas Desroy, Christopher W. McKindsey et Philippe Archambault. Je me suis basé sur les données obtenues lors de la campagne d'échantillonnage en 2017 effectuée pour le premier chapitre, en collaboration avec Julie Carrière, auxquelles j'ai ajouté des données sur les traits biologiques collectées depuis différentes bases de données en ligne, validées par Lisa Tréau de Coeli. J'ai calculé les indicateurs environnementaux au cours d'un stage à la station biologique de Dinard avec Nicolas Desroy, et j'ai ensuite effectué les analyses statistiques pour évaluer et comparer les résultats des différents indicateurs. J'ai dirigé la rédaction de l'article, où l'ensemble des co-auteurs a contribué à l'interprétation des résultats en fonction de leur expertise et à la révision générale. Les données liées à cet article sont accessibles dans le dépôt en ligne hébergé par le site Scholars Portal Dataverse avec l'identifiant unique [10.5683/SP2/WDDDMI](https://doi.org/10.5683/SP2/WDDDMI). Une partie des résultats de ces analyses a été présentée lors de la Réunion Scientifique du \textit{Canadian Healthy Oceans Network} II à Ottawa en novembre 2018. \linebreak[4]
 
 \begin{singlespace}
 Dreujou E, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P (submitted). Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area. \textit{Frontiers in Marine Science}.
@@ -149,20 +149,18 @@ Dreujou E, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P
 \textit{Les sections suivantes sont celles de l’article soumis, en révision.}
 
 
-## Chapitre 3 (head.tex)
+# Chapitre 3 (head.tex)
 
-\chapter{Évaluation locale de la structure des écosystèmes benthiques côtiers en lien avec l'exposition aux activités humaines}
+\chapter{Description de l'exposition des écosystèmes benthiques côtiers aux multiples activités humaines à l'échelle locale}
 \label{chap3}
 
 \section{Résumé}
-TODO Résumé
+L'influence anthropique est un phénomène affectant tous les écosystèmes marins de la planète, dont la majorité est influencée par de multiples activités humaines. L'évaluation des impacts cumulés permet de comprendre comment les communautés et les habitats peuvent être affectés par des stressuers d'origine anthropique, notamment grâce à l'étude de l'exposition et de la vulnérabilité des écosystèmes. De telles évaluations ont été élaborées à des échelles régionale ou mondiale afin de détecter des tendances à grande échelle, et il peut être intéressant d'appliquer ces méthodes à fine résolution spatiale pour améliorer la gestion environnementale locale. Cette étude s'est intéressée à développer et appliquer un indice pour calculer l'exposition locale des écosystèmes à de multiples activités humaines. Les écosystèmes benthiques côtiers de la région de Sept-Îles (Québec, Canada) ont été sélectionnés, une zone portuaire industrielle dans le golfe du Saint-Laurent où de nombreuses activités humaines sont présentes. L'exposition a été calculée grâce à un modèle de diffusion particulaire et aux données de pêcheries pour l'aquaculture, l'influence de la ville, l'influence des industries, le dragage des sédiments, la navigation commerciale, les égouts et la pêche. Une faible exposition a été détectée à l'échelle de la baie, avec des zones d'exposition cumulée devant la ville et les zones industrielles. Les modèles joints de distribution d'espèces ont détecté des relations significatives entre l'assemblage macrobenthique et des prédicteurs tels que les paramètres abiotiques et les indices d'exposition, permettant ainsi de prédire la structure des communautés selon différents scénarios anthropiques. Cette étude présente des résultats intéressants sur les liens entre les activités humaines et les communautés benthiques à l'échelle locale, ouvrant la voie à des évaluations environnementales plus holistiques. \linebreak[4]
 
-TODO Contexte scientifique
-
-Les résultats issus de ce chapitre ont été présentés lors de la Réunion Scientifique de \textit{Canadian Healthy Oceans Network} II à Ottawa en novembre 2018, la \textit{Global Change on Estuarine and Coastal Ecosystems Conference} (CHEERS) à Bordeaux en novembre 2019 et la Réunion Scientifique Annuelle de Québec-Océan à Québec en mars 2020.
+L'article associé à ce chapitre, "\textit{Describing exposure from multiple human activities on coastal benthic ecosystems at the local scale}", a été rédigé en collaboration avec Rémi M Daigle, David Beauchesne, Julie Carrière et Philippe Archambault. Il est prévu de le soumettre dans la revue \textit{PLoS ONE} au premier trimestre 2021. J'ai établi les objectifs de ce chapitre avec Philippe Archambault. J'ai développé l'indice d'exposition avec Rémi M Daigle et David Beauchesne. Je me suis basé sur les données obtenues lors de la campagne d'échantillonnage en 2017 effectuée pour le premier chapitre, en collaboration avec Julie Carrière, pour étudier les liens entre communautés benthiques et indices d'exposition. J'ai dirigé la rédaction de l'article, où l'ensemble des co-auteurs a contribué à l'interprétation des résultats en fonction de leur expertise et à la révision générale. Certains résultats issus de ce chapitre ont été présentés lors de la Réunion Scientifique du \textit{Canadian Healthy Oceans Network} II à Ottawa en novembre 2018, la \textit{Global Change on Estuarine and Coastal Ecosystems Conference} (CHEERS) à Bordeaux en novembre 2019 et la Réunion Scientifique Annuelle de Québec-Océan à Québec en mars 2020. \linebreak[4]
 
 \begin{singlespace}
-Dreujou E, Daigle RM, Beauchesne D, Carrière J, Archambault P (in prep). Exposure of coastal benthic ecosystems to human activities: local assessment model and prediction of the community's structure.
+Dreujou E, Daigle RM, Beauchesne D, Carrière J, Archambault P (in prep). Describing exposure from multiple human activities on coastal benthic ecosystems at the local scale.
 \end{singlespace}
 
 \textit{Les sections suivantes sont celles de l’article en préparation.}

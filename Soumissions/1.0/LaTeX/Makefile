@@ -31,14 +31,6 @@ CCMD = conclusion/conclusion.md
 # ##-- Annexe 1
 # ANN1 = annexe1/annexe1.tex
 # AN1M = annexe1/annexe1.md
-# ##-- Annexe 2
-# ANN2 = annexe2/annexe2.tex
-# ##-- Annexe 3
-# ANN3 = annexe3/annexe3.tex
-# AN3M = annexe3/annexe3.md
-# ##-- Annexe 4
-# ANN4 = annexe4/annexe4.tex
-# AN4M = annexe4/annexe4.md
 
 ##-- Références
 REF = references.bib
@@ -55,7 +47,7 @@ PFLAGS = --filter pandoc-fignos --filter pandoc-tablenos --filter pandoc-eqnos -
 
 
 # $(THES) est la cible qui doit être produite par le fichier.
-# Le bébnéfice d'un makefile est de regénéré les fichiers adéquates lorsque les
+# Le bénéfice d'un makefile est de regénéré les fichiers adéquates lorsque les
 # sources ont été modifiés. Avec pdflatex plusieurs compilation sont nécesaires
 # pour que les références (biblio / equation / figures...) soient correctement
 # insérées (ici, j'utilise la force un peu brute ici, je pourrais vérifier un peu
@@ -64,7 +56,7 @@ PFLAGS = --filter pandoc-fignos --filter pandoc-tablenos --filter pandoc-eqnos -
 
 ALL: $(THES)
 
-# $(THES): $(THTX) $(LIMI) $(INTH) $(ITTX) $(CCTX) $(REF) $(INLI) $(CHP1) $(CHP2) $(CHP3) $(CHK) $(ANN1) $(ANN2) $(ANN3) $(ANN4)
+# $(THES): $(THTX) $(LIMI) $(INTH) $(ITTX) $(CCTX) $(REF) $(INLI) $(CHP1) $(CHP2) $(CHP3) $(CHK) $(ANN1)
 $(THES): $(THTX) $(LIMI) $(INTH) $(ITTX) $(CCTX) $(REF) $(INLI) $(CHP1) $(CHP2) $(CHP3)
 	pdflatex these
 	bibtex these
@@ -100,21 +92,6 @@ $(CHP3): $(CH3M)
 # $(ANN1): $(AN1M)
 # 	pandoc $< -o annexe1/main.tex $(PFLAGS)
 # 	cat annexe1/head.tex annexe1/main.tex > $@
-#
-# $(ANN3): $(AN3M)
-# 	pandoc $< -o annexe3/main.tex $(PFLAGS)
-# 	cat annexe3/head.tex annexe3/main.tex > $@
-#
-# $(ANN4): $(AN4M)
-# 	pandoc $< -o annexe4/main.tex $(PFLAGS)
-# 	cat annexe4/head.tex annexe4/main.tex > $@
-
-
-##---------------------------------------------
-##-- To delete - CHECKLIST
-# $(CHK): $(CHM)
-# 	pandoc $< -o checklist.tex $(PFLAGS)
-##---------------------------------------------
 
 
 
@@ -123,8 +100,10 @@ $(CHP3): $(CH3M)
 # https://www.gnu.org/software/make/manual/html_node/Errors.html
 clean:
 	-rm *.aux *.bbl *.blg *.brf *.idx *.out *.toc *.lot *.lof *.log
-	-rm introduction/introduction.tex conclusion/conclusion.tex
-	-rm chapitre1/chapitre1.tex chapitre2/chapitre2.tex chapitre3/chapitre3.tex
-	-rm chapitre1/main.tex chapitre2/main.tex chapitre3/main.tex
-	# -rm annexe1/annexe1.tex annexe3/annexe3.tex annexe4/annexe4.tex
-	# -rm annexe1/main.tex annexe3/main.tex annexe4/main.tex
+	-rm liminaires/abstract_eng.tex liminaires/abstract_fr.tex liminaires/avant_propos.tex liminaires/remerciements.tex
+	-rm introduction/introduction.tex
+	-rm chapitre1/chapitre1.tex chapitre1/main.tex
+	-rm chapitre2/chapitre2.tex chapitre2/main.tex
+	-rm chapitre3/chapitre3.tex chapitre3/main.tex
+	-rm conclusion/conclusion.tex
+	# -rm annexe1/annexe1.tex annexe1/main.tex
