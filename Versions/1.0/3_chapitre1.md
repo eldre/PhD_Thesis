@@ -23,7 +23,7 @@ Elliot Dreujou, Christopher W McKindsey, Cindy Grant, Lisa Tréau de Coeli, Rich
 
 # Abstract
 
-Coastal ecosystems face increasing anthropogenic pressures worldwide and their management requires a solid assessment and understanding of the cumulative impacts from human activities. This study evaluates the spatial variation of benthic macrofaunal communities, sediments, and heavy metals in the sub-Arctic coastal ecosystems around Sept-Îles (Québec, Canada) — a major port area in the Gulf of St. Lawrence. Physical sediment properties varied in the studied area, with a general sandy-silty profile except for specific locations in Baie des Sept Îles where higher organic matter and heavy metal concentrations were detected. Macrofaunal assemblages were evaluated for two taxa size classes (organisms > 0.5 mm and > 1 mm) and linked to habitat parameters using regression models. Communities of smaller organisms showed signs of perturbation for one assemblage close to industrial activities at Baie des Sept Îles, with an increased number of tolerant and opportunistic species, contrasting to neighboring regions whose compositions were similar to other ecosystems in the Gulf of St. Lawrence. This study enhances the understanding of sub-Arctic benthic communities and will contribute to monitoring programs for industrial harbor ecosystems.
+Coastal ecosystems face increasing anthropogenic pressures worldwide and their management requires a solid assessment and understanding of the cumulative impacts from human activities. This study evaluates the spatial variation of benthic macrofaunal communities, sediments, and heavy metals in the sub-Arctic coastal ecosystems around Sept-Îles (Québec, Canada) -- a major port area in the Gulf of St. Lawrence. Physical sediment properties varied in the studied area, with a general sandy-silty profile except for specific locations in Baie des Sept Îles where higher organic matter and heavy metal concentrations were detected. Macrofaunal assemblages were evaluated for two taxa size classes (organisms > 0.5 mm and > 1 mm) and linked to habitat parameters using regression models. Communities of smaller organisms showed signs of perturbation for one assemblage close to industrial activities at Baie des Sept Îles, with an increased number of tolerant and opportunistic species, contrasting to neighboring regions whose compositions were similar to other ecosystems in the Gulf of St. Lawrence. This study enhances the understanding of sub-Arctic benthic communities and will contribute to monitoring programs for industrial harbor ecosystems.
 
 ***Keywords***: biodiversity, coastal benthos, macrofauna, sub-Arctic ecosystems, Gulf of St. Lawrence
 
@@ -150,7 +150,7 @@ Regressions for the 1 mm size class had less predictive power than did those for
 
 \begin{table}[H]
 \centering
-\caption{Predictor coefficients (and standard error) from the multiple linear regression models of community characteristics obtained for the 0.5 mm and the 1 mm size classes. Model 1 corresponds to organic matter and grain size classes as predictors for stations in every sector, and Model 2 corresponds to heavy metal concentrations as predictors for stations in Baie des Sept Îles only. OM = organic matter, As = arsenic, Cd = cadmium, Cr = chromium, Cu = copper, Fe = iron, Mn = manganese, Hg = mercury, Pb = lead, Zn = zinc, n = number of stations considered, “—” = predictors excluded by the best fit model selection. Significant p-values of marginal tests on predictors are highlighted in bold.}
+\caption{Predictor coefficients (and standard error) from the multiple linear regression models of community characteristics obtained for the 0.5 mm and the 1 mm size classes. Model 1 corresponds to organic matter and grain size classes as predictors for stations in every sector, and Model 2 corresponds to heavy metal concentrations as predictors for stations in Baie des Sept Îles only. OM = organic matter, As = arsenic, Cd = cadmium, Cr = chromium, Cu = copper, Fe = iron, Mn = manganese, Hg = mercury, Pb = lead, Zn = zinc, n = number of stations considered, “\textemdash” = predictors excluded by the best fit model selection. Significant p-values of marginal tests on predictors are highlighted in bold.}
 \begin{tabular}{llllllll}
 \hline
  & \multicolumn{7}{c}{\textbf{Model 1}} \\ \cline{2-8}
@@ -160,39 +160,39 @@ Regressions for the 1 mm size class had less predictive power than did those for
 \textit{p-value =} & \multicolumn{1}{c}{0.7095} & \multicolumn{1}{c}{\textbf{0.0011}} & \multicolumn{1}{c}{\textbf{0.0005}} & \multicolumn{1}{c}{\textbf{0.0267}} & \multicolumn{1}{c}{\textbf{0.0305}} & \multicolumn{1}{c}{\textbf{\textless 0.0001}} & \multicolumn{1}{c}{} \\
 \textit{Density of individuals} & 0.02 (0.06) & - 0.09 (0.07) & 0.54 (0.07) & 0.12 (0.08) & 0.52 (0.11) & 0.89 (0.1) & 0.5 \\
 \textit{p-value =} & \multicolumn{1}{c}{0.7992} & \multicolumn{1}{c}{0.1524} & \multicolumn{1}{c}{\textbf{\textless 0.0001}} & \multicolumn{1}{c}{0.137} & \multicolumn{1}{c}{\textbf{\textless 0.0001}} & \multicolumn{1}{c}{\textbf{\textless 0.0001}} & \multicolumn{1}{c}{} \\
-\textit{Shannon diversity} & 0.06 (0.06) & 0.54 (0.07) & — & 0.16 (0.09) & — & 0.29 (0.07) & 0.27 \\
+\textit{Shannon diversity} & 0.06 (0.06) & 0.54 (0.07) & \textemdash & 0.16 (0.09) & \textemdash & 0.29 (0.07) & 0.27 \\
 \textit{p-value =} & \multicolumn{1}{c}{0.3786} & \multicolumn{1}{c}{\textbf{\textless 0.0001}} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{0.0671} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textless 0.0001} & \multicolumn{1}{c}{} \\
-\textit{Pielou evenness} & 0.05 (0.07) & 0.31 (0.08) & - 0.14 (0.08) & - & - 0.2 (0.12) & - 0.22 (0.11) & 0.16 \\
+\textit{Pielou evenness} & 0.05 (0.07) & 0.31 (0.08) & - 0.14 (0.08) & \textemdash & - 0.2 (0.12) & - 0.22 (0.11) & 0.16 \\
 \textit{p-value =} & \multicolumn{1}{c}{0.4181} & \multicolumn{1}{c}{\textbf{\textless 0.0001}} & \multicolumn{1}{c}{0.0713} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{0.0825} & \multicolumn{1}{c}{0.0523} & \multicolumn{1}{c}{} \\
 \textbf{1 mm size class} (n = 195) &  &  &  &  &  &  &  \\
-\textit{Specific richness} & - 0.03 (0.06) & 0.27 (0.07) & - & - & - 0.39 (0.08) & - 0.46 (0.11) & 0.25 \\
+\textit{Specific richness} & - 0.03 (0.06) & 0.27 (0.07) & \textemdash & \textemdash & - 0.39 (0.08) & - 0.46 (0.11) & 0.25 \\
 \textit{p-value =} & \multicolumn{1}{c}{\textit{0.5874}} & \multicolumn{1}{c}{\textit{\textbf{\textless 0.0001}}} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textit{\textbf{\textless 0.0001}}} & \multicolumn{1}{c}{\textit{\textbf{\textless 0.0001}}} & \multicolumn{1}{c}{} \\
-\textit{Density of individuals} & - 0.02 (0.07) & - 0.17 (0.08) & - & - & - 0.2 (0.09) & - 0.31 (0.13) & 0.03 \\
+\textit{Density of individuals} & - 0.02 (0.07) & - 0.17 (0.08) & \textemdash & \textemdash & - 0.2 (0.09) & - 0.31 (0.13) & 0.03 \\
 \textit{p-value =} & \multicolumn{1}{c}{\textit{0.7931}} & \multicolumn{1}{c}{\textit{\textbf{0.0234}}} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textit{\textbf{0.0272}}} & \multicolumn{1}{c}{\textit{\textbf{0.0217}}} & \multicolumn{1}{c}{} \\
-\textit{Shannon diversity} & - 0.03 (0.06) & 0.43 (0.06) & - & - 0.12 (0.08) & - 0.31 (0.07) & - 0.32 (0.11) & 0.34 \\
+\textit{Shannon diversity} & - 0.03 (0.06) & 0.43 (0.06) & \textemdash & - 0.12 (0.08) & - 0.31 (0.07) & - 0.32 (0.11) & 0.34 \\
 \textit{p-value =} & \multicolumn{1}{c}{\textit{0.6265}} & \multicolumn{1}{c}{\textit{\textbf{\textless 0.0001}}} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textit{0.1292}} & \multicolumn{1}{c}{\textit{\textbf{\textless 0.0001}}} & \multicolumn{1}{c}{\textit{\textbf{0.0029}}} & \multicolumn{1}{c}{} \\
-\textit{Pielou evenness} & 0.02 (0.07) & 0.31 (0.07) & - & - & - & - & 0.1 \\
+\textit{Pielou evenness} & 0.02 (0.07) & 0.31 (0.07) & \textemdash & \textemdash & \textemdash & \textemdash & 0.1 \\
 \textit{p-value =} & \multicolumn{1}{c}{\textit{0.8276}} & \multicolumn{1}{c}{\textit{\textbf{\textless 0.0001}}} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} \\
  &  &  &  &  &  &  &  \\
  & \multicolumn{7}{c}{\textbf{Model 2}} \\ \cline{2-8}
  & \multicolumn{1}{c}{\textbf{Intercept}} & \multicolumn{1}{c}{\textbf{As}} & \multicolumn{1}{c}{\textbf{Cd}} & \multicolumn{1}{c}{\textbf{Cr/Fr/Mn}} & \multicolumn{1}{c}{\textbf{Hg}} & \multicolumn{1}{c}{\textbf{Cu/Pb/Zn}} & \multicolumn{1}{c}{\textbf{R2adj}} \\ \hline
 \textbf{0.5 mm size class} (n = 142) &  &  &  &  &  &  &  \\
-\textit{Specific richness} & - 0.06 (0.08) & - 0.41 (0.13) & - 0.69 (0.15) & - & - 0.46 (0.16) & 1.03 (0.19) & 0.18 \\
+\textit{Specific richness} & - 0.06 (0.08) & - 0.41 (0.13) & - 0.69 (0.15) & \textemdash & - 0.46 (0.16) & 1.03 (0.19) & 0.18 \\
 \textit{p-value =} & \multicolumn{1}{c}{0.4276} & \multicolumn{1}{c}{\textbf{0.003}} & \multicolumn{1}{c}{\textbf{\textless 0.0001}} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{0.0051}} & \multicolumn{1}{c}{\textbf{\textless 0.0001}} & \multicolumn{1}{c}{} \\
 \textit{Density of individuals} & - 0.11 (0.06) & - 0.51 (0.1) & 0.74 (0.13) & 0.27 (0.11) & - 0.73 (0.13) & 1.43 (0.16) & 0.49 \\
 \textit{p-value =} & \multicolumn{1}{c}{0.0641} & \multicolumn{1}{c}{\textbf{\textless 0.0001}} & \multicolumn{1}{c}{\textbf{\textless 0.0001}} & \multicolumn{1}{c}{\textbf{0.013}} & \multicolumn{1}{c}{\textbf{\textless 0.0001}} & \multicolumn{1}{c}{\textbf{\textless 0.0001}} & \multicolumn{1}{c}{} \\
-\textit{Shannon diversity} & 0.04 (0.08) & - & - & - 0.28 (0.08) & - & - & 0.07 \\
+\textit{Shannon diversity} & 0.04 (0.08) & \textemdash & \textemdash & - 0.28 (0.08) & \textemdash & \textemdash & 0.07 \\
 \textit{p-value =} & \multicolumn{1}{c}{0.6124} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{0.0007}} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} \\
-\textit{Pielou evenness} & 0.06 (0.08) & - & - & - 0.17 (0.08) & - & - & 0.02 \\
+\textit{Pielou evenness} & 0.06 (0.08) & \textemdash & \textemdash & - 0.17 (0.08) & \textemdash & \textemdash & 0.02 \\
 \textit{p-value =} & \multicolumn{1}{c}{0.4713} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{0.0345}} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} \\
 \textbf{1 mm size class} (n = 126) &  &  &  &  &  &  &  \\
-\textit{Specific richness} & 0.06 (0.08) & - & - 0.51 (0.15) & - & - & 0.31 (0.15) & 0.08 \\
+\textit{Specific richness} & 0.06 (0.08) & \textemdash & - 0.51 (0.15) & \textemdash & \textemdash & 0.31 (0.15) & 0.08 \\
 \textit{p-value =} & \multicolumn{1}{c}{0.4529} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{0.0009}} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{0.0375}} & \multicolumn{1}{c}{} \\
-\textit{Density of individuals} & 0.02 (0.09) & - & - & - & - & - & 0 \\
+\textit{Density of individuals} & 0.02 (0.09) & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & 0 \\
 \textit{p-value =} & \multicolumn{1}{c}{0.8373} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} \\
-\textit{Shannon diversity} & 0.09 (0.08) & - & - 0.43 (0.15) & - & - & 0.29 (0.14) & 0.05 \\
+\textit{Shannon diversity} & 0.09 (0.08) & \textemdash & - 0.43 (0.15) & \textemdash & \textemdash & 0.29 (0.14) & 0.05 \\
 \textit{p-value =} & \multicolumn{1}{c}{0.2492} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{0.0038}} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{0.0437}} & \multicolumn{1}{c}{} \\
-\textit{Pielou evenness} & 0.06 (0.08) & - & - & - & - & - & 0 \\
+\textit{Pielou evenness} & 0.06 (0.08) & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & 0 \\
 \textit{p-value =} & \multicolumn{1}{c}{0.4249} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} \\ \hline
 \end{tabular}
 \label{Tab2}
@@ -320,192 +320,192 @@ The authors would like to acknowledge and thank all the people that helped durin
 136340 & Arthropoda & \textit{Akanthophoreus gracilis} & 31 & 163 &  & 9 & 13 \\
 878476 & Mollusca & \textit{Ameritella agilis} & 16 & 39 &  & 14 & 47 \\
 547000 & Arthropoda & \textit{Ameroculodes edwardsi} & 8 & 10 &  & 8 & 10 \\
-101908 & Arthropoda & \textit{Ampelisca macrocephala} & — & — &  & 1 & 2 \\
+101908 & Arthropoda & \textit{Ampelisca macrocephala} & \textemdash & \textemdash &  & 1 & 2 \\
 158022 & Arthropoda & \textit{Ampelisca vadorum} & 2 & 2 &  & 2 & 2 \\
-101364 & Arthropoda & Ampeliscidae spp. & — & — &  & 5 & 7 \\
-762338 & Annelida & \textit{Ampharete oculata} & — & — &  & 1 & 8 \\
-129155 & Annelida & \textit{Ampharete} sp. & 1 & 2 &  & — & — \\
-981 & Annelida & Ampharetidae spp. & — & — &  & 5 & 9 \\
-111186 & Bryozoa & \textit{Amphiblestrum auritum} & 1 & 1 &  & — & — \\
-125064 & Echinodermata & \textit{Amphipholis squamata} & — & — &  & 9 & 133 \\
+101364 & Arthropoda & Ampeliscidae spp. & \textemdash & \textemdash &  & 5 & 7 \\
+762338 & Annelida & \textit{Ampharete oculata} & \textemdash & \textemdash &  & 1 & 8 \\
+129155 & Annelida & \textit{Ampharete} sp. & 1 & 2 &  & \textemdash & \textemdash \\
+981 & Annelida & Ampharetidae spp. & \textemdash & \textemdash &  & 5 & 9 \\
+111186 & Bryozoa & \textit{Amphiblestrum auritum} & 1 & 1 &  & \textemdash & \textemdash \\
+125064 & Echinodermata & \textit{Amphipholis squamata} & \textemdash & \textemdash &  & 9 & 133 \\
 1135 & Arthropoda & Amphipoda & 44 & 127 &  & 6 & 20 \\
-123613 & Echinodermata & \textit{Amphiura} sp. & — & — &  & 1 & 1 \\
-102002 & Arthropoda & \textit{Ampithoe rubricata} & — & — &  & 2 & 3 \\
-882 & Annelida & Annelida & 13 & 89 &  & — & — \\
+123613 & Echinodermata & \textit{Amphiura} sp. & \textemdash & \textemdash &  & 1 & 1 \\
+102002 & Arthropoda & \textit{Ampithoe rubricata} & \textemdash & \textemdash &  & 2 & 3 \\
+882 & Annelida & Annelida & 13 & 89 &  & \textemdash & \textemdash \\
 102513 & Arthropoda & \textit{Anonyx lilljeborgi} & 9 & 16 &  & 9 & 16 \\
-102516 & Arthropoda & \textit{Anonyx sarsi} & — & — &  & 2 & 2 \\
+102516 & Arthropoda & \textit{Anonyx sarsi} & \textemdash & \textemdash &  & 2 & 2 \\
 1292 & Cnidaria & Anthozoa & 3 & 4 &  & 4 & 5 \\
-101368 & Arthropoda & Aoridae spp. & 1 & 4 &  & — & — \\
+101368 & Arthropoda & Aoridae spp. & 1 & 4 &  & \textemdash & \textemdash \\
 157214 & Annelida & \textit{Arcteobia anticostiensis} & 1 & 1 &  & 1 & 1 \\
-333034 & Annelida & \textit{Aricidea acmira catherinae} & 3 & 13 &  & — & — \\
-129430 & Annelida & \textit{Aricidea} sp. & 7 & 57 &  & — & — \\
+333034 & Annelida & \textit{Aricidea acmira catherinae} & 3 & 13 &  & \textemdash & \textemdash \\
+129430 & Annelida & \textit{Aricidea} sp. & 7 & 57 &  & \textemdash & \textemdash \\
 531617 & Mollusca & \textit{Arrhoges occidentalis} & 1 & 1 &  & 3 & 4 \\
 137683 & Mollusca & \textit{Astarte} sp. & 8 & 12 &  & 7 & 10 \\
-156746 & Mollusca & \textit{Astarte subaequilatera} & — & — &  & 3 & 12 \\
-156747 & Mollusca & \textit{Astarte undata} & — & — &  & 3 & 12 \\
+156746 & Mollusca & \textit{Astarte subaequilatera} & \textemdash & \textemdash &  & 3 & 12 \\
+156747 & Mollusca & \textit{Astarte undata} & \textemdash & \textemdash &  & 3 & 12 \\
 123219 & Echinodermata & \textit{Asterias} sp. & 1 & 1 &  & 1 & 1 \\
 141652 & Mollusca & \textit{Axinopsida orbiculata} & 27 & 134 &  & 18 & 85 \\
 130275 & Annelida & \textit{Axiothella catenata} & 2 & 5 &  & 2 & 5 \\
-106122 & Arthropoda & \textit{Balanus} sp. & 1 & 2 &  & — & — \\
+106122 & Arthropoda & \textit{Balanus} sp. & 1 & 2 &  & \textemdash & \textemdash \\
 102873 & Arthropoda & \textit{Bathymedon longimanus} & 4 & 11 &  & 3 & 8 \\
 102875 & Arthropoda & \textit{Bathymedon obtusifrons} & 2 & 15 &  & 2 & 15 \\
-158034 & Arthropoda & \textit{Bathyporeia quoddyensis} & — & — &  & 2 & 2 \\
+158034 & Arthropoda & \textit{Bathyporeia quoddyensis} & \textemdash & \textemdash &  & 2 & 2 \\
 105 & Mollusca & Bivalvia & 114 & 10486 &  & 51 & 483 \\
-386411 & Mollusca & \textit{Boreochiton ruber} & 8 & 24 &  & — & — \\
+386411 & Mollusca & \textit{Boreochiton ruber} & 8 & 24 &  & \textemdash & \textemdash \\
 110397 & Arthropoda & \textit{Brachydiastylis} sp. & 4 & 24 &  & 6 & 28 \\
 106673 & Arthropoda & Brachyura & 2 & 2 &  & 2 & 2 \\
-146142 & Bryozoa & Bryozoa & 3 & 9 &  & — & — \\
-416573 & Arthropoda & \textit{Byblis gaimardii} & 1 & 1 &  & — & — \\
+146142 & Bryozoa & Bryozoa & 3 & 9 &  & \textemdash & \textemdash \\
+416573 & Arthropoda & \textit{Byblis gaimardii} & 1 & 1 &  & \textemdash & \textemdash \\
 110851 & Bryozoa & \textit{Callopora} sp. & 5 & 9 &  & 5 & 9 \\
-1606 & Cnidaria & Campanulariidae spp. & 1 & 1 &  & — & — \\
-1607 & Cnidaria & Campanulinidae spp. & 35 & 35 &  & — & — \\
-158057 & Arthropoda & \textit{Cancer irroratus} & 2 & 2 &  & — & — \\
+1606 & Cnidaria & Campanulariidae spp. & 1 & 1 &  & \textemdash & \textemdash \\
+1607 & Cnidaria & Campanulinidae spp. & 35 & 35 &  & \textemdash & \textemdash \\
+158057 & Arthropoda & \textit{Cancer irroratus} & 2 & 2 &  & \textemdash & \textemdash \\
 110734 & Bryozoa & Candidae spp. & 9 & 14 &  & 4 & 4 \\
-129211 & Annelida & \textit{Capitella} sp. & 1 & 1 &  & — & — \\
-921 & Annelida & Capitellidae spp. & 20 & 529 &  & — & — \\
-101851 & Arthropoda & \textit{Caprella septentrionalis} & 3 & 13 &  & — & — \\
+129211 & Annelida & \textit{Capitella} sp. & 1 & 1 &  & \textemdash & \textemdash \\
+921 & Annelida & Capitellidae spp. & 20 & 529 &  & \textemdash & \textemdash \\
+101851 & Arthropoda & \textit{Caprella septentrionalis} & 3 & 13 &  & \textemdash & \textemdash \\
 110873 & Bryozoa & \textit{Cellepora} sp. & 9 & 370 &  & 6 & 275 \\
-111397 & Bryozoa & \textit{Celleporella hyalina} & 1 & 1 &  & — & — \\
-2088 & Mollusca & Chaetodermatida & 1 & 1 &  & — & — \\
+111397 & Bryozoa & \textit{Celleporella hyalina} & 1 & 1 &  & \textemdash & \textemdash \\
+2088 & Mollusca & Chaetodermatida & 1 & 1 &  & \textemdash & \textemdash \\
 2081 & Chaetognatha & Chaetognatha & 18 & 25 &  & 13 & 17 \\
-129242 & Annelida & \textit{Chaetozone} sp. & 1 & 1 &  & — & — \\
-107315 & Arthropoda & \textit{Chionoecetes opilio} & 1 & 4 &  & — & — \\
+129242 & Annelida & \textit{Chaetozone} sp. & 1 & 1 &  & \textemdash & \textemdash \\
+107315 & Arthropoda & \textit{Chionoecetes opilio} & 1 & 4 &  & \textemdash & \textemdash \\
 140692 & Mollusca & \textit{Chlamys islandica} & 2 & 2 &  & 2 & 2 \\
 129525 & Annelida & \textit{Chone} sp. & 1 & 1 &  & 1 & 1 \\
 139000 & Mollusca & \textit{Ciliatocardium ciliatum} & 1 & 12 &  & 1 & 12 \\
 919 & Annelida & Cirratulidae spp. & 1 & 1 &  & 6 & 17 \\
-1082 & Arthropoda & Cirripedia & 16 & 246 &  & — & — \\
+1082 & Arthropoda & Cirripedia & 16 & 246 &  & \textemdash & \textemdash \\
 238377 & Annelida & \textit{Cistenides granulata} & 1 & 3 &  & 1 & 3 \\
 157317 & Annelida & \textit{Cistenides hyperborea} & 24 & 56 &  & 43 & 142 \\
-157316 & Annelida & \textit{Cistenides} sp. & 2 & 3 &  & — & — \\
-157320 & Annelida & \textit{Clymenella zonalis} & 1 & 1 &  & — & — \\
-129984 & Annelida & \textit{Cossura longocirrata} & — & — &  & 1 & 2 \\
+157316 & Annelida & \textit{Cistenides} sp. & 2 & 3 &  & \textemdash & \textemdash \\
+157320 & Annelida & \textit{Clymenella zonalis} & 1 & 1 &  & \textemdash & \textemdash \\
+129984 & Annelida & \textit{Cossura longocirrata} & \textemdash & \textemdash &  & 1 & 2 \\
 237004 & Arthropoda & \textit{Crassicorophium bonellii} & 1 & 6 &  & 1 & 6 \\
-140440 & Mollusca & \textit{Crenella decussata} & 5 & 11 &  & — & — \\
+140440 & Mollusca & \textit{Crenella decussata} & 5 & 11 &  & \textemdash & \textemdash \\
 1059487 & Bryozoa & \textit{Cribrilina cryptooecium} & 17 & 77 &  & 17 & 61 \\
-1066 & Arthropoda & Crustacea & 1 & 1 &  & — & — \\
-1137 & Arthropoda & Cumacea & 2 & 2 &  & — & — \\
-157810 & Arthropoda & \textit{Cyclaspis varians} & 4 & 5 &  & — & — \\
-156832 & Mollusca & \textit{Cyclocardia borealis} & — & — &  & 1 & 1 \\
+1066 & Arthropoda & Crustacea & 1 & 1 &  & \textemdash & \textemdash \\
+1137 & Arthropoda & Cumacea & 2 & 2 &  & \textemdash & \textemdash \\
+157810 & Arthropoda & \textit{Cyclaspis varians} & 4 & 5 &  & \textemdash & \textemdash \\
+156832 & Mollusca & \textit{Cyclocardia borealis} & \textemdash & \textemdash &  & 1 & 1 \\
 139474 & Mollusca & \textit{Cylichna alba} & 1 & 5 &  & 3 & 7 \\
-140102 & Mollusca & \textit{Cyrtodaria siliqua} & 3 & 16 &  & — & — \\
+140102 & Mollusca & \textit{Cyrtodaria siliqua} & 3 & 16 &  & \textemdash & \textemdash \\
 111174 & Bryozoa & \textit{Dendrobeania murrayana} & 3 & 3 &  & 2 & 2 \\
-157815 & Arthropoda & \textit{Diastylis polita} & 1 & 1 &  & — & — \\
-110487 & Arthropoda & \textit{Diastylis rathkei} & — & — &  & 1 & 1 \\
+157815 & Arthropoda & \textit{Diastylis polita} & 1 & 1 &  & \textemdash & \textemdash \\
+110487 & Arthropoda & \textit{Diastylis rathkei} & \textemdash & \textemdash &  & 1 & 1 \\
 157817 & Arthropoda & \textit{Diastylis sculpta} & 10 & 46 &  & 7 & 41 \\
 110398 & Arthropoda & \textit{Diastylis} sp. & 16 & 95 &  & 11 & 47 \\
 131121 & Annelida & \textit{Dipolydora quadrilobata} & 1 & 1 &  & 1 & 1 \\
-129611 & Annelida & \textit{Dipolydora} sp. & 1 & 1 &  & — & — \\
-971 & Annelida & Dorvilleidae spp. & 1 & 1 &  & — & — \\
-117888 & Cnidaria & \textit{Dynamena pumila} & 1 & 14 &  & — & — \\
-158062 & Echinodermata & \textit{Echinarachnius parma} & — & — &  & 1 & 1 \\
+129611 & Annelida & \textit{Dipolydora} sp. & 1 & 1 &  & \textemdash & \textemdash \\
+971 & Annelida & Dorvilleidae spp. & 1 & 1 &  & \textemdash & \textemdash \\
+117888 & Cnidaria & \textit{Dynamena pumila} & 1 & 14 &  & \textemdash & \textemdash \\
+158062 & Echinodermata & \textit{Echinarachnius parma} & \textemdash & \textemdash &  & 1 & 1 \\
 123082 & Echinodermata & Echinoidea & 46 & 317 &  & 57 & 378 \\
-574096 & Mollusca & \textit{Ecrobia truncata} & 3 & 7 &  & — & — \\
+574096 & Mollusca & \textit{Ecrobia truncata} & 3 & 7 &  & \textemdash & \textemdash \\
 157884 & Arthropoda & \textit{Edotia montosa} & 5 & 56 &  & 2 & 19 \\
 157885 & Arthropoda & \textit{Edotia triloba} & 3 & 5 &  & 4 & 6 \\
-111355 & Bryozoa & \textit{Electra pilosa} & 6 & 13 &  & — & — \\
-506605 & Mollusca & \textit{Ennucula delphinodonta} & 3 & 3 &  & — & — \\
-140584 & Mollusca & \textit{Ennucula tenuis} & 1 & 1 &  & — & — \\
+111355 & Bryozoa & \textit{Electra pilosa} & 6 & 13 &  & \textemdash & \textemdash \\
+506605 & Mollusca & \textit{Ennucula delphinodonta} & 3 & 3 &  & \textemdash & \textemdash \\
+140584 & Mollusca & \textit{Ennucula tenuis} & 1 & 1 &  & \textemdash & \textemdash \\
 1820 & Hemichordata & \textit{Enteropneusta} & 53 & 229 &  & 58 & 211 \\
-130613 & Annelida & \textit{Eteone flava} & 1 & 2 &  & — & — \\
-130616 & Annelida & \textit{Eteone longa} & — & — &  & 1 & 7 \\
-129443 & Annelida & \textit{Eteone} sp. & 2 & 12 &  & — & — \\
+130613 & Annelida & \textit{Eteone flava} & 1 & 2 &  & \textemdash & \textemdash \\
+130616 & Annelida & \textit{Eteone longa} & \textemdash & \textemdash &  & 1 & 7 \\
+129443 & Annelida & \textit{Eteone} sp. & 2 & 12 &  & \textemdash & \textemdash \\
 157374 & Annelida & \textit{Eteone trilineata} & 20 & 122 &  & 6 & 8 \\
-130903 & Annelida & \textit{Euchone analis} & — & — &  & 1 & 1 \\
-129528 & Annelida & \textit{Euchone} sp. & 9 & 243 &  & — & — \\
+130903 & Annelida & \textit{Euchone analis} & \textemdash & \textemdash &  & 1 & 1 \\
+129528 & Annelida & \textit{Euchone} sp. & 9 & 243 &  & \textemdash & \textemdash \\
 111361 & Bryozoa & \textit{Eucratea loricata} & 1 & 32 &  & 1 & 32 \\
-1600 & Cnidaria & Eudendriidae spp. & 12 & 12 &  & — & — \\
-110524 & Arthropoda & \textit{Eudorella emarginata} & 4 & 4 &  & — & — \\
+1600 & Cnidaria & Eudendriidae spp. & 12 & 12 &  & \textemdash & \textemdash \\
+110524 & Arthropoda & \textit{Eudorella emarginata} & 4 & 4 &  & \textemdash & \textemdash \\
 157820 & Arthropoda & \textit{Eudorellopsis integra} & 6 & 9 &  & 6 & 9 \\
 140536 & Mollusca & \textit{Euspira pallida} & 66 & 1163 &  & 63 & 669 \\
 117690 & Cnidaria & \textit{Filellum serpens} & 1 & 1 &  & 1 & 1 \\
-1207 & Arthropoda & Gammaridea & 1 & 1 &  & — & — \\
-101537 & Arthropoda & \textit{Gammarus} sp. & 4 & 6 &  & — & — \\
-101 & Mollusca & Gastropoda & — & — &  & 1 & 1 \\
-130116 & Annelida & \textit{Glycera alba} & 2 & 14 &  & — & — \\
-130118 & Annelida & \textit{Glycera capitata} & — & — &  & 4 & 17 \\
+1207 & Arthropoda & Gammaridea & 1 & 1 &  & \textemdash & \textemdash \\
+101537 & Arthropoda & \textit{Gammarus} sp. & 4 & 6 &  & \textemdash & \textemdash \\
+101 & Mollusca & Gastropoda & \textemdash & \textemdash &  & 1 & 1 \\
+130116 & Annelida & \textit{Glycera alba} & 2 & 14 &  & \textemdash & \textemdash \\
+130118 & Annelida & \textit{Glycera capitata} & \textemdash & \textemdash &  & 4 & 17 \\
 157392 & Annelida & \textit{Glycera dibranchiata} & 2 & 2 &  & 3 & 3 \\
 129296 & Annelida & \textit{Glycera} sp. & 8 & 25 &  & 5 & 7 \\
 130140 & Annelida & \textit{Goniada maculata} & 11 & 40 &  & 7 & 13 \\
 953 & Annelida & Goniadidae spp. & 41 & 102 &  & 48 & 110 \\
-158095 & Arthropoda & \textit{Guernea (Prinassus) nordenskioldi} & — & — &  & 2 & 4 \\
-1484 & Arthropoda & Halacaridae spp. & 2 & 19 &  & — & — \\
+158095 & Arthropoda & \textit{Guernea (Prinassus) nordenskioldi} & \textemdash & \textemdash &  & 2 & 4 \\
+1484 & Arthropoda & Halacaridae spp. & 2 & 19 &  & \textemdash & \textemdash \\
 100667 & Cnidaria & Halcampidae spp. & 6 & 44 &  & 1 & 1 \\
-1342053 & Mollusca & \textit{Haminoea solitaria} & 1 & 1 &  & — & — \\
+1342053 & Mollusca & \textit{Haminoea solitaria} & 1 & 1 &  & \textemdash & \textemdash \\
 158099 & Arthropoda & \textit{Hardametopa carinata} & 1 & 1 &  & 1 & 1 \\
-130769 & Annelida & \textit{Harmothoe imbricata} & 1 & 1 &  & — & — \\
+130769 & Annelida & \textit{Harmothoe imbricata} & 1 & 1 &  & \textemdash & \textemdash \\
 129491 & Annelida & \textit{Harmothoe} sp. & 3 & 9 &  & 8 & 14 \\
 1102 & Arthropoda & Harpacticoida & 3 & 3 &  & 3 & 3 \\
 102974 & Arthropoda & \textit{Harpinia propinqua} & 87 & 651 &  & 2 & 5 \\
-157436 & Annelida & \textit{Hartmania moorei} & — & — &  & 2 & 12 \\
-152302 & Annelida & \textit{Hediste diversicolor} & 2 & 3 &  & — & — \\
+157436 & Annelida & \textit{Hartmania moorei} & \textemdash & \textemdash &  & 2 & 12 \\
+152302 & Annelida & \textit{Hediste diversicolor} & 2 & 3 &  & \textemdash & \textemdash \\
 128143 & Arthropoda & \textit{Hemicythere villosa} & 26 & 96 &  & 16 & 36 \\
-104054 & Brachiopoda & \textit{Hemithiris psittacea} & 6 & 45 &  & — & — \\
-946 & Annelida & Hesionidae spp. & — & — &  & 1 & 2 \\
-138749 & Mollusca & \textit{Heteranomia squamula} & 1 & 2 &  & — & — \\
+104054 & Brachiopoda & \textit{Hemithiris psittacea} & 6 & 45 &  & \textemdash & \textemdash \\
+946 & Annelida & Hesionidae spp. & \textemdash & \textemdash &  & 1 & 2 \\
+138749 & Mollusca & \textit{Heteranomia squamula} & 1 & 2 &  & \textemdash & \textemdash \\
 140103 & Mollusca & \textit{Hiatella arctica} & 1 & 4 &  & 1 & 4 \\
 123083 & Echinodermata & Holothuroidea & 7 & 23 &  & 9 & 25 \\
 107323 & Arthropoda & \textit{Hyas coarctatus} & 4 & 6 &  & 4 & 6 \\
-1337 & Cnidaria & Hydrozoa & — & — &  & 1 & 1 \\
-157891 & Arthropoda & \textit{Idotea phosphorea} & 1 & 1 &  & — & — \\
+1337 & Cnidaria & Hydrozoa & \textemdash & \textemdash &  & 1 & 1 \\
+157891 & Arthropoda & \textit{Idotea phosphorea} & 1 & 1 &  & \textemdash & \textemdash \\
 101389 & Arthropoda & Ischyroceridae spp. & 3 & 13 &  & 3 & 11 \\
 102412 & Arthropoda & \textit{Ischyrocerus anguipes} & 1 & 1 &  & 1 & 1 \\
 1131 & Arthropoda & Isopoda & 7 & 148 &  & 5 & 76 \\
-884676 & Annelida & \textit{Kirkegaardia} sp. & 1 & 1 &  & — & — \\
+884676 & Annelida & \textit{Kirkegaardia} sp. & 1 & 1 &  & \textemdash & \textemdash \\
 140170 & Mollusca & \textit{Lacuna vincta} & 4 & 12 &  & 4 & 11 \\
-117136 & Cnidaria & \textit{Lafoea} sp. & 1 & 1 &  & — & — \\
+117136 & Cnidaria & \textit{Lafoea} sp. & 1 & 1 &  & \textemdash & \textemdash \\
 110516 & Arthropoda & \textit{Lamprops fasciatus} & 1 & 2 &  & 1 & 1 \\
 110517 & Arthropoda & \textit{Lamprops fuscatus} & 14 & 26 &  & 14 & 26 \\
-1307579 & Arthropoda & \textit{Lamprops quadriplicata} & 2 & 2 &  & — & — \\
+1307579 & Arthropoda & \textit{Lamprops quadriplicata} & 2 & 2 &  & \textemdash & \textemdash \\
 140187 & Mollusca & \textit{Lepeta caeca} & 7 & 12 &  & 6 & 9 \\
-158112 & Arthropoda & \textit{Leptocheirus pinguis} & 1 & 2 &  & — & — \\
+158112 & Arthropoda & \textit{Leptocheirus pinguis} & 1 & 2 &  & \textemdash & \textemdash \\
 110501 & Arthropoda & \textit{Leptostylis ampullacea} & 1 & 12 &  & 1 & 3 \\
-110618 & Arthropoda & \textit{Leucon (Leucon) nasica} & 1 & 4 &  & — & — \\
+110618 & Arthropoda & \textit{Leucon (Leucon) nasica} & 1 & 4 &  & \textemdash & \textemdash \\
 110619 & Arthropoda & \textit{Leucon (Leucon) nasicoides} & 43 & 408 &  & 33 & 185 \\
 880017 & Mollusca & \textit{Limecola balthica} & 16 & 212 &  & 13 & 38 \\
 140262 & Mollusca & \textit{Littorina littorea} & 5 & 11 &  & 4 & 10 \\
-140263 & Mollusca & \textit{Littorina obtusata} & 1 & 1 &  & — & — \\
+140263 & Mollusca & \textit{Littorina obtusata} & 1 & 1 &  & \textemdash & \textemdash \\
 967 & Annelida & Lumbrineridae spp. & 5 & 18 &  & 3 & 14 \\
-101395 & Arthropoda & Lysianassidae spp. & 3 & 5 &  & — & — \\
+101395 & Arthropoda & Lysianassidae spp. & 3 & 5 &  & \textemdash & \textemdash \\
 141580 & Mollusca & \textit{Macoma calcarea} & 88 & 584 &  & 84 & 420 \\
-138531 & Mollusca & \textit{Macoma} sp. & 2 & 5 &  & — & — \\
+138531 & Mollusca & \textit{Macoma} sp. & 2 & 5 &  & \textemdash & \textemdash \\
 158037 & Arthropoda & \textit{Maera danae} & 1 & 1 &  & 1 & 1 \\
 130305 & Annelida & \textit{Maldane sarsi} & 2 & 3 &  & 2 & 3 \\
 923 & Annelida & Maldanidae spp. & 31 & 203 &  & 29 & 197 \\
-141819 & Mollusca & \textit{Margarites costalis} & — & — &  & 1 & 3 \\
-138592 & Mollusca & \textit{Margarites} sp. & 1 & 1 &  & — & — \\
-111411 & Bryozoa & \textit{Membranipora membranacea} & 2 & 2 &  & — & — \\
+141819 & Mollusca & \textit{Margarites costalis} & \textemdash & \textemdash &  & 1 & 3 \\
+138592 & Mollusca & \textit{Margarites} sp. & 1 & 1 &  & \textemdash & \textemdash \\
+111411 & Bryozoa & \textit{Membranipora membranacea} & 2 & 2 &  & \textemdash & \textemdash \\
 156805 & Mollusca & \textit{Mesodesma arctatum} & 4 & 89 &  & 16 & 217 \\
-130349 & Annelida & \textit{Micronephthys neotena} & 2 & 7 &  & — & — \\
-130168 & Annelida & \textit{Microphthalmus aberrans} & 6 & 63 &  & — & — \\
-130174 & Annelida & \textit{Microphthalmus sczelkowii} & 4 & 35 &  & — & — \\
-129313 & Annelida & \textit{Microphthalmus} sp. & 1 & 1 &  & — & — \\
-101694 & Arthropoda & \textit{Monoculodes} sp. & 6 & 20 &  & — & — \\
-102901 & Arthropoda & \textit{Monoculopsis longicornis} & 2 & 5 &  & — & — \\
+130349 & Annelida & \textit{Micronephthys neotena} & 2 & 7 &  & \textemdash & \textemdash \\
+130168 & Annelida & \textit{Microphthalmus aberrans} & 6 & 63 &  & \textemdash & \textemdash \\
+130174 & Annelida & \textit{Microphthalmus sczelkowii} & 4 & 35 &  & \textemdash & \textemdash \\
+129313 & Annelida & \textit{Microphthalmus} sp. & 1 & 1 &  & \textemdash & \textemdash \\
+101694 & Arthropoda & \textit{Monoculodes} sp. & 6 & 20 &  & \textemdash & \textemdash \\
+102901 & Arthropoda & \textit{Monoculopsis longicornis} & 2 & 5 &  & \textemdash & \textemdash \\
 140472 & Mollusca & \textit{Muculus (Musculus) discors} & 1 & 1 &  & 1 & 1 \\
 140430 & Mollusca & \textit{Mya arenaria} & 1 & 4 &  & 11 & 17 \\
-156249 & Mollusca & \textit{Mya pseudoarenaria} & 1 & 1 &  & — & — \\
-110949 & Bryozoa & \textit{Myriapora} sp. & 1 & 1 &  & — & — \\
+156249 & Mollusca & \textit{Mya pseudoarenaria} & 1 & 1 &  & \textemdash & \textemdash \\
+110949 & Bryozoa & \textit{Myriapora} sp. & 1 & 1 &  & \textemdash & \textemdash \\
 876479 & Mollusca & \textit{Mysella planulata} & 3 & 14 &  & 3 & 5 \\
 138228 & Mollusca & \textit{Mytilus} sp. & 23 & 462 &  & 10 & 133 \\
 799 & Nematoda & Nematoda & 61 & 1377 &  & 17 & 165 \\
 152391 & Nemertea & Nemertea & 3 & 21 &  & 3 & 17 \\
 131069 & Annelida & \textit{Neoleanira tetragona} & 1 & 1 &  & 1 & 1 \\
 956 & Annelida & Nephtyidae spp. & 11 & 17 &  & 14 & 21 \\
-157499 & Annelida & \textit{Nephtys bucera} & — & — &  & 5 & 5 \\
+157499 & Annelida & \textit{Nephtys bucera} & \textemdash & \textemdash &  & 5 & 5 \\
 130355 & Annelida & \textit{Nephtys caeca} & 22 & 31 &  & 32 & 66 \\
-130356 & Annelida & \textit{Nephtys ciliata} & — & — &  & 2 & 6 \\
+130356 & Annelida & \textit{Nephtys ciliata} & \textemdash & \textemdash &  & 2 & 6 \\
 130362 & Annelida & \textit{Nephtys incisa} & 35 & 73 &  & 37 & 75 \\
-130364 & Annelida & \textit{Nephtys longosetosa} & 1 & 1 &  & — & — \\
-129370 & Annelida & \textit{Nephtys} sp. & 23 & 6901 &  & — & — \\
-22496 & Annelida & Nereididae spp. & 1 & 1 &  & — & — \\
-130404 & Annelida & \textit{Nereis pelagica} & — & — &  & 1 & 1 \\
-156916 & Mollusca & \textit{Nucula proxima} & — & — &  & 4 & 11 \\
+130364 & Annelida & \textit{Nephtys longosetosa} & 1 & 1 &  & \textemdash & \textemdash \\
+129370 & Annelida & \textit{Nephtys} sp. & 23 & 6901 &  & \textemdash & \textemdash \\
+22496 & Annelida & Nereididae spp. & 1 & 1 &  & \textemdash & \textemdash \\
+130404 & Annelida & \textit{Nereis pelagica} & \textemdash & \textemdash &  & 1 & 1 \\
+156916 & Mollusca & \textit{Nucula proxima} & \textemdash & \textemdash &  & 4 & 11 \\
 140577 & Mollusca & \textit{Nuculana minuta} & 11 & 13 &  & 11 & 13 \\
-1566 & Arthropoda & \textit{Nymphonidae spp} & 1 & 1 &  & — & — \\
-117388 & Cnidaria & \textit{Obelia geniculata} & 1 & 1 &  & — & — \\
-117389 & Cnidaria & \textit{Obelia longissima} & 1 & 1 &  & — & — \\
-117034 & Cnidaria & \textit{Obelia} sp. & 5 & 5 &  & — & — \\
+1566 & Arthropoda & \textit{Nymphonidae spp} & 1 & 1 &  & \textemdash & \textemdash \\
+117388 & Cnidaria & \textit{Obelia geniculata} & 1 & 1 &  & \textemdash & \textemdash \\
+117389 & Cnidaria & \textit{Obelia longissima} & 1 & 1 &  & \textemdash & \textemdash \\
+117034 & Cnidaria & \textit{Obelia} sp. & 5 & 5 &  & \textemdash & \textemdash \\
 137826 & Mollusca & \textit{Oenopota} sp. & 9 & 10 &  & 9 & 10 \\
 2036 & Annelida & Oligochaeta & 20 & 261 &  & 16 & 144 \\
 130494 & Annelida & \textit{Ophelia limacina} & 11 & 18 &  & 13 & 16 \\
@@ -513,97 +513,97 @@ The authors would like to acknowledge and thank all the people that helped durin
 125125 & Echinodermata & \textit{Ophiopholis aculeata} & 2 & 2 &  & 2 & 2 \\
 124933 & Echinodermata & \textit{Ophiura robusta} & 6 & 220 &  & 6 & 220 \\
 102690 & Arthropoda & \textit{Orchomenella minuta} & 9 & 14 &  & 10 & 16 \\
-1078 & Arthropoda & Ostracoda & 37 & 341 &  & — & — \\
+1078 & Arthropoda & Ostracoda & 37 & 341 &  & \textemdash & \textemdash \\
 107240 & Arthropoda & \textit{Pagurus pubescens} & 3 & 4 &  & 7 & 9 \\
 106854 & Arthropoda & \textit{Pagurus} sp. & 1 & 1 &  & 1 & 1 \\
 107651 & Arthropoda & \textit{Pandalus montagui} & 1 & 1 &  & 1 & 1 \\
-903 & Annelida & Paraonidae spp. & 1 & 1 &  & — & — \\
-111547 & Bryozoa & \textit{Parasmittina trispinosa} & 1 & 1 &  & — & — \\
+903 & Annelida & Paraonidae spp. & 1 & 1 &  & \textemdash & \textemdash \\
+111547 & Bryozoa & \textit{Parasmittina trispinosa} & 1 & 1 &  & \textemdash & \textemdash \\
 954693 & Mollusca & \textit{Parathyasira equalis} & 1 & 2 &  & 1 & 2 \\
 181343 & Mollusca & \textit{Parvicardium pinnulatum} & 8 & 13 &  & 8 & 13 \\
 156940 & Mollusca & \textit{Periploma leanum} & 3 & 5 &  & 3 & 5 \\
-110593 & Arthropoda & \textit{Petalosarsia declivis} & — & — &  & 1 & 1 \\
-129293 & Annelida & \textit{Pherusa} sp. & 2 & 5 &  & — & — \\
+110593 & Arthropoda & \textit{Petalosarsia declivis} & \textemdash & \textemdash &  & 1 & 1 \\
+129293 & Annelida & \textit{Pherusa} sp. & 2 & 5 &  & \textemdash & \textemdash \\
 423717 & Mollusca & \textit{Philine lima} & 1 & 1 &  & 1 & 1 \\
-196322 & Mollusca & Philinoidea & 1 & 2 &  & — & — \\
+196322 & Mollusca & Philinoidea & 1 & 2 &  & \textemdash & \textemdash \\
 127524 & Arthropoda & \textit{Philomedes} sp. & 6 & 7 &  & 4 & 4 \\
 130602 & Annelida & \textit{Pholoe longa} & 15 & 117 &  & 2 & 15 \\
-335827 & Annelida & \textit{Pholoe minuta tecta} & 12 & 154 &  & — & — \\
+335827 & Annelida & \textit{Pholoe minuta tecta} & 12 & 154 &  & \textemdash & \textemdash \\
 129439 & Annelida & \textit{Pholoe} sp. & 69 & 304 &  & 41 & 92 \\
-1789 & Phoronida & Phoronida & 18 & 1140 &  & — & — \\
-101403 & Arthropoda & Phoxocephalidae spp. & — & — &  & 1 & 1 \\
+1789 & Phoronida & Phoronida & 18 & 1140 &  & \textemdash & \textemdash \\
+101403 & Arthropoda & Phoxocephalidae spp. & \textemdash & \textemdash &  & 1 & 1 \\
 102989 & Arthropoda & \textit{Phoxocephalus holbolli} & 54 & 553 &  & 29 & 113 \\
-334506 & Annelida & \textit{Phyllodoce groenlandica} & 22 & 520 &  & — & — \\
-334510 & Annelida & \textit{Phyllodoce maculata} & 1 & 1 &  & — & — \\
-334512 & Annelida & \textit{Phyllodoce mucosa} & — & — &  & 3 & 15 \\
-129455 & Annelida & \textit{Phyllodoce} sp. & 6 & 16 &  & — & — \\
+334506 & Annelida & \textit{Phyllodoce groenlandica} & 22 & 520 &  & \textemdash & \textemdash \\
+334510 & Annelida & \textit{Phyllodoce maculata} & 1 & 1 &  & \textemdash & \textemdash \\
+334512 & Annelida & \textit{Phyllodoce mucosa} & \textemdash & \textemdash &  & 3 & 15 \\
+129455 & Annelida & \textit{Phyllodoce} sp. & 6 & 16 &  & \textemdash & \textemdash \\
 931 & Annelida & Phyllodocidae spp. & 1 & 1 &  & 4 & 4 \\
-334519 & Annelida & \textit{Phylo ornatus} & — & — &  & 1 & 1 \\
-793 & Platyhelminthes & Platyhelminthes & — & — &  & 3 & 3 \\
-101404 & Arthropoda & Pleustidae spp. & 1 & 1 &  & — & — \\
-1091 & Arthropoda & Podocopida & 8 & 104 &  & — & — \\
-155879 & Arthropoda & Podoplea & 1 & 1 &  & — & — \\
-883 & Annelida & Polychaeta & 24 & 24 &  & — & — \\
-129472 & Annelida & \textit{Polygordius} sp. & 19 & 729 &  & — & — \\
+334519 & Annelida & \textit{Phylo ornatus} & \textemdash & \textemdash &  & 1 & 1 \\
+793 & Platyhelminthes & Platyhelminthes & \textemdash & \textemdash &  & 3 & 3 \\
+101404 & Arthropoda & Pleustidae spp. & 1 & 1 &  & \textemdash & \textemdash \\
+1091 & Arthropoda & Podocopida & 8 & 104 &  & \textemdash & \textemdash \\
+155879 & Arthropoda & Podoplea & 1 & 1 &  & \textemdash & \textemdash \\
+883 & Annelida & Polychaeta & 24 & 24 &  & \textemdash & \textemdash \\
+129472 & Annelida & \textit{Polygordius} sp. & 19 & 729 &  & \textemdash & \textemdash \\
 939 & Annelida & Polynoidae spp. & 31 & 88 &  & 33 & 87 \\
-102223 & Arthropoda & \textit{Pontogeneia inermis} & 1 & 6 &  & — & — \\
-101527 & Arthropoda & \textit{Pontogeneia} sp. & — & — &  & 1 & 1 \\
+102223 & Arthropoda & \textit{Pontogeneia inermis} & 1 & 6 &  & \textemdash & \textemdash \\
+101527 & Arthropoda & \textit{Pontogeneia} sp. & \textemdash & \textemdash &  & 1 & 1 \\
 103079 & Arthropoda & \textit{Pontoporeia femorata} & 36 & 361 &  & 30 & 295 \\
-130954 & Annelida & \textit{Potamilla neglecta} & — & — &  & 1 & 10 \\
+130954 & Annelida & \textit{Potamilla neglecta} & \textemdash & \textemdash &  & 1 & 10 \\
 130326 & Annelida & \textit{Praxillella praetermissa} & 16 & 76 &  & 10 & 42 \\
-129360 & Annelida & \textit{Praxillella} sp. & 1 & 2 &  & — & — \\
-131164 & Annelida & \textit{Prionospio steenstrupi} & 22 & 1165 &  & — & — \\
+129360 & Annelida & \textit{Praxillella} sp. & 1 & 2 &  & \textemdash & \textemdash \\
+131164 & Annelida & \textit{Prionospio steenstrupi} & 22 & 1165 &  & \textemdash & \textemdash \\
 160446 & Mollusca & \textit{Propebela turricula} & 6 & 6 &  & 6 & 6 \\
 102443 & Arthropoda & \textit{Protomedeia fasciata} & 11 & 44 &  & 11 & 37 \\
 102444 & Arthropoda & \textit{Protomedeia grandimana} & 45 & 1092 &  & 51 & 925 \\
 157836 & Arthropoda & \textit{Pseudoleptocuma minus} & 4 & 11 &  & 4 & 17 \\
-136246 & Arthropoda & \textit{Pseudotanais} sp. & 9 & 31 &  & — & — \\
-139975 & Mollusca & \textit{Puncturella noachina} & 1 & 2 &  & — & — \\
+136246 & Arthropoda & \textit{Pseudotanais} sp. & 9 & 31 &  & \textemdash & \textemdash \\
+139975 & Mollusca & \textit{Puncturella noachina} & 1 & 2 &  & \textemdash & \textemdash \\
 1302 & Arthropoda & Pycnogonida & 2 & 4 &  & 2 & 4 \\
-131170 & Annelida & \textit{Pygospio elegans} & 1 & 1 &  & — & — \\
+131170 & Annelida & \textit{Pygospio elegans} & 1 & 1 &  & \textemdash & \textemdash \\
 423709 & Arthropoda & \textit{Quasimelita formosa} & 1 & 2 &  & 2 & 92 \\
 423710 & Arthropoda & \textit{Quasimelita quadrispinosa} & 25 & 102 &  & 28 & 109 \\
 141134 & Mollusca & \textit{Retusa obtusa} & 1 & 2 &  & 1 & 2 \\
 985 & Annelida & Sabellidae spp. & 8 & 14 &  & 7 & 9 \\
 127599 & Arthropoda & \textit{Sarsicytheridea} sp. & 18 & 284 &  & 6 & 169 \\
-127951 & Arthropoda & \textit{Sclerochilus contortus} & 15 & 271 &  & — & — \\
-130261 & Annelida & \textit{Scoletoma fragilis} & 1 & 2 &  & — & — \\
+127951 & Arthropoda & \textit{Sclerochilus contortus} & 15 & 271 &  & \textemdash & \textemdash \\
+130261 & Annelida & \textit{Scoletoma fragilis} & 1 & 2 &  & \textemdash & \textemdash \\
 129340 & Annelida & \textit{Scoletoma} sp. & 11 & 39 &  & 10 & 35 \\
 130265 & Annelida & \textit{Scoletoma tetraura} & 3 & 3 &  & 1 & 1 \\
-130537 & Annelida & \textit{Scoloplos armiger} & 2 & 10 &  & — & — \\
+130537 & Annelida & \textit{Scoloplos armiger} & 2 & 10 &  & \textemdash & \textemdash \\
 129425 & Annelida & \textit{Scoloplos} sp. & 25 & 1299 &  & 9 & 85 \\
 110866 & Bryozoa & \textit{Scrupocellaria} sp. & 2 & 2 &  & 1 & 1 \\
-582749 & Mollusca & \textit{Serripes groenlandicus} & 1 & 1 &  & — & — \\
+582749 & Mollusca & \textit{Serripes groenlandicus} & 1 & 1 &  & \textemdash & \textemdash \\
 1614 & Cnidaria & Sertulariidae spp. & 3 & 4 &  & 3 & 3 \\
-1268 & Sipuncula & Sipuncula & 29 & 29 &  & — & — \\
+1268 & Sipuncula & Sipuncula & 29 & 29 &  & \textemdash & \textemdash \\
 506189 & Mollusca & \textit{Solamen glandula} & 18 & 32 &  & 15 & 27 \\
 138597 & Mollusca & \textit{Solariella sp.} & 1 & 1 &  & 1 & 1 \\
 14635 & Mollusca & Solenoidea & 11 & 34 &  & 11 & 23 \\
-131183 & Annelida & \textit{Spio filicornis} & 8 & 31 &  & — & — \\
-129625 & Annelida & \textit{Spio sp.} & 9 & 20 &  & — & — \\
-913 & Annelida & Spionidae spp. & 1 & 1 &  & — & — \\
+131183 & Annelida & \textit{Spio filicornis} & 8 & 31 &  & \textemdash & \textemdash \\
+129625 & Annelida & \textit{Spio sp.} & 9 & 20 &  & \textemdash & \textemdash \\
+913 & Annelida & Spionidae spp. & 1 & 1 &  & \textemdash & \textemdash \\
 131187 & Annelida & \textit{Spiophanes bombyx} & 5 & 7 &  & 1 & 1 \\
-156996 & Mollusca & \textit{Spisula solidissima} & 5 & 16 &  & — & — \\
-101409 & Arthropoda & Stenothoidae spp. & 18 & 412 &  & — & — \\
+156996 & Mollusca & \textit{Spisula solidissima} & 5 & 16 &  & \textemdash & \textemdash \\
+101409 & Arthropoda & Stenothoidae spp. & 18 & 412 &  & \textemdash & \textemdash \\
 131077 & Annelida & \textit{Sthenelais limicola} & 1 & 1 &  & 1 & 1 \\
-129595 & Annelida & \textit{Sthenelais sp.} & 1 & 1 &  & — & — \\
-129678 & Annelida & \textit{Streptosyllis sp.} & 2 & 2 &  & — & — \\
-123390 & Echinodermata & \textit{Strongylocentrotus sp.} & 1 & 8 &  & — & — \\
+129595 & Annelida & \textit{Sthenelais sp.} & 1 & 1 &  & \textemdash & \textemdash \\
+129678 & Annelida & \textit{Streptosyllis sp.} & 2 & 2 &  & \textemdash & \textemdash \\
+123390 & Echinodermata & \textit{Strongylocentrotus sp.} & 1 & 8 &  & \textemdash & \textemdash \\
 196391 & Mollusca & \textit{Tachyrhynchus erosus} & 5 & 26 &  & 21 & 87 \\
 234208 & Mollusca & \textit{Testudinalia testudinalis} & 1 & 1 &  & 1 & 1 \\
-129249 & Annelida & \textit{Tharyx sp.} & — & — &  & 2 & 7 \\
-156454 & Mollusca & \textit{Thracia septentrionalis} & 6 & 34 &  & — & — \\
+129249 & Annelida & \textit{Tharyx sp.} & \textemdash & \textemdash &  & 2 & 7 \\
+156454 & Mollusca & \textit{Thracia septentrionalis} & 6 & 34 &  & \textemdash & \textemdash \\
 141663 & Mollusca & \textit{Thyasira gouldi} & 23 & 83 &  & 20 & 57 \\
 138552 & Mollusca & \textit{Thyasira sp.} & 30 & 142 &  & 29 & 118 \\
 760340 & Bryozoa & \textit{Tricellaria arctica} & 1 & 11 &  & 8 & 44 \\
-160421 & Mollusca & \textit{Trichotropis bicarinata} & 1 & 1 &  & — & — \\
+160421 & Mollusca & \textit{Trichotropis bicarinata} & 1 & 1 &  & \textemdash & \textemdash \\
 117258 & Cnidaria & \textit{Tubularia sp.} & 2 & 2 &  & 2 & 2 \\
-160488 & Bryozoa & \textit{Tubuliporina sp.} & 1 & 1 &  & — & — \\
-140348 & Mollusca & \textit{Turritellopsis stimpsoni} & 1 & 1 &  & — & — \\
+160488 & Bryozoa & \textit{Tubuliporina sp.} & 1 & 1 &  & \textemdash & \textemdash \\
+140348 & Mollusca & \textit{Turritellopsis stimpsoni} & 1 & 1 &  & \textemdash & \textemdash \\
 158156 & Arthropoda & \textit{Unciola irrorata} & 4 & 4 &  & 4 & 4 \\
-243 & Mollusca & Veneridae spp. & — & — &  & 1 & 2 \\
+243 & Mollusca & Veneridae spp. & \textemdash & \textemdash &  & 1 & 2 \\
 1255501 & Arthropoda & \textit{Wecomedon nobilis} & 1 & 1 &  & 1 & 1 \\
-157005 & Mollusca & \textit{Yoldia limatula} & — & — &  & 3 & 3 \\
+157005 & Mollusca & \textit{Yoldia limatula} & \textemdash & \textemdash &  & 3 & 3 \\
 157006 & Mollusca & \textit{Yoldia myalis} & 3 & 3 &  & 8 & 9 \\ \hline
 \end{tabular}
 \label{TabS1}

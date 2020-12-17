@@ -36,7 +36,7 @@ The use of integrative methods, such as indicators, is particularly relevant in 
 
 One of the ecosystem components most frequently selected for environmental indicators are macrobenthic invertebrates, as they play an important role in the structure and functioning of benthic marine ecosystems [@Dauvin2007a; @Pratt2014]. Examples of this include engineering species (*e.g.* structural features for other species, bioturbation) and interactions with nutrient cycles (*e.g.* nutrient sequestration in sediments, remineralization, benthic-pelagic coupling) [@Largaespada2012; @Link2013; @Belley2016; @Bourque2018]. Many macrobenthic species are characterized by a sedentary lifestyle and a relatively long life span, which is particularly interesting when studying human influence as communities will reflect medium-term conditions, resulting in adaptation or local extinction [*e.g.* @Dauer1993; @Borja2000; @Wei2020].
 
-As pointed out by @Rice2003 and @Salas2006, environmental indicators may be classed into categories according to their methodological basis, including three main categories used in environmental assessments. Category 1 regroups indicators based on measures of abundance - such as density and biomass of individuals - to infer community status. Relationships between abundance and a community status have frequently been discussed, as species do not have the same tolerance to disturbance [@Pearson1978]. As such, the use of abundance-biomass curves has been proposed to detect if communities are in a balanced state, where K-selected taxa are dominant, compared to a disturbed state, with a dominance of r-selected taxa [@Pearson1978; @Gray1979; @Warwick1994]. Category 2 indicators are biodiversity parameters, *i.e.* community characteristics such as taxa identity and prevalence, which allow complex information to be aggregated into a unique metric. Finally, indicators in Category 3 are computed based on variations of responses of taxa to disturbance. Pioneer works by @Pearson1978 proposed a model of benthic community evolution along a gradient of organic enrichment, laying the path towards a set of indicators that relate community structure and ecological status.
+As pointed out by @Rice2003 and @Salas2006, environmental indicators may be classed into categories according to their methodological basis, including three main categories used in environmental assessments. Category 1 regroups indicators based on measures of abundance -- such as density and biomass of individuals -- to infer community status. Relationships between abundance and a community status have frequently been discussed, as species do not have the same tolerance to disturbance [@Pearson1978]. As such, the use of abundance-biomass curves has been proposed to detect if communities are in a balanced state, where K-selected taxa are dominant, compared to a disturbed state, with a dominance of r-selected taxa [@Pearson1978; @Gray1979; @Warwick1994]. Category 2 indicators are biodiversity parameters, *i.e.* community characteristics such as taxa identity and prevalence, which allow complex information to be aggregated into a unique metric. Finally, indicators in Category 3 are computed based on variations of responses of taxa to disturbance. Pioneer works by @Pearson1978 proposed a model of benthic community evolution along a gradient of organic enrichment, laying the path towards a set of indicators that relate community structure and ecological status.
 
 Such indicators have been applied in a number of North American ecosystems, including Chesapeake Bay, Willapa Bay and the Southern California coast (USA), but efficiency to detect perturbation has been mixed [@Word1978; @Maurer1999; @Ferraro2004; @Borja2008b; @Pelletier2018]. Less commonly, studies on the Pacific and Atlantic coasts of Canada have also evaluated the utility of existing indicators, although these studies have most often found poor performance [@Sutherland2007; @Burd2008; @Callier2008; @Robert2013]. There is thus a need to test and validate indicators for Canadian ecosystems, in particular by comparing outcomes and efficiency of existing methods.
 
@@ -64,7 +64,7 @@ This region hosts several human activities, including industrial operations at w
 
 A total of 108 stations were selected in the study area, using a randomization algorithm to cover the full extent of the sector, constrained between 0 m and 80 m deep, and with increased sampling effort in areas with human activities (Figure \ref{Fig1}). @Himmelman1991 showed that benthic communities in the Northern Gulf of St. Lawrence above and below 15-20 m deep differ. Likewise, preliminary fieldwork in the study region detected a thermocline in the water column at ca. 15 m deep. Consequently, we discriminated two groups of stations in order to ensure habitat homogeneity within depth classes: shallow (< 15 m, 26 stations) and deep habitats (> 15 m, 82 stations). We sampled the benthic ecosystem in July 2017, using a Ponar grab (0.05 m^2^) deployed from a boat, with two independent casts at each station.
 
-The first cast collected two subsamples – one for the analyses of organic matter content and another for sediment grain size – stored at -20 °C until processing in the laboratory. The percentage of total organic matter (*i.e.* sum of organic carbon and organic nitrogen) in the sediment was determined using the Loss-on-Ignition method [@Davies1974]. Grain-size analysis was done on a sieving column for the fraction with particles larger than 2 mm and with a Laser Diffraction Particle Size Analyser for the smaller fractions. Results from both techniques were combined to yield a unified size distribution range from 0.04 µm to 26.5 mm. From this, percentages of gravel, sand, silt and clay were calculated as defined by @Wentworth1922 and @Folk1980.
+The first cast collected two subsamples – one for the analyses of organic matter content and another for sediment grain size – stored at -20 °C until processing in the laboratory. The percentage of total organic matter (*i.e.* sum of organic carbon and organic nitrogen) in the sediment was determined using the Loss-on-Ignition method [@Davies1974]. Grain-size analysis was done on a sieving column for the fraction with particles larger than 2 mm and with a Laser Diffraction Particle Size Analyser for the smaller fractions. Results from both techniques were combined to yield a unified size distribution range from 0.04 $\mu$m to 26.5 mm. From this, percentages of gravel, sand, silt and clay were calculated as defined by @Wentworth1922 and @Folk1980.
 
 All sediment obtained from the second cast was sieved on a 0.5 mm mesh size and preserved in a solution of BORAX-buffered formalin (4 %) solution for subsequent benthic macrofauna identification. The resulting samples were sorted using a stereomicroscope and taxa identified to the lowest taxonomic level possible with reference manuals and identification guides; names were validated according to the World Register of Marine Species [@WoRMS2020]. Taxon density and biomass per grab were recorded by counting and weighting (blotted wet mass) individuals in each sample, respectively.
 
@@ -81,11 +81,11 @@ Indicators of ecological status were selected from @Pinto2009, @Teixeira2016 and
 \hline
 \textbf{Indicator} & \textbf{Unit} & \textbf{Range} & \textbf{References used} \\ \hline
 \textbf{Category 1 – Abundance measures} &  &  & \textit{} \\
-\textit{Total density} & ind.grab-1 & {[}0 ; +$\infty${[} & \textit{–} \\
-\textit{Total biomass} & gWM.grab-1 & {[}0 ; +$\infty${[} & \textit{–} \\
+\textit{Total density} & ind.grab-1 & {[}0 ; +$\infty${[} & \textemdash \\
+\textit{Total biomass} & gWM.grab-1 & {[}0 ; +$\infty${[} & \textemdash \\
 \textit{W-Statistic index} & NA & {[}-1 ; 1{]} & \textit{Warwick \& Clarke (1994)} \\
 \textbf{Category 2 – Diversity measures} &  &  & \textit{} \\
-\textit{Specific richness} & taxa & {[}0 ; +$\infty${[} & \textit{–} \\
+\textit{Specific richness} & taxa & {[}0 ; +$\infty${[} & \textemdash \\
 \textit{Shannon index} & NA & {[}0 ; 5{]} & \textit{Magurran \& McGill (2011)} \\
 \textit{Margalef index} & NA & {[}0 ; +$\infty${[} & \textit{Magurran \& McGill (2011)} \\
 \textit{Simpson index} & NA & {[}0 ; 1{]} & \textit{Magurran \& McGill (2011)} \\
@@ -105,7 +105,7 @@ Indicators of ecological status were selected from @Pinto2009, @Teixeira2016 and
 
 We included in Category 1 the total density (number of individuals collected per grab), total biomass (wet mass of individuals collected per grab) and the W-Statistic Index, calculated based on abundance-biomass curves for the community [@Warwick1994]. Those indicators were calculated using benthic taxa abundance sampled at each station.
 
-For Category 2, we considered taxa richness (number of collected taxa) and related metrics to describe the community's structure and the relative prevalence of taxa within it, such as the Shannon index, Margalef index, Simpson index and Pielou index [@Legendre1998; @Magurran2011]. We also considered taxonomic and functional diversities, based on taxonomic relationships between taxa and information about biological traits, respectively [@Warwick1995; @Clarke1998; @Mason2005; @Villeger2008]. Taxa richness, Shannon index, Margalef index, Simpson index and Pielou index were calculated using the benthic community at each station. For taxonomic diversity, we gathered relatedness data for taxa using the WoRMS online database [@WoRMS2020]. To estimate functional diversity, we computed functional richness, functional evenness and functional divergence [@Mason2005; @Villeger2008] by considering five biological traits – body composition, body size, feeding type, mobility and lifestyle – with a total of 26 modalities (Table \ref{Tab2}). Because taxa can present several modalities for a trait, we assigned a continuous value between 0 (absence of the modality) and 1 (presence of the modality) for each taxon and each trait (the sum of values for every modality within a trait equals 1). Biological trait data was extracted from WoRMS, SealifeBase, the Encyclopedia of Life and Arctic Traits databases as well as dedicated articles [@Degen2019; @EoL2020; @Palomares2020; @WoRMS2020]. R Packages *vegan* and *FD* were used to calculate indicators in this category [@Laliberte2010; @Laliberte2014; @Oksanen2019].
+For Category 2, we considered taxa richness (number of collected taxa) and related metrics to describe the community's structure and the relative prevalence of taxa within it, such as the Shannon index, Margalef index, Simpson index and Pielou index [@Legendre1998; @Magurran2011]. We also considered taxonomic and functional diversities, based on taxonomic relationships between taxa and information about biological traits, respectively [@Warwick1995; @Clarke1998; @Mason2005; @Villeger2008]. Taxa richness, Shannon index, Margalef index, Simpson index and Pielou index were calculated using the benthic community at each station. For taxonomic diversity, we gathered relatedness data for taxa using the WoRMS online database [@WoRMS2020]. To estimate functional diversity, we computed functional richness, functional evenness and functional divergence [@Mason2005; @Villeger2008] by considering five biological traits –- body composition, body size, feeding type, mobility and lifestyle –- with a total of 26 modalities (Table \ref{Tab2}). Because taxa can present several modalities for a trait, we assigned a continuous value between 0 (absence of the modality) and 1 (presence of the modality) for each taxon and each trait (the sum of values for every modality within a trait equals 1). Biological trait data was extracted from WoRMS, SealifeBase, the Encyclopedia of Life and Arctic Traits databases as well as dedicated articles [@Degen2019; @EoL2020; @Palomares2020; @WoRMS2020]. R Packages *vegan* and *FD* were used to calculate indicators in this category [@Laliberte2010; @Laliberte2014; @Oksanen2019].
 
 \begin{table}[H]
 \centering
@@ -211,14 +211,14 @@ Indicators in this category presented greater mean values in deep than shallow s
 \textit{Simpson index} & 0.88 & 0.62 (0.04) & 0.003 & {[}0.62 ; 0.63{]} &  & 0.92 & 0.77 (0.02) & 0.0002 & {[}0.77 ; 0.77{]} \\
 \textit{Pielou evenness} & 0.64 & 0.65 (0.05) & 0.004 & {[}0.657 ; 0.663{]} &  & 0.67 & 0.76 (0.02) & 0.0003 & {[}0.76 ; 0.76{]} \\
 \textit{Taxonomic diversity} & 68.48 & 51.66 (3.8) & 0.357 & {[}51.79 ; 52.25{]} &  & 74.8 & 63.48 (1.3) & 0.014 & {[}63.39 ; 63.55{]} \\
-\textit{Functional richness} & – & 23.35 (4.6) & 3.171 & {[}26.11 ; 26.93{]} &  & – & 31.76 (2.5) & 7.59 & {[}38.83 ; 39.88{]} \\
-\textit{Functional evenness} & – & 0.554 (0.04) & 0.002 & {[}0.55 ; 0.554{]} &  & – & 0.632 (0.01) & 0.002 & {[}0.633 ; 0.635{]} \\
-\textit{Functional divergence} & – & 0.77 (0.05) & 0.007 & {[}0.77 ; 0.78{]} &  & – & 0.83 (0.01) & 0.011 & {[}0.82 ; 0.82{]} \\
+\textit{Functional richness} & \textemdash & 23.35 (4.6) & 3.171 & {[}26.11 ; 26.93{]} &  & \textemdash & 31.76 (2.5) & 7.59 & {[}38.83 ; 39.88{]} \\
+\textit{Functional evenness} & \textemdash & 0.554 (0.04) & 0.002 & {[}0.55 ; 0.554{]} &  & \textemdash & 0.632 (0.01) & 0.002 & {[}0.633 ; 0.635{]} \\
+\textit{Functional divergence} & \textemdash & 0.77 (0.05) & 0.007 & {[}0.77 ; 0.78{]} &  & \textemdash & 0.83 (0.01) & 0.011 & {[}0.82 ; 0.82{]} \\
 \textbf{Category 3} &  &  &  &  &  &  &  &  &  \\
-\textit{AMBI} & 1.57 & 1.5 (0.1) & \multicolumn{1}{c}{–} & – &  & 1.53 & 1.45 (0.05) & \multicolumn{1}{c}{–} & – \\
-\textit{M-AMBI} & – & 0.68 (0.05) & \multicolumn{1}{c}{–} & – &  & – & 0.7 (0.03) & \multicolumn{1}{c}{–} & – \\
-\textit{BENTIX} & 5.15 & 4.95 (0.2) & \multicolumn{1}{c}{–} & – &  & 5.25 & 5.31 (0.09) & \multicolumn{1}{c}{–} & – \\
-\textit{BOPA} & 0.002 & 0.003 (0.001) & \multicolumn{1}{c}{–} & – &  & 0.004 & 0.007 (0.003) & \multicolumn{1}{c}{–} & – \\ \hline
+\textit{AMBI} & 1.57 & 1.5 (0.1) & \multicolumn{1}{c}{\textemdash} & \textemdash &  & 1.53 & 1.45 (0.05) & \multicolumn{1}{c}{\textemdash} & \textemdash \\
+\textit{M-AMBI} & \textemdash & 0.68 (0.05) & \multicolumn{1}{c}{\textemdash} & \textemdash &  & \textemdash & 0.7 (0.03) & \multicolumn{1}{c}{\textemdash} & \textemdash \\
+\textit{BENTIX} & 5.15 & 4.95 (0.2) & \multicolumn{1}{c}{\textemdash} & \textemdash &  & 5.25 & 5.31 (0.09) & \multicolumn{1}{c}{\textemdash} & \textemdash \\
+\textit{BOPA} & 0.002 & 0.003 (0.001) & \multicolumn{1}{c}{\textemdash} & \textemdash &  & 0.004 & 0.007 (0.003) & \multicolumn{1}{c}{\textemdash} & \textemdash \\ \hline
 \end{tabular}
 \label{Tab4}
 \end{table}
@@ -258,43 +258,43 @@ The analysis of covariation between indicators reported moderate to very high Pe
 \multicolumn{2}{l}{\textbf{Shallow stations}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
 \textbf{Category 1} & \textit{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
 \textit{TD} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{TB} & — &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{W} & — & — &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\textit{TB} & \textemdash &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\textit{W} & \textemdash & \textemdash &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
 \textbf{Category 2} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{S} & 0.77 & 0.43 & — &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{H} & — & — & 0.62 &  & 0.58 &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{M} & — & — & 0.53 &  & 0.76 & 0.81 &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{$\lambda$} & — & — & 0.68 &  & — & 0.89 & 0.61 &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{J} & -0.66 & — & 0.59 &  & — & 0.46 & — & 0.7 &  &  &  &  &  &  &  &  &  &  \\
-\textit{$\Delta$} & -0.44 & — & 0.71 &  & — & 0.59 & 0.48 & 0.75 & 0.86 &  &  &  &  &  &  &  &  &  \\
-\textit{FR} & 0.8 & 0.5 & — &  & 0.87 & — & 0.58 & — & -0.41 & — &  &  &  &  &  &  &  &  \\
-\textit{FE} & — & — & 0.67 &  & — & 0.58 & 0.41 & 0.65 & 0.54 & 0.51 & — &  &  &  &  &  &  &  \\
-\textit{FD} & — & — & — &  & 0.41 & — & — & — & — & — & — & — &  &  &  &  &  &  \\
+\textit{S} & 0.77 & 0.43 & \textemdash &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\textit{H} & \textemdash & \textemdash & 0.62 &  & 0.58 &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\textit{M} & \textemdash & \textemdash & 0.53 &  & 0.76 & 0.81 &  &  &  &  &  &  &  &  &  &  &  &  \\
+\textit{$\lambda$} & \textemdash & \textemdash & 0.68 &  & \textemdash & 0.89 & 0.61 &  &  &  &  &  &  &  &  &  &  &  \\
+\textit{J} & -0.66 & \textemdash & 0.59 &  & \textemdash & 0.46 & \textemdash & 0.7 &  &  &  &  &  &  &  &  &  &  \\
+\textit{$\Delta$} & -0.44 & \textemdash & 0.71 &  & \textemdash & 0.59 & 0.48 & 0.75 & 0.86 &  &  &  &  &  &  &  &  &  \\
+\textit{FR} & 0.8 & 0.5 & \textemdash &  & 0.87 & \textemdash & 0.58 & \textemdash & -0.41 & \textemdash &  &  &  &  &  &  &  &  \\
+\textit{FE} & \textemdash & \textemdash & 0.67 &  & \textemdash & 0.58 & 0.41 & 0.65 & 0.54 & 0.51 & \textemdash &  &  &  &  &  &  &  \\
+\textit{FD} & \textemdash & \textemdash & \textemdash &  & 0.41 & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash &  &  &  &  &  &  \\
 \textbf{Category 3} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{AMBI} & — & -0.42 & — &  & — & — & — & — & — & — & — & — & — &  &  &  &  &  \\
-\textit{M-AMBI} & — & 0.48 & — &  & 0.8 & 0.78 & 0.86 & 0.5 & — & — & 0.64 & 0.4 & 0.43 &  & — &  &  &  \\
-\textit{BENTIX} & — & — & — &  & — & — & — & — & — & — & — & — & — &  & -0.78 & — &  &  \\
-\textit{BOPA} & — & — & — &  & 0.45 & — & 0.41 & — & — & — & — & — & — &  & — & 0.53 & — &  \\
+\textit{AMBI} & \textemdash & -0.42 & \textemdash &  & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash &  &  &  &  &  \\
+\textit{M-AMBI} & \textemdash & 0.48 & \textemdash &  & 0.8 & 0.78 & 0.86 & 0.5 & \textemdash & \textemdash & 0.64 & 0.4 & 0.43 &  & \textemdash &  &  &  \\
+\textit{BENTIX} & \textemdash & \textemdash & \textemdash &  & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash &  & -0.78 & \textemdash &  &  \\
+\textit{BOPA} & \textemdash & \textemdash & \textemdash &  & 0.45 & \textemdash & 0.41 & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash &  & \textemdash & 0.53 & \textemdash &  \\
 \multicolumn{2}{l}{\textbf{Deep stations}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
 \textbf{Category 1} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
 \textit{TD} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{TB} & — &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\textit{TB} & \textemdash &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
 \textit{W} & -0.31 & 0.35 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
 \textbf{Category 2} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{S} & 0.58 & — & 0.37 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{H} & — & — & 0.75 &  & 0.67 &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{M} & — & — & 0.61 &  & 0.9 & 0.86 &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{$\lambda$} & -0.23 & — & 0.75 &  & 0.47 & 0.96 & 0.7 &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{J} & -0.67 & — & 0.63 &  & — & 0.64 & 0.29 & 0.79 &  &  &  &  &  &  &  &  &  &  \\
-\textit{$\Delta$} & -0.39 & — & 0.69 &  & 0.28 & 0.81 & 0.57 & 0.89 & 0.88 &  &  &  &  &  &  &  &  &  \\
-\textit{FR} & 0.35 & — & 0.32 &  & 0.71 & 0.46 & 0.67 & 0.33 & — & — &  &  &  &  &  &  &  &  \\
-\textit{FE} & -0.55 & — & 0.42 &  & — & — & — & 0.31 & 0.59 & 0.43 & — &  &  &  &  &  &  &  \\
-\textit{FD} & — & — & -0.32 &  & -0.27 & -0.39 & -0.37 & -0.41 & -0.39 & -0.5 & -0.28 & — &  &  &  &  &  &  \\
+\textit{S} & 0.58 & \textemdash & 0.37 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\textit{H} & \textemdash & \textemdash & 0.75 &  & 0.67 &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\textit{M} & \textemdash & \textemdash & 0.61 &  & 0.9 & 0.86 &  &  &  &  &  &  &  &  &  &  &  &  \\
+\textit{$\lambda$} & -0.23 & \textemdash & 0.75 &  & 0.47 & 0.96 & 0.7 &  &  &  &  &  &  &  &  &  &  &  \\
+\textit{J} & -0.67 & \textemdash & 0.63 &  & \textemdash & 0.64 & 0.29 & 0.79 &  &  &  &  &  &  &  &  &  &  \\
+\textit{$\Delta$} & -0.39 & \textemdash & 0.69 &  & 0.28 & 0.81 & 0.57 & 0.89 & 0.88 &  &  &  &  &  &  &  &  &  \\
+\textit{FR} & 0.35 & \textemdash & 0.32 &  & 0.71 & 0.46 & 0.67 & 0.33 & \textemdash & \textemdash &  &  &  &  &  &  &  &  \\
+\textit{FE} & -0.55 & \textemdash & 0.42 &  & \textemdash & \textemdash & \textemdash & 0.31 & 0.59 & 0.43 & \textemdash &  &  &  &  &  &  &  \\
+\textit{FD} & \textemdash & \textemdash & -0.32 &  & -0.27 & -0.39 & -0.37 & -0.41 & -0.39 & -0.5 & -0.28 & \textemdash &  &  &  &  &  &  \\
 \textbf{Category 3} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-\textit{AMBI} & — & — & -0.29 &  & — & -0.25 & -0.23 & -0.28 & -0.31 & -0.3 & — & — & 0.32 &  &  &  &  &  \\
-\textit{M-AMBI} & — & — & 0.64 &  & 0.79 & 0.87 & 0.89 & 0.76 & 0.39 & 0.6 & 0.58 & — & -0.4 &  & -0.52 &  &  &  \\
-\textit{BENTIX} & — & — & — &  & — & — & — & — & — & — & — & — & -0.24 &  & -0.7 & — &  &  \\
-\textit{BOPA} & — & — & — &  & — & — & — & — & — & -0.22 & — & — & — &  & — & — & — &  \\ \hline
+\textit{AMBI} & \textemdash & \textemdash & -0.29 &  & \textemdash & -0.25 & -0.23 & -0.28 & -0.31 & -0.3 & \textemdash & \textemdash & 0.32 &  &  &  &  &  \\
+\textit{M-AMBI} & \textemdash & \textemdash & 0.64 &  & 0.79 & 0.87 & 0.89 & 0.76 & 0.39 & 0.6 & 0.58 & \textemdash & -0.4 &  & -0.52 &  &  &  \\
+\textit{BENTIX} & \textemdash & \textemdash & \textemdash &  & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & -0.24 &  & -0.7 & \textemdash &  &  \\
+\textit{BOPA} & \textemdash & \textemdash & \textemdash &  & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & -0.22 & \textemdash & \textemdash & \textemdash &  & \textemdash & \textemdash & \textemdash &  \\ \hline
 \end{tabular}
 \label{Tab5}
 \end{table}
@@ -316,44 +316,44 @@ Finally, several significant relationships were observed between Category 3 indi
 \textbf{Indicator} & \textbf{OM} & \textbf{Gravel} & \textbf{Sand} & \textbf{Silt} & \textbf{Clay} & \textbf{} & \textbf{As} & \textbf{Cd} & \textbf{Cr} & \textbf{Cu} & \textbf{Fe} & \textbf{Mn} & \textbf{Hg} & \textbf{Pb} & \textbf{Zn} \\ \hline
 \multicolumn{2}{l}{\textbf{Shallow stations}} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
 \textbf{Category 1} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \multicolumn{1}{l}{} & \textit{} & \textit{} \\
-\textit{TD} & — & — & — & — & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.46} & — & \multicolumn{1}{l}{-0.52} & \multicolumn{1}{l}{-0.55} & \multicolumn{1}{l}{-0.49} & — & \multicolumn{1}{l}{-0.52} & \multicolumn{1}{l}{-0.55} & \multicolumn{1}{l}{-0.52} \\
-\textit{TB} & — & — & — & — & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.42} & \multicolumn{1}{l}{-0.42} & \multicolumn{1}{l}{-0.59} & \multicolumn{1}{l}{-0.51} & \multicolumn{1}{l}{-0.39} & \multicolumn{1}{l}{-0.53} & — & \multicolumn{1}{l}{-0.5} & \multicolumn{1}{l}{-0.61} \\
-\textit{W} & — & — & — & — & — & \multicolumn{1}{l}{} & — & \multicolumn{1}{l}{-0.4} & — & — & — & — & — & — & — \\
+\textit{TD} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.46} & \textemdash & \multicolumn{1}{l}{-0.52} & \multicolumn{1}{l}{-0.55} & \multicolumn{1}{l}{-0.49} & \textemdash & \multicolumn{1}{l}{-0.52} & \multicolumn{1}{l}{-0.55} & \multicolumn{1}{l}{-0.52} \\
+\textit{TB} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.42} & \multicolumn{1}{l}{-0.42} & \multicolumn{1}{l}{-0.59} & \multicolumn{1}{l}{-0.51} & \multicolumn{1}{l}{-0.39} & \multicolumn{1}{l}{-0.53} & \textemdash & \multicolumn{1}{l}{-0.5} & \multicolumn{1}{l}{-0.61} \\
+\textit{W} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{} & \textemdash & \multicolumn{1}{l}{-0.4} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
 \textbf{Category 2} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \multicolumn{1}{l}{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} \\
-\textit{S} & — & — & — & — & — & \textit{} & -0.47 & — & — & — & — & — & -0.39 & — & — \\
-\textit{H} & — & — & — & — & — & \textit{} & — & — & — & — & — & — & — & — & — \\
-\textit{M} & — & — & — & — & — & \textit{} & — & — & — & — & — & — & — & — & — \\
-\textit{$\lambda$} & — & — & — & — & — & \textit{} & — & — & — & — & — & — & — & — & — \\
-\textit{J} & — & — & — & — & — & \textit{} & — & — & — & — & — & — & \multicolumn{1}{l}{0.42} & — & — \\
-\textit{$\Delta$} & — & — & — & — & — & \textit{} & — & — & — & — & — & — & — & — & — \\
-\textit{FR} & — & — & — & — & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.43} & — & \multicolumn{1}{l}{-0.5} & \multicolumn{1}{l}{-0.43} & \multicolumn{1}{l}{-0.47} & \multicolumn{1}{l}{-0.46} & \multicolumn{1}{l}{-0.5} & \multicolumn{1}{l}{-0.42} & \multicolumn{1}{l}{-0.47} \\
-\textit{FE} & — & — & — & — & — & \textit{} & — & — & — & — & — & — & — & — & — \\
-\textit{FD} & — & — & — & — & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.6} & — & — & — & — & — & — & \multicolumn{1}{l}{-0.4} & \multicolumn{1}{l}{-0.4} \\
+\textit{S} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & -0.47 & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & -0.39 & \textemdash & \textemdash \\
+\textit{H} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
+\textit{M} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
+\textit{$\lambda$} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
+\textit{J} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{0.42} & \textemdash & \textemdash \\
+\textit{$\Delta$} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
+\textit{FR} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.43} & \textemdash & \multicolumn{1}{l}{-0.5} & \multicolumn{1}{l}{-0.43} & \multicolumn{1}{l}{-0.47} & \multicolumn{1}{l}{-0.46} & \multicolumn{1}{l}{-0.5} & \multicolumn{1}{l}{-0.42} & \multicolumn{1}{l}{-0.47} \\
+\textit{FE} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
+\textit{FD} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.6} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{-0.4} & \multicolumn{1}{l}{-0.4} \\
 \textbf{Category 3} & \multicolumn{1}{l}{} & \textit{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} \\
-\textit{AMBI} & \multicolumn{1}{l}{-0.43} & — & \multicolumn{1}{l}{0.47} & \multicolumn{1}{l}{-0.47} & — & \textit{} & — & — & — & — & — & — & — & — & — \\
-\textit{M-AMBI} & — & — & — & — & — & \textit{} & — & — & — & — & — & — & — & — & — \\
-\textit{BENTIX} & \multicolumn{1}{l}{0.45} & — & — & — & — & \textit{} & — & — & — & — & — & — & — & — & — \\
-\textit{BOPA} & — & — & — & — & — & \textit{} & — & — & — & — & — & — & — & — & — \\
+\textit{AMBI} & \multicolumn{1}{l}{-0.43} & \textemdash & \multicolumn{1}{l}{0.47} & \multicolumn{1}{l}{-0.47} & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
+\textit{M-AMBI} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
+\textit{BENTIX} & \multicolumn{1}{l}{0.45} & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
+\textit{BOPA} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
 \multicolumn{2}{l}{\textbf{Deep stations}} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
 \textbf{Category 1} & \multicolumn{1}{l}{} & \textit{} & \textit{} & \textit{} & \textit{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \textit{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
-\textit{TD} & — & — & — & — & — & \textit{} & — & — & — & — & \multicolumn{1}{l}{-0.23} & — & — & — & — \\
-\textit{TB} & — & — & — & — & — & \textit{} & — & — & — & — & — & — & — & — & — \\
-\textit{W} & — & 0.24 & -0.22 & — & — & \textit{} & -0.29 & -0.29 & -0.27 & -0.24 & -0.27 & -0.26 & — & -0.28 & -0.29 \\
+\textit{TD} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{-0.23} & \textemdash & \textemdash & \textemdash & \textemdash \\
+\textit{TB} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
+\textit{W} & \textemdash & 0.24 & -0.22 & \textemdash & \textemdash & \textit{} & -0.29 & -0.29 & -0.27 & -0.24 & -0.27 & -0.26 & \textemdash & -0.28 & -0.29 \\
 \textbf{Category 2} & \textit{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \textit{} & \textit{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \textit{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
-\textit{S} & -0.25 & — & — & — & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.27} & \multicolumn{1}{l}{-0.32} & \multicolumn{1}{l}{-0.31} & \multicolumn{1}{l}{-0.32} & \multicolumn{1}{l}{-0.45} & \multicolumn{1}{l}{-0.31} & — & \multicolumn{1}{l}{-0.3} & \multicolumn{1}{l}{-0.34} \\
-\textit{H} & — & — & — & — & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.29} & \multicolumn{1}{l}{-0.29} & \multicolumn{1}{l}{-0.33} & \multicolumn{1}{l}{-0.29} & \multicolumn{1}{l}{-0.36} & \multicolumn{1}{l}{-0.31} & \multicolumn{1}{l}{-0.25} & \multicolumn{1}{l}{-0.31} & \multicolumn{1}{l}{-0.31} \\
-\textit{M} & \multicolumn{1}{l}{-0.26} & — & — & — & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.32} & \multicolumn{1}{l}{-0.33} & \multicolumn{1}{l}{-0.36} & \multicolumn{1}{l}{-0.37} & \multicolumn{1}{l}{-0.45} & \multicolumn{1}{l}{-0.36} & \multicolumn{1}{l}{-0.28} & \multicolumn{1}{l}{-0.35} & \multicolumn{1}{l}{-0.38} \\
-\textit{$\lambda$} & — & — & — & — & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.22} & \multicolumn{1}{l}{-0.23} & \multicolumn{1}{l}{-0.27} & \multicolumn{1}{l}{-0.22} & \multicolumn{1}{l}{-0.28} & \multicolumn{1}{l}{-0.25} & \multicolumn{1}{l}{-0.22} & \multicolumn{1}{l}{-0.26} & \multicolumn{1}{l}{-0.24} \\
-\textit{J} & — & — & — & — & — & \textit{} & — & — & — & — & — & — & — & — & — \\
-\textit{$\Delta$} & — & — & \multicolumn{1}{l}{0.23} & \multicolumn{1}{l}{-0.29} & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.29} & \multicolumn{1}{l}{-0.32} & \multicolumn{1}{l}{-0.35} & \multicolumn{1}{l}{-0.35} & \multicolumn{1}{l}{-0.35} & \multicolumn{1}{l}{-0.34} & \multicolumn{1}{l}{-0.33} & \multicolumn{1}{l}{-0.34} & \multicolumn{1}{l}{-0.35} \\
-\textit{FR} & — & \multicolumn{1}{l}{0.25} & — & — & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.25} & \multicolumn{1}{l}{-0.32} & \multicolumn{1}{l}{-0.29} & \multicolumn{1}{l}{-0.32} & \multicolumn{1}{l}{-0.36} & \multicolumn{1}{l}{-0.29} & \multicolumn{1}{l}{-0.28} & \multicolumn{1}{l}{-0.27} & \multicolumn{1}{l}{-0.33} \\
-\textit{FE} & — & — & — & — & — & \textit{} & — & — & \multicolumn{1}{l}{-0.22} & \multicolumn{1}{l}{-0.25} & — & \multicolumn{1}{l}{-0.27} & \multicolumn{1}{l}{-0.27} & \multicolumn{1}{l}{-0.24} & \multicolumn{1}{l}{-0.22} \\
-\textit{FD} & — & — & — & — & — & \textit{} & — & \multicolumn{1}{l}{0.28} & — & \multicolumn{1}{l}{0.29} & — & — & \multicolumn{1}{l}{0.29} & \multicolumn{1}{l}{0.28} & \multicolumn{1}{l}{0.34} \\
+\textit{S} & -0.25 & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.27} & \multicolumn{1}{l}{-0.32} & \multicolumn{1}{l}{-0.31} & \multicolumn{1}{l}{-0.32} & \multicolumn{1}{l}{-0.45} & \multicolumn{1}{l}{-0.31} & \textemdash & \multicolumn{1}{l}{-0.3} & \multicolumn{1}{l}{-0.34} \\
+\textit{H} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.29} & \multicolumn{1}{l}{-0.29} & \multicolumn{1}{l}{-0.33} & \multicolumn{1}{l}{-0.29} & \multicolumn{1}{l}{-0.36} & \multicolumn{1}{l}{-0.31} & \multicolumn{1}{l}{-0.25} & \multicolumn{1}{l}{-0.31} & \multicolumn{1}{l}{-0.31} \\
+\textit{M} & \multicolumn{1}{l}{-0.26} & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.32} & \multicolumn{1}{l}{-0.33} & \multicolumn{1}{l}{-0.36} & \multicolumn{1}{l}{-0.37} & \multicolumn{1}{l}{-0.45} & \multicolumn{1}{l}{-0.36} & \multicolumn{1}{l}{-0.28} & \multicolumn{1}{l}{-0.35} & \multicolumn{1}{l}{-0.38} \\
+\textit{$\lambda$} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.22} & \multicolumn{1}{l}{-0.23} & \multicolumn{1}{l}{-0.27} & \multicolumn{1}{l}{-0.22} & \multicolumn{1}{l}{-0.28} & \multicolumn{1}{l}{-0.25} & \multicolumn{1}{l}{-0.22} & \multicolumn{1}{l}{-0.26} & \multicolumn{1}{l}{-0.24} \\
+\textit{J} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
+\textit{$\Delta$} & \textemdash & \textemdash & \multicolumn{1}{l}{0.23} & \multicolumn{1}{l}{-0.29} & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.29} & \multicolumn{1}{l}{-0.32} & \multicolumn{1}{l}{-0.35} & \multicolumn{1}{l}{-0.35} & \multicolumn{1}{l}{-0.35} & \multicolumn{1}{l}{-0.34} & \multicolumn{1}{l}{-0.33} & \multicolumn{1}{l}{-0.34} & \multicolumn{1}{l}{-0.35} \\
+\textit{FR} & \textemdash & \multicolumn{1}{l}{0.25} & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.25} & \multicolumn{1}{l}{-0.32} & \multicolumn{1}{l}{-0.29} & \multicolumn{1}{l}{-0.32} & \multicolumn{1}{l}{-0.36} & \multicolumn{1}{l}{-0.29} & \multicolumn{1}{l}{-0.28} & \multicolumn{1}{l}{-0.27} & \multicolumn{1}{l}{-0.33} \\
+\textit{FE} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \multicolumn{1}{l}{-0.22} & \multicolumn{1}{l}{-0.25} & \textemdash & \multicolumn{1}{l}{-0.27} & \multicolumn{1}{l}{-0.27} & \multicolumn{1}{l}{-0.24} & \multicolumn{1}{l}{-0.22} \\
+\textit{FD} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \multicolumn{1}{l}{0.28} & \textemdash & \multicolumn{1}{l}{0.29} & \textemdash & \textemdash & \multicolumn{1}{l}{0.29} & \multicolumn{1}{l}{0.28} & \multicolumn{1}{l}{0.34} \\
 \textbf{Category 3} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} \\
-\textit{AMBI} & — & — & — & — & — & \textit{} & — & — & — & — & — & — & — & — & — \\
-\textit{M-AMBI} & — & — & — & — & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.24} & \multicolumn{1}{l}{-0.3} & \multicolumn{1}{l}{-0.3} & \multicolumn{1}{l}{-0.27} & \multicolumn{1}{l}{-0.38} & \multicolumn{1}{l}{-0.28} & — & \multicolumn{1}{l}{-0.28} & \multicolumn{1}{l}{-0.31} \\
-\textit{BENTIX} & \multicolumn{1}{l}{0.27} & — & \multicolumn{1}{l}{-0.26} & \multicolumn{1}{l}{0.23} & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{0.23} & \multicolumn{1}{l}{0.23} & \multicolumn{1}{l}{0.24} & \multicolumn{1}{l}{0.25} & — & — & \multicolumn{1}{l}{0.23} & — & — \\
-\textit{BOPA} & — & — & \multicolumn{1}{l}{-0.31} & \multicolumn{1}{l}{0.34} & — & \multicolumn{1}{l}{} & \multicolumn{1}{l}{0.33} & \multicolumn{1}{l}{0.28} & \multicolumn{1}{l}{0.36} & \multicolumn{1}{l}{0.31} & \multicolumn{1}{l}{0.33} & \multicolumn{1}{l}{0.38} & \multicolumn{1}{l}{0.3} & \multicolumn{1}{l}{0.33} & \multicolumn{1}{l}{0.3} \\ \hline
+\textit{AMBI} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
+\textit{M-AMBI} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{-0.24} & \multicolumn{1}{l}{-0.3} & \multicolumn{1}{l}{-0.3} & \multicolumn{1}{l}{-0.27} & \multicolumn{1}{l}{-0.38} & \multicolumn{1}{l}{-0.28} & \textemdash & \multicolumn{1}{l}{-0.28} & \multicolumn{1}{l}{-0.31} \\
+\textit{BENTIX} & \multicolumn{1}{l}{0.27} & \textemdash & \multicolumn{1}{l}{-0.26} & \multicolumn{1}{l}{0.23} & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{0.23} & \multicolumn{1}{l}{0.23} & \multicolumn{1}{l}{0.24} & \multicolumn{1}{l}{0.25} & \textemdash & \textemdash & \multicolumn{1}{l}{0.23} & \textemdash & \textemdash \\
+\textit{BOPA} & \textemdash & \textemdash & \multicolumn{1}{l}{-0.31} & \multicolumn{1}{l}{0.34} & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{0.33} & \multicolumn{1}{l}{0.28} & \multicolumn{1}{l}{0.36} & \multicolumn{1}{l}{0.31} & \multicolumn{1}{l}{0.33} & \multicolumn{1}{l}{0.38} & \multicolumn{1}{l}{0.3} & \multicolumn{1}{l}{0.33} & \multicolumn{1}{l}{0.3} \\ \hline
 \end{tabular}
 \label{Tab6}
 \end{table}
@@ -410,138 +410,138 @@ The authors would like to acknowledge and thank all the people that helped durin
 \begin{tabular}{lcccll}
 \hline
 \textbf{Taxon name} & \textbf{\begin{tabular}[c]{@{}c@{}}AMBI \&\\ M-AMBI\end{tabular}} & \textbf{BENTIX} & \textbf{BOPA} & \textbf{References} & \multicolumn{1}{c}{\textbf{Confidence score}} \\ \hline
-\textit{Aceroides (Aceroides) latipes} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Akanthophoreus gracilis} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Alamprops quadriplicatus} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Ameritella agilis} & II & S & – & Borja et al. (2000) & 3 \\
+\textit{Aceroides (Aceroides) latipes} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Akanthophoreus gracilis} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Alamprops quadriplicatus} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Ameritella agilis} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Ameroculodes edwardsi} & I & S & SA & Borja et al. (2000) & 3 \\
 \textit{Ampelisca vadorum} & I & S & SA & Borja et al. (2000) & 3 \\
-Amphipoda & NA & NA & – & – & – \\
-\textit{Anonyx lilljeborgi} & II & S & – & Borja et al. (2000) & 3 \\
-Anthozoa & II & S & – & Borja et al. (2000) & 1 \\
-\textit{Arcteobia anticostiensis} & II & S & – & Borja et al. (2000) (Polynoidae) & 2 \\
-\textit{Arrhoges occidentalis} & I & S & – & Borja et al. (2000) (Aporrhais sp) & 2 \\
-\textit{Astarte sp} & I & S & – & Borja et al. (2000) & 2 \\
-\textit{Axinopsida orbiculata} & III & T & – & Borja et al. (2000) & 3 \\
-\textit{Axiothella catenata} & I & S & – & Borja et al. (2000) (Axiothella sp) & 2 \\
-\textit{Bathymedon longimanus} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Bathymedon obtusifrons} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Boreochiton ruber} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Brachydiastylis sp} & II & S & – & Borja et al. (2000) & 2 \\
+Amphipoda & NA & NA & \textemdash & \textemdash & \textemdash \\
+\textit{Anonyx lilljeborgi} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+Anthozoa & II & S & \textemdash & Borja et al. (2000) & 1 \\
+\textit{Arcteobia anticostiensis} & II & S & \textemdash & Borja et al. (2000) (Polynoidae) & 2 \\
+\textit{Arrhoges occidentalis} & I & S & \textemdash & Borja et al. (2000) (Aporrhais sp) & 2 \\
+\textit{Astarte sp} & I & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Axinopsida orbiculata} & III & T & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Axiothella catenata} & I & S & \textemdash & Borja et al. (2000) (Axiothella sp) & 2 \\
+\textit{Bathymedon longimanus} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Bathymedon obtusifrons} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Boreochiton ruber} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Brachydiastylis sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Byblis gaimardii} & I & S & SA & Borja et al. (2000) & 3 \\
-\textit{Cancer irroratus} & II & S & – & Gittenberg \& Van Loon (2013) (C. pagurus) & 1 \\
-\textit{Caprella septentrionalis} & II & S & – & Borja et al. (2000) & 3 \\
-Chaetodermatida & NA & NA & – & – & – \\
-\textit{Chionoecetes opilio} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Chlamys islandica} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Chone sp} & II & S & – & Borja et al. (2000) & 2 \\
-\textit{Ciliatocardium ciliatum} & I & S & – & Borja et al. (2000) & 3 \\
-Cirripedia & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Cistenides granulata} & II & S & – & Borja et al. (2000) & 3 \\
+\textit{Cancer irroratus} & II & S & \textemdash & Gittenberg \& Van Loon (2013) (C. pagurus) & 1 \\
+\textit{Caprella septentrionalis} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+Chaetodermatida & NA & NA & \textemdash & \textemdash & \textemdash \\
+\textit{Chionoecetes opilio} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Chlamys islandica} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Chone sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Ciliatocardium ciliatum} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+Cirripedia & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Cistenides granulata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Cossura longocirrata} & IV & T & OP & Borja et al. (2000) & 3 \\
-\textit{Crassicorophium bonellii} & III & T & – & Borja et al. (2000) & 3 \\
-\textit{Crenella decussata} & I & S & – & Borja et al. (2000) & 3 \\
-Cumacea & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Cyclocardia borealis} & I & S & – & Borja et al. (2000) (C. thouarsii) & 2 \\
-\textit{Cyrtodaria siliqua} & I & S & – & Gilkinson et al. (2005) & 2 \\
-\textit{Diastylis rathkei} & III & T & – & Borja et al. (2000) & 3 \\
-\textit{Diastylis sculpta} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Diastylis sp} & I & S & – & Borja et al. (2000) & 1 \\
-\textit{Echinarachnius parma} & I & S & – & Borja et al. (2000) (Echinoidea) & 2 \\
-\textit{Edotia montosa} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Ennucula tenuis} & II & S & – & Borja et al. (2000) & 3 \\
+\textit{Crassicorophium bonellii} & III & T & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Crenella decussata} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+Cumacea & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Cyclocardia borealis} & I & S & \textemdash & Borja et al. (2000) (C. thouarsii) & 2 \\
+\textit{Cyrtodaria siliqua} & I & S & \textemdash & Gilkinson et al. (2005) & 2 \\
+\textit{Diastylis rathkei} & III & T & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Diastylis sculpta} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Diastylis sp} & I & S & \textemdash & Borja et al. (2000) & 1 \\
+\textit{Echinarachnius parma} & I & S & \textemdash & Borja et al. (2000) (Echinoidea) & 2 \\
+\textit{Edotia montosa} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Ennucula tenuis} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Eteone sp} & III & T & OP & Borja et al. (2000) & 2 \\
-\textit{Euchone sp} & II & S & – & Borja et al. (2000) & 2 \\
-\textit{Eudorella emarginata} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Eudorellopsis integra} & II & S & – & Tillin \& Tyler-Walters (2014) (group of Bathyporeia elegans and E. deformis) & 2 \\
-\textit{Euspira pallida} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Glycera capitata} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Glycera sp} & II & S & – & Borja et al. (2000) & 2 \\
-\textit{Goniada maculata} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Guernea (Prinassus) nordenskioldi} & III & T & – & \begin{tabular}[c]{@{}l@{}}de la Ossa Carretero et al. (2011)\\ (Dexamene spinosa)\end{tabular} & 1 \\
-Halacaridae & I & S & – & Borja et al. (2000) & 2 \\
-\textit{Haminella solitaria} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Hardametopa carinata} & II & S & – & Borja et al. (2000) (Stenothoidae) & 1 \\
-\textit{Harmothoe sp} & II & S & – & Borja et al. (2000) & 2 \\
-Harpacticoida & NA & NA & – & – & – \\
+\textit{Euchone sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Eudorella emarginata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Eudorellopsis integra} & II & S & \textemdash & Tillin \& Tyler-Walters (2014) (group of Bathyporeia elegans and E. deformis) & 2 \\
+\textit{Euspira pallida} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Glycera capitata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Glycera sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Goniada maculata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Guernea (Prinassus) nordenskioldi} & III & T & \textemdash & \begin{tabular}[c]{@{}l@{}}de la Ossa Carretero et al. (2011)\\ (Dexamene spinosa)\end{tabular} & 1 \\
+Halacaridae & I & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Haminella solitaria} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Hardametopa carinata} & II & S & \textemdash & Borja et al. (2000) (Stenothoidae) & 1 \\
+\textit{Harmothoe sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+Harpacticoida & NA & NA & \textemdash & \textemdash & \textemdash \\
 \textit{Hediste diversicolor} & III & T & OP & Borja et al. (2000) & 3 \\
-\textit{Heteranomia squamula} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Hiatella arctica} & I & S & – & Borja et al. (2000) & 3 \\
-Holothuroidea & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Idotea phosphorea} & II & S & – & Borja et al. (2000) (Idotea sp) & 2 \\
-Ischyroceridae & II & S & – & Borja et al. (2000) (Ischyrocerus anguipes) & 2 \\
-\textit{Ischyrocerus anguipes} & II & S & – & Borja et al. (2000) & 3 \\
-Isopoda & NA & NA & – & – & – \\
-\textit{Lacuna vincta} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Lamprops fuscatus} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Lepeta caeca} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Leucon (Leucon) nasicoides} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Littorina littorea} & II & S & – & Borja et al. (2000) & 3 \\
-Lumbrineridae & II & S & – & Borja et al. (2000) & 2 \\
+\textit{Heteranomia squamula} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Hiatella arctica} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+Holothuroidea & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Idotea phosphorea} & II & S & \textemdash & Borja et al. (2000) (Idotea sp) & 2 \\
+Ischyroceridae & II & S & \textemdash & Borja et al. (2000) (Ischyrocerus anguipes) & 2 \\
+\textit{Ischyrocerus anguipes} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+Isopoda & NA & NA & \textemdash & \textemdash & \textemdash \\
+\textit{Lacuna vincta} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Lamprops fuscatus} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Lepeta caeca} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Leucon (Leucon) nasicoides} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Littorina littorea} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+Lumbrineridae & II & S & \textemdash & Borja et al. (2000) & 2 \\
 Lysianassidae & I & S & SA & Borja et al. (2000) & 2 \\
-\textit{Macoma calcarea} & II & S & – & Borja et al. (2000) & 3 \\
+\textit{Macoma calcarea} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Maera danae} & I & S & SA & Borja et al. (2000) (Maera sp) & 2 \\
-\textit{Maldane sarsi} & II & S & – & Borja et al. (2000) & 3 \\
-Maldanidae & I & S & – & Borja et al. (2000) & 2 \\
-\textit{Micronephthys neotena} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Monoculopsis longicornis} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Musculus discors} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Mytilus sp} & III & T & – & Borja et al. (2000) & 2 \\
-Nematoda & III & T & – & Borja et al. (2000) & 1 \\
-Nemertea & III & T & – & Borja et al. (2000) & 1 \\
-\textit{Neoleanira tetragona} & II & S & – & Borja et al. (2000) & 3 \\
-Nephtyidae & II & S & – & Borja et al. (2000) & 2 \\
-\textit{Nephtys caeca} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Nephtys incisa} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Nephtys sp} & II & S & – & Borja et al. (2000) & 2 \\
-\textit{Nuculana minuta} & I & S & – & Borja et al. (2000) & 3 \\
-Nymphonidae & NA & NA & – & – & – \\
-\textit{Oenopota sp} & I & S & – & Borja et al. (2000) & 2 \\
-Oligochaeta & V & T & – & Borja et al. (2000) & 1 \\
-\textit{Ophelia limacina} & I & S & – & Borja et al. (2000) & 3 \\
-Opheliidae & I & S & – & Borja et al. (2000) (Ophelia limacina) & 2 \\
-\textit{Ophiopholis aculeata} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Ophiura robusta} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Orchomenella minuta} & II & S & – & Borja et al. (2000) & 3 \\
-Ostracoda & I & S & – & Bodegart et al. (1997), Ruiz et al. (2005), Gooday et al. (2009) & 1 \\
-\textit{Pagurus pubescens} & II & S & – & Borja et al. (2000) & 2 \\
-\textit{Pagurus sp} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Pandalus montagui} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Parathyasira equalis} & III & T & – & Borja et al. (2000) & 3 \\
-\textit{Parvicardium pinnulatum} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Periploma leanum} & II & S & – & Borja et al. (2000) (P. discus) & 2 \\
-\textit{Retusophiline lima} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Philomedes sp} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Pholoe longa} & II & S & – & Borja et al. (2000) (Pholoe sp) & 2 \\
-\textit{Pholoe sp} & II & S & – & Borja et al. (2000) & 2 \\
+\textit{Maldane sarsi} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+Maldanidae & I & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Micronephthys neotena} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Monoculopsis longicornis} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Musculus discors} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Mytilus sp} & III & T & \textemdash & Borja et al. (2000) & 2 \\
+Nematoda & III & T & \textemdash & Borja et al. (2000) & 1 \\
+Nemertea & III & T & \textemdash & Borja et al. (2000) & 1 \\
+\textit{Neoleanira tetragona} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+Nephtyidae & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Nephtys caeca} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Nephtys incisa} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Nephtys sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Nuculana minuta} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+Nymphonidae & NA & NA & \textemdash & \textemdash & \textemdash \\
+\textit{Oenopota sp} & I & S & \textemdash & Borja et al. (2000) & 2 \\
+Oligochaeta & V & T & \textemdash & Borja et al. (2000) & 1 \\
+\textit{Ophelia limacina} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+Opheliidae & I & S & \textemdash & Borja et al. (2000) (Ophelia limacina) & 2 \\
+\textit{Ophiopholis aculeata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Ophiura robusta} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Orchomenella minuta} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+Ostracoda & I & S & \textemdash & Bodegart et al. (1997), Ruiz et al. (2005), Gooday et al. (2009) & 1 \\
+\textit{Pagurus pubescens} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Pagurus sp} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Pandalus montagui} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Parathyasira equalis} & III & T & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Parvicardium pinnulatum} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Periploma leanum} & II & S & \textemdash & Borja et al. (2000) (P. discus) & 2 \\
+\textit{Retusophiline lima} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Philomedes sp} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Pholoe longa} & II & S & \textemdash & Borja et al. (2000) (Pholoe sp) & 2 \\
+\textit{Pholoe sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Phoxocephalus holbolli} & I & S & SA & Borja et al. (2000) & 3 \\
-Polynoidae & II & S & – & Borja et al. (2000) (Polynoidae) & 2 \\
-\textit{Pontogeneia inermis} & II & S & – & Borja et al. (2000) (P. rostrata) & 2 \\
+Polynoidae & II & S & \textemdash & Borja et al. (2000) (Polynoidae) & 2 \\
+\textit{Pontogeneia inermis} & II & S & \textemdash & Borja et al. (2000) (P. rostrata) & 2 \\
 \textit{Pontoporeia femorata} & I & S & SA & Borja et al. (2000) & 3 \\
 \textit{Praxillella praetermissa} & III & T & OP & Borja et al. (2000) & 3 \\
-\textit{Propebela turricula} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Protomedeia fasciata} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Protomedeia grandimana} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Puncturella noachina} & I & S & – & Borja et al. (2000) & 3 \\
+\textit{Propebela turricula} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Protomedeia fasciata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Protomedeia grandimana} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Puncturella noachina} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Quasimelita formosa} & I & S & SA & Borja et al. (2000) (Melitidae) & 2 \\
 \textit{Quasimelita quadrispinosa} & I & S & SA & Borja et al. (2000) & 3 \\
-\textit{Retusa obtusa} & II & S & – & Borja et al. (2000) & 3 \\
-Sabellidae & I & S & – & Borja et al. (2000) & 2 \\
-\textit{Scoletoma fragilis} & II & S & – & Borja et al. (2000) & 3 \\
-\textit{Scoletoma sp} & II & S & – & Borja et al. (2000) & 2 \\
-\textit{Scoloplos} & I & S & – & Borja et al. (2000) & 2 \\
-\textit{Serripes groenlandicus} & I & S & – & Borja et al. (2000) & 3 \\
-Sipuncula & I & S & – & Borja et al. (2000) & 1 \\
-\textit{Solamen glandula} & II & S & – & Borja et al. (2000) (S. columbianum) & 2 \\
-\textit{Solariella sp} & I & S & – & Borja et al. (2000) & 2 \\
-\textit{Strongylocentrotus sp} & I & S & – & Borja et al. (2000) (S. droebachiensis) & 3 \\
-\textit{Tachyrhynchus erosus} & I & S & – & Borja et al. (2000) (Turritella sp) & 2 \\
-\textit{Thracia septentrionalis} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Thyasira gouldi} & I & S & – & Borja et al. (2000) & 3 \\
-\textit{Thyasira sp} & II & S & – & Borja et al. (2000) & 1 \\
-\textit{Trichotropis bicarinata} & II & S & – & Borja et al. (2000) (Euspira sp) & 2 \\
-\textit{Turritellopsis stimpsoni} & I & S & – & Borja et al. (2000) (Turritella sp) & 2 \\
-\textit{Yoldia myalis} & I & S & – & Borja et al. (2000) (Y. limatula) & 2 \\ \hline
+\textit{Retusa obtusa} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+Sabellidae & I & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Scoletoma fragilis} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Scoletoma sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Scoloplos} & I & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Serripes groenlandicus} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+Sipuncula & I & S & \textemdash & Borja et al. (2000) & 1 \\
+\textit{Solamen glandula} & II & S & \textemdash & Borja et al. (2000) (S. columbianum) & 2 \\
+\textit{Solariella sp} & I & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Strongylocentrotus sp} & I & S & \textemdash & Borja et al. (2000) (S. droebachiensis) & 3 \\
+\textit{Tachyrhynchus erosus} & I & S & \textemdash & Borja et al. (2000) (Turritella sp) & 2 \\
+\textit{Thracia septentrionalis} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Thyasira gouldi} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Thyasira sp} & II & S & \textemdash & Borja et al. (2000) & 1 \\
+\textit{Trichotropis bicarinata} & II & S & \textemdash & Borja et al. (2000) (Euspira sp) & 2 \\
+\textit{Turritellopsis stimpsoni} & I & S & \textemdash & Borja et al. (2000) (Turritella sp) & 2 \\
+\textit{Yoldia myalis} & I & S & \textemdash & Borja et al. (2000) (Y. limatula) & 2 \\ \hline
 \end{tabular}
 \label{TabS1}
 \end{table}

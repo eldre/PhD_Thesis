@@ -45,6 +45,8 @@ Ce projet de recherche a été rendu possible grâce aux financements du *Canadi
 
 Cette thèse est divisée en quatre sections principales : une introduction présentant les différents concepts et principes utilisés tout au long de la thèse, le corps principal contenant trois chapitres expliquant les analyses effectuées et interprétant les résultats obtenus, une conclusion générale intégrant les différentes conclusions et présentant différentes perspectives, ainsi qu'une section d'annexes. Cette dernière comprend un article de perspective, réalisé lors du programme de mentorat de la 4^ème^ *World Conference on Marine Biodiversity* traitant de la contribution des évaluations environnementales holistiques pour atteindre les *Aichi Biodiversity Targets*.
 
+\
+
 __Liste des publications effectuées durant le doctorat__ :
 
 **Dreujou E**, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P (submitted). Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area. *Frontiers in Marine Science*.
@@ -58,6 +60,8 @@ Carrier-Belleau C, Beauchesne D, **Dreujou E**, Isabel L (2019). Le Saint-Lauren
 **Dreujou E**, Paquette L, Grant C, Archambault P, Carrière J (2018). Caractérisation de la faune benthique. In : Carrière J (éd), *Observatoire environnemental de la Baie de Sept-Îles*. INREST, Sept-Îles (QC), Canada. 377-451.
 
 St-Louis R, Montero-Serrano JC, Archambault P, **Dreujou E**, Faille G, Carrière J (2018). Qualité des sédiments. In : Carrière J (éd), *Observatoire environnemental de la Baie de Sept-Îles*. INREST, Sept-Îles (QC), Canada. 213-374.
+
+\
 
 __Liste des communications scientifiques présentées lors de conférences nationales et internationales__ :
 
