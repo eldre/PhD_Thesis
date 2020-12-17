@@ -64,7 +64,7 @@ This region hosts several human activities, including industrial operations at w
 
 A total of 108 stations were selected in the study area, using a randomization algorithm to cover the full extent of the sector, constrained between 0 m and 80 m deep, and with increased sampling effort in areas with human activities (Figure \ref{Fig1}). @Himmelman1991 showed that benthic communities in the Northern Gulf of St. Lawrence above and below 15-20 m deep differ. Likewise, preliminary fieldwork in the study region detected a thermocline in the water column at ca. 15 m deep. Consequently, we discriminated two groups of stations in order to ensure habitat homogeneity within depth classes: shallow (< 15 m, 26 stations) and deep habitats (> 15 m, 82 stations). We sampled the benthic ecosystem in July 2017, using a Ponar grab (0.05 m^2^) deployed from a boat, with two independent casts at each station.
 
-The first cast collected two subsamples – one for the analyses of organic matter content and another for sediment grain size – stored at -20 °C until processing in the laboratory. The percentage of total organic matter (*i.e.* sum of organic carbon and organic nitrogen) in the sediment was determined using the Loss-on-Ignition method [@Davies1974]. Grain-size analysis was done on a sieving column for the fraction with particles larger than 2 mm and with a Laser Diffraction Particle Size Analyser for the smaller fractions. Results from both techniques were combined to yield a unified size distribution range from 0.04 $\mu$m to 26.5 mm. From this, percentages of gravel, sand, silt and clay were calculated as defined by @Wentworth1922 and @Folk1980.
+The first cast collected two subsamples -- one for the analyses of organic matter content and another for sediment grain size -- stored at -20 °C until processing in the laboratory. The percentage of total organic matter (*i.e.* sum of organic carbon and organic nitrogen) in the sediment was determined using the Loss-on-Ignition method [@Davies1974]. Grain-size analysis was done on a sieving column for the fraction with particles larger than 2 mm and with a Laser Diffraction Particle Size Analyser for the smaller fractions. Results from both techniques were combined to yield a unified size distribution range from 0.04 $\mu$m to 26.5 mm. From this, percentages of gravel, sand, silt and clay were calculated as defined by @Wentworth1922 and @Folk1980.
 
 All sediment obtained from the second cast was sieved on a 0.5 mm mesh size and preserved in a solution of BORAX-buffered formalin (4 %) solution for subsequent benthic macrofauna identification. The resulting samples were sorted using a stereomicroscope and taxa identified to the lowest taxonomic level possible with reference manuals and identification guides; names were validated according to the World Register of Marine Species [@WoRMS2020]. Taxon density and biomass per grab were recorded by counting and weighting (blotted wet mass) individuals in each sample, respectively.
 
@@ -80,11 +80,11 @@ Indicators of ecological status were selected from @Pinto2009, @Teixeira2016 and
 \begin{tabular}{llll}
 \hline
 \textbf{Indicator} & \textbf{Unit} & \textbf{Range} & \textbf{References used} \\ \hline
-\textbf{Category 1 – Abundance measures} &  &  & \textit{} \\
+\textbf{Category 1 \textemdash Abundance measures} &  &  & \textit{} \\
 \textit{Total density} & ind.grab-1 & {[}0 ; +$\infty${[} & \textemdash \\
 \textit{Total biomass} & gWM.grab-1 & {[}0 ; +$\infty${[} & \textemdash \\
 \textit{W-Statistic index} & NA & {[}-1 ; 1{]} & \textit{Warwick \& Clarke (1994)} \\
-\textbf{Category 2 – Diversity measures} &  &  & \textit{} \\
+\textbf{Category 2 \textemdash Diversity measures} &  &  & \textit{} \\
 \textit{Specific richness} & taxa & {[}0 ; +$\infty${[} & \textemdash \\
 \textit{Shannon index} & NA & {[}0 ; 5{]} & \textit{Magurran \& McGill (2011)} \\
 \textit{Margalef index} & NA & {[}0 ; +$\infty${[} & \textit{Magurran \& McGill (2011)} \\
@@ -94,7 +94,7 @@ Indicators of ecological status were selected from @Pinto2009, @Teixeira2016 and
 \textit{Functional richness} & NA & {[}0 ; +$\infty${[} & \textit{Mason et al. (2005), Villéger et al. (2008)} \\
 \textit{Functional evenness} & NA & {[}0 ; 1{]} & \textit{Mason et al. (2005), Villéger et al. (2008)} \\
 \textit{Functional divergence} & NA & {[}0 ; 1{]} & \textit{Mason et al. (2005), Villéger et al. (2008)} \\
-\textbf{Category 3 – Characteristic species} &  &  & \textit{} \\
+\textbf{Category 3 \textemdash Characteristic species} &  &  & \textit{} \\
 \textit{AZTI Marine Biotic Index (AMBI)} & NA & {[}0 ; 7{]} & \textit{Borja et al. (2000)} \\
 \textit{Multivariate Marine Biotic Index (M-AMBI)} & NA & {[}0 ; 1{]} & \textit{Muxika et al. (2007)} \\
 \textit{BENTIX} & NA & {[}0 ; 6{]} & \textit{Simboura \& Zenetos (2002)} \\
@@ -105,7 +105,7 @@ Indicators of ecological status were selected from @Pinto2009, @Teixeira2016 and
 
 We included in Category 1 the total density (number of individuals collected per grab), total biomass (wet mass of individuals collected per grab) and the W-Statistic Index, calculated based on abundance-biomass curves for the community [@Warwick1994]. Those indicators were calculated using benthic taxa abundance sampled at each station.
 
-For Category 2, we considered taxa richness (number of collected taxa) and related metrics to describe the community's structure and the relative prevalence of taxa within it, such as the Shannon index, Margalef index, Simpson index and Pielou index [@Legendre1998; @Magurran2011]. We also considered taxonomic and functional diversities, based on taxonomic relationships between taxa and information about biological traits, respectively [@Warwick1995; @Clarke1998; @Mason2005; @Villeger2008]. Taxa richness, Shannon index, Margalef index, Simpson index and Pielou index were calculated using the benthic community at each station. For taxonomic diversity, we gathered relatedness data for taxa using the WoRMS online database [@WoRMS2020]. To estimate functional diversity, we computed functional richness, functional evenness and functional divergence [@Mason2005; @Villeger2008] by considering five biological traits –- body composition, body size, feeding type, mobility and lifestyle –- with a total of 26 modalities (Table \ref{Tab2}). Because taxa can present several modalities for a trait, we assigned a continuous value between 0 (absence of the modality) and 1 (presence of the modality) for each taxon and each trait (the sum of values for every modality within a trait equals 1). Biological trait data was extracted from WoRMS, SealifeBase, the Encyclopedia of Life and Arctic Traits databases as well as dedicated articles [@Degen2019; @EoL2020; @Palomares2020; @WoRMS2020]. R Packages *vegan* and *FD* were used to calculate indicators in this category [@Laliberte2010; @Laliberte2014; @Oksanen2019].
+For Category 2, we considered taxa richness (number of collected taxa) and related metrics to describe the community's structure and the relative prevalence of taxa within it, such as the Shannon index, Margalef index, Simpson index and Pielou index [@Legendre1998; @Magurran2011]. We also considered taxonomic and functional diversities, based on taxonomic relationships between taxa and information about biological traits, respectively [@Warwick1995; @Clarke1998; @Mason2005; @Villeger2008]. Taxa richness, Shannon index, Margalef index, Simpson index and Pielou index were calculated using the benthic community at each station. For taxonomic diversity, we gathered relatedness data for taxa using the WoRMS online database [@WoRMS2020]. To estimate functional diversity, we computed functional richness, functional evenness and functional divergence [@Mason2005; @Villeger2008] by considering five biological traits -- body composition, body size, feeding type, mobility and lifestyle -- with a total of 26 modalities (Table \ref{Tab2}). Because taxa can present several modalities for a trait, we assigned a continuous value between 0 (absence of the modality) and 1 (presence of the modality) for each taxon and each trait (the sum of values for every modality within a trait equals 1). Biological trait data was extracted from WoRMS, SealifeBase, the Encyclopedia of Life and Arctic Traits databases as well as dedicated articles [@Degen2019; @EoL2020; @Palomares2020; @WoRMS2020]. R Packages *vegan* and *FD* were used to calculate indicators in this category [@Laliberte2010; @Laliberte2014; @Oksanen2019].
 
 \begin{table}[H]
 \centering
@@ -115,11 +115,11 @@ For Category 2, we considered taxa richness (number of collected taxa) and relat
 \textbf{Biological trait} & \textbf{Modality} \\ \hline
 Body composition & Non-calcified tissue \\
  & Calcareous (not specified) \\
- & Calcareous – calcium carbonate \\
- & Calcareous – amorphous calcium carbonate \\
- & Calcareous – aragonite \\
- & Calcareous – calcite \\
- & Calcareous – High magnesium calcite \\
+ & Calcareous \textemdash calcium carbonate \\
+ & Calcareous \textemdash amorphous calcium carbonate \\
+ & Calcareous \textemdash aragonite \\
+ & Calcareous \textemdash calcite \\
+ & Calcareous \textemdash High magnesium calcite \\
  & Chitinous \\
 Body length & Small (\textless 3 mm) \\
  & Medium (between 3 and 10 mm) \\
