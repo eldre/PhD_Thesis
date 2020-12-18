@@ -8,7 +8,7 @@ Cette thèse est divisée en quatre sections principales : une introduction pré
 
 \underline{Liste des publications effectuées durant le doctorat} :
 
-**Dreujou E**, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P (submitted). Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area. *Frontiers in Marine Science*.
+**Dreujou E**, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P (soumis). Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area. *Frontiers in Marine Science*.
 
 **Dreujou E**, McKindsey CW, Grant C, Tréau de Coeli L, St-Louis R, Archambault P (2020). Biodiversity and Habitat Assessment of Coastal Benthic Communities in a Sub-Arctic Industrial Harbor Area. *Water* 12(9):2424. DOI:10.3390/w12092424. (Choix de l'éditeur)
 

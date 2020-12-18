@@ -6,8 +6,8 @@ Application d'indicateurs de statut écologique et prédiction de la structure d
 Christian Nozais, président du jury, Université du Québec à Rimouski
 Philippe Archambault, directeur de recherche, Université Laval
 Christopher William McKindsey, codirecteur de recherche, Ministère des Pêches et Océans
-Fanny Noisette, examinatrice interne, Université du Québec à Rimouski
-Jacques Grall, examinateur externe, Institut Universitaire Européen de la Mer
+Fanny Noisette, evaluatrice interne, Université du Québec à Rimouski
+Jacques Grall, evaluateur externe, Institut Universitaire Européen de la Mer
 
 Dépôt initial le 18 décembre 2020.
 Dépôt final le 31 mars 2021.
@@ -55,7 +55,7 @@ Cette thèse est divisée en quatre sections principales : une introduction pré
 
 \underline{Liste des publications effectuées durant le doctorat} :
 
-**Dreujou E**, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P (submitted). Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area. *Frontiers in Marine Science*.
+**Dreujou E**, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P (soumis). Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area. *Frontiers in Marine Science*.
 
 **Dreujou E**, McKindsey CW, Grant C, Tréau de Coeli L, St-Louis R, Archambault P (2020). Biodiversity and Habitat Assessment of Coastal Benthic Communities in a Sub-Arctic Industrial Harbor Area. *Water* 12(9):2424. DOI:10.3390/w12092424. (Choix de l'éditeur)
 
@@ -153,7 +153,7 @@ Compte tenu de l'influence généralisée des activités humaines sur les écosy
 L'article associé à ce chapitre, "\textit{Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area}", a été rédigé en collaboration avec Nicolas Desroy, Lisa Tréau de Coeli, Julie Carrière, Christopher W. McKindsey et Philippe Archambault. Il a été soumis dans la revue \textit{Frontiers in Marine Science}, dans la section spéciale \textit{Biodiversity and Distribution of Benthic Invertebrates - From Taxonomy to Ecological Patterns and Global Processes}, le 3 décembre 2020. J'ai établi les objectifs de ce chapitre avec Nicolas Desroy, Christopher W. McKindsey et Philippe Archambault. Je me suis basé sur les données obtenues lors de la campagne d'échantillonnage en 2017 effectuée pour le premier chapitre, en collaboration avec Julie Carrière, auxquelles j'ai ajouté des données sur les traits biologiques collectées depuis différentes bases de données en ligne, validées par Lisa Tréau de Coeli. J'ai calculé les indicateurs environnementaux au cours d'un stage à la station biologique de Dinard avec Nicolas Desroy, et j'ai ensuite effectué les analyses statistiques pour évaluer et comparer les résultats des différents indicateurs. J'ai dirigé la rédaction de l'article, où l'ensemble des co-auteurs a contribué à l'interprétation des résultats en fonction de leur expertise et à la révision générale. Les données liées à cet article sont accessibles dans le dépôt en ligne hébergé par le site Scholars Portal Dataverse avec l'identifiant unique [10.5683/SP2/WDDDMI](https://doi.org/10.5683/SP2/WDDDMI). Une partie des résultats de ces analyses a été présentée lors de la Réunion Scientifique du \textit{Canadian Healthy Oceans Network} II à Ottawa en novembre 2018. \linebreak[4]
 
 \begin{singlespace}
-Dreujou E, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P (submitted). Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area. \textit{Frontiers in Marine Science}.
+Dreujou E, Desroy N, Carrière J, Tréau de Coeli L, McKindsey CW, Archambault P (soumis). Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area. \textit{Frontiers in Marine Science}.
 \end{singlespace}
 
 \textit{Les sections suivantes sont celles de l'article soumis, en révision.}
@@ -174,3 +174,21 @@ Dreujou E, Daigle RM, Beauchesne D, Carrière J, Archambault P (in prep). Descri
 \end{singlespace}
 
 \textit{Les sections suivantes sont celles de l'article en préparation.}
+
+
+# Annexe 1 (head.tex)
+
+\appendice{Approches environnementales holistiques et objectifs d'Aichi pour la biodiversité : accomplissements et perspectives pour les écosystèmes marins}
+\label{ann1}
+
+\section{Résumé}
+Afin de préserver la biodiversité des changements mondiaux, la Conférence des Parties a élaboré un Plan Stratégique pour la Biodiversité pour la période 2011-2020 qui comprenait une liste de vingt objectifs spécifiques connus sous le nom d'objectifs d'Aichi pour la biodiversité. Cette période arrivant à sa fin, et malgré des progrès majeurs dans la conservation de la biodiversité, les preuves suggèrent que la majorité des objectifs ne seront probablement pas atteints. Cet article fait partie d'une série d'articles de perspective en lien avec la 4\textsuperscript{ème} \textit{World Conference on Marine Biodiversity} (mai 2018, Montréal, Canada) pour identifier les prochaines étapes vers une conservation réussie de la biodiversité en milieu marin. Nous avons considéré les études avec une approche environnementale holistique (AEH) et leur contribution à l'atteinte des objectifs. Notre analyse est axées sur différentes approches environnementales peuvant être considérées comme holistiques, et nous discutons de la manière dont les AEH peut contribuer aux objectifs d'Aichi pour la biodiversité à l'avenir. Nous avons constaté que seuls quelques AEH considéraient un objectif de biodiversité spécifique dans leurs recherches, et que l'objectif 11, qui porte sur les aires marines protégées, était le plus souvent cité. Nous proposons cinq priorités de recherche pour améliorer les AEH pour la conservation de la biodiversité marine au-delà de 2020 : (i) étendre l'utilisation d'approches holistiques dans les évaluations environnementales, (ii) normaliser le vocabulaire utilisés par les AEH, (iii) améliorer la collecte, le partage et la gestion des données, (iv) envisager la variabilité spatio-temporelle des écosystèmes et (v) intégrer les services écosystémiques dans les AEH. La prise en compte de ces priorités favorisera la valeur des AEH et profitera au Plan Stratégique pour la Biodiversité.
+
+L'article associé à ce chapitre, "\textit{Holistic Environmental Approaches and Aichi Biodiversity Targets: accomplishments and perspectives for marine ecosystems}", a été rédigé en collaboration avec Charlotte Carrier-Belleau, Jesica Goldsmit, Dario Fiorentino, Radhouane Ben-Hamadou, Jose H Muelbert, Jasmin A Godbold, Rémi M Daigle et David Beauchesne. Il a été publié dans le journal \textit{PeerJ}, le 25 février 2020. Cet article d'opinion a été réalisé dans le cadre du programme de mentorat organisé lors de la 4\textsuperscript{ème} \textit{World Conference on Marine Biodiversity}. J'ai dirigé l'équipe de rédaction, composée d'étudiants et de chercheurs (mentors scientifiques), pendant et après la conférence pour déterminer la direction des discussions, identifier les priorités de recherche et discuter de simplications, en lien avec les objectifs définis avec Jesica Goldsmit, Rémi M Daigle et David Beauchesne. J'ai effectué la revue de littérature, et j'ai dirigié la rédaction de l'article, où l'ensemble des co-auteurs a contribué à l'écriture des priorités de recherche et à la révision générale.
+\linebreak[4]
+
+\begin{singlespace}
+Dreujou E, Carrier-Belleau C, Goldsmit J, Fiorentino D, Ben-Hamadou R, Muelbert JH, Godbold JA, Daigle RM, Beauchesne D (2020). Holistic Environmental Approaches and Aichi Biodiversity Targets: accomplishments and perspectives for marine ecosystems. \textit{PeerJ} 8:e817. DOI:10.7717/peerj.8171.
+\end{singlespace}
+
+\textit{Les sections suivantes correspondent à celles de l'article publié.}

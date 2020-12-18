@@ -252,8 +252,6 @@ For Category 1 and 2 indicators, bootstrap bias was low at both shallow and deep
 
 The analysis of covariation between indicators reported moderate to very high Pearson coefficients (0.22 < $|\rho|$ < 0.96) (Table \ref{C2_Tab5}). Category 2 indicators presented the highest proportion of within-Category significant correlations at both shallow and deep stations (Table \ref{C2_Tab5}). The vast majority of these correlations were positive, with the strongest correlations between Shannon and Margalef indices, and were represented by linear proportionality between indicators on the scatterplots. Category 2 indicators were also frequently correlated to indicators from Categories 1 and 3, especially for the W-Statistic Index and the M-AMBI (Table \ref{C2_Tab5}). The latter Categories did not present high within-Category correlations, except between AMBI/BENTIX and M-AMBI/BOPA at shallow stations, and the W-Statistic Index and AMBI at deep stations.
 
-\clearpage
-
 \begin{landscape}
 \begin{singlespace} {
 \fontsize{6}{8}
@@ -300,7 +298,7 @@ The analysis of covariation between indicators reported moderate to very high Pe
 \begin{table}[H]
 \centering
 \caption*{\textit{(Table \ref{C2_Tab5} continued)}}
-\hspace*{-1.5cm}
+\hspace*{-2.5cm}
 \begin{tabular}{lcccccccccccccccccc}
  & \multicolumn{18}{c}{\textbf{Deep stations}} \\ \cline{2-19}
  & \multicolumn{3}{c}{\textbf{Category 1}} & \textbf{} & \multicolumn{9}{c}{\textbf{Category 2}} & \textbf{} & \multicolumn{4}{c}{\textbf{Category 3}} \\ \cline{2-4} \cline{6-14} \cline{16-19}
@@ -325,7 +323,6 @@ The analysis of covariation between indicators reported moderate to very high Pe
 \textit{BENTIX} & \textemdash & \textemdash & \textemdash &  & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & -0.24 &  & -0.7 & \textemdash &  &  \\
 \textit{BOPA} & \textemdash & \textemdash & \textemdash &  & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & -0.22 & \textemdash & \textemdash & \textemdash &  & \textemdash & \textemdash & \textemdash &  \\ \hline
 \end{tabular}
-\hspace*{-1.5cm}
 \end{table}
 } \end{singlespace}
 \end{landscape}
@@ -338,13 +335,11 @@ For Category 2 indicators, correlations with sediment parameters were significan
 
 Finally, several significant relationships were observed between Category 3 indicators and sediment parameters (organic matter, sand and silt contents), including at shallow stations for AMBI and BENTIX and at deep stations for BENTIX and BOPA (Table \ref{C2_Tab6}). Organic matter was negatively correlated with AMBI values (coefficient of -0.43) at shallow stations and positively with BENTIX values at shallow and deep stations (0.45 and 0.27, respectively); sand and silt contents had the opposite effect at shallow stations for AMBI (0.47 and -0.47, respectively) and at deep stations for BENTIX (-0.26 and 0.23, respectively) and BOPA (-0.31 and 0.34, respectively) values. Many relationships with heavy metals were detected at deep stations for all indicators except AMBI (Table \ref{C2_Tab6}). In particular, M-AMBI presented negative correlations with heavy metals (between -0.24 and -0.38) whereas correlations with BENTIX and BOPA were positive (between 0.23 and 0.36).
 
-\clearpage
-
 \begin{landscape}
 \begin{singlespace} {
 \fontsize{6}{8}
 \selectfont
-\begin{table}[H]
+\begin{table}
 \centering
 \caption{Spearman rank correlation coefficients between environmental indicators and habitat parameters, for shallow and deep stations. Only significant relationships are presented. TD = total density, TB = total biomass, W = W-Statistic index, S = taxa richness, H = Shannon index, M = Margalef index, $\lambda$ = Simpson index, J = Pielou evenness, $\Delta$ = taxonomic diversity, FR = functional richness, FE = functional evenness, FD = functional divergence, AMBI = AZTI Marine Biotic Index, M-AMBI = Multivariate AZTI Marine Biotic Index, BOPA = Benthic Opportunistic Polychaetes Amphipods Index, OM = organic matter, As = arsenic, Cd = cadmium, Cr = chromium, Cu = copper, Fe = iron, Mn = manganese, Hg = mercury, Pb = lead, Zn = zinc.}
 \begin{tabular}{lccccccccccccccc}
@@ -382,7 +377,7 @@ Finally, several significant relationships were observed between Category 3 indi
 \begin{singlespace} {
 \fontsize{6}{8}
 \selectfont
-\begin{table}[H]
+\begin{table}
 \centering
 \caption*{\textit{(Table \ref{C2_Tab6} continued)}}
 \begin{tabular}{lccccccccccccccc}
@@ -409,6 +404,7 @@ Finally, several significant relationships were observed between Category 3 indi
 \textit{BENTIX} & \multicolumn{1}{l}{0.27} & \textemdash & \multicolumn{1}{l}{-0.26} & \multicolumn{1}{l}{0.23} & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{0.23} & \multicolumn{1}{l}{0.23} & \multicolumn{1}{l}{0.24} & \multicolumn{1}{l}{0.25} & \textemdash & \textemdash & \multicolumn{1}{l}{0.23} & \textemdash & \textemdash \\
 \textit{BOPA} & \textemdash & \textemdash & \multicolumn{1}{l}{-0.31} & \multicolumn{1}{l}{0.34} & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{0.33} & \multicolumn{1}{l}{0.28} & \multicolumn{1}{l}{0.36} & \multicolumn{1}{l}{0.31} & \multicolumn{1}{l}{0.33} & \multicolumn{1}{l}{0.38} & \multicolumn{1}{l}{0.3} & \multicolumn{1}{l}{0.33} & \multicolumn{1}{l}{0.3} \\ \hline
 \end{tabular}
+\hspace*{-2cm}
 \end{table}
 } \end{singlespace}
 \end{landscape}

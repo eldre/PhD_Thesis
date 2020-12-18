@@ -1,3 +1,18 @@
+<!-- ---
+bibliography: references.bib
+cls: citations.cls
+link-citations: false
+header-includes:
+  - \usepackage{float}
+  - \DeclareUnicodeCharacter{0300}{\`{e}}
+  - \DeclareUnicodeCharacter{0301}{\'{e}}
+output:
+  word_document:
+    toc: false
+    reference_docx: "styles.docx"
+    pandoc_args: "--lua-filter=pagebreak.lua"
+--- -->
+
 # Title
 
 Holistic Environmental Approaches and Aichi Biodiversity Targets: accomplishments and perspectives for marine ecosystems
@@ -68,7 +83,7 @@ Our review identified 1,648 research articles related to biodiversity studies th
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\columnwidth]{figures/A1_Fig1.png}
+\includegraphics[width=1\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/A1/A1_Fig1.png}
 \caption{Number of articles per year adopting a Holistic Environmental Approach (HEA) identified in \textit{ISI Web of Knowledge}. (A) Number of HEA studies conducted in terrestrial, freshwater and marine environments (light grey), including studies focusing only on marine environments (dark grey). (B) Prevalence of each HEA within studies targeting marine environments only. Searches queried the title, abstract and keywords of peer-reviewed articles. Publication of the Aichi Biodiversity Targets in 2010 is represented by the black dashed vertical line.}
 \label{A1_Fig1}
 \end{figure}
@@ -113,7 +128,7 @@ Strategic Goals have been identified by the CBD as the steps necessary to safegu
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\columnwidth]{figures/A1_Fig2.png}
+\includegraphics[width=1\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/A1/A1_Fig2.png}
 \caption{Conceptual diagram of interactions and relationships between the Strategic Goals (A), the Aichi Biodiversity Targets (B), Holistic Environmental Approaches (C), and the identified research priorities (D). Targets have been summarized from \citet{CBD2010}, and the letter before their number corresponds to the Goal to which they belong. Solid arrows represent direct relationships between sections, and dashed arrows represent secondary feedback.}
 \label{A1_Fig2}
 \end{figure}
@@ -194,3 +209,9 @@ Considering these priorities will help raise the value of HEAs to managers, ensu
 # Acknowledgements
 
 This work is the result of the 4^th^ World Conference on Marine Biodiversity mentoring program. We thank Stephanie Allen, Karen Mooney, Lidia Lins Pereira and Hashim Said, who were involved in the initial discussions from which resulted in this work. We also wish to thank Peter Duinker and Natalie Ban for their help during the literature review, along with two anonymous reviewers for their helpful comments during earlier stages of this manuscript. Finally, we particularly thank Philippe Archambault, Anna Metaxas and Paul Snelgrove for their implication in the mentoring committee, who initiated this project, and their helpful comments and suggestions during the writing process.
+
+<!--
+setwd("/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Versions/1.0")
+rmarkdown::render("7_annexe1.md", "word_document")
+rmarkdown::render("7_annexe1.md", "pdf_document")
+-->

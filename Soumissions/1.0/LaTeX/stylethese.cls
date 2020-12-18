@@ -6,7 +6,7 @@
 % (UQAM), avec leur assentimment (consenti a Pierre Saint-Laurent,
 % Avril 2009).
 %
-% Modifi� par Fr�d�ric Cyr dans le but de rendre conforme aux exigences du guide de r�daction de janvier 2012 de l'UQAR.
+% Modifié par Frédéric Cyr dans le but de rendre conforme aux exigences du guide de rédaction de janvier 2012 de l'UQAR.
 % Aout 2013
 
 
@@ -356,12 +356,12 @@
           \vspace*{0.1cm}% moitier de la valeur souhaite mais fonctionne
           \normalsize\bfseries \MakeUppercase{\@chapapp}\space \MakeUppercase{\arabic{chapter}}
           \par\nobreak
-  %       \vskip 1cm % moitier de la valeur souhaite mais fonctionne % PSL
+        % \vskip 1cm % moitier de la valeur souhaite mais fonctionne % PSL
         \fi
       \fi
       \interlinepenalty\@M
       \normalsize\bfseries \MakeUppercase{#1}\par\nobreak
-  %   \vskip 1.5cm % moitier de la valeur souhaite mais fonctionne % PSL
+    % \vskip 1.5cm % moitier de la valeur souhaite mais fonctionne % PSL
       \end{center}
     }}
   \def\@snewchapter#1{\if@twocolumn

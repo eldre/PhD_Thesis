@@ -28,9 +28,9 @@ CCTX = conclusion/conclusion.tex
 CCMD = conclusion/conclusion.md
 
 ##-- ANNEXES
-# ##-- Annexe 1
-# ANN1 = annexe1/annexe1.tex
-# AN1M = annexe1/annexe1.md
+##-- Annexe 1
+ANN1 = annexe1/annexe1.tex
+AN1M = annexe1/annexe1.md
 
 ##-- Références
 REF = references.bib
@@ -56,8 +56,7 @@ PFLAGS = --filter pandoc-fignos --filter pandoc-tablenos --filter pandoc-eqnos -
 
 ALL: $(THES)
 
-# $(THES): $(THTX) $(LIMI) $(INTH) $(ITTX) $(CCTX) $(REF) $(INLI) $(CHP1) $(CHP2) $(CHP3) $(CHK) $(ANN1)
-$(THES): $(THTX) $(LIMI) $(INTH) $(ITTX) $(CCTX) $(REF) $(INLI) $(CHP1) $(CHP2) $(CHP3)
+$(THES): $(THTX) $(LIMI) $(INTH) $(ITTX) $(CCTX) $(REF) $(INLI) $(CHP1) $(CHP2) $(CHP3) $(CHK) $(ANN1)
 	pdflatex these
 	bibtex these
 	pdflatex these
@@ -89,9 +88,9 @@ $(CHP3): $(CH3M)
 	cat chapitre3/head.tex chapitre3/main.tex > $@
 
 ## -- Render annexes
-# $(ANN1): $(AN1M)
-# 	pandoc $< -o annexe1/main.tex $(PFLAGS)
-# 	cat annexe1/head.tex annexe1/main.tex > $@
+$(ANN1): $(AN1M)
+	pandoc $< -o annexe1/main.tex $(PFLAGS)
+	cat annexe1/head.tex annexe1/main.tex > $@
 
 
 
@@ -106,4 +105,4 @@ clean:
 	-rm chapitre2/chapitre2.tex chapitre2/main.tex
 	-rm chapitre3/chapitre3.tex chapitre3/main.tex
 	-rm conclusion/conclusion.tex
-	# -rm annexe1/annexe1.tex annexe1/main.tex
+	-rm annexe1/annexe1.tex annexe1/main.tex
