@@ -197,7 +197,7 @@ Regressions for the 1 mm size class had less predictive power than did those for
 \selectfont
 \begin{table}[H]
 \centering
-\caption*{\textit{(Table 2 continued)}}
+\caption*{\textit{(Table \ref{C1_Tab2} continued)}}
 \hspace*{-1cm}
 \begin{tabular}{llllllll}
  & \multicolumn{7}{c}{\textbf{Model 2}} \\ \cline{2-8}

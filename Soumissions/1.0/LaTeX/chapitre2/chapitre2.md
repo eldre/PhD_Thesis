@@ -32,13 +32,13 @@ The objectives of this study are to (i) compare outcomes of various benthic envi
 
 ## Study area
 
-We targeted ecosystems with a sandy-silty sediment in the industrial harbour area of Sept-Îles (Côte-Nord region of Québec, Canada), which considers ecosystems in the Baie des Sept Îles and the archipelago at its entrance (Figure \ref{C2_Fig1}) [@Dreujou2018; @Dreujou2020]. Coasts are characterized by sandy beaches, tidal marshes and anthropogenic structures. Mean depth is 35 m in the bay and can reach up to 150 m in the archipelago [@Dutil2012]. It is influenced by freshwater inputs from multiple streams and strong tidal currents resulting in a mixed water column and an estuarine circulation [@Shaw2019]. Ecosystems in the Sept-Îles region are considered sub-Arctic due to the formation of ice on the shore in November/December and in the bay in January/February, along with an important freshwater run-off due to snowmelt in April [@Demers2018].
+We targeted ecosystems with a sandy-silty sediment in the industrial harbour area of Sept-Îles (Côte-Nord region of Québec, Canada), which considers ecosystems in the Baie des Sept Îles and the archipelago at its entrance (Figure \ref{C2_Fig1}) [@Dreujou2018; @Dreujou2020b]. Coasts are characterized by sandy beaches, tidal marshes and anthropogenic structures. Mean depth is 35 m in the bay and can reach up to 150 m in the archipelago [@Dutil2012]. It is influenced by freshwater inputs from multiple streams and strong tidal currents resulting in a mixed water column and an estuarine circulation [@Shaw2019]. Ecosystems in the Sept-Îles region are considered sub-Arctic due to the formation of ice on the shore in November/December and in the bay in January/February, along with an important freshwater run-off due to snowmelt in April [@Demers2018].
 
-This region hosts several human activities, including industrial operations at wharves located at the City of Sept-Îles and the Pointe-Noire sector (on the southern section of the bay), aquaculture and various fisheries. Many projects have been done in this region to characterize pelagic and benthic communities and habitats in relation to coastal stressors [@CHONE2016; @Carriere2018; @Dreujou2020].
+This region hosts several human activities, including industrial operations at wharves located at the City of Sept-Îles and the Pointe-Noire sector (on the southern section of the bay), aquaculture and various fisheries. Many projects have been done in this region to characterize pelagic and benthic communities and habitats in relation to coastal stressors [@CHONE2016; @Carriere2018; @Dreujou2020b].
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{figures/C2_Fig1.png}
+\includegraphics[width=0.75\columnwidth]{figures/C2_Fig1.png}
 \caption{Map of the study area, with the location of the sampled stations. Light blue triangles and dark blue squares indicate shallow (< 15 m) and deep (> 15 m) stations, respectively.}
 \label{C2_Fig1}
 \end{figure}
@@ -57,17 +57,21 @@ In addition to these parameters, we considered estimates of heavy metal concentr
 
 Indicators of ecological status were selected from @Pinto2009, @Teixeira2016 and @DEVOTES2012, and grouped into three Categories according to their methodology (Table \ref{C2_Tab1}). We targeted indicators related to descriptors D1 (biological diversity), D6 (seafloor integrity) and D8 (contaminants) of Good Environmental Status [@EC2008; @Borja2013], choosing those that applied to benthic invertebrates in soft-bottom habitats. We considered each station separately, allowing an assessment of the spatial variability and mean for each indicator, and we pooled all stations together to obtain an estimate for the bay-scale system. We used R v4.0 to perform data manipulations and calculations [@RTeam2020].
 
+\begin{landscape}
+\begin{singlespace} {
+\fontsize{9}{11}
+\selectfont
 \begin{table}[H]
 \centering
 \caption{Summary of the evaluated indicators.}
 \begin{tabular}{llll}
 \hline
 \textbf{Indicator} & \textbf{Unit} & \textbf{Range} & \textbf{References used} \\ \hline
-\textbf{Category 1 \textemdash Abundance measures} &  &  & \textit{} \\
+\textbf{Category 1: Abundance measures} &  &  & \textit{} \\
 \textit{Total density} & ind.grab-1 & {[}0 ; +$\infty${[} & \textemdash \\
 \textit{Total biomass} & gWM.grab-1 & {[}0 ; +$\infty${[} & \textemdash \\
 \textit{W-Statistic index} & NA & {[}-1 ; 1{]} & \textit{Warwick \& Clarke (1994)} \\
-\textbf{Category 2 \textemdash Diversity measures} &  &  & \textit{} \\
+\textbf{Category 2: Diversity measures} &  &  & \textit{} \\
 \textit{Specific richness} & taxa & {[}0 ; +$\infty${[} & \textemdash \\
 \textit{Shannon index} & NA & {[}0 ; 5{]} & \textit{Magurran \& McGill (2011)} \\
 \textit{Margalef index} & NA & {[}0 ; +$\infty${[} & \textit{Magurran \& McGill (2011)} \\
@@ -77,19 +81,24 @@ Indicators of ecological status were selected from @Pinto2009, @Teixeira2016 and
 \textit{Functional richness} & NA & {[}0 ; +$\infty${[} & \textit{Mason et al. (2005), Villéger et al. (2008)} \\
 \textit{Functional evenness} & NA & {[}0 ; 1{]} & \textit{Mason et al. (2005), Villéger et al. (2008)} \\
 \textit{Functional divergence} & NA & {[}0 ; 1{]} & \textit{Mason et al. (2005), Villéger et al. (2008)} \\
-\textbf{Category 3 \textemdash Characteristic species} &  &  & \textit{} \\
-\textit{AZTI Marine Biotic Index (AMBI)} & NA & {[}0 ; 7{]} & \textit{Borja et al. (2000)} \\
-\textit{Multivariate Marine Biotic Index (M-AMBI)} & NA & {[}0 ; 1{]} & \textit{Muxika et al. (2007)} \\
+\textbf{Category 3: Characteristic species} &  &  & \textit{} \\
+\textit{AZTI Marine Biotic Index} & NA & {[}0 ; 7{]} & \textit{Borja et al. (2000)} \\
+\textit{Multivariate Marine Biotic Index} & NA & {[}0 ; 1{]} & \textit{Muxika et al. (2007)} \\
 \textit{BENTIX} & NA & {[}0 ; 6{]} & \textit{Simboura \& Zenetos (2002)} \\
-\textit{Benthic Opportunistic Polychaete Amphipod index (BOPA)} & NA & {[}0 ; log(2){]} & \textit{Dauvin \& Ruellet (2007)} \\ \hline
+\textit{Benthic Opportunistic Polychaete Amphipod index} & NA & {[}0 ; log(2){]} & \textit{Dauvin \& Ruellet (2007)} \\ \hline
 \end{tabular}
 \label{C2_Tab1}
 \end{table}
+} \end{singlespace}
+\end{landscape}
 
 We included in Category 1 the total density (number of individuals collected per grab), total biomass (wet mass of individuals collected per grab) and the W-Statistic Index, calculated based on abundance-biomass curves for the community [@Warwick1994]. Those indicators were calculated using benthic taxa abundance sampled at each station.
 
 For Category 2, we considered taxa richness (number of collected taxa) and related metrics to describe the community's structure and the relative prevalence of taxa within it, such as the Shannon index, Margalef index, Simpson index and Pielou index [@Legendre1998; @Magurran2011]. We also considered taxonomic and functional diversities, based on taxonomic relationships between taxa and information about biological traits, respectively [@Warwick1995; @Clarke1998; @Mason2005; @Villeger2008]. Taxa richness, Shannon index, Margalef index, Simpson index and Pielou index were calculated using the benthic community at each station. For taxonomic diversity, we gathered relatedness data for taxa using the WoRMS online database [@WoRMS2020]. To estimate functional diversity, we computed functional richness, functional evenness and functional divergence [@Mason2005; @Villeger2008] by considering five biological traits -- body composition, body size, feeding type, mobility and lifestyle -- with a total of 26 modalities (Table \ref{C2_Tab2}). Because taxa can present several modalities for a trait, we assigned a continuous value between 0 (absence of the modality) and 1 (presence of the modality) for each taxon and each trait (the sum of values for every modality within a trait equals 1). Biological trait data was extracted from WoRMS, SealifeBase, the Encyclopedia of Life and Arctic Traits databases as well as dedicated articles [@Degen2019; @EoL2020; @Palomares2020; @WoRMS2020]. R Packages *vegan* and *FD* were used to calculate indicators in this category [@Laliberte2010; @Laliberte2014; @Oksanen2019].
 
+\begin{singlespace} {
+\fontsize{9}{11}
+\selectfont
 \begin{table}[H]
 \centering
 \caption{Summary of the functional traits and modalities.}
@@ -125,9 +134,13 @@ Lifestyle & Fixed \\
 \end{tabular}
 \label{C2_Tab2}
 \end{table}
+} \end{singlespace}
 
 Finally, indicators in Category 3 included the AZTI Marine Biotic Index (AMBI) and its multivariate version (M-AMBI), which are based on the relative proportion of taxa classified into five ecological groups depending on their tolerance to perturbation [@Grall1997; @Borja2000; @Muxika2007], BENTIX, where only two ecological groups are considered [@Simboura2002], and the Benthic Opportunistic Polychaetes Amphipods Index (BOPA), which compares proportions of opportunistic polychaetes and amphipods [@Dauvin2007a]. Sampled taxa were assigned to ecological groups, from group I to V, based on the list of Borja et al., version of May 2019 [@AZTI2019] (Table \ref{C2_TabS1}). M-AMBI scores were based on references conditions described in Table \ref{C2_Tab3}. Because this list was developed for European taxa, we assigned groups to unregistered taxa based on species physiology studies and taxonomic relationships [@Pelletier2018]. We used this list to further regroup taxa to a 'sensitive' (groups I and II) and a 'tolerant' (groups III to V) metagroup to compute BENTIX [@Simboura2002], and to obtain the proportion of opportunistic polychaetes (groups III to V) and sensitive amphipods (group I) to calculate BOPA [@Dauvin2007a] (Table \ref{C2_TabS1}). AMBI and M-AMBI were calculated using the dedicated software AMBI v5.0 [@AZTI2019]. Because historical data on benthic invertebrates is scarce in our study area, we used the outcomes of our sampling to calculate reference conditions by selecting the 5 % and the 95 % percentiles of taxa richness, Shannon index and AMBI distributions [@Buchet2010].
 
+\begin{singlespace} {
+\fontsize{9}{11}
+\selectfont
 \begin{table}[H]
 \centering
 \caption{Reference conditions used for the calculation of Multivariate AZTI Marine Biotic Index (M-AMBI), for shallow and deep stations. S = taxa richness, H = Shannon index, AMBI = AZTI Marine Biotic Index.}
@@ -145,6 +158,7 @@ Finally, indicators in Category 3 included the AZTI Marine Biotic Index (AMBI) a
 \end{tabular}
 \label{C2_Tab3}
 \end{table}
+} \end{singlespace}
 
 ## Integration and statistical analysis
 
@@ -161,7 +175,7 @@ Finally, we explored covariation between indicators and habitat parameters (orga
 
 # Results
 
-Sediment was mostly composed of sand and silt fractions, with concentrations of organic matter never surpassing 4 %. Heavy metal concentrations did not reach high toxicity levels as defined by Environment Canada [@EC2007; @CEAEQ2014; @Dreujou2020]. A total of 132 taxa were identified, belonging to eight phyla, with a dominance of arthropods, molluscs and annelids. The most abundant taxa were the polychaete *Micronephthys neotena*, the cumacean *Eudorellopsis integra*, the amphipod *Protomedeia grandimana*, Nematoda and the bivalve *Macoma calcarea*.
+Sediment was mostly composed of sand and silt fractions, with concentrations of organic matter never surpassing 4 %. Heavy metal concentrations did not reach high toxicity levels as defined by Environment Canada [@EC2007; @CEAEQ2014; @Dreujou2020b]. A total of 132 taxa were identified, belonging to eight phyla, with a dominance of arthropods, molluscs and annelids. The most abundant taxa were the polychaete *Micronephthys neotena*, the cumacean *Eudorellopsis integra*, the amphipod *Protomedeia grandimana*, Nematoda and the bivalve *Macoma calcarea*.
 
 ## Indicator outcomes
 
@@ -176,9 +190,14 @@ Indicators in this category presented greater mean values in deep than shallow s
 \label{C2_Fig2}
 \end{figure}
 
+\begin{landscape}
+\begin{singlespace} {
+\fontsize{9}{11}
+\selectfont
 \begin{table}[H]
 \centering
 \caption{Values of the mean and standard error (SE) for each indicator, the difference between bootstrapped mean and the true mean (bias) and the 95 \% confidence interval (CI), for shallow and deep stations. AMBI = AZTI Marine Biotic Index, M-AMBI = Multivariate AZTI Marine Biotic Index, BOPA = Benthic Opportunistic Polychaetes Amphipods Index.}
+\hspace*{-1cm}
 \begin{tabular}{llllcllllc}
 \hline
 \textbf{} & \multicolumn{4}{c}{\textbf{Shallow stations (n = 26)}} & \multicolumn{1}{c}{} & \multicolumn{4}{c}{\textbf{Deep stations (n = 82)}} \\ \cline{2-5} \cline{7-10}
@@ -205,6 +224,8 @@ Indicators in this category presented greater mean values in deep than shallow s
 \end{tabular}
 \label{C2_Tab4}
 \end{table}
+} \end{singlespace}
+\end{landscape}
 
 ### Category 2 indicators
 
@@ -221,9 +242,9 @@ Calculation of Ecological Quality Ratios using Category 3 indicators produced si
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\columnwidth]{figures/C2_Fig3.png}
-\caption{Values of Category 3 indicators ranked according to Ecological Quality Ratios, calculated for shallow and deep stations. (A) Calculated with the AZTI Marine Biotic Index (AMBI), (B) Calculated with the Multivariate AZTI Marine Biotic Index (M-AMBI), (C) Calculated with the BENTIX, (D) Calculated with the Benthic Opportunistic Polychaetes Amphipods Index (BOPA). B = 'bad' status (red), P = 'poor' status (orange), M = 'moderate' status (yellow), G = 'good' status (green), H = 'high' status (blue).}
-\label{C2_Fig3}
 \end{figure}
+\captionof{figure}{Values of Category 3 indicators ranked according to Ecological Quality Ratios, calculated for shallow and deep stations. (A) Calculated with the AZTI Marine Biotic Index (AMBI), (B) Calculated with the Multivariate AZTI Marine Biotic Index (M-AMBI), (C) Calculated with the BENTIX, (D) Calculated with the Benthic Opportunistic Polychaetes Amphipods Index (BOPA). B = 'bad' status (red), P = 'poor' status (orange), M = 'moderate' status (yellow), G = 'good' status (green), H = 'high' status (blue).}
+\label{C2_Fig3}
 
 ## Robustness and covariation
 
@@ -231,14 +252,21 @@ For Category 1 and 2 indicators, bootstrap bias was low at both shallow and deep
 
 The analysis of covariation between indicators reported moderate to very high Pearson coefficients (0.22 < $|\rho|$ < 0.96) (Table \ref{C2_Tab5}). Category 2 indicators presented the highest proportion of within-Category significant correlations at both shallow and deep stations (Table \ref{C2_Tab5}). The vast majority of these correlations were positive, with the strongest correlations between Shannon and Margalef indices, and were represented by linear proportionality between indicators on the scatterplots. Category 2 indicators were also frequently correlated to indicators from Categories 1 and 3, especially for the W-Statistic Index and the M-AMBI (Table \ref{C2_Tab5}). The latter Categories did not present high within-Category correlations, except between AMBI/BENTIX and M-AMBI/BOPA at shallow stations, and the W-Statistic Index and AMBI at deep stations.
 
+\clearpage
+
+\begin{landscape}
+\begin{singlespace} {
+\fontsize{6}{8}
+\selectfont
 \begin{table}[H]
 \centering
 \caption{Spearman rank correlation coefficients between habitat parameters, for shallow and deep stations. Only significant relationships are presented. TD = total density, TB = total biomass, W = W-Statistic index, S = taxa richness, H = Shannon index, M = Margalef index, $\lambda$ = Simpson index, J = Pielou evenness, $\Delta$ = taxonomic diversity, FR = functional richness, FE = functional evenness, FD = functional divergence, AMBI = AZTI Marine Biotic Index, M-AMBI = Multivariate AZTI Marine Biotic Index, BOPA = Benthic Opportunistic Polychaetes Amphipods Index.}
+\hspace*{-1.5cm}
 \begin{tabular}{lcccccccccccccccccc}
 \hline
-\textbf{} & \multicolumn{3}{c}{\textbf{Category 1}} & \textbf{} & \multicolumn{9}{c}{\textbf{Category 2}} & \textbf{} & \multicolumn{4}{c}{\textbf{Category 3}} \\ \cline{2-4} \cline{6-14} \cline{16-19}
+ & \multicolumn{18}{c}{\textbf{Shallow stations}} \\ \cline{2-19}
+ & \multicolumn{3}{c}{\textbf{Category 1}} & \textbf{} & \multicolumn{9}{c}{\textbf{Category 2}} & \textbf{} & \multicolumn{4}{c}{\textbf{Category 3}} \\ \cline{2-4} \cline{6-14} \cline{16-19}
 \textbf{Indicator} & \textbf{TD} & \textbf{TB} & \textbf{W} & \textbf{} & \textbf{S} & \textbf{H} & \textbf{M} & \textit{$\lambda$} & \textbf{J} & \textbf{$\Delta$} & \textbf{FR} & \textbf{FE} & \textbf{FD} & \textbf{} & \textbf{AMBI} & \textbf{M-AMBI} & \textbf{BENTIX} & \textbf{BOPA} \\ \hline
-\multicolumn{2}{l}{\textbf{Shallow stations}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
 \textbf{Category 1} & \textit{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
 \textit{TD} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
 \textit{TB} & \textemdash &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
@@ -258,7 +286,25 @@ The analysis of covariation between indicators reported moderate to very high Pe
 \textit{M-AMBI} & \textemdash & 0.48 & \textemdash &  & 0.8 & 0.78 & 0.86 & 0.5 & \textemdash & \textemdash & 0.64 & 0.4 & 0.43 &  & \textemdash &  &  &  \\
 \textit{BENTIX} & \textemdash & \textemdash & \textemdash &  & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash &  & -0.78 & \textemdash &  &  \\
 \textit{BOPA} & \textemdash & \textemdash & \textemdash &  & 0.45 & \textemdash & 0.41 & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash &  & \textemdash & 0.53 & \textemdash &  \\
-\multicolumn{2}{l}{\textbf{Deep stations}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\end{tabular}
+\hspace*{-1.5cm}
+\label{C2_Tab5}
+\end{table}
+} \end{singlespace}
+\end{landscape}
+
+\begin{landscape}
+\begin{singlespace} {
+\fontsize{6}{8}
+\selectfont
+\begin{table}[H]
+\centering
+\caption*{\textit{(Table \ref{C2_Tab5} continued)}}
+\hspace*{-1.5cm}
+\begin{tabular}{lcccccccccccccccccc}
+ & \multicolumn{18}{c}{\textbf{Deep stations}} \\ \cline{2-19}
+ & \multicolumn{3}{c}{\textbf{Category 1}} & \textbf{} & \multicolumn{9}{c}{\textbf{Category 2}} & \textbf{} & \multicolumn{4}{c}{\textbf{Category 3}} \\ \cline{2-4} \cline{6-14} \cline{16-19}
+\textbf{Indicator} & \textbf{TD} & \textbf{TB} & \textbf{W} & \textbf{} & \textbf{S} & \textbf{H} & \textbf{M} & \textit{$\lambda$} & \textbf{J} & \textbf{$\Delta$} & \textbf{FR} & \textbf{FE} & \textbf{FD} & \textbf{} & \textbf{AMBI} & \textbf{M-AMBI} & \textbf{BENTIX} & \textbf{BOPA} \\ \hline
 \textbf{Category 1} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
 \textit{TD} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
 \textit{TB} & \textemdash &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
@@ -279,8 +325,10 @@ The analysis of covariation between indicators reported moderate to very high Pe
 \textit{BENTIX} & \textemdash & \textemdash & \textemdash &  & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & -0.24 &  & -0.7 & \textemdash &  &  \\
 \textit{BOPA} & \textemdash & \textemdash & \textemdash &  & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & -0.22 & \textemdash & \textemdash & \textemdash &  & \textemdash & \textemdash & \textemdash &  \\ \hline
 \end{tabular}
-\label{C2_Tab5}
+\hspace*{-1.5cm}
 \end{table}
+} \end{singlespace}
+\end{landscape}
 
 ## Relationships with habitat parameters
 
@@ -290,12 +338,19 @@ For Category 2 indicators, correlations with sediment parameters were significan
 
 Finally, several significant relationships were observed between Category 3 indicators and sediment parameters (organic matter, sand and silt contents), including at shallow stations for AMBI and BENTIX and at deep stations for BENTIX and BOPA (Table \ref{C2_Tab6}). Organic matter was negatively correlated with AMBI values (coefficient of -0.43) at shallow stations and positively with BENTIX values at shallow and deep stations (0.45 and 0.27, respectively); sand and silt contents had the opposite effect at shallow stations for AMBI (0.47 and -0.47, respectively) and at deep stations for BENTIX (-0.26 and 0.23, respectively) and BOPA (-0.31 and 0.34, respectively) values. Many relationships with heavy metals were detected at deep stations for all indicators except AMBI (Table \ref{C2_Tab6}). In particular, M-AMBI presented negative correlations with heavy metals (between -0.24 and -0.38) whereas correlations with BENTIX and BOPA were positive (between 0.23 and 0.36).
 
+\clearpage
+
+\begin{landscape}
+\begin{singlespace} {
+\fontsize{6}{8}
+\selectfont
 \begin{table}[H]
 \centering
 \caption{Spearman rank correlation coefficients between environmental indicators and habitat parameters, for shallow and deep stations. Only significant relationships are presented. TD = total density, TB = total biomass, W = W-Statistic index, S = taxa richness, H = Shannon index, M = Margalef index, $\lambda$ = Simpson index, J = Pielou evenness, $\Delta$ = taxonomic diversity, FR = functional richness, FE = functional evenness, FD = functional divergence, AMBI = AZTI Marine Biotic Index, M-AMBI = Multivariate AZTI Marine Biotic Index, BOPA = Benthic Opportunistic Polychaetes Amphipods Index, OM = organic matter, As = arsenic, Cd = cadmium, Cr = chromium, Cu = copper, Fe = iron, Mn = manganese, Hg = mercury, Pb = lead, Zn = zinc.}
 \begin{tabular}{lccccccccccccccc}
 \hline
-\textbf{} & \multicolumn{5}{c}{\textbf{Sediment parameters}} & \textbf{} & \multicolumn{9}{c}{\textbf{Heavy metal concentrations}} \\ \cline{2-6} \cline{8-16}
+ & \multicolumn{15}{c}{\textbf{Shallow stations}} \\ \cline{2-16}
+ & \multicolumn{5}{c}{\textbf{Sediment parameters}} & \textbf{} & \multicolumn{9}{c}{\textbf{Heavy metal concentrations}} \\ \cline{2-6} \cline{8-16}
 \textbf{Indicator} & \textbf{OM} & \textbf{Gravel} & \textbf{Sand} & \textbf{Silt} & \textbf{Clay} & \textbf{} & \textbf{As} & \textbf{Cd} & \textbf{Cr} & \textbf{Cu} & \textbf{Fe} & \textbf{Mn} & \textbf{Hg} & \textbf{Pb} & \textbf{Zn} \\ \hline
 \multicolumn{2}{l}{\textbf{Shallow stations}} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
 \textbf{Category 1} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \multicolumn{1}{l}{} & \textit{} & \textit{} \\
@@ -317,7 +372,23 @@ Finally, several significant relationships were observed between Category 3 indi
 \textit{M-AMBI} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
 \textit{BENTIX} & \multicolumn{1}{l}{0.45} & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
 \textit{BOPA} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
-\multicolumn{2}{l}{\textbf{Deep stations}} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\end{tabular}
+\label{C2_Tab6}
+\end{table}
+} \end{singlespace}
+\end{landscape}
+
+\begin{landscape}
+\begin{singlespace} {
+\fontsize{6}{8}
+\selectfont
+\begin{table}[H]
+\centering
+\caption*{\textit{(Table \ref{C2_Tab6} continued)}}
+\begin{tabular}{lccccccccccccccc}
+ & \multicolumn{15}{c}{\textbf{Deep stations}} \\ \cline{2-16}
+ & \multicolumn{5}{c}{\textbf{Sediment parameters}} & \textbf{} & \multicolumn{9}{c}{\textbf{Heavy metal concentrations}} \\ \cline{2-6} \cline{8-16}
+\textbf{Indicator} & \textbf{OM} & \textbf{Gravel} & \textbf{Sand} & \textbf{Silt} & \textbf{Clay} & \textbf{} & \textbf{As} & \textbf{Cd} & \textbf{Cr} & \textbf{Cu} & \textbf{Fe} & \textbf{Mn} & \textbf{Hg} & \textbf{Pb} & \textbf{Zn} \\ \hline
 \textbf{Category 1} & \multicolumn{1}{l}{} & \textit{} & \textit{} & \textit{} & \textit{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \textit{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
 \textit{TD} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \multicolumn{1}{l}{-0.23} & \textemdash & \textemdash & \textemdash & \textemdash \\
 \textit{TB} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textit{} & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash & \textemdash \\
@@ -338,8 +409,9 @@ Finally, several significant relationships were observed between Category 3 indi
 \textit{BENTIX} & \multicolumn{1}{l}{0.27} & \textemdash & \multicolumn{1}{l}{-0.26} & \multicolumn{1}{l}{0.23} & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{0.23} & \multicolumn{1}{l}{0.23} & \multicolumn{1}{l}{0.24} & \multicolumn{1}{l}{0.25} & \textemdash & \textemdash & \multicolumn{1}{l}{0.23} & \textemdash & \textemdash \\
 \textit{BOPA} & \textemdash & \textemdash & \multicolumn{1}{l}{-0.31} & \multicolumn{1}{l}{0.34} & \textemdash & \multicolumn{1}{l}{} & \multicolumn{1}{l}{0.33} & \multicolumn{1}{l}{0.28} & \multicolumn{1}{l}{0.36} & \multicolumn{1}{l}{0.31} & \multicolumn{1}{l}{0.33} & \multicolumn{1}{l}{0.38} & \multicolumn{1}{l}{0.3} & \multicolumn{1}{l}{0.33} & \multicolumn{1}{l}{0.3} \\ \hline
 \end{tabular}
-\label{C2_Tab6}
 \end{table}
+} \end{singlespace}
+\end{landscape}
 
 
 # Discussion
@@ -360,9 +432,9 @@ These results allow describing what the specificities of each Category of indica
 
 ## Implications for Sept-Îles industrial harbour area
 
-Sept-Îles is an important industrial harbour area for Québec, with a variety of economic activities taking place in the bay and archipelago. All calculated indicators except M-AMBI pointed towards diverse benthic communities of generally good ecological status and no particular perturbation patterns have been detected in the study area, which is coherent with previous descriptions of benthic ecosystems in this region [@Carriere2018; @Dreujou2020]. When applying Category 3 indicators on the data from these studies, we obtained similar conclusions with ecological status indicated as 'good' to 'high' for AMBI, BENTIX and BOPA.
+Sept-Îles is an important industrial harbour area for Québec, with a variety of economic activities taking place in the bay and archipelago. All calculated indicators except M-AMBI pointed towards diverse benthic communities of generally good ecological status and no particular perturbation patterns have been detected in the study area, which is coherent with previous descriptions of benthic ecosystems in this region [@Carriere2018; @Dreujou2020b]. When applying Category 3 indicators on the data from these studies, we obtained similar conclusions with ecological status indicated as 'good' to 'high' for AMBI, BENTIX and BOPA.
 
-No particular trend has been observed for stations identified as potentially impacted by @Dreujou2020 in coastal regions close to the City of Sept-Îles and Pointe-Noire, further suggesting an overall limited effect of perturbations. Compared to the regions where many of the assayed indicators were developed, *e.g.* in Atlantic and Mediterranean European ecosystems, the magnitude of human activity is considerably lower at Sept-Îles. As such, it is possible the range of variation induced by anthropogenic perturbation is not sufficient to severely impact benthic ecosystems. Other hypotheses may explain this, such as (i) high community resilience and resistance and (ii) ecosystem dynamics limit effective impacts of activities (*e.g.* flushing from tidal currents). Further research in other industrial coastal areas, including long-term monitoring, is needed to explore these questions.
+No particular trend has been observed for stations identified as potentially impacted by @Dreujou2020b in coastal regions close to the City of Sept-Îles and Pointe-Noire, further suggesting an overall limited effect of perturbations. Compared to the regions where many of the assayed indicators were developed, *e.g.* in Atlantic and Mediterranean European ecosystems, the magnitude of human activity is considerably lower at Sept-Îles. As such, it is possible the range of variation induced by anthropogenic perturbation is not sufficient to severely impact benthic ecosystems. Other hypotheses may explain this, such as (i) high community resilience and resistance and (ii) ecosystem dynamics limit effective impacts of activities (*e.g.* flushing from tidal currents). Further research in other industrial coastal areas, including long-term monitoring, is needed to explore these questions.
 
 ## Validation and limitations
 
@@ -384,24 +456,26 @@ This study provides valuable insight on the use of environmental indicators in C
 
 The authors would like to acknowledge and thank all the people that helped during the field campaigns, lab work and data analysis: Claudy Dechêsne, Serge Gallienne, Dany Lévesque, Aurélie Foveau, Cindy Grant, Laure de Montety, Philippe-Olivier Dumais and Raphaël Bouchard. This study is a contribution to the research program of FRQNT Strategic Network Québec-Océan, which also provided scientific support.
 
+\clearpage
+
 
 # Supplementary material
 
 \begin{singlespace} {
 \fontsize{9}{11}
 \selectfont
-\begin{longtable}{lcccll}
-\caption{Classification of the sampled taxa into ecological groups defined by @Grall1997, @Borja2000, @Simboura2002 and @Dauvin2007a. The confidence score goes from 3 (highest) to 0 (lowest) depending on the level of certainty for the taxon classification. AMBI = AZTI Marine Biotic Index, M-AMBI = Multivariate AZTI Marine Biotic Index, BOPA = Benthic Opportunistic Polychaetes Amphipods Index, S = sensitive, T = tolerant, SA = sensitive amphipod, OP = opportunistic polychaete, NA = not assigned.}
+\begin{longtable}{lccclc}
+\caption{Classification of the sampled taxa into ecological groups defined by \citet{Grall1997, Borja2000, Simboura2002, Dauvin2007a}. The confidence score goes from 3 (highest) to 0 (lowest) depending on the level of certainty for the taxon classification. AMBI = AZTI Marine Biotic Index, M-AMBI = Multivariate AZTI Marine Biotic Index, BOPA = Benthic Opportunistic Polychaetes Amphipods Index, S = sensitive, T = tolerant, SA = sensitive amphipod, OP = opportunistic polychaete, NA = not assigned.}
 \label{C2_TabS1}
 \tabularnewline
 
-\toprule
-\textbf{Taxon name} & \textbf{AMBI \& M-AMBI} & \textbf{BENTIX} & \textbf{BOPA} & \textbf{References} & \textbf{Confidence score} \\
+\hline
+\textbf{Taxon name} & \textbf{AMBI} & \textbf{BENTIX} & \textbf{BOPA} & \textbf{References} & \textbf{Confidence} \\
 \midrule
 \endfirsthead
 
-\toprule
-\textbf{Taxon name} & \textbf{AMBI \& M-AMBI} & \textbf{BENTIX} & \textbf{BOPA} & \textbf{References} & \textbf{Confidence score} \\
+\hline
+\textbf{Taxon name} & \textbf{AMBI} & \textbf{BENTIX} & \textbf{BOPA} & \textbf{References} & \textbf{Confidence} \\
 \midrule
 \endhead
 
@@ -414,17 +488,17 @@ The authors would like to acknowledge and thank all the people that helped durin
 Amphipoda & NA & NA & \textemdash & \textemdash & \textemdash \\
 \textit{Anonyx lilljeborgi} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 Anthozoa & II & S & \textemdash & Borja et al. (2000) & 1 \\
-\textit{Arcteobia anticostiensis} & II & S & \textemdash & Borja et al. (2000) (Polynoidae) & 2 \\
-\textit{Arrhoges occidentalis} & I & S & \textemdash & Borja et al. (2000) (Aporrhais sp) & 2 \\
+\textit{Arcteobia anticostiensis} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Arrhoges occidentalis} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Astarte sp} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Axinopsida orbiculata} & III & T & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Axiothella catenata} & I & S & \textemdash & Borja et al. (2000) (Axiothella sp) & 2 \\
+\textit{Axiothella catenata} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Bathymedon longimanus} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Bathymedon obtusifrons} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Boreochiton ruber} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Brachydiastylis sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Byblis gaimardii} & I & S & SA & Borja et al. (2000) & 3 \\
-\textit{Cancer irroratus} & II & S & \textemdash & Gittenberg \& Van Loon (2013) (C. pagurus) & 1 \\
+\textit{Cancer irroratus} & II & S & \textemdash & Gittenberg \& Van Loon (2013) & 1 \\
 \textit{Caprella septentrionalis} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 Chaetodermatida & NA & NA & \textemdash & \textemdash & \textemdash \\
 \textit{Chionoecetes opilio} & I & S & \textemdash & Borja et al. (2000) & 3 \\
@@ -437,34 +511,34 @@ Cirripedia & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Crassicorophium bonellii} & III & T & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Crenella decussata} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 Cumacea & I & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Cyclocardia borealis} & I & S & \textemdash & Borja et al. (2000) (C. thouarsii) & 2 \\
+\textit{Cyclocardia borealis} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Cyrtodaria siliqua} & I & S & \textemdash & Gilkinson et al. (2005) & 2 \\
 \textit{Diastylis rathkei} & III & T & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Diastylis sculpta} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Diastylis sp} & I & S & \textemdash & Borja et al. (2000) & 1 \\
-\textit{Echinarachnius parma} & I & S & \textemdash & Borja et al. (2000) (Echinoidea) & 2 \\
+\textit{Echinarachnius parma} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Edotia montosa} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Ennucula tenuis} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Eteone sp} & III & T & OP & Borja et al. (2000) & 2 \\
 \textit{Euchone sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Eudorella emarginata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Eudorellopsis integra} & II & S & \textemdash & Tillin \& Tyler-Walters (2014) (group of Bathyporeia elegans and E. deformis) & 2 \\
+\textit{Eudorellopsis integra} & II & S & \textemdash & Tillin \& Tyler-Walters (2014) & 2 \\
 \textit{Euspira pallida} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Glycera capitata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Glycera sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Goniada maculata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Guernea (Prinassus) nordenskioldi} & III & T & \textemdash & \begin{tabular}[c]{@{}l@{}}de la Ossa Carretero et al. (2011)\\ (Dexamene spinosa)\end{tabular} & 1 \\
+\textit{Guernea (Prinassus) nordenskioldi} & III & T & \textemdash & de la Ossa Carretero et al. (2011) & 1 \\
 Halacaridae & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Haminella solitaria} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Hardametopa carinata} & II & S & \textemdash & Borja et al. (2000) (Stenothoidae) & 1 \\
+\textit{Hardametopa carinata} & II & S & \textemdash & Borja et al. (2000) & 1 \\
 \textit{Harmothoe sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 Harpacticoida & NA & NA & \textemdash & \textemdash & \textemdash \\
 \textit{Hediste diversicolor} & III & T & OP & Borja et al. (2000) & 3 \\
 \textit{Heteranomia squamula} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Hiatella arctica} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 Holothuroidea & I & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Idotea phosphorea} & II & S & \textemdash & Borja et al. (2000) (Idotea sp) & 2 \\
-Ischyroceridae & II & S & \textemdash & Borja et al. (2000) (Ischyrocerus anguipes) & 2 \\
+\textit{Idotea phosphorea} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+Ischyroceridae & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Ischyrocerus anguipes} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 Isopoda & NA & NA & \textemdash & \textemdash & \textemdash \\
 \textit{Lacuna vincta} & II & S & \textemdash & Borja et al. (2000) & 3 \\
@@ -494,24 +568,24 @@ Nymphonidae & NA & NA & \textemdash & \textemdash & \textemdash \\
 \textit{Oenopota sp} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 Oligochaeta & V & T & \textemdash & Borja et al. (2000) & 1 \\
 \textit{Ophelia limacina} & I & S & \textemdash & Borja et al. (2000) & 3 \\
-Opheliidae & I & S & \textemdash & Borja et al. (2000) (Ophelia limacina) & 2 \\
+Opheliidae & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Ophiopholis aculeata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Ophiura robusta} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Orchomenella minuta} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-Ostracoda & I & S & \textemdash & Bodegart et al. (1997), Ruiz et al. (2005), Gooday et al. (2009) & 1 \\
+Ostracoda & I & S & \textemdash & Gooday et al. (2009) & 1 \\
 \textit{Pagurus pubescens} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Pagurus sp} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Pandalus montagui} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Parathyasira equalis} & III & T & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Parvicardium pinnulatum} & I & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Periploma leanum} & II & S & \textemdash & Borja et al. (2000) (P. discus) & 2 \\
+\textit{Periploma leanum} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Retusophiline lima} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Philomedes sp} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Pholoe longa} & II & S & \textemdash & Borja et al. (2000) (Pholoe sp) & 2 \\
 \textit{Pholoe sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Phoxocephalus holbolli} & I & S & SA & Borja et al. (2000) & 3 \\
 Polynoidae & II & S & \textemdash & Borja et al. (2000) (Polynoidae) & 2 \\
-\textit{Pontogeneia inermis} & II & S & \textemdash & Borja et al. (2000) (P. rostrata) & 2 \\
+\textit{Pontogeneia inermis} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Pontoporeia femorata} & I & S & SA & Borja et al. (2000) & 3 \\
 \textit{Praxillella praetermissa} & III & T & OP & Borja et al. (2000) & 3 \\
 \textit{Propebela turricula} & I & S & \textemdash & Borja et al. (2000) & 3 \\
@@ -527,17 +601,16 @@ Sabellidae & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Scoloplos} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Serripes groenlandicus} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 Sipuncula & I & S & \textemdash & Borja et al. (2000) & 1 \\
-\textit{Solamen glandula} & II & S & \textemdash & Borja et al. (2000) (S. columbianum) & 2 \\
+\textit{Solamen glandula} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Solariella sp} & I & S & \textemdash & Borja et al. (2000) & 2 \\
-\textit{Strongylocentrotus sp} & I & S & \textemdash & Borja et al. (2000) (S. droebachiensis) & 3 \\
-\textit{Tachyrhynchus erosus} & I & S & \textemdash & Borja et al. (2000) (Turritella sp) & 2 \\
+\textit{Strongylocentrotus sp} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Tachyrhynchus erosus} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Thracia septentrionalis} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Thyasira gouldi} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Thyasira sp} & II & S & \textemdash & Borja et al. (2000) & 1 \\
-\textit{Trichotropis bicarinata} & II & S & \textemdash & Borja et al. (2000) (Euspira sp) & 2 \\
-\textit{Turritellopsis stimpsoni} & I & S & \textemdash & Borja et al. (2000) (Turritella sp) & 2 \\
-\textit{Yoldia myalis} & I & S & \textemdash & Borja et al. (2000) (Y. limatula) & 2 \\ \hline
-\bottomrule
+\textit{Trichotropis bicarinata} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Turritellopsis stimpsoni} & I & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Yoldia myalis} & I & S & \textemdash & Borja et al. (2000) & 2 \\ \hline
 
 \end{longtable}
 } \end{singlespace}
@@ -545,12 +618,13 @@ Sipuncula & I & S & \textemdash & Borja et al. (2000) & 1 \\
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{figures/C2_FigS1a.png}
+\includegraphics[width=0.6\columnwidth]{figures/C2_FigS1a.png}
+\caption{Values of environmental indicators at each sampled station. Triangles and squares indicate shallow (< 15 m) and deep (> 15 m) stations, respectively. (A) total density, (B) total biomass, (C) W-Statistic index, (D) taxa richness, (E) Shannon index, (F) Margalef index, (G) Simpson index, (H) Pielou evenness, (I) taxonomic diversity, (J) functional richness, (K) functional evenness, (L) functional divergence, (M) AZTI Marine Biotic Index (AMBI) score, (N) Multivariate AZTI Marine Biotic Index (M-AMBI) score, (O) BENTIX score, (P) Benthic Opportunistic Polychaetes Amphipods Index (BOPA) score.}
+\label{C2_FigS1}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{figures/C2_FigS1b.png}
-\caption{Values of environmental indicators at each sampled station. Triangles and squares indicate shallow (< 15 m) and deep (> 15 m) stations, respectively. (A) total density, (B) total biomass, (C) W-Statistic index, (D) taxa richness, (E) Shannon index, (F) Margalef index, (G) Simpson index, (H) Pielou evenness, (I) taxonomic diversity, (J) functional richness, (K) functional evenness, (L) functional divergence, (M) AZTI Marine Biotic Index (AMBI) score, (N) Multivariate AZTI Marine Biotic Index (M-AMBI) score, (O) BENTIX score, (P) Benthic Opportunistic Polychaetes Amphipods Index (BOPA) score.}
-\label{C2_FigS1}
+\includegraphics[width=0.6\columnwidth]{figures/C2_FigS1b.png}
+\caption*{\textit{(Figure \ref{C2_FigS1} continued)}}
 \end{figure}

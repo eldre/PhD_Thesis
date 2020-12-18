@@ -38,7 +38,7 @@ Studied ecosystems are located on the northern shore of the Gulf of St. Lawrence
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{figures/C3_Fig1.png}
+\includegraphics[width=0.75\columnwidth]{figures/C3_Fig1.png}
 \caption{Map of the study area with the location of the sampled stations.}
 \label{C3_Fig1}
 \end{figure}
@@ -51,12 +51,15 @@ This region has sub-Arctic environmental conditions, with sea ice formation in N
 
 Human activities occurring in the area were identified by a compilation of data from local organisations (Port de Sept-Îles, Ville de Sept-Îles and Institut Nordique de Recherche en Environnement et en Santé au Travail) and by referring to databases such as @Halpern2019 and @Beauchesne2020a. This initial review resulted in the consideration of seven human activities: aquaculture, city influence, industry influence, sediment dredging, commercial shipping, sewers and fisheries (Table \ref{C3_Tab1}). Spatial layers were produced with R v4.0 and packages 'raster' and 'sf' [@Pebesma2018; @Hijmans2020; @RTeam2020].
 
+\begin{singlespace} {
+\fontsize{9}{11}
+\selectfont
 \begin{table}[H]
 \centering
 \caption{Human activities and sources considered in this study, along with the composition of theoretical particles considered in the diffusion model (when applicable). Proportions of slow-, medium- and fast-sinking particles corresponds to ratios assigned to parameter $p$ in the calculation of indices of exposure $E$.}
 \begin{tabular}{llccc}
 \hline
-\textbf{} & \textbf{} & \multicolumn{3}{c}{\textbf{Particle composition}} \\ \cline{3-5}
+ &  & \multicolumn{3}{c}{\textbf{Particle composition}} \\ \cline{3-5}
 \textbf{Human activity} & \textbf{Identified sources} & \textbf{Slow} & \textbf{Medium} & \textbf{Fast} \\ \hline
 Aquaculture & Mussel farm & 0.7 & 0.25 & 0.05 \\
 City influence & Water runoff & 0.15 & 0.1 & 0.75 \\
@@ -76,6 +79,7 @@ Sewers & Rainwater drains & 0.05 & 0.15 & 0.8 \\
 \end{tabular}
 \label{C3_Tab1}
 \end{table}
+} \end{singlespace}
 
 In order to analyze how human activities inflence benthic ecosystems, we computed an index of exposure $E$ for each activity. Because a complete circulation model is not available and to reduce complexity of coastal ecosystems, we considered a static environment (without spatial or temporal dynamics) so that the index will consider a 'snapshot' of the ecosystems. The index $E$ has been computed differently for land/sea-based activities and for fisheries, then standardized between 0 (low exposure) and 1 (high) scale to allow comparisons. A cumulative exposure index was obtained by summing the seven indices.
 
@@ -85,18 +89,27 @@ Indices of exposure for land/sea-based activities were obtained using a model of
 
 Because each human activity is not related to the same environmental components, exposure is a combination of diffusion patterns from different particle types, according to size and sinking rate (to reduce complexity, density was considered equivalent for particles within a same class). Three theoretical particle archetypes have been considered, based on biological and abiotic components (Table \ref{C3_Tab2}).
 
+\begin{singlespace} {
+\fontsize{9}{11}
+\selectfont
 \begin{table}[H]
 \centering
 \caption{Types of theoretical particles considered in the diffusion model.}
-\begin{tabular}{lcl}
+\hspace*{-1cm}
+\begin{tabular}{lll}
 \hline
 \textbf{Theoretical particle type} & \textbf{Size range} & \textbf{Examples} \\ \hline
-Slow sinking & \textless 4 $\mu$m & clay, dissolved organic matter, small bacteria, viruses, chemical components, proteins \\
-Medium sinking & 4 $\mu$m - 2 mm & sand, silt, small particulate organic matter, large bacteria, small dead organisms (phytoplankton, zooplankton) \\
-Fast sinking & \textgreater 2 mm & gravel, large particulate organic matter, large dead organisms (large zooplankton, larger organisms) \\ \hline
+Slow sinking & \textless 4 $\mu$m & clay, dissolved organic matter, small bacteria, \\
+ &  & viruses, chemical components, proteins \\
+Medium sinking & 4 $\mu$m - 2 mm & sand, silt, small particulate organic matter \\
+ &  & large bacteria, small dead organisms \\
+Fast sinking & \textgreater 2 mm & gravel, large particulate organic matter \\
+ &  & large dead organisms \\ \hline
 \end{tabular}
+\hspace*{-1cm}
 \label{C3_Tab2}
 \end{table}
+} \end{singlespace}
 
 We identified 11 sources of human activity in our study area, from punctual sources, *e.g.* sewers drains, to diffused sources, *e.g.* runoff from city (Table \ref{C3_Tab1}, Figure \ref{C3_Tab2}), that will act as sources of particles in the diffusion model. Each source has been modelled as a combination of the three particle types, using proportion ratios $p$ (sum of these three ratios equals one) (Table \ref{C3_Tab1}). These percentages were obtained by expert opinion and a literature review.
 
@@ -152,16 +165,17 @@ Overall, exposure values were low, with means varying between 0.07 (city) and 0.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{figures/C3_Fig3.png}
-\caption{Indices of exposure calculated in the study area. Histograms represent the number of stations along the value of the index, and colours correspond to exposure classes (light blue = low exposure, dark blue = high exposure). (A) Aquaculture exposure, (B) City exposure, (C) Dredging exposure, (D) Industry exposure, (E) Sewers exposure, (F) Shipping exposure, (G) Fisheries exposure.}
-\label{C3_Fig3}
+\includegraphics[width=0.7\columnwidth]{figures/C3_Fig3.png}
 \end{figure}
+\clearpage
+\captionof{figure}{Indices of exposure calculated in the study area. Histograms represent the number of stations along the value of the index, and colours correspond to exposure classes (light blue = low exposure, dark blue = high exposure). (A) Aquaculture exposure, (B) City exposure, (C) Dredging exposure, (D) Industry exposure, (E) Sewers exposure, (F) Shipping exposure, (G) Fisheries exposure.}
+\label{C3_Fig3}
 
 The cumulative exposure index at each station varied between 0.238 and 2.01 (maximum of 7), reaching an average of 0.93 (standard error of 0.038) at the bay-scale (Figure \ref{C3_Fig4}). Unsurprisingly, the highest values were detected close to activity sources, especially in front of the city of Sept-Îles and the Pointe-Noire sector with values as high as 1.6 (Figure \ref{C3_Fig4}).
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{figures/C3_Fig4.png}
+\includegraphics[width=0.75\columnwidth]{figures/C3_Fig4.png}
 \caption{Indices of cumulative exposure calculated in the study area. Histograms represent the number of stations along the value of the index, and colours correspond to cumulative exposure (light blue = low exposure, dark blue = high exposure).}
 \label{C3_Fig4}
 \end{figure}
@@ -170,12 +184,17 @@ The cumulative exposure index at each station varied between 0.238 and 2.01 (max
 
 Predictive power of the multiple regressions was the highest for Shannon index (adjusted R^2^ = 0.3) followed by taxa richness (0.17) and Pielou eveness (0.15), while total density and total biomass reached very low values (both 0.01) (Table \ref{C3_Tab3}). Marginal tests for depth reported significant positive relationships with taxa richness, Shannon index and Pielou evenness (Table \ref{C3_Tab3}). Four human activities presented similar influences on these variables: aquaculture and city with positive coefficients, industry and sewers with negative coefficients (Table \ref{C3_Tab3}). Only sewers presented a significant relationship with total biomass, while the rest of the coefficients seldom exceeded 0.1.
 
+\begin{landscape}
+\begin{singlespace} {
+\fontsize{9}{11}
+\selectfont
 \begin{table}[H]
 \centering
-\caption{Predictor coefficients (and standard error) from the multiple linear regression models of community characteristics. S = taxa richness, N = total density, B = total biomass, H = Shannon index, J = Pielou evenness. Significant p-values of marginal tests on predictors are highlighted in bold.}
+\caption{Predictor coefficients (and standard error) from the multiple linear regression models of community characteristics. S = taxa richness, N = total density, B = total biomass, H = Shannon index, J = Pielou evenness, Aq = aquaculture, Ci = city, Dr = dredging, Fi = fisheries, In = industry, Se = sewers, Sh = shipping. Significant p-values of marginal tests on predictors are highlighted in bold.}
+\hspace*{-1.5cm}
 \begin{tabular}{lllllllllll}
 \hline
- & \multicolumn{1}{c}{\textbf{Intercept}} & \multicolumn{1}{c}{\textbf{Depth}} & \multicolumn{1}{c}{\textbf{Aquaculture}} & \multicolumn{1}{c}{\textbf{City}} & \multicolumn{1}{c}{\textbf{Dredging}} & \multicolumn{1}{c}{\textbf{Fisheries}} & \multicolumn{1}{c}{\textbf{Industry}} & \multicolumn{1}{c}{\textbf{Sewers}} & \multicolumn{1}{c}{\textbf{Shipping}} & \multicolumn{1}{c}{\textbf{$R^{2}_{adj}$}} \\ \hline
+ & \textbf{Intercept} & \textbf{Depth} & \textbf{As} & \textbf{Ci} & \textbf{Dr} & \textbf{Fi} & \textbf{in} & \textbf{Se} & \textbf{Sh} & \textbf{$R{2}_{adj}$} \\ \hline
 \textit{S} & 0.01 (0.09) & 0.21 (0.11) & 0.1 (0.11) & 0.01 (0.1) & - 0.03 (0.11) & 0.17 (0.1) & - 0.14 (0.14) & - 0.13 (0.14) & 0.12 (0.1) & 0.17 \\
 \textit{p} & 1 & \textbf{0.0454} & 0.3864 & 0.8947 & 0.7889 & 0.0833 & 0.2877 & 0.3725 & 0.2544 &  \\
 \textit{N} & 0.01 (0.1) & - 0.2 (0.11) & - 0.01 (0.12) & 0.07 (0.11) & - 0.09 (0.12) & 0.09 (0.11) & - 0.18 (0.15) & 0.14 (0.17) & - 0.08 (0.11) & 0.02 \\
@@ -187,14 +206,17 @@ Predictive power of the multiple regressions was the highest for Shannon index (
 \textit{J} & 0.01 (0.09) & 0.43 (0.11) & 0.01 (0.11) & 0.09 (0.1) & 0.17 (0.11) & - 0.18 (0.1) & - 0.17 (0.14) & - 0.03 (0.15) & - 0.08 (0.1) & 0.15 \\
 \textit{p} & 1 & \textbf{\textless 0.0001} & 0.9426 & 0.345 & 0.1338 & 0.0833 & 0.2172 & 0.8613 & 0.4583 &  \\ \hline
 \end{tabular}
+\hspace*{-1.5cm}
 \label{C3_Tab3}
 \end{table}
+} \end{singlespace}
+\end{landscape}
 
 DistLM regression on the taxa assemblage had a R^2^ of 0.16, and the result of the ancillary constrained ordination is shown on Figure \ref{C3_Fig5}. Two groups of exposure indices with similar influence were obtained: sewers/shipping to one side, and aquaculture/fisheries to the other; city, dredging and industry had lower influence. Interestingly, depth was not correlated to indices, but it was highly correlated to the benthic community structure, as expected. No specific structure may be described based on the similarity between stations, except for a group of stations with a high cumulative exposure which seems have different communities than the rest of the stations (Figure \ref{C3_Fig5}). These stations presented high abundances (density or biomass) of the annelid Errantia *Micronephtys neotena*, the cumacean *Eudorellopsis integra* and the bivalve *Macoma calcarea*.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{figures/C3_Fig5.png}
+\includegraphics[width=0.75\columnwidth]{figures/C3_Fig5.png}
 \caption{Constrained ordination with a distance-based Redundancy Analysis on the taxa assemblage. Axes percentages are the proportion of variance explained by the regression model. Colours correspond to the cumulative exposure (light blue = low exposure, dark blue = high exposure).}
 \label{C3_Fig5}
 \end{figure}
@@ -202,27 +224,56 @@ DistLM regression on the taxa assemblage had a R^2^ of 0.16, and the result of t
 The probability of taxa presence was calculated using predictive models with HMSC (Tables \ref{C3_Tab4}, \ref{C3_TabS1}). Models for 52 taxa (39.4 % of the total sampled taxa) had a pseudo-R^2^ higher or equal to 0.15, the highest being for Nematoda (0.45). Predictor coefficients presented variability between taxa, but some overall trends may be described. A majority of positive coefficients were observed for silt (for 76 % of the taxa), copper (86 %) and sewers (83 %) presented a majority of positive coefficients, while a majority of negative coefficients were obtained for organic matter (76 %), gravel (61 %), clay (87 %), arsenic (91 %), cadmium (87 %), mercury (82 %), aquaculture (67 %), city (80 %), dredging (82 %), industry (93 %), shipping (64 %) and fisheries (67 %). The validation process showed a relatively low number of models correctly predicting taxa presence, the highest being for *M. calcarea*, *M. neotena* and *E. integra*.
 
 \begin{landscape}
+\begin{singlespace} {
+\fontsize{9}{11}
+\selectfont
 \begin{table}[H]
 \centering
 \caption{Predictor coefficients, Tjur's pseudo-$R^{2}$ and validation results obtained by \textit{Hierarchical Modelling of Species Communities}. Only the ten taxa with the highest $R^{2}$ are displayed here. Validation results show the number of stations where taxa is observed and predicted (in green) and where taxa are observed but not predicted (red). OM = organic matter, As = arsenic, Cd = cadmium, Cu = copper, Hg = mercury, Aq = aquaculture, Ci = city, Dr = dredging, Fi = fisheries, In = industry, Se = sewers, Sh = shipping.}
-\begin{tabular}{lllllllllllllllllllllll}
+\begin{tabular}{lllllllllll}
 \hline
- & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{7}{c}{\textbf{Exposure indices}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{9}{c}{\textbf{Abiotic parameters}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{}} \\ \cline{5-11} \cline{13-21}
- & \multicolumn{1}{c}{\textbf{Pseudo $R^{2}$}} & \multicolumn{1}{c}{\textbf{Intercept}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{Aq}} & \multicolumn{1}{c}{\textbf{Ci}} & \multicolumn{1}{c}{\textbf{Dr}} & \multicolumn{1}{c}{\textbf{Fi}} & \multicolumn{1}{c}{\textbf{In}} & \multicolumn{1}{c}{\textbf{Se}} & \multicolumn{1}{c}{\textbf{Sh}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{Depth}} & \multicolumn{1}{c}{\textbf{OM}} & \multicolumn{1}{c}{\textbf{Gravel}} & \multicolumn{1}{c}{\textbf{Silt}} & \multicolumn{1}{c}{\textbf{Clay}} & \multicolumn{1}{c}{\textbf{As}} & \multicolumn{1}{c}{\textbf{Cd}} & \multicolumn{1}{c}{\textbf{Cu}} & \multicolumn{1}{c}{\textbf{Hg}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{Validation}} \\ \hline
-Nematoda & 0.45 & -0.5 &  & 0 & - 0.3 & - 0.22 & - 0.64 & 0.49 & 0.13 & - 0.04 &  & 0.32 & - 0.32 & - 0.17 & - 0.34 & - 0.35 & - 0.07 & - 0.53 & - 0.09 & - 0.06 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 4 ; 1} \\
-\textit{Ennucula tenuis} & 0.42 & - 0.23 &  & 0.36 & 0.07 & 0.25 & - 0.38 & 0.22 & 0.26 & 0.05 &  & 0.78 & 0.13 & - 0.05 & - 0.09 & 0.01 & 0.05 & - 0.38 & - 0.19 & 0.26 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 5 ; 4} \\
-\textit{Eudorellopsis integra} & 0.42 & 0.31 &  & - 0.03 & - 0.07 & 0.2 & - 0.46 & 0.12 & 0.41 & - 0.06 &  & 0.48 & 0.48 & - 0.21 & - 0.15 & 0.07 & 0.28 & - 0.1 & - 0.35 & 0.43 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 9 ; 3} \\
-\textit{Goniada maculata} & 0.39 & - 0.61 &  & 0.17 & - 0.08 & 0.09 & - 0.37 & 0.27 & 0.29 & 0.18 &  & 0.76 & 0.06 & - 0.4 & - 0.05 & - 0.18 & - 0.09 & 0.09 & - 0.23 & 0.17 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 3 ; 6} \\
-\textit{Micronephthys neotena} & 0.36 & 1.37 &  & 0.24 & 0.44 & 0.33 & - 0.4 & 0.24 & 0.31 & 0.08 &  & 0.44 & 0.75 & - 0.14 & 0.06 & 0.16 & 0.37 & 0.07 & - 0.65 & 0.46 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 11 ; 5} \\
-\textit{Leucon (Leucon) nasicoides} & 0.36 & - 0.54 &  & 0.1 & - 0.05 & - 0.05 & - 0.42 & 0.3 & 0.27 & 0 &  & 0.56 & 0.43 & - 0.21 & - 0.25 & 0.12 & 0.12 & - 0.09 & - 0.17 & 0.4 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 5 ; 5} \\
-\textit{Pontoporeia femorata} & 0.35 & - 1.13 &  & - 0.23 & 0.28 & - 0.21 & - 0.11 & 0.23 & - 0.13 & - 0.19 &  & - 0.06 & 0.39 & 0.04 & 0.14 & 0 & - 0.06 & 0.15 & - 0.15 & 0.47 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 9} \\
-\textit{Crenella decussata} & 0.34 & - 2.73 &  & 0.04 & - 0.42 & - 0.11 & - 0.26 & - 0.01 & - 0.11 & - 0.08 &  & - 0.09 & - 0.61 & 0.28 & 0.03 & - 0.32 & - 0.79 & - 0.53 & 0.42 & - 0.49 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Echinarachnius parma} & 0.32 & - 1.79 &  & 0.24 & - 0.04 & 0.16 & - 0.07 & 0.07 & - 0.08 & 0.01 &  & - 0.22 & - 0.46 & - 0.17 & - 0.04 & - 0.33 & - 0.68 & - 0.43 & 0.24 & - 0.42 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 2} \\
-\textit{Nephtys incisa} & 0.3 & - 0.92 &  & 0.23 & - 0.11 & 0.02 & - 0.52 & 0.1 & 0.23 & - 0.07 &  & 0.64 & 0.12 & - 0.02 & - 0.05 & 0.07 & 0.07 & - 0.35 & 0.11 & 0.29 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 1 ; 5} \\ \hline
+ &  &  &  & \multicolumn{7}{c}{\textbf{Exposure indices}} \\ \cline{5-11}
+ & \textbf{Pseudo-$R^{2}$} &  & \textbf{Intercept} & \textbf{Aq} & \textbf{Ci} & \textbf{Dr} & \textbf{Fi} & \textbf{In} & \textbf{Se} & \textbf{Sh} \\ \hline
+Nematoda &  & 0.45 & - 0.5 & 0 & - 0.3 & - 0.22 & - 0.64 & 0.49 & 0.13 & - 0.04 \\
+\textit{Ennucula tenuis} &  & 0.42 & - 0.23 & 0.36 & 0.07 & 0.25 & - 0.38 & 0.22 & 0.26 & 0.05 \\
+\textit{Eudorellopsis integra} &  & 0.42 & 0.31 & - 0.03 & - 0.07 & 0.2 & - 0.46 & 0.12 & 0.41 & - 0.06 \\
+\textit{Goniada maculata} &  & 0.39 & - 0.61 & 0.17 & - 0.08 & 0.09 & - 0.37 & 0.27 & 0.29 & 0.18 \\
+\textit{Micronephthys neotena} &  & 0.36 & 1.37 & 0.24 & 0.44 & 0.33 & - 0.4 & 0.24 & 0.31 & 0.08 \\
+\textit{Leucon (Leucon) nasicoides} &  & 0.36 & - 0.54 & 0.1 & - 0.05 & - 0.05 & - 0.42 & 0.3 & 0.27 & 0 \\
+\textit{Pontoporeia femorata} &  & 0.35 & - 1.13 & - 0.23 & 0.28 & - 0.21 & - 0.11 & 0.23 & - 0.13 & - 0.19 \\
+\textit{Crenella decussata} &  & 0.34 & - 2.73 & 0.04 & - 0.42 & - 0.11 & - 0.26 & - 0.01 & - 0.11 & - 0.08 \\
+\textit{Echinarachnius parma} &  & 0.32 & - 1.79 & 0.24 & - 0.04 & 0.16 & - 0.07 & 0.07 & - 0.08 & 0.01 \\
+\textit{Nephtys incisa} &  & 0.3 & - 0.92 & 0.23 & - 0.11 & 0.02 & - 0.52 & 0.1 & 0.23 & - 0.07 \\ \hline
 \end{tabular}
 \label{C3_Tab4}
 \end{table}
+} \end{singlespace}
+
+\begin{singlespace} {
+\fontsize{9}{11}
+\selectfont
+\begin{table}[H]
+\centering
+\caption*{\textit(Table \ref{C3_Tab4} continued)}
+\begin{tabular}{lllllllllllc}
+\hline
+ & \multicolumn{9}{c}{\textbf{Abiotic parameters}} &  & \\ \cline{2-10}
+ & \textbf{Depth} & \textbf{OM} & \textbf{Gravel} & \textbf{Silt} & \textbf{Clay} & \textbf{As} & \textbf{Cd} & \textbf{Cu} & \textbf{Hg} &  & \textbf{Validation} \\ \hline
+Nematoda & 0.32 & - 0.32 & - 0.17 & - 0.34 & - 0.35 & - 0.07 & - 0.53 & - 0.09 & - 0.06 &  & {\color[HTML]{00B050} 4 \color[HTML]{000000} ; \color[HTML]{AD1212} 1} \\
+\textit{Ennucula tenuis} & 0.78 & 0.13 & - 0.05 & - 0.09 & 0.01 & 0.05 & - 0.38 & - 0.19 & 0.26 &  & {\color[HTML]{00B050} 5 \color[HTML]{000000} ; \color[HTML]{AD1212} 4} \\
+\textit{Eudorellopsis integra} & 0.48 & 0.48 & - 0.21 & - 0.15 & 0.07 & 0.28 & - 0.1 & - 0.35 & 0.43 &  & {\color[HTML]{00B050} 9 \color[HTML]{000000} ; \color[HTML]{AD1212} 3} \\
+\textit{Goniada maculata} & 0.76 & 0.06 & - 0.4 & - 0.05 & - 0.18 & - 0.09 & 0.09 & - 0.23 & 0.17 &  & {\color[HTML]{00B050} 3 \color[HTML]{000000} ; \color[HTML]{AD1212} 6} \\
+\textit{Micronephthys neotena} & 0.44 & 0.75 & - 0.14 & 0.06 & 0.16 & 0.37 & 0.07 & - 0.65 & 0.46 &  & {\color[HTML]{00B050} 11 \color[HTML]{000000} ; \color[HTML]{AD1212} 5} \\
+\textit{Leucon (Leucon) nasicoides} & 0.56 & 0.43 & - 0.21 & - 0.25 & 0.12 & 0.12 & - 0.09 & - 0.17 & 0.4 &  & {\color[HTML]{00B050} 5 \color[HTML]{000000} ; \color[HTML]{AD1212} 5} \\
+\textit{Pontoporeia femorata} & - 0.06 & 0.39 & 0.04 & 0.14 & 0 & - 0.06 & 0.15 & - 0.15 & 0.47 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 9} \\
+\textit{Crenella decussata} & - 0.09 & - 0.61 & 0.28 & 0.03 & - 0.32 & - 0.79 & - 0.53 & 0.42 & - 0.49 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Echinarachnius parma} & - 0.22 & - 0.46 & - 0.17 & - 0.04 & - 0.33 & - 0.68 & - 0.43 & 0.24 & - 0.42 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 2} \\
+\textit{Nephtys incisa} & 0.64 & 0.12 & - 0.02 & - 0.05 & 0.07 & 0.07 & - 0.35 & 0.11 & 0.29 &  & {\color[HTML]{00B050} 1 \color[HTML]{000000} ; \color[HTML]{AD1212} 5} \\ \hline
+\end{tabular}
+\end{table}
+} \end{singlespace}
 \end{landscape}
+
 
 # Discussion
 
@@ -250,70 +301,160 @@ The use of methods considering gradients of anthropogenic exposure is promising,
 
 The authors would like to acknowledge and thank all the people that helped during the field campaigns, lab work and data analysis: Claudy Dechêsne, Serge Gallienne, Cindy Grant, Lisa Tréau de Coeli, Laure de Montety, Philippe-Olivier Dumais, Raphaël Bouchard, Simon Bélanger, Raphaël Mabit and Carlos Araujo. This study is a contribution to the research program of FRQNT Strategic Network Québec-Océan, which also provided scientific support.
 
+\clearpage
+
 
 # Supplementary material
 
 \begin{landscape}
-\begin{table}[H]
-\centering
-\caption{C3_Table S1. Predictor coefficients, Tjur's pseudo-$R^{2}$ and validation results obtained by \textit{Hierarchical Modelling of Species Communities}. Taxa with a $R^{2}$ higher than 0.15 are displayed here. Validation results show the number of stations where taxa is observed and predicted (in green) and where taxa are observed but not predicted (red). OM = organic matter, As = arsenic, Cd = cadmium, Cu = copper, Hg = mercury, Aq = aquaculture, Ci = city, Dr = dredging, Fi = fisheries, In = industry, Se = sewers, Sh = shipping.}
-\begin{tabular}{lllllllllllllllllllllll}
-\hline
- & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{7}{c}{\textbf{Exposure indices}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{9}{c}{\textbf{Abiotic parameters}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{}} \\ \cline{5-11} \cline{13-21}
- & \multicolumn{1}{c}{\textbf{Pseudo $R^{2}$}} & \multicolumn{1}{c}{\textbf{Intercept}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{Aq}} & \multicolumn{1}{c}{\textbf{Ci}} & \multicolumn{1}{c}{\textbf{Dr}} & \multicolumn{1}{c}{\textbf{Fi}} & \multicolumn{1}{c}{\textbf{In}} & \multicolumn{1}{c}{\textbf{Se}} & \multicolumn{1}{c}{\textbf{Sh}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{Depth}} & \multicolumn{1}{c}{\textbf{OM}} & \multicolumn{1}{c}{\textbf{Gravel}} & \multicolumn{1}{c}{\textbf{Silt}} & \multicolumn{1}{c}{\textbf{Clay}} & \multicolumn{1}{c}{\textbf{As}} & \multicolumn{1}{c}{\textbf{Cd}} & \multicolumn{1}{c}{\textbf{Cu}} & \multicolumn{1}{c}{\textbf{Hg}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{Validation}} \\ \hline
-Nematoda & 0.45 & - 0.5 &  & 0 & - 0.3 & - 0.22 & - 0.64 & 0.49 & 0.13 & - 0.04 &  & 0.32 & - 0.32 & - 0.17 & - 0.34 & - 0.35 & - 0.07 & - 0.53 & - 0.09 & - 0.06 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 4 ; 1} \\
-\textit{Ennucula tenuis} & 0.42 & - 0.23 &  & 0.36 & 0.07 & 0.25 & - 0.38 & 0.22 & 0.26 & 0.05 &  & 0.78 & 0.13 & - 0.05 & - 0.09 & 0.01 & 0.05 & - 0.38 & - 0.19 & 0.26 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 5 ; 4} \\
-\textit{Eudorellopsis integra} & 0.42 & 0.31 &  & - 0.03 & - 0.07 & 0.2 & - 0.46 & 0.12 & 0.41 & - 0.06 &  & 0.48 & 0.48 & - 0.21 & - 0.15 & 0.07 & 0.28 & - 0.1 & - 0.35 & 0.43 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 9 ; 3} \\
-\textit{Goniada maculata} & 0.39 & - 0.61 &  & 0.17 & - 0.08 & 0.09 & - 0.37 & 0.27 & 0.29 & 0.18 &  & 0.76 & 0.06 & - 0.4 & - 0.05 & - 0.18 & - 0.09 & 0.09 & - 0.23 & 0.17 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 3 ; 6} \\
-\textit{Micronephthys neotena} & 0.36 & 1.37 &  & 0.24 & 0.44 & 0.33 & - 0.4 & 0.24 & 0.31 & 0.08 &  & 0.44 & 0.75 & - 0.14 & 0.06 & 0.16 & 0.37 & 0.07 & - 0.65 & 0.46 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 11 ; 5} \\
-\textit{Leucon (Leucon) nasicoides} & 0.36 & - 0.54 &  & 0.1 & - 0.05 & - 0.05 & - 0.42 & 0.3 & 0.27 & 0 &  & 0.56 & 0.43 & - 0.21 & - 0.25 & 0.12 & 0.12 & - 0.09 & - 0.17 & 0.4 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 5 ; 5} \\
-\textit{Pontoporeia femorata} & 0.35 & - 1.13 &  & - 0.23 & 0.28 & - 0.21 & - 0.11 & 0.23 & - 0.13 & - 0.19 &  & - 0.06 & 0.39 & 0.04 & 0.14 & 0 & - 0.06 & 0.15 & - 0.15 & 0.47 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 9} \\
-\textit{Crenella decussata} & 0.34 & - 2.73 &  & 0.04 & - 0.42 & - 0.11 & - 0.26 & - 0.01 & - 0.11 & - 0.08 &  & - 0.09 & - 0.61 & 0.28 & 0.03 & - 0.32 & - 0.79 & - 0.53 & 0.42 & - 0.49 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Echinarachnius parma} & 0.32 & - 1.79 &  & 0.24 & - 0.04 & 0.16 & - 0.07 & 0.07 & - 0.08 & 0.01 &  & - 0.22 & - 0.46 & - 0.17 & - 0.04 & - 0.33 & - 0.68 & - 0.43 & 0.24 & - 0.42 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 2} \\
-\textit{Nephtys incisa} & 0.3 & - 0.92 &  & 0.23 & - 0.11 & 0.02 & - 0.52 & 0.1 & 0.23 & - 0.07 &  & 0.64 & 0.12 & - 0.02 & - 0.05 & 0.07 & 0.07 & - 0.35 & 0.11 & 0.29 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 1 ; 5} \\
-\textit{Strongylocentrotus sp} & 0.3 & - 3.26 &  & - 0.32 & - 0.49 & - 0.18 & - 0.27 & - 0.04 & - 0.1 & 0.2 &  & - 0.17 & - 0.52 & 0.15 & 0.3 & - 0.32 & - 0.82 & - 0.49 & 0.54 & - 0.5 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-Harpacticoida & 0.29 & - 0.27 &  & - 0.41 & 0.33 & - 0.33 & - 0.27 & 0.21 & 0.11 & - 0.02 &  & - 0.35 & 0.08 & - 0.11 & - 0.15 & - 0.28 & 0.11 & - 0.29 & - 0.31 & - 0.06 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 3 ; 8} \\
-\textit{Retusa obtusa} & 0.28 & - 2.11 &  & - 0.01 & 0.39 & 0.01 & 0.06 & 0.19 & - 0.16 & - 0.01 &  & - 0.23 & 0.04 & - 0.02 & 0.2 & - 0.14 & - 0.13 & 0.3 & - 0.01 & - 0.17 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 1} \\
-\textit{Hediste diversicolor} & 0.27 & - 1.7 &  & - 0.22 & 0.14 & - 0.03 & 0.13 & 0.18 & - 0.38 & - 0.16 &  & - 0.58 & 0.17 & 0.09 & 0.38 & - 0.17 & - 0.26 & 0.05 & - 0.17 & 0.09 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 3} \\
-Halacaridae & 0.26 & - 3.47 &  & - 0.15 & - 0.36 & - 0.09 & - 0.17 & 0.01 & - 0.1 & 0.25 &  & - 0.15 & - 0.51 & 0 & 0.24 & - 0.28 & - 0.86 & - 0.22 & 0.6 & - 0.38 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Musculus discors} & 0.26 & - 3.51 &  & - 0.13 & - 0.37 & - 0.1 & - 0.16 & 0.01 & - 0.1 & 0.25 &  & - 0.17 & - 0.54 & - 0.01 & 0.23 & - 0.29 & - 0.88 & - 0.23 & 0.61 & - 0.4 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Protomedeia grandimana} & 0.26 & - 0.38 &  & - 0.04 & 0.35 & - 0.12 & - 0.47 & 0.38 & 0.03 & - 0.15 &  & 0.33 & 0.59 & - 0.02 & - 0.13 & 0.1 & 0.1 & - 0.24 & - 0.25 & 0.35 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 3 ; 6} \\
-\textit{Chlamys islandica} & 0.25 & - 3.43 &  & - 0.14 & - 0.35 & - 0.1 & - 0.16 & 0.01 & - 0.09 & 0.25 &  & - 0.15 & - 0.5 & 0 & 0.24 & - 0.28 & - 0.85 & - 0.24 & 0.6 & - 0.36 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Akanthophoreus gracilis} & 0.24 & - 0.87 &  & 0.21 & - 0.17 & 0.07 & - 0.52 & 0.13 & 0.16 & 0.11 &  & 0.44 & - 0.03 & - 0.24 & - 0.13 & 0.03 & 0.12 & - 0.35 & 0.12 & 0 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 5} \\
-Maldanidae & 0.24 & - 1.18 &  & 0.14 & - 0.11 & - 0.13 & - 0.39 & 0.17 & 0.34 & - 0.05 &  & 0.42 & 0.12 & - 0.26 & 0.01 & 0.23 & - 0.16 & - 0.13 & 0.33 & 0.05 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 6} \\
-Oligochaeta & 0.23 & - 1.71 &  & - 0.1 & 0.36 & - 0.08 & - 0.29 & 0 & 0.23 & - 0.08 &  & - 0.1 & 0.34 & - 0.08 & 0.14 & 0.13 & - 0.3 & 0.08 & 0.09 & 0.08 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 5} \\
-\textit{Propebela turricula} & 0.22 & - 2.68 &  & - 0.07 & - 0.43 & - 0.12 & - 0.41 & 0.24 & 0.13 & 0.12 &  & 0.68 & - 0.29 & - 0.18 & 0.03 & - 0.14 & - 0.59 & - 0.28 & 0.5 & - 0.07 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 1} \\
-\textit{Solariella sp} & 0.22 & - 2.36 &  & 0.02 & - 0.26 & - 0.06 & - 0.26 & 0.01 & - 0.02 & 0.15 &  & 0.16 & - 0.34 & 0.07 & 0.23 & - 0.21 & - 0.61 & - 0.53 & 0.27 & - 0.38 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Thyasira gouldi} & 0.22 & - 0.87 &  & 0.04 & - 0.11 & - 0.14 & - 0.52 & 0.23 & 0.28 & 0 &  & 0.5 & 0.11 & - 0.18 & - 0.13 & 0.02 & - 0.2 & - 0.42 & 0.1 & 0.07 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 1 ; 2} \\
-Chaetodermatida & 0.21 & - 1.47 &  & 0.08 & - 0.11 & - 0.08 & - 0.5 & 0.26 & 0.16 & 0.08 &  & 0.58 & - 0.18 & - 0.3 & - 0.3 & 0.08 & - 0.26 & - 0.2 & 0.21 & 0.02 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 2} \\
-\textit{Cistenides granulata} & 0.21 & - 1.39 &  & 0.1 & - 0.24 & 0.19 & - 0.35 & 0.01 & 0.14 & 0.17 &  & 0.07 & - 0.25 & - 0.08 & - 0.09 & - 0.22 & - 0.4 & - 0.26 & 0.03 & - 0.1 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 2} \\
-\textit{Eudorella emarginata} & 0.21 & - 2.38 &  & - 0.12 & - 0.21 & - 0.12 & - 0.28 & 0.06 & 0.3 & - 0.12 &  & 0.12 & 0.07 & 0.23 & 0.25 & - 0.1 & - 0.38 & - 0.12 & 0.37 & 0.1 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 2} \\
-\textit{Scoletoma sp} & 0.21 & - 3.01 &  & - 0.08 & - 0.32 & 0.29 & - 0.14 & - 0.04 & - 0.12 & 0.23 &  & - 0.21 & - 0.49 & - 0.03 & 0.25 & - 0.27 & - 0.8 & - 0.2 & 0.48 & - 0.36 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Axinopsida orbiculata} & 0.19 & - 1.09 &  & - 0.05 & 0.2 & 0.2 & - 0.32 & - 0.03 & 0.15 & 0.26 &  & 0.29 & 0.15 & - 0.11 & 0.03 & 0.13 & - 0.04 & 0.07 & - 0.15 & - 0.26 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 1 ; 2} \\
-Cumacea & 0.19 & - 2.64 &  & - 0.06 & - 0.28 & - 0.16 & - 0.34 & 0.24 & 0.1 & - 0.09 &  & 0.48 & - 0.16 & - 0.13 & - 0.1 & 0.21 & - 0.4 & - 0.12 & 0.51 & - 0.1 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Macoma calcarea} & 0.19 & 0.83 &  & 0.11 & 0.42 & 0.17 & - 0.33 & 0.13 & 0.01 & 0.06 &  & 0.04 & 0.36 & - 0.13 & 0.07 & - 0.1 & 0.28 & - 0.14 & - 0.61 & 0.01 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 13 ; 3} \\
-\textit{Philomedes sp} & 0.19 & - 2.83 &  & - 0.15 & - 0.43 & - 0.12 & - 0.4 & 0.05 & 0.03 & 0.04 &  & 0.41 & - 0.44 & 0.05 & - 0.05 & - 0.21 & - 0.66 & - 0.4 & 0.5 & - 0.3 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Ampelisca vadorum} & 0.18 & - 3.52 &  & - 0.21 & - 0.42 & - 0.19 & - 0.23 & 0.01 & - 0.08 & 0.02 &  & - 0.06 & - 0.53 & 0.23 & 0.17 & - 0.28 & - 0.85 & - 0.33 & 0.61 & - 0.41 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Brachydiastylis sp} & 0.18 & - 3.28 &  & - 0.18 & - 0.47 & - 0.2 & - 0.34 & 0.02 & - 0.02 & 0.06 &  & 0.15 & - 0.55 & 0.11 & 0.08 & - 0.26 & - 0.8 & - 0.4 & 0.59 & - 0.4 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Byblis gaimardii} & 0.18 & - 2.83 &  & - 0.11 & - 0.43 & - 0.16 & - 0.37 & 0.01 & - 0.01 & 0.18 &  & 0.24 & - 0.42 & - 0.02 & - 0.03 & - 0.23 & - 0.67 & - 0.36 & 0.44 & - 0.26 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Diastylis sculpta} & 0.18 & - 2.2 &  & 0.11 & 0.21 & - 0.24 & - 0.02 & - 0.15 & - 0.07 & - 0.14 &  & - 0.38 & - 0.21 & - 0.04 & 0.16 & - 0.24 & - 0.6 & - 0.27 & 0.44 & - 0.31 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 1} \\
-Ostracoda & 0.18 & - 0.69 &  & 0.13 & 0.1 & 0.08 & - 0.55 & 0.14 & 0.18 & 0 &  & 0.28 & 0.05 & - 0.31 & - 0.06 & 0.03 & 0.07 & - 0.42 & 0.07 & - 0.08 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 5} \\
-\textit{Edotia montosa} & 0.17 & - 3.24 &  & - 0.09 & - 0.27 & - 0.18 & 0.19 & 0.15 & - 0.1 & - 0.12 &  & - 0.33 & - 0.45 & 0.06 & 0.08 & - 0.34 & - 0.82 & - 0.31 & 0.65 & - 0.45 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 1} \\
-\textit{Glycera sp} & 0.17 & - 2.53 &  & - 0.33 & - 0.15 & - 0.29 & - 0.24 & - 0.05 & - 0.3 & - 0.2 &  & - 0.53 & - 0.12 & 0.08 & 0.32 & - 0.28 & - 0.57 & 0 & 0.34 & - 0.31 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 1} \\
-\textit{Thracia septentrionalis} & 0.17 & - 1.32 &  & 0.05 & - 0.07 & 0.09 & - 0.1 & 0.02 & 0.13 & 0.02 &  & - 0.42 & - 0.17 & 0.13 & 0.26 & - 0.14 & - 0.42 & - 0.14 & - 0.05 & - 0.35 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 5} \\
-\textit{Astarte sp} & 0.16 & - 2.53 &  & - 0.27 & - 0.27 & - 0.22 & - 0.37 & 0.04 & - 0.08 & - 0.03 &  & 0.25 & - 0.36 & - 0.14 & - 0.02 & - 0.25 & - 0.61 & - 0.58 & 0.39 & - 0.27 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Boreochiton ruber} & 0.16 & - 2.99 &  & - 0.14 & - 0.38 & - 0.11 & - 0.17 & - 0.05 & - 0.14 & 0.12 &  & - 0.3 & - 0.54 & 0.09 & 0.23 & - 0.35 & - 0.83 & - 0.48 & 0.44 & - 0.48 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-Nephtyidae & 0.16 & - 1.86 &  & - 0.03 & - 0.27 & 0.29 & - 0.29 & - 0.02 & - 0.09 & 0.28 &  & 0.04 & - 0.18 & - 0.16 & 0.17 & - 0.19 & - 0.33 & - 0.17 & 0.21 & - 0.02 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 3} \\
-\textit{Ophiura robusta} & 0.16 & - 2.81 &  & - 0.17 & - 0.34 & - 0.09 & - 0.21 & 0.07 & - 0.11 & 0.06 &  & - 0.09 & - 0.52 & - 0.01 & 0.07 & - 0.35 & - 0.79 & - 0.55 & 0.39 & - 0.45 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Phoxocephalus holbolli} & 0.16 & - 1.01 &  & - 0.03 & 0.11 & - 0.07 & - 0.15 & 0.2 & - 0.32 & 0 &  & - 0.33 & 0.13 & - 0.07 & - 0.07 & - 0.16 & - 0.28 & - 0.03 & - 0.18 & - 0.01 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 1 ; 2} \\
-Sipuncula & 0.16 & - 1.4 &  & 0.23 & 0.13 & - 0.03 & - 0.18 & 0.15 & 0.27 & - 0.06 &  & 0.26 & 0.13 & - 0.14 & 0.17 & 0.15 & 0.07 & 0.03 & 0.07 & - 0.06 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 3} \\
-Amphipoda & 0.15 & - 0.46 &  & 0 & 0.15 & 0.2 & - 0.58 & 0.21 & - 0.07 & 0.04 &  & 0.12 & 0.13 & 0.01 & - 0.03 & - 0.01 & 0.07 & 0.12 & - 0.26 & 0.38 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 5} \\
-\textit{Anonyx lilljeborgi} & 0.15 & - 1.99 &  & 0.14 & - 0.19 & - 0.1 & - 0.28 & - 0.02 & 0.14 & - 0.19 &  & - 0.25 & - 0.34 & 0 & - 0.03 & - 0.26 & - 0.54 & - 0.3 & 0.31 & - 0.2 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 1} \\
-\textit{Axiothella catenata} & 0.15 & - 2.64 &  & - 0.02 & - 0.26 & - 0.09 & - 0.31 & 0.11 & 0.1 & 0.01 &  & 0.32 & - 0.26 & - 0.08 & 0.1 & - 0.14 & - 0.62 & - 0.13 & 0.34 & 0.28 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Bathymedon longimanus} & 0.15 & - 2.41 &  & 0.32 & 0.06 & 0.21 & - 0.07 & - 0.03 & - 0.07 & - 0.06 &  & - 0.23 & - 0.22 & - 0.04 & 0.11 & - 0.23 & - 0.69 & 0.03 & 0.22 & - 0.29 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\
-\textit{Caprella septentrionalis} & 0.15 & - 2.62 &  & - 0.24 & 0.07 & - 0.23 & - 0.2 & 0.14 & - 0.26 & - 0.18 &  & - 0.6 & - 0.24 & 0.08 & 0.15 & - 0.19 & - 0.71 & - 0.19 & 0.25 & - 0.24 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 2} \\
-\textit{Serripes groenlandicus} & 0.15 & - 2.59 &  & - 0.14 & - 0.19 & - 0.13 & - 0.22 & 0.05 & 0.11 & - 0.12 &  & 0 & 0.01 & 0.27 & 0.19 & - 0.13 & - 0.47 & - 0.08 & 0.38 & 0.06 & {\color[HTML]{00B050} } & {\color[HTML]{00B050} 0 ; 0} \\ \hline
-\end{tabular}
+\begin{singlespace} {
+\fontsize{9}{11}
+\selectfont
+\begin{longtable}{lllllllllll}
+\caption{Predictor coefficients, Tjur's pseudo-$R^{2}$ and validation results obtained by \textit{Hierarchical Modelling of Species Communities}. Taxa with a $R^{2}$ higher than 0.15 are displayed here. Validation results show the number of stations where taxa is observed and predicted (in green) and where taxa are observed but not predicted (red). OM = organic matter, As = arsenic, Cd = cadmium, Cu = copper, Hg = mercury, Aq = aquaculture, Ci = city, Dr = dredging, Fi = fisheries, In = industry, Se = sewers, Sh = shipping.}
 \label{C3_TabS1}
-\end{table}
+\tabularnewline
+
+\hline
+ &  &  &  & \multicolumn{7}{c}{\textbf{Exposure indices}} \\ \cline{5-11}
+ & \textbf{Pseudo-$R^{2}$} & \textbf{Intercept} &  & \textbf{Aq} & \textbf{Ci} & \textbf{Dr} & \textbf{Fi} & \textbf{In} & \textbf{Se} & \textbf{Sh} \\
+\midrule
+\endfirsthead
+
+\hline
+ &  &  &  & \multicolumn{7}{c}{\textbf{Exposure indices}} \\ \cline{5-11}
+ & \textbf{Pseudo-$R^{2}$} & \textbf{Intercept} &  & \textbf{Aq} & \textbf{Ci} & \textbf{Dr} & \textbf{Fi} & \textbf{In} & \textbf{Se} & \textbf{Sh} \\
+\midrule
+\endhead
+
+Nematoda & 0.45 & - 0.5 &  & 0 & - 0.3 & - 0.22 & - 0.64 & 0.49 & 0.13 & - 0.04 \\
+\textit{Ennucula tenuis} & 0.42 & - 0.23 &  & 0.36 & 0.07 & 0.25 & - 0.38 & 0.22 & 0.26 & 0.05 \\
+\textit{Eudorellopsis integra} & 0.42 & 0.31 &  & - 0.03 & - 0.07 & 0.2 & - 0.46 & 0.12 & 0.41 & - 0.06 \\
+\textit{Goniada maculata} & 0.39 & - 0.61 &  & 0.17 & - 0.08 & 0.09 & - 0.37 & 0.27 & 0.29 & 0.18 \\
+\textit{Micronephthys neotena} & 0.36 & 1.37 &  & 0.24 & 0.44 & 0.33 & - 0.4 & 0.24 & 0.31 & 0.08 \\
+\textit{Leucon (Leucon) nasicoides} & 0.36 & - 0.54 &  & 0.1 & - 0.05 & - 0.05 & - 0.42 & 0.3 & 0.27 & 0 \\
+\textit{Pontoporeia femorata} & 0.35 & - 1.13 &  & - 0.23 & 0.28 & - 0.21 & - 0.11 & 0.23 & - 0.13 & - 0.19 \\
+\textit{Crenella decussata} & 0.34 & - 2.73 &  & 0.04 & - 0.42 & - 0.11 & - 0.26 & - 0.01 & - 0.11 & - 0.08 \\
+\textit{Echinarachnius parma} & 0.32 & - 1.79 &  & 0.24 & - 0.04 & 0.16 & - 0.07 & 0.07 & - 0.08 & 0.01 \\
+\textit{Nephtys incisa} & 0.3 & - 0.92 &  & 0.23 & - 0.11 & 0.02 & - 0.52 & 0.1 & 0.23 & - 0.07 \\
+\textit{Strongylocentrotus sp} & 0.3 & - 3.26 &  & - 0.32 & - 0.49 & - 0.18 & - 0.27 & - 0.04 & - 0.1 & 0.2 \\
+Harpacticoida & 0.29 & - 0.27 &  & - 0.41 & 0.33 & - 0.33 & - 0.27 & 0.21 & 0.11 & - 0.02 \\
+\textit{Retusa obtusa} & 0.28 & - 2.11 &  & - 0.01 & 0.39 & 0.01 & 0.06 & 0.19 & - 0.16 & - 0.01 \\
+\textit{Hediste diversicolor} & 0.27 & - 1.7 &  & - 0.22 & 0.14 & - 0.03 & 0.13 & 0.18 & - 0.38 & - 0.16 \\
+Halacaridae & 0.26 & - 3.47 &  & - 0.15 & - 0.36 & - 0.09 & - 0.17 & 0.01 & - 0.1 & 0.25 \\
+\textit{Musculus discors} & 0.26 & - 3.51 &  & - 0.13 & - 0.37 & - 0.1 & - 0.16 & 0.01 & - 0.1 & 0.25 \\
+\textit{Protomedeia grandimana} & 0.26 & - 0.38 &  & - 0.04 & 0.35 & - 0.12 & - 0.47 & 0.38 & 0.03 & - 0.15 \\
+\textit{Chlamys islandica} & 0.25 & - 3.43 &  & - 0.14 & - 0.35 & - 0.1 & - 0.16 & 0.01 & - 0.09 & 0.25 \\
+\textit{Akanthophoreus gracilis} & 0.24 & - 0.87 &  & 0.21 & - 0.17 & 0.07 & - 0.52 & 0.13 & 0.16 & 0.11 \\
+Maldanidae & 0.24 & - 1.18 &  & 0.14 & - 0.11 & - 0.13 & - 0.39 & 0.17 & 0.34 & - 0.05 \\
+Oligochaeta & 0.23 & - 1.71 &  & - 0.1 & 0.36 & - 0.08 & - 0.29 & 0 & 0.23 & - 0.08 \\
+\textit{Propebela turricula} & 0.22 & - 2.68 &  & - 0.07 & - 0.43 & - 0.12 & - 0.41 & 0.24 & 0.13 & 0.12 \\
+\textit{Solariella sp} & 0.22 & - 2.36 &  & 0.02 & - 0.26 & - 0.06 & - 0.26 & 0.01 & - 0.02 & 0.15 \\
+\textit{Thyasira gouldi} & 0.22 & - 0.87 &  & 0.04 & - 0.11 & - 0.14 & - 0.52 & 0.23 & 0.28 & 0 \\
+Chaetodermatida & 0.21 & - 1.47 &  & 0.08 & - 0.11 & - 0.08 & - 0.5 & 0.26 & 0.16 & 0.08 \\
+\textit{Cistenides granulata} & 0.21 & - 1.39 &  & 0.1 & - 0.24 & 0.19 & - 0.35 & 0.01 & 0.14 & 0.17 \\
+\textit{Eudorella emarginata} & 0.21 & - 2.38 &  & - 0.12 & - 0.21 & - 0.12 & - 0.28 & 0.06 & 0.3 & - 0.12 \\
+\textit{Scoletoma sp} & 0.21 & - 3.01 &  & - 0.08 & - 0.32 & 0.29 & - 0.14 & - 0.04 & - 0.12 & 0.23 \\
+\textit{Axinopsida orbiculata} & 0.19 & - 1.09 &  & - 0.05 & 0.2 & 0.2 & - 0.32 & - 0.03 & 0.15 & 0.26 \\
+Cumacea & 0.19 & - 2.64 &  & - 0.06 & - 0.28 & - 0.16 & - 0.34 & 0.24 & 0.1 & - 0.09 \\
+\textit{Macoma calcarea} & 0.19 & 0.83 &  & 0.11 & 0.42 & 0.17 & - 0.33 & 0.13 & 0.01 & 0.06 \\
+\textit{Philomedes sp} & 0.19 & - 2.83 &  & - 0.15 & - 0.43 & - 0.12 & - 0.4 & 0.05 & 0.03 & 0.04 \\
+\textit{Ampelisca vadorum} & 0.18 & - 3.52 &  & - 0.21 & - 0.42 & - 0.19 & - 0.23 & 0.01 & - 0.08 & 0.02 \\
+\textit{Brachydiastylis sp} & 0.18 & - 3.28 &  & - 0.18 & - 0.47 & - 0.2 & - 0.34 & 0.02 & - 0.02 & 0.06 \\
+\textit{Byblis gaimardii} & 0.18 & - 2.83 &  & - 0.11 & - 0.43 & - 0.16 & - 0.37 & 0.01 & - 0.01 & 0.18 \\
+\textit{Diastylis sculpta} & 0.18 & - 2.2 &  & 0.11 & 0.21 & - 0.24 & - 0.02 & - 0.15 & - 0.07 & - 0.14 \\
+Ostracoda & 0.18 & - 0.69 &  & 0.13 & 0.1 & 0.08 & - 0.55 & 0.14 & 0.18 & 0 \\
+\textit{Edotia montosa} & 0.17 & - 3.24 &  & - 0.09 & - 0.27 & - 0.18 & 0.19 & 0.15 & - 0.1 & - 0.12 \\
+\textit{Glycera sp} & 0.17 & - 2.53 &  & - 0.33 & - 0.15 & - 0.29 & - 0.24 & - 0.05 & - 0.3 & - 0.2 \\
+\textit{Thracia septentrionalis} & 0.17 & - 1.32 &  & 0.05 & - 0.07 & 0.09 & - 0.1 & 0.02 & 0.13 & 0.02 \\
+\textit{Astarte sp} & 0.16 & - 2.53 &  & - 0.27 & - 0.27 & - 0.22 & - 0.37 & 0.04 & - 0.08 & - 0.03 \\
+\textit{Boreochiton ruber} & 0.16 & - 2.99 &  & - 0.14 & - 0.38 & - 0.11 & - 0.17 & - 0.05 & - 0.14 & 0.12 \\
+Nephtyidae & 0.16 & - 1.86 &  & - 0.03 & - 0.27 & 0.29 & - 0.29 & - 0.02 & - 0.09 & 0.28 \\
+\textit{Ophiura robusta} & 0.16 & - 2.81 &  & - 0.17 & - 0.34 & - 0.09 & - 0.21 & 0.07 & - 0.11 & 0.06 \\
+\textit{Phoxocephalus holbolli} & 0.16 & - 1.01 &  & - 0.03 & 0.11 & - 0.07 & - 0.15 & 0.2 & - 0.32 & 0 \\
+Sipuncula & 0.16 & - 1.4 &  & 0.23 & 0.13 & - 0.03 & - 0.18 & 0.15 & 0.27 & - 0.06 \\
+Amphipoda & 0.15 & - 0.46 &  & 0 & 0.15 & 0.2 & - 0.58 & 0.21 & - 0.07 & 0.04 \\
+\textit{Anonyx lilljeborgi} & 0.15 & - 1.99 &  & 0.14 & - 0.19 & - 0.1 & - 0.28 & - 0.02 & 0.14 & - 0.19 \\
+\textit{Axiothella catenata} & 0.15 & - 2.64 &  & - 0.02 & - 0.26 & - 0.09 & - 0.31 & 0.11 & 0.1 & 0.01 \\
+\textit{Bathymedon longimanus} & 0.15 & - 2.41 &  & 0.32 & 0.06 & 0.21 & - 0.07 & - 0.03 & - 0.07 & - 0.06 \\
+\textit{Caprella septentrionalis} & 0.15 & - 2.62 &  & - 0.24 & 0.07 & - 0.23 & - 0.2 & 0.14 & - 0.26 & - 0.18 \\
+\textit{Serripes groenlandicus} & 0.15 & - 2.59 &  & - 0.14 & - 0.19 & - 0.13 & - 0.22 & 0.05 & 0.11 & - 0.12 \\ \hline
+\end{longtable}
+} \end{singlespace}
+
+\clearpage
+
+\begin{singlespace} {
+\fontsize{9}{11}
+\selectfont
+\begin{longtable}{lllllllllllc}
+\caption*{\textit(Table \ref{C3_TabS1} continued)}
+\tabularnewline
+
+\hline
+ & \multicolumn{9}{c}{\textbf{Abiotic parameters}} &  &  \\ \cline{2-10}
+ & \textbf{Depth} & \textbf{OM} & \textbf{Gravel} & \textbf{Silt} & \textbf{Clay} & \textbf{As} & \textbf{Cd} & \textbf{Cu} & \textbf{Hg} &  & \textbf{Validation} \\
+\midrule
+\endfirsthead
+
+\hline
+ & \multicolumn{9}{c}{\textbf{Abiotic parameters}} &  &  \\ \cline{2-10}
+ & \textbf{Depth} & \textbf{OM} & \textbf{Gravel} & \textbf{Silt} & \textbf{Clay} & \textbf{As} & \textbf{Cd} & \textbf{Cu} & \textbf{Hg} &  & \textbf{Validation} \\
+\midrule
+\endhead
+
+Nematoda & 0.32 & - 0.32 & - 0.17 & - 0.34 & - 0.35 & - 0.07 & - 0.53 & - 0.09 & - 0.06 &  & {\color[HTML]{00B050} 4 \color[HTML]{000000} ; \color[HTML]{AD1212} 1} \\
+\textit{Ennucula tenuis} & 0.78 & 0.13 & - 0.05 & - 0.09 & 0.01 & 0.05 & - 0.38 & - 0.19 & 0.26 &  & {\color[HTML]{00B050} 5 \color[HTML]{000000} ; \color[HTML]{AD1212} 4} \\
+\textit{Eudorellopsis integra} & 0.48 & 0.48 & - 0.21 & - 0.15 & 0.07 & 0.28 & - 0.1 & - 0.35 & 0.43 &  & {\color[HTML]{00B050} 9 \color[HTML]{000000} ; \color[HTML]{AD1212} 3} \\
+\textit{Goniada maculata} & 0.76 & 0.06 & - 0.4 & - 0.05 & - 0.18 & - 0.09 & 0.09 & - 0.23 & 0.17 &  & {\color[HTML]{00B050} 3 \color[HTML]{000000} ; \color[HTML]{AD1212} 6} \\
+\textit{Micronephthys neotena} & 0.44 & 0.75 & - 0.14 & 0.06 & 0.16 & 0.37 & 0.07 & - 0.65 & 0.46 &  & {\color[HTML]{00B050} 11 \color[HTML]{000000} ; \color[HTML]{AD1212} 5} \\
+\textit{Leucon (Leucon) nasicoides} & 0.56 & 0.43 & - 0.21 & - 0.25 & 0.12 & 0.12 & - 0.09 & - 0.17 & 0.4 &  & {\color[HTML]{00B050} 5 \color[HTML]{000000} ; \color[HTML]{AD1212} 5} \\
+\textit{Pontoporeia femorata} & - 0.06 & 0.39 & 0.04 & 0.14 & 0 & - 0.06 & 0.15 & - 0.15 & 0.47 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 9} \\
+\textit{Crenella decussata} & - 0.09 & - 0.61 & 0.28 & 0.03 & - 0.32 & - 0.79 & - 0.53 & 0.42 & - 0.49 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Echinarachnius parma} & - 0.22 & - 0.46 & - 0.17 & - 0.04 & - 0.33 & - 0.68 & - 0.43 & 0.24 & - 0.42 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 2} \\
+\textit{Nephtys incisa} & 0.64 & 0.12 & - 0.02 & - 0.05 & 0.07 & 0.07 & - 0.35 & 0.11 & 0.29 &  & {\color[HTML]{00B050} 1 \color[HTML]{000000} ; \color[HTML]{AD1212} 5} \\
+\textit{Strongylocentrotus sp} & - 0.17 & - 0.52 & 0.15 & 0.3 & - 0.32 & - 0.82 & - 0.49 & 0.54 & - 0.5 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+Harpacticoida & - 0.35 & 0.08 & - 0.11 & - 0.15 & - 0.28 & 0.11 & - 0.29 & - 0.31 & - 0.06 &  & {\color[HTML]{00B050} 3 \color[HTML]{000000} ; \color[HTML]{AD1212} 8} \\
+\textit{Retusa obtusa} & - 0.23 & 0.04 & - 0.02 & 0.2 & - 0.14 & - 0.13 & 0.3 & - 0.01 & - 0.17 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 1} \\
+\textit{Hediste diversicolor} & - 0.58 & 0.17 & 0.09 & 0.38 & - 0.17 & - 0.26 & 0.05 & - 0.17 & 0.09 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 3} \\
+Halacaridae & - 0.15 & - 0.51 & 0 & 0.24 & - 0.28 & - 0.86 & - 0.22 & 0.6 & - 0.38 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Musculus discors} & - 0.17 & - 0.54 & - 0.01 & 0.23 & - 0.29 & - 0.88 & - 0.23 & 0.61 & - 0.4 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Protomedeia grandimana} & 0.33 & 0.59 & - 0.02 & - 0.13 & 0.1 & 0.1 & - 0.24 & - 0.25 & 0.35 &  & {\color[HTML]{00B050} 3 \color[HTML]{000000} ; \color[HTML]{AD1212} 6} \\
+\textit{Chlamys islandica} & - 0.15 & - 0.5 & 0 & 0.24 & - 0.28 & - 0.85 & - 0.24 & 0.6 & - 0.36 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Akanthophoreus gracilis} & 0.44 & - 0.03 & - 0.24 & - 0.13 & 0.03 & 0.12 & - 0.35 & 0.12 & 0 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 5} \\
+Maldanidae & 0.42 & 0.12 & - 0.26 & 0.01 & 0.23 & - 0.16 & - 0.13 & 0.33 & 0.05 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 6} \\
+Oligochaeta & - 0.1 & 0.34 & - 0.08 & 0.14 & 0.13 & - 0.3 & 0.08 & 0.09 & 0.08 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 5} \\
+\textit{Propebela turricula} & 0.68 & - 0.29 & - 0.18 & 0.03 & - 0.14 & - 0.59 & - 0.28 & 0.5 & - 0.07 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 1} \\
+\textit{Solariella sp} & 0.16 & - 0.34 & 0.07 & 0.23 & - 0.21 & - 0.61 & - 0.53 & 0.27 & - 0.38 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Thyasira gouldi} & 0.5 & 0.11 & - 0.18 & - 0.13 & 0.02 & - 0.2 & - 0.42 & 0.1 & 0.07 &  & {\color[HTML]{00B050} 1 \color[HTML]{000000} ; \color[HTML]{AD1212} 2} \\
+Chaetodermatida & 0.58 & - 0.18 & - 0.3 & - 0.3 & 0.08 & - 0.26 & - 0.2 & 0.21 & 0.02 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 2} \\
+\textit{Cistenides granulata} & 0.07 & - 0.25 & - 0.08 & - 0.09 & - 0.22 & - 0.4 & - 0.26 & 0.03 & - 0.1 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 2} \\
+\textit{Eudorella emarginata} & 0.12 & 0.07 & 0.23 & 0.25 & - 0.1 & - 0.38 & - 0.12 & 0.37 & 0.1 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 2} \\
+\textit{Scoletoma sp} & - 0.21 & - 0.49 & - 0.03 & 0.25 & - 0.27 & - 0.8 & - 0.2 & 0.48 & - 0.36 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Axinopsida orbiculata} & 0.29 & 0.15 & - 0.11 & 0.03 & 0.13 & - 0.04 & 0.07 & - 0.15 & - 0.26 &  & {\color[HTML]{00B050} 1 \color[HTML]{000000} ; \color[HTML]{AD1212} 2} \\
+Cumacea & 0.48 & - 0.16 & - 0.13 & - 0.1 & 0.21 & - 0.4 & - 0.12 & 0.51 & - 0.1 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Macoma calcarea} & 0.04 & 0.36 & - 0.13 & 0.07 & - 0.1 & 0.28 & - 0.14 & - 0.61 & 0.01 &  & {\color[HTML]{00B050} 13 \color[HTML]{000000} ; \color[HTML]{AD1212} 3} \\
+\textit{Philomedes sp} & 0.41 & - 0.44 & 0.05 & - 0.05 & - 0.21 & - 0.66 & - 0.4 & 0.5 & - 0.3 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Ampelisca vadorum} & - 0.06 & - 0.53 & 0.23 & 0.17 & - 0.28 & - 0.85 & - 0.33 & 0.61 & - 0.41 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Brachydiastylis sp} & 0.15 & - 0.55 & 0.11 & 0.08 & - 0.26 & - 0.8 & - 0.4 & 0.59 & - 0.4 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Byblis gaimardii} & 0.24 & - 0.42 & - 0.02 & - 0.03 & - 0.23 & - 0.67 & - 0.36 & 0.44 & - 0.26 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Diastylis sculpta} & - 0.38 & - 0.21 & - 0.04 & 0.16 & - 0.24 & - 0.6 & - 0.27 & 0.44 & - 0.31 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 1} \\
+Ostracoda & 0.28 & 0.05 & - 0.31 & - 0.06 & 0.03 & 0.07 & - 0.42 & 0.07 & - 0.08 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 5} \\
+\textit{Edotia montosa} & - 0.33 & - 0.45 & 0.06 & 0.08 & - 0.34 & - 0.82 & - 0.31 & 0.65 & - 0.45 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 1} \\
+\textit{Glycera sp} & - 0.53 & - 0.12 & 0.08 & 0.32 & - 0.28 & - 0.57 & 0 & 0.34 & - 0.31 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 1} \\
+\textit{Thracia septentrionalis} & - 0.42 & - 0.17 & 0.13 & 0.26 & - 0.14 & - 0.42 & - 0.14 & - 0.05 & - 0.35 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 5} \\
+\textit{Astarte sp} & 0.25 & - 0.36 & - 0.14 & - 0.02 & - 0.25 & - 0.61 & - 0.58 & 0.39 & - 0.27 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Boreochiton ruber} & - 0.3 & - 0.54 & 0.09 & 0.23 & - 0.35 & - 0.83 & - 0.48 & 0.44 & - 0.48 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+Nephtyidae & 0.04 & - 0.18 & - 0.16 & 0.17 & - 0.19 & - 0.33 & - 0.17 & 0.21 & - 0.02 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 3} \\
+\textit{Ophiura robusta} & - 0.09 & - 0.52 & - 0.01 & 0.07 & - 0.35 & - 0.79 & - 0.55 & 0.39 & - 0.45 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Phoxocephalus holbolli} & - 0.33 & 0.13 & - 0.07 & - 0.07 & - 0.16 & - 0.28 & - 0.03 & - 0.18 & - 0.01 &  & {\color[HTML]{00B050} 1 \color[HTML]{000000} ; \color[HTML]{AD1212} 2} \\
+Sipuncula & 0.26 & 0.13 & - 0.14 & 0.17 & 0.15 & 0.07 & 0.03 & 0.07 & - 0.06 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 3} \\
+Amphipoda & 0.12 & 0.13 & 0.01 & - 0.03 & - 0.01 & 0.07 & 0.12 & - 0.26 & 0.38 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 5} \\
+\textit{Anonyx lilljeborgi} & - 0.25 & - 0.34 & 0 & - 0.03 & - 0.26 & - 0.54 & - 0.3 & 0.31 & - 0.2 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 1} \\
+\textit{Axiothella catenata} & 0.32 & - 0.26 & - 0.08 & 0.1 & - 0.14 & - 0.62 & - 0.13 & 0.34 & 0.28 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Bathymedon longimanus} & - 0.23 & - 0.22 & - 0.04 & 0.11 & - 0.23 & - 0.69 & 0.03 & 0.22 & - 0.29 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\
+\textit{Caprella septentrionalis} & - 0.6 & - 0.24 & 0.08 & 0.15 & - 0.19 & - 0.71 & - 0.19 & 0.25 & - 0.24 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 2} \\
+\textit{Serripes groenlandicus} & 0 & 0.01 & 0.27 & 0.19 & - 0.13 & - 0.47 & - 0.08 & 0.38 & 0.06 &  & {\color[HTML]{00B050} 0 \color[HTML]{000000} ; \color[HTML]{AD1212} 0} \\ \hline
+\end{longtable}
+} \end{singlespace}
 \end{landscape}
