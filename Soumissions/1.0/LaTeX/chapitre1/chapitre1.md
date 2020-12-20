@@ -1,11 +1,3 @@
-# Title
-
-Biodiversity and habitat assessment of coastal benthic communities in a sub-Arctic industrial harbour area
-
-# Authors
-
-Elliot Dreujou, Christopher W McKindsey, Cindy Grant, Lisa Tréau de Coeli, Richard St-Louis, Philippe Archambault
-
 # Abstract
 
 Coastal ecosystems face increasing anthropogenic pressures worldwide and their management requires a solid assessment and understanding of the cumulative impacts from human activities. This study evaluates the spatial variation of benthic macrofaunal communities, sediments, and heavy metals in the sub-Arctic coastal ecosystems around Sept-Îles (Québec, Canada) -- a major port area in the Gulf of St. Lawrence. Physical sediment properties varied in the studied area, with a general sandy-silty profile except for specific locations in Baie des Sept Îles where higher organic matter and heavy metal concentrations were detected. Macrofaunal assemblages were evaluated for two taxa size classes (organisms > 0.5 mm and > 1 mm) and linked to habitat parameters using regression models. Communities of smaller organisms showed signs of perturbation for one assemblage close to industrial activities at Baie des Sept Îles, with an increased number of tolerant and opportunistic species, contrasting to neighboring regions whose compositions were similar to other ecosystems in the Gulf of St. Lawrence. This study enhances the understanding of sub-Arctic benthic communities and will contribute to monitoring programs for industrial harbor ecosystems.
@@ -17,7 +9,7 @@ Coastal ecosystems face increasing anthropogenic pressures worldwide and their m
 
 It is now widely recognized that marine ecosystems worldwide are susceptible to human-induced disturbances [@Halpern2019], and benthic coastal habitats rank among the most vulnerable [@Halpern2007; -@Halpern2019]. When human activities influence ecosystems, communities may be modified by the loss of sensitive species and the selection of tolerant or opportunistic species, for example [@Pearson1978; @Sala2006]. Such changes in species composition concomitantly impact ecosystem structure, affecting community characteristics (*e.g.*, species richness, evenness) or ecosystem functional diversity [@Brander2010; @Piot2014; @Edie2018; @Lacoste2018]. Understanding the links between disturbances and community responses is therefore relevant to understanding ecosystem evolution and stability.
 
-In the context of increasing anthropogenic influences on marine ecosystems, a better understanding of ecosystem effects is needed for efficient conservation and management measures, along with sustainable development. Many organizations have highlighted the importance of biologically diverse ecosystems for mankind and have set targets to preserve them and guide decision makers [*e.g.*, @UN1992; @CBD2010; @SDG2015]. To achieve these goals, tools are needed to detect and manage human influences on the environment.
+In the context of increasing anthropogenic influences on marine ecosystems, a better understanding of ecosystem effects is needed for efficient conservation and management measures, along with sustainable development. Many organizations have highlighted the importance of biologically diverse ecosystems for mankind and have set targets to preserve them and guide decision makers [*e.g.*, @UN1992; @CBD2010; @SDG2020]. To achieve these goals, tools are needed to detect and manage human influences on the environment.
 
 Many factors influence ecosystems, from large-scale (*e.g.*, climate, oceanic circulation) to small-scale phenomena (*e.g.*, sediment perturbation, species interactions), which are often location- and temporal-specific [@Brown2014]. This complexity is a major concern for environmental assessment studies, where the goal is to detect possible human influence in a context of natural variability. Ecosystem status is considered in relation to a reference condition that corresponds to pristine or low human-influenced conditions, which rely upon the best knowledge available [@Borja2012]. Ecological groundwork, such as biodiversity surveys, time series monitoring, or experimental studies, is then required to understand the ecosystem structure and stability and how to define accurate reference conditions for environmental assessments.
 
@@ -337,6 +329,8 @@ The authors would like to acknowledge and thank all the people that helped durin
 \begin{singlespace} {
 \fontsize{9}{11}
 \selectfont
+\setlength\LTleft{-1cm}
+\setlength\LTright{-1cm}
 \begin{longtable}{lllcclcc}
 \caption{List of the taxa along with the number of stations where this taxon was present and the number of collected individuals, for the 0.5 mm and the 1 mm size classes.}
 \label{C1_TabS1}

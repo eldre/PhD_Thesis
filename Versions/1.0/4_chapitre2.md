@@ -13,14 +13,6 @@ output:
     pandoc_args: "--lua-filter=pagebreak.lua"
 --- -->
 
-# Title
-
-Determining the ecological status of benthic coastal communities: a case study in a Canadian industrial harbour area
-
-# Authors
-
-Elliot Dreujou, Nicolas Desroy, Julie Carrière, Lisa Tréau de Coeli, Christopher W McKindsey, Philippe Archambault
-
 # Abstract
 
 With the widespread influence of human activities on marine ecosystems, evaluation of ecological status provides valuable information for conservation initiatives and sustainable development. To this end, many environmental indicators have been developed worldwide and there is a growing need to evaluate their performance by calculating ecological status in a wide range of ecosystems at multiple spatial and temporal scales. This study calculated and contrasted sixteen indicators of ecological status from three methodological categories: abundance measures, diversity parameters and characteristic species. This selection was applied to coastal benthic ecosystems at Sept-Îles (Québec, Canada), an important industrial harbour area in the Gulf of St. Lawrence, and related to habitat parameters (organic matter, grain size fractions and heavy metal concentrations). Nearly all indicators highlighted a generally good ecological status in the study area, where communities presented an unperturbed profile with high taxa and functional diversities and without the dominance of opportunistic taxa. Some correlations with habitat parameters were detected, especially with heavy metals, and bootstrap analyses indicated quite robust results. This study provides valuable information on the application of environmental indicators in Canadian coastal ecosystems, along with insights on their use for environmental assessments.
@@ -479,6 +471,8 @@ The authors would like to acknowledge and thank all the people that helped durin
 \begin{singlespace} {
 \fontsize{9}{11}
 \selectfont
+\setlength\LTleft{-1cm}
+\setlength\LTright{-1cm}
 \begin{longtable}{lccclc}
 \caption{Classification of the sampled taxa into ecological groups defined by \citet{Grall1997, Borja2000, Simboura2002, Dauvin2007a}. The confidence score goes from 3 (highest) to 0 (lowest) depending on the level of certainty for the taxon classification. AMBI = AZTI Marine Biotic Index, M-AMBI = Multivariate AZTI Marine Biotic Index, BOPA = Benthic Opportunistic Polychaetes Amphipods Index, S = sensitive, T = tolerant, SA = sensitive amphipod, OP = opportunistic polychaete, NA = not assigned.}
 \label{C2_TabS1}
@@ -626,7 +620,6 @@ Sipuncula & I & S & \textemdash & Borja et al. (2000) & 1 \\
 \textit{Trichotropis bicarinata} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Turritellopsis stimpsoni} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Yoldia myalis} & I & S & \textemdash & Borja et al. (2000) & 2 \\ \hline
-
 \end{longtable}
 } \end{singlespace}
 

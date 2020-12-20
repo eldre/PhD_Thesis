@@ -1,11 +1,3 @@
-# Title
-
-Holistic Environmental Approaches and Aichi Biodiversity Targets: accomplishments and perspectives for marine ecosystems
-
-# Authors
-
-Elliot Dreujou, Charlotte Carrier-Belleau, Jesica Goldsmit, Dario Fiorentino, Radhouane Ben-Hamadou, Jose H Muelbert, Jasmin A Godbold, Rémi M Daigle, David Beauchesne
-
 # Abstract
 
 In order to help safeguard biodiversity from global changes, the Conference of the Parties developed a Strategic Plan for Biodiversity for the period 2011-2020 that included a list of twenty specific objectives known as the Aichi Biodiversity Targets. With the end of that timeframe in sight, and despite major advancements in biodiversity conservation, evidence suggests that the majority of the Targets are unlikely to be met. This article is part of a series of perspective pieces from the 4^th^ World Conference on Marine Biodiversity (May 2018, Montréal, Canada) to identify next steps towards successful biodiversity conservation in marine environments. We specifically reviewed holistic environmental assessment studies (HEA) and their contribution to reaching the Targets. Our analysis was based on multiple environmental approaches which can be considered as holistic, and we discuss how HEA can contribute to the Aichi Biodiversity Targets in the near future. We found that only a few HEA articles considered a specific Biodiversity Target in their research, and that Target 11, which focuses on marine protected areas, was the most commonly cited. We propose five research priorities to enhance HEA for marine biodiversity conservation beyond 2020: (i) expand the use of holistic approaches in environmental assessments, (ii) standardize HEA vocabulary, (iii) enhance data collection, sharing and management, (iv) consider ecosystem spatio- temporal variability and (v) integrate ecosystem services in HEA. The consideration of these priorities will promote the value of HEA and will benefit the Strategic Plan for Biodiversity.
