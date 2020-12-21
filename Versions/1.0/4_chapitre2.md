@@ -15,15 +15,15 @@ output:
 
 # Abstract
 
-With the widespread influence of human activities on marine ecosystems, evaluation of ecological status provides valuable information for conservation initiatives and sustainable development. To this end, many environmental indicators have been developed worldwide and there is a growing need to evaluate their performance by calculating ecological status in a wide range of ecosystems at multiple spatial and temporal scales. This study calculated and contrasted sixteen indicators of ecological status from three methodological categories: abundance measures, diversity parameters and characteristic species. This selection was applied to coastal benthic ecosystems at Sept-Îles (Québec, Canada), an important industrial harbour area in the Gulf of St. Lawrence, and related to habitat parameters (organic matter, grain size fractions and heavy metal concentrations). Nearly all indicators highlighted a generally good ecological status in the study area, where communities presented an unperturbed profile with high taxa and functional diversities and without the dominance of opportunistic taxa. Some correlations with habitat parameters were detected, especially with heavy metals, and bootstrap analyses indicated quite robust results. This study provides valuable information on the application of environmental indicators in Canadian coastal ecosystems, along with insights on their use for environmental assessments.
+With the widespread influence of human activities on marine ecosystems, evaluation of ecological status provides valuable information for conservation initiatives and sustainable development. To this end, many environmental indicators have been developed worldwide and there is a growing need to evaluate their performance by calculating ecological status in a wide range of ecosystems at multiple spatial and temporal scales. This study calculated and contrasted sixteen indicators of ecological status from three methodological categories: abundance measures, diversity parameters and characteristic species. This selection was applied to coastal benthic ecosystems at Sept-Îles (Québec, Canada), an important industrial harbour area in the Gulf of St. Lawrence, and related to habitat parameters (organic matter, grain size fractions and heavy metal concentrations). Nearly all indicators highlighted a generally good ecological status in the study area, where communities presented an unperturbed profile with high taxa and functional diversities, and without the dominance of opportunistic taxa. Some correlations with habitat parameters were detected, especially with heavy metals, and bootstrap analyses indicated quite robust results. This study provides valuable information on the application of environmental indicators in Canadian coastal ecosystems, along with insights on their use for environmental assessments.\
 
 ***Keywords***: environmental indicators, ecological status, coastal benthos, macrofauna, Gulf of St. Lawrence
 
 # Introduction
 
-Anthropogenic influences on marine ecosystems occur globally, with possible perturbation of habitats and communities [@Halpern2007; @Halpern2019]. Many international organizations have recognized the importance of biologically diverse ecosystems for humanity and have established objectives and targets for their protection and sustainable use [@UN1992; @CBD2010; @SDG2015]. The management of ecosystems requires an understanding of how habitats and communities respond to drivers of change, *i.e.* forces that affect environmental processes and modify ecosystem state from equilibrium [@Boonstra2015; @Beauchesne2020a; @Orr2020]. In addition to natural drivers (*e.g.* temperature anomalies, freshwater inputs, hypoxic events), influences from human activities (*e.g.* fisheries, chemical pollution, species introductions) are also considered as ecosystem drivers. As natural and anthropogenic drivers may affect ecosystems concomitantly, it is important to understand how both relate to observed effects [@Brown2014]. To tackle these questions, environmental assessments rely on the best available knowledge, acquired through ecological groundwork in ecosystems of interest (such as biodiversity surveys, time series monitoring or experimental studies), and on the communication of results to a wide range of stakeholders [@Borja2012; -@Borja2014; @Chapman2016; @Teixeira2016]. Because such assessments are important foundations for decision makers, it is essential to properly account for the inherent complexity and variability of ecological data.
+Anthropogenic influences on marine ecosystems occur globally, with possible perturbation of habitats and communities [@Halpern2007; @Halpern2019]. Many international organizations have recognized the importance of biologically diverse ecosystems for humanity and have established objectives and targets for their protection and sustainable use [@UN1992; @CBD2010; @SDG2020]. The management of ecosystems requires an understanding of how habitats and communities respond to drivers of change, *i.e.* forces that affect environmental processes and modify ecosystem state from equilibrium [@Boonstra2015; @Beauchesne2020a; @Orr2020]. In addition to natural drivers (*e.g.* temperature anomalies, freshwater inputs, hypoxic events), influences from human activities (*e.g.* fisheries, chemical pollution, species introductions) are also considered as ecosystem drivers. As natural and anthropogenic drivers may affect ecosystems concomitantly, it is important to understand how both relate to observed effects [@Brown2014]. To tackle these questions, environmental assessments rely on the best available knowledge, acquired through ecological groundwork in ecosystems of interest (such as biodiversity surveys, time series monitoring or experimental studies), and on the communication of results to a wide range of stakeholders [@Borja2012; @Borja2014; @Chapman2016; @Teixeira2016]. Because such assessments are important foundations for decision makers, it is essential to properly account for the inherent complexity and variability of ecological data.
 
-The use of integrative methods, such as indicators, is particularly relevant in this context. An indicator of ecological status is defined as a quantitative measure that synthesizes ecosystem information to infer ecosystem status [@Rice2003; @Rees2008]. Many holistic frameworks, such as ecosystem-based management, marine spatial planning and DPSIR (Driver Pressure State Impact Responses) models, have included indicators in their methodology [@Smeets1999; @Niemi2004; @Rees2008; @Levin2009; @Atkins2011; @Borja2016b; @Santos2019]. For example, the Marine Strategy Framework Directive identified indicators and descriptors to monitor the ecological status of European marine waters [@EC2008; @Borja2013; @Borja2015b; @Borja2016b]. However, environmental indicators evaluate specific ecosystem components, perturbations and/or spatiotemporal scales, potentially limiting their applicability in other systems, thus leading to the development of many indicators worldwide [@Niemi2004; @Pinto2009; @Teixeira2016].
+The use of integrative methods, such as indicators, is particularly relevant in this context. An indicator of ecological status is defined as a quantitative measure that synthesizes ecosystem information to infer ecosystem status [@Rice2003; @Rees2008]. Many holistic frameworks, such as ecosystem-based management, marine spatial planning and DPSIR (Driver-Pressure-State-Impact-Responses) models, have included indicators in their methodology [@Smeets1999; @Niemi2004; @Rees2008; @Levin2009; @Atkins2011; @Borja2016b; @Santos2019]. For example, the Marine Strategy Framework Directive identified indicators and descriptors to monitor the ecological status of European marine waters [@EC2008; @Borja2013; @Borja2015b; @Borja2016b]. However, environmental indicators evaluate specific ecosystem components, perturbations and/or spatiotemporal scales, potentially limiting their applicability in other systems, thus leading to the development of many indicators worldwide [@Niemi2004; @Pinto2009; @Teixeira2016].
 
 One of the ecosystem components most frequently selected for environmental indicators are macrobenthic invertebrates, as they play an important role in the structure and functioning of benthic marine ecosystems [@Dauvin2007a; @Pratt2014]. Examples of this include engineering species (*e.g.* structural features for other species, bioturbation) and interactions with nutrient cycles (*e.g.* nutrient sequestration in sediments, remineralization, benthic-pelagic coupling) [@Largaespada2012; @Link2013; @Belley2016; @Bourque2018]. Many macrobenthic species are characterized by a sedentary lifestyle and a relatively long life span, which is particularly interesting when studying human influence as communities will reflect medium-term conditions, resulting in adaptation or local extinction [*e.g.* @Dauer1993; @Borja2000; @Wei2020].
 
@@ -31,7 +31,7 @@ As pointed out by @Rice2003 and @Salas2006, environmental indicators may be clas
 
 Such indicators have been applied in a number of North American ecosystems, including Chesapeake Bay, Willapa Bay and the Southern California coast (USA), but efficiency to detect perturbation has been mixed [@Word1978; @Maurer1999; @Ferraro2004; @Borja2008b; @Pelletier2018]. Less commonly, studies on the Pacific and Atlantic coasts of Canada have also evaluated the utility of existing indicators, although these studies have most often found poor performance [@Sutherland2007; @Burd2008; @Callier2008; @Robert2013]. There is thus a need to test and validate indicators for Canadian ecosystems, in particular by comparing outcomes and efficiency of existing methods.
 
-To this end, we evaluated various indicators of ecological status in a coastal industrial harbour area, in the region of Sept-Îles (Québec, Canada). Located in the Gulf of St. Lawrence, one of the management areas designated by Fisheries and Oceans Canada and a major strategic region for Québec [@DFO2009; @Daigle2017; @Schloss2017; @Ferrario2020], Sept-Îles is the fourth largest Canadian port in 2019 in terms of total exchanged goods and the second largest in Québec [@StatisticsCanada2011; @Binkley2020]. Industrial activities at Sept-Îles are largely focused on international shipping of iron ore mined in northern Québec and Labrador and the production of aluminium and various fisheries operate in the bay [@DFO2019]. All these activities may impact local benthic ecosystems, making this area a perfect case study.
+To this end, we evaluated various indicators of ecological status in a coastal industrial harbour area, in the region of Sept-Îles (Québec, Canada). Located in the Gulf of St. Lawrence, one of the management areas designated by Fisheries and Oceans Canada and a major strategic region for Québec [@DFO2009; @Daigle2017; @Schloss2017; @FerrarioInPrep], Sept-Îles is the fourth largest Canadian port in 2019 in terms of total exchanged goods and the second largest in Québec [@StatisticsCanada2011; @Binkley2020]. Industrial activities at Sept-Îles are largely focused on international shipping of iron ore mined in northern Québec and Labrador and the production of aluminium and various fisheries operate in the bay [@DFO2019]. All these activities may impact local benthic ecosystems, making this area a perfect case study.
 
 The objectives of this study are to (i) compare outcomes of various benthic environmental indicators and (ii) understand how these indicators relate to habitat parameters for validation and to select appropriate applications.
 
@@ -267,7 +267,7 @@ The analysis of covariation between indicators reported moderate to very high Pe
 \selectfont
 \begin{table}[H]
 \centering
-\caption{Spearman rank correlation coefficients between habitat parameters, for shallow and deep stations. Only significant relationships are presented. TD = total density, TB = total biomass, W = W-Statistic index, S = taxa richness, H = Shannon index, M = Margalef index, $\lambda$ = Simpson index, J = Pielou evenness, $\Delta$ = taxonomic diversity, FR = functional richness, FE = functional evenness, FD = functional divergence, AMBI = AZTI Marine Biotic Index, M-AMBI = Multivariate AZTI Marine Biotic Index, BOPA = Benthic Opportunistic Polychaetes Amphipods Index.}
+\caption{Spearman rank correlation coefficients between habitat parameters, for shallow and deep stations. Only significant relationships (on the lower section of the triangular matrix) are presented. TD = total density, TB = total biomass, W = W-Statistic index, S = taxa richness, H = Shannon index, M = Margalef index, $\lambda$ = Simpson index, J = Pielou evenness, $\Delta$ = taxonomic diversity, FR = functional richness, FE = functional evenness, FD = functional divergence, AMBI = AZTI Marine Biotic Index, M-AMBI = Multivariate AZTI Marine Biotic Index, BOPA = Benthic Opportunistic Polychaetes Amphipods Index.}
 \hspace*{-1.5cm}
 \begin{tabular}{lcccccccccccccccccc}
 \hline
@@ -499,20 +499,20 @@ Amphipoda & NA & NA & \textemdash & \textemdash & \textemdash \\
 Anthozoa & II & S & \textemdash & Borja et al. (2000) & 1 \\
 \textit{Arcteobia anticostiensis} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Arrhoges occidentalis} & I & S & \textemdash & Borja et al. (2000) & 2 \\
-\textit{Astarte sp} & I & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Astarte} sp. & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Axinopsida orbiculata} & III & T & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Axiothella catenata} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Bathymedon longimanus} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Bathymedon obtusifrons} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Boreochiton ruber} & I & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Brachydiastylis sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Brachydiastylis} sp. & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Byblis gaimardii} & I & S & SA & Borja et al. (2000) & 3 \\
 \textit{Cancer irroratus} & II & S & \textemdash & Gittenberg \& Van Loon (2013) & 1 \\
 \textit{Caprella septentrionalis} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 Chaetodermatida & NA & NA & \textemdash & \textemdash & \textemdash \\
 \textit{Chionoecetes opilio} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Chlamys islandica} & I & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Chone sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Chone} sp. & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Ciliatocardium ciliatum} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 Cirripedia & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Cistenides granulata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
@@ -524,30 +524,30 @@ Cumacea & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Cyrtodaria siliqua} & I & S & \textemdash & Gilkinson et al. (2005) & 2 \\
 \textit{Diastylis rathkei} & III & T & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Diastylis sculpta} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Diastylis sp} & I & S & \textemdash & Borja et al. (2000) & 1 \\
+\textit{Diastylis} sp. & I & S & \textemdash & Borja et al. (2000) & 1 \\
 \textit{Echinarachnius parma} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Edotia montosa} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Ennucula tenuis} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Eteone sp} & III & T & OP & Borja et al. (2000) & 2 \\
-\textit{Euchone sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Eteone} sp. & III & T & OP & Borja et al. (2000) & 2 \\
+\textit{Euchone} sp. & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Eudorella emarginata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Eudorellopsis integra} & II & S & \textemdash & Tillin \& Tyler-Walters (2014) & 2 \\
 \textit{Euspira pallida} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Glycera capitata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Glycera sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Glycera} sp. & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Goniada maculata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Guernea (Prinassus) nordenskioldi} & III & T & \textemdash & de la Ossa Carretero et al. (2011) & 1 \\
-Halacaridae & I & S & \textemdash & Borja et al. (2000) & 2 \\
+Halacaridae spp. & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Haminella solitaria} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Hardametopa carinata} & II & S & \textemdash & Borja et al. (2000) & 1 \\
-\textit{Harmothoe sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Harmothoe} sp. & II & S & \textemdash & Borja et al. (2000) & 2 \\
 Harpacticoida & NA & NA & \textemdash & \textemdash & \textemdash \\
 \textit{Hediste diversicolor} & III & T & OP & Borja et al. (2000) & 3 \\
 \textit{Heteranomia squamula} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Hiatella arctica} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 Holothuroidea & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Idotea phosphorea} & II & S & \textemdash & Borja et al. (2000) & 2 \\
-Ischyroceridae & II & S & \textemdash & Borja et al. (2000) & 2 \\
+Ischyroceridae spp. & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Ischyrocerus anguipes} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 Isopoda & NA & NA & \textemdash & \textemdash & \textemdash \\
 \textit{Lacuna vincta} & II & S & \textemdash & Borja et al. (2000) & 3 \\
@@ -555,45 +555,45 @@ Isopoda & NA & NA & \textemdash & \textemdash & \textemdash \\
 \textit{Lepeta caeca} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Leucon (Leucon) nasicoides} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Littorina littorea} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-Lumbrineridae & II & S & \textemdash & Borja et al. (2000) & 2 \\
-Lysianassidae & I & S & SA & Borja et al. (2000) & 2 \\
+Lumbrineridae spp. & II & S & \textemdash & Borja et al. (2000) & 2 \\
+Lysianassidae spp. & I & S & SA & Borja et al. (2000) & 2 \\
 \textit{Macoma calcarea} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Maera danae} & I & S & SA & Borja et al. (2000) (Maera sp) & 2 \\
 \textit{Maldane sarsi} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-Maldanidae & I & S & \textemdash & Borja et al. (2000) & 2 \\
+Maldanidae spp. & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Micronephthys neotena} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Monoculopsis longicornis} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Musculus discors} & I & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Mytilus sp} & III & T & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Mytilus} sp. & III & T & \textemdash & Borja et al. (2000) & 2 \\
 Nematoda & III & T & \textemdash & Borja et al. (2000) & 1 \\
 Nemertea & III & T & \textemdash & Borja et al. (2000) & 1 \\
 \textit{Neoleanira tetragona} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-Nephtyidae & II & S & \textemdash & Borja et al. (2000) & 2 \\
+Nephtyidae spp. & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Nephtys caeca} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Nephtys incisa} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Nephtys sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Nephtys} sp. & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Nuculana minuta} & I & S & \textemdash & Borja et al. (2000) & 3 \\
-Nymphonidae & NA & NA & \textemdash & \textemdash & \textemdash \\
-\textit{Oenopota sp} & I & S & \textemdash & Borja et al. (2000) & 2 \\
+Nymphonidae spp. & NA & NA & \textemdash & \textemdash & \textemdash \\
+\textit{Oenopota} sp. & I & S & \textemdash & Borja et al. (2000) & 2 \\
 Oligochaeta & V & T & \textemdash & Borja et al. (2000) & 1 \\
 \textit{Ophelia limacina} & I & S & \textemdash & Borja et al. (2000) & 3 \\
-Opheliidae & I & S & \textemdash & Borja et al. (2000) & 2 \\
+Opheliidae spp. & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Ophiopholis aculeata} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Ophiura robusta} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Orchomenella minuta} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 Ostracoda & I & S & \textemdash & Gooday et al. (2009) & 1 \\
 \textit{Pagurus pubescens} & II & S & \textemdash & Borja et al. (2000) & 2 \\
-\textit{Pagurus sp} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Pagurus} sp. & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Pandalus montagui} & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Parathyasira equalis} & III & T & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Parvicardium pinnulatum} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Periploma leanum} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Retusophiline lima} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Philomedes sp} & II & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Philomedes} sp. & II & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Pholoe longa} & II & S & \textemdash & Borja et al. (2000) (Pholoe sp) & 2 \\
-\textit{Pholoe sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Pholoe} sp. & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Phoxocephalus holbolli} & I & S & SA & Borja et al. (2000) & 3 \\
-Polynoidae & II & S & \textemdash & Borja et al. (2000) (Polynoidae) & 2 \\
+Polynoidae spp. & II & S & \textemdash & Borja et al. (2000) (Polynoidae) & 2 \\
 \textit{Pontogeneia inermis} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Pontoporeia femorata} & I & S & SA & Borja et al. (2000) & 3 \\
 \textit{Praxillella praetermissa} & III & T & OP & Borja et al. (2000) & 3 \\
@@ -604,19 +604,19 @@ Polynoidae & II & S & \textemdash & Borja et al. (2000) (Polynoidae) & 2 \\
 \textit{Quasimelita formosa} & I & S & SA & Borja et al. (2000) (Melitidae) & 2 \\
 \textit{Quasimelita quadrispinosa} & I & S & SA & Borja et al. (2000) & 3 \\
 \textit{Retusa obtusa} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-Sabellidae & I & S & \textemdash & Borja et al. (2000) & 2 \\
+Sabellidae spp. & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Scoletoma fragilis} & II & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Scoletoma sp} & II & S & \textemdash & Borja et al. (2000) & 2 \\
-\textit{Scoloplos} & I & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Scoletoma} sp. & II & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Scoloplos armiger} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Serripes groenlandicus} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 Sipuncula & I & S & \textemdash & Borja et al. (2000) & 1 \\
 \textit{Solamen glandula} & II & S & \textemdash & Borja et al. (2000) & 2 \\
-\textit{Solariella sp} & I & S & \textemdash & Borja et al. (2000) & 2 \\
-\textit{Strongylocentrotus sp} & I & S & \textemdash & Borja et al. (2000) & 3 \\
+\textit{Solariella} sp. & I & S & \textemdash & Borja et al. (2000) & 2 \\
+\textit{Strongylocentrotus} sp. & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Tachyrhynchus erosus} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Thracia septentrionalis} & I & S & \textemdash & Borja et al. (2000) & 3 \\
 \textit{Thyasira gouldi} & I & S & \textemdash & Borja et al. (2000) & 3 \\
-\textit{Thyasira sp} & II & S & \textemdash & Borja et al. (2000) & 1 \\
+\textit{Thyasira} sp. & II & S & \textemdash & Borja et al. (2000) & 1 \\
 \textit{Trichotropis bicarinata} & II & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Turritellopsis stimpsoni} & I & S & \textemdash & Borja et al. (2000) & 2 \\
 \textit{Yoldia myalis} & I & S & \textemdash & Borja et al. (2000) & 2 \\ \hline
@@ -626,14 +626,14 @@ Sipuncula & I & S & \textemdash & Borja et al. (2000) & 1 \\
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.6\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C1/C2_FigS1a.png}
+\includegraphics[width=0.55\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C1/C2_FigS1a.png}
 \caption{Values of environmental indicators at each sampled station. Triangles and squares indicate shallow (< 15 m) and deep (> 15 m) stations, respectively. (A) total density, (B) total biomass, (C) W-Statistic index, (D) taxa richness, (E) Shannon index, (F) Margalef index, (G) Simpson index, (H) Pielou evenness, (I) taxonomic diversity, (J) functional richness, (K) functional evenness, (L) functional divergence, (M) AZTI Marine Biotic Index (AMBI) score, (N) Multivariate AZTI Marine Biotic Index (M-AMBI) score, (O) BENTIX score, (P) Benthic Opportunistic Polychaetes Amphipods Index (BOPA) score.}
 \label{C2_FigS1}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.6\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C1/C2_FigS1b.png}
+\includegraphics[width=0.55\columnwidth]{/Users/eldre/Library/Mobile Documents/com~apple~CloudDocs/Rédaction/Thesis PhD/Figures/1.0/C1/C2_FigS1b.png}
 \caption*{\textit{(Figure \ref{C2_FigS1} continued)}}
 \end{figure}
 

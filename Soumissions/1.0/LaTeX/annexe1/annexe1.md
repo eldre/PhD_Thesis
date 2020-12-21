@@ -1,6 +1,6 @@
 # Abstract
 
-In order to help safeguard biodiversity from global changes, the Conference of the Parties developed a Strategic Plan for Biodiversity for the period 2011-2020 that included a list of twenty specific objectives known as the Aichi Biodiversity Targets. With the end of that timeframe in sight, and despite major advancements in biodiversity conservation, evidence suggests that the majority of the Targets are unlikely to be met. This article is part of a series of perspective pieces from the 4^th^ World Conference on Marine Biodiversity (May 2018, Montréal, Canada) to identify next steps towards successful biodiversity conservation in marine environments. We specifically reviewed holistic environmental assessment studies (HEA) and their contribution to reaching the Targets. Our analysis was based on multiple environmental approaches which can be considered as holistic, and we discuss how HEA can contribute to the Aichi Biodiversity Targets in the near future. We found that only a few HEA articles considered a specific Biodiversity Target in their research, and that Target 11, which focuses on marine protected areas, was the most commonly cited. We propose five research priorities to enhance HEA for marine biodiversity conservation beyond 2020: (i) expand the use of holistic approaches in environmental assessments, (ii) standardize HEA vocabulary, (iii) enhance data collection, sharing and management, (iv) consider ecosystem spatio- temporal variability and (v) integrate ecosystem services in HEA. The consideration of these priorities will promote the value of HEA and will benefit the Strategic Plan for Biodiversity.
+In order to help safeguard biodiversity from global changes, the Conference of the Parties developed a Strategic Plan for Biodiversity for the period 2011-2020 that included a list of twenty specific objectives known as the Aichi Biodiversity Targets. With the end of that timeframe in sight, and despite major advancements in biodiversity conservation, evidence suggests that the majority of the Targets are unlikely to be met. This article is part of a series of perspective pieces from the 4^th^ World Conference on Marine Biodiversity (May 2018, Montréal, Canada) to identify next steps towards successful biodiversity conservation in marine environments. We specifically reviewed holistic environmental assessment studies (HEA) and their contribution to reaching the Targets. Our analysis was based on multiple environmental approaches which can be considered as holistic, and we discuss how HEA can contribute to the Aichi Biodiversity Targets in the near future. We found that only a few HEA articles considered a specific Biodiversity Target in their research, and that Target 11, which focuses on marine protected areas, was the most commonly cited. We propose five research priorities to enhance HEA for marine biodiversity conservation beyond 2020: (i) expand the use of holistic approaches in environmental assessments, (ii) standardize HEA vocabulary, (iii) enhance data collection, sharing and management, (iv) consider ecosystem spatio- temporal variability and (v) integrate ecosystem services in HEA. The consideration of these priorities will promote the value of HEA and will benefit the Strategic Plan for Biodiversity.\
 
 ***Keywords***: marine conservation, research priorities, holistic approaches, strategic plan for biodiversity, Aichi Biodiversity Targets
 
@@ -67,9 +67,8 @@ Our review identified 1,648 research articles related to biodiversity studies th
 
 The results show that HEAs were rarely discussed before 2006, and the number of HEA articles peaked in 2013, 2014, and 2018 (Figure \ref{A1_Fig1}). Overall, there was a steady increase in the number of HEA articles since 2000. This is particularly true for marine HEAs where the number of studies increased notably two years after the development of the Aichi Biodiversity Targets in 2010 (Figure \ref{A1_Fig1}). This increase after 2012 appears to be largely driven by a rise in the number of *ecosystem-based management* and *marine spatial planning* studies, which is likely a reflection of the time required for Aichi-related frameworks to be implemented in research supporting the management of socio-ecological systems [*e.g.*, @White2010].
 
-Of all the studies on HEAs, only 12 specifically used the term *Aichi Targets*, representing 2.4% of the papers originally identified (Table \ref{A1_Tab2}). This is a low proportion of HEAs contributing to the Strategic Plan for Biodiversity, even if we acknowledge that a study does not need to focus on a specific Target to allow a contribution. In addition, nine studies explicitly considered Targets in their research objectives (Table \ref{A1_Tab2}). The most frequently mentioned Aichi Biodiversity Target was Target 11, which aims for the conservation of 10% of coastal and marine areas by 2020 [@CBD2010]. This Target is one of the few that specifically identifies quantitative thresholds for protected areas [@Harrop2011], which supports the development of well specified and measurable objectives and tools such as simple, measurable, accurate, realistic, time-bound indices (SMART). HEAs could use SMART objectives, although there are few examples of their use in this context [@Ehler2017]. Specifying SMART objectives can be a difficult task, but their measurable component can highlight successful accomplishment of expected thresholds [@Ehler2017 and references therin]. Many studies selected in our literature review evaluated progress and developments of marine protected areas [*e.g.*, @Amengual2018; @Jantke2018; @Rees2018]. Target 11 has also been used to evaluate case studies [@Diz2018], and to identify the sustainable use of specific marine protected areas as part of workshops and wider consultations [@Johnson2014, @Sarker2019]. Other selected studies considered either a specific Aichi Biodiversity Target, such as Target 12 in @Davidson2017 or Target 19 in @Lagabrielle2014, or multiple Targets, such as Targets 1, 3, 6, and 17 in @Cisneros-Montemayor2018 or Targets 6, 10, 11, and 12 in @Davies2017 (Table \ref{A1_Tab2}). Five articles did not use Aichi Targets in their specific objectives, but were included to set the wider context of the article [*e.g.*, @Lagabrielle2014; @Yamakita2015; @Davidson2017; @Davies2017; @Novaczek2017] (Table \ref{A1_Tab2}).
+Of all the studies on HEAs, only 12 specifically used the term *Aichi Targets*, representing 2.4% of the papers originally identified (Table \ref{A1_Tab2}). This is a low proportion of HEAs contributing to the Strategic Plan for Biodiversity, even if we acknowledge that a study does not need to focus on a specific Target to allow a contribution. In addition, nine studies explicitly considered Targets in their research objectives (Table \ref{A1_Tab2}). The most frequently mentioned Aichi Biodiversity Target was Target 11, which aims for the conservation of 10% of coastal and marine areas by 2020 [@CBD2010]. This Target is one of the few that specifically identifies quantitative thresholds for protected areas [@Harrop2011], which supports the development of well specified and measurable objectives and tools such as simple, measurable, accurate, realistic, time-bound indices (SMART). HEAs could use SMART objectives, although there are few examples of their use in this context [@Ehler2017]. Specifying SMART objectives can be a difficult task, but their measurable component can highlight successful accomplishment of expected thresholds [@Ehler2017 and references therin]. Many studies selected in our literature review evaluated progress and developments of marine protected areas [*e.g.*, @Amengual2018; @Jantke2018; @Rees2018]. Target 11 has also been used to evaluate case studies [@Diz2018], and to identify the sustainable use of specific marine protected areas as part of workshops and wider consultations [@Johnson2014; @Sarker2019]. Other selected studies considered either a specific Aichi Biodiversity Target, such as Target 12 in @Davidson2017 or Target 19 in @Lagabrielle2014, or multiple Targets, such as Targets 1, 3, 6, and 17 in @Cisneros-Montemayor2018 or Targets 6, 10, 11, and 12 in @Davies2017 (Table \ref{A1_Tab2}). Five articles did not use Aichi Targets in their specific objectives, but were included to set the wider context of the article [*e.g.*, @Lagabrielle2014; @Yamakita2015; @Davidson2017; @Davies2017; @Novaczek2017] (Table \ref{A1_Tab2}).
 
-\begin{landscape}
 \begin{singlespace} {
 \fontsize{9}{11}
 \selectfont
@@ -77,27 +76,27 @@ Of all the studies on HEAs, only 12 specifically used the term *Aichi Targets*, 
 \centering
 \caption{Links between articles adopting a Holistic Environmental Approach (HEA) obtained for Query 3 of the literature review and the Aichi Biodiversity Targets.}
 \hspace*{-1.5cm}
-\begin{tabular}{lllrr}
+\begin{tabular}{llcc}
 \hline
-ID & Article & Type of HEA considered & Targets considered & Targets as objectives? \\ \hline
-1 & \textit{Amengual and Alvarez-Berastegui (2018)} & Marine spatial planning & 11 & Yes \\
-2 & \textit{Cisneros-Montemayor et al. (2018)} & Adaptive management & 1, 3, 6, 17 & Yes \\
-3 & \textit{Davidson and Dulvy (2017)} & Systematic conservation planning & 11, 12 & No \\
-4 & \textit{Davies et al. (2017)} & Systematic conservation planning & 6, 10, 11, 12 & No \\
-5 & \textit{Diz et al. (2018)} & Marine spatial planning & 11 & Yes \\
-6 & \textit{Jantke et al. (2018)} & Systematic conservation planning & 11 & Yes \\
-7 & \textit{Johnson et al. (2014)} & Ecosystem-based management & 6, 11 & Yes \\
-8 & \textit{Lagabrielle et al. (2014)} & Marine spatial planning & 11, 19 & No \\
-9 & \textit{Novaczek et al. (2017)} & Adaptive management & 11 & No \\
-10 & \textit{Rees et al. (2018)} & Marine spatial planning & 11 & Yes \\
-11 & \textit{Sarker et al. (2019)} & Integrated management & 11 & Yes \\
-12 & \textit{Yamakita et al. (2015)} & Strategic environmental assessment & 11 & No \\ \hline
+ &  & Targets & Targets as \\
+Article & Type of HEA considered & considered & objectives? \\ \hline
+\textit{Amengual and Alvarez-Berastegui (2018)} & Marine spatial planning & 11 & Yes \\
+\textit{Cisneros-Montemayor et al. (2018)} & Adaptive management & 1, 3, 6, 17 & Yes \\
+\textit{Davidson and Dulvy (2017)} & Systematic conservation planning & 11, 12 & No \\
+\textit{Davies et al. (2017)} & Systematic conservation planning & 6, 10, 11, 12 & No \\
+\textit{Diz et al. (2018)} & Marine spatial planning & 11 & Yes \\
+\textit{Jantke et al. (2018)} & Systematic conservation planning & 11 & Yes \\
+\textit{Johnson et al. (2014)} & Ecosystem-based management & 6, 11 & Yes \\
+\textit{Lagabrielle et al. (2014)} & Marine spatial planning & 11, 19 & No \\
+\textit{Novaczek et al. (2017)} & Adaptive management & 11 & No \\
+\textit{Rees et al. (2018)} & Marine spatial planning & 11 & Yes \\
+\textit{Sarker et al. (2019)} & Integrated management & 11 & Yes \\
+\textit{Yamakita et al. (2015)} & Strategic environmental assessment & 11 & No \\ \hline
 \end{tabular}
 \hspace*{-1.5cm}
 \label{A1_Tab2}
 \end{table}
 } \end{singlespace}
-\end{landscape}
 
 ## Linking HEAs and the strategic plan for biodiversity
 
