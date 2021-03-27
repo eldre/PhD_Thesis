@@ -10,7 +10,7 @@ Fanny Noisette, evaluatrice interne, Université du Québec à Rimouski
 Jacques Grall, evaluateur externe, Institut Universitaire Européen de la Mer
 
 Dépôt initial le 20 décembre 2020.
-Dépôt final le 25 mars 2021.
+Dépôt final le 26 mars 2021.
 
 # Dédicaces
 
